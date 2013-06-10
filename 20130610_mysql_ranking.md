@@ -48,9 +48,9 @@ Date: 20130610
 
 #### 1. 统一积分排名模式
 
-	类似于Game Center的模式。
-	每一个玩家有一个积分的属性。
-	在这个属性上建索引，计算得到玩家排名。
+类似于Game Center的模式。
+每一个玩家有一个积分的属性。
+在这个属性上建索引，计算得到玩家排名。
 
 	SELECT	count(*) + 1 AS rank
 	  FROM	user_ranking
