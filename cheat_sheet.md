@@ -11,6 +11,7 @@ Date: 20130515
 
 *	[CheatSheet] (#cheatsheet)
 	*	[git] (#git)
+	*	[perl] (#perl)
 
 
 <h3 id="cheatsheet">CheatSheet</h3>
@@ -47,3 +48,10 @@ git fetch -p
 
 可以在本地清除已经被删掉的远程分支
 
+<h3 id="perl">perl相关</h3>
+
+#### 判断一个模块中的函数是否已经定义
+
+```
+defined($module->func)即可
+```
