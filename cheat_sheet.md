@@ -11,10 +11,26 @@ Last Update: 20130808
 ====
 
 *	[CheatSheet] (#cheatsheet)
+	*	[cmd] (#cmd)
+		* [hdparm] (#hdparm)
+		* [ps] (#ps)
 	*	[git] (#git)
 	*	[perl] (#perl)
 	*	[bashrc] (#bashrc)
 
+<h3 id="cmd">cmd相关</h3>
+
+<h4 id="hdparm">hdparm命令</h4>
+
+	hdparm -tT /dev/sda
+
+可以用来测定硬盘的读写速率
+
+<h4 id="ps">ps命令</h4>
+
+	ps auxf
+
+f选项可以展现出进程的父子关系
 
 <h3 id="cheatsheet">CheatSheet</h3>
 都是一些日常积累出来的东西。
@@ -42,11 +58,17 @@ Last Update: 20130808
 
 #### git branch
 
-git branch --set-upstream  local_branch origin/remote_branch
+	git branch --set-upstream  local_branch origin/remote_branch
+
+#### git show
+
+	git show [md5]
+
+可以直接看到某个提交的diff内容
 
 #### git fetch
 
-git fetch -p
+	git fetch -p
 
 可以在本地清除已经被删掉的远程分支
 
