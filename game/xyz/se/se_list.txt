@@ -1,0 +1,44 @@
+# common effect sound
+00 : click
+01 : cancel
+02 : error
+03 : unknown
+04 : battle start
+05 : horay
+06 : change_direction
+07 : atk_on_empty
+08 : def_on_empty
+09 : equip
+10 : sell
+11 : level_up
+12 : rank_up
+13 : equip_level_up
+14 : item_get
+15 : unit_appear
+16 : unit_die
+17 : unit_hide
+18 : door_open
+19 : fire
+20 : gong
+21 : whistles
+22 : chara_die
+23 : unit_move
+24 : horse_move
+25 : wheel_move
+26 : snow_foot_move
+27 : forest_foot_move
+28 : swamp_foot_move
+29 : river_move
+30 : def_parry
+31 : def_parry_critical
+32 : atk_prepare
+33 : critical_prepare
+34 : atk_prepare_2
+35 : hit
+36 : hit_critical
+37 : arrow_prepare
+38 : chara_fall
+39 : magic_prepare
+40 : lose
+41 : item_use
+42 : wood soldier
