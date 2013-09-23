@@ -2,16 +2,9 @@
 layout: post
 title:  "Perl语言再学习(9): FCGI进程的内存共享"
 date:   2013-09-18 12:00:00
-categories: perl 性能调优
+categories: perl
 ---
 
-
-Perl语言再学习(9): FCGI进程的内存共享
-=====================================
-
-Tag: perl, 性能调优
-
-Date: 20130920
 
 ### FCGI进程模型
 

@@ -1,9 +1,9 @@
-用MySQL实现排行榜
-=================
-
-Tag: 算法, MySQL
-
-Date: 20130610
+---
+layout: post
+title:  "用MySQL实现排行榜"
+date:   2013-06-10 12:00:00
+categories: 算法 MySQL
+---
 
 ### 问题的引出
 

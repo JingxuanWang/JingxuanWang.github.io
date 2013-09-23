@@ -1,9 +1,10 @@
-Perl的再学习(1): 符号表
-=======================
+---
+layout: post
+title:  "Perl语言再学习(1): 符号表"
+date:   2013-04-30 12:00:00
+categories: perl
+---
 
-Tag: 程序语言, perl
-
-Date: 20130430
 
 最近感觉自己基本功应该重新补一补了。
 正好在工位附近的书架上看到了这本《Programming Perl》，一看是Perl的作者Larry Wall写的。

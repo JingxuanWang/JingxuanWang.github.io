@@ -1,17 +1,9 @@
 ---
 layout: post
-title:  "Perl语言再学习(9): 性能调优工具NYTProf"
+title:  "Perl语言再学习(8): 性能调优工具NYTProf"
 date:   2013-09-10 12:00:00
-categories: perl 性能调优
+categories: perl
 ---
-
-
-Perl语言再学习(8): 性能调优工具NYTProf 
-======================================
-
-Tag: perl, 性能调优
-
-Date: 20130918
 
 [Devel::NYTProf](#http://search.cpan.org/~timb/Devel-NYTProf-5.05/lib/Devel/NYTProf.pm)是一个强大并且功能丰富的性能调优工具。
 
