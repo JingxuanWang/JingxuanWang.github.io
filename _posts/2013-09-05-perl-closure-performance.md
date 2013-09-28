@@ -7,6 +7,8 @@ categories: perl
 
 最近经常见到这种写法：
 
+{% highlight perl %}
+	 
 	sub returning(&) {
 		my ($code) = @_;
 		return $code->();
@@ -17,10 +19,14 @@ categories: perl
 		return 0 if $cond2;
 		return 1;
 	});
+	
+{% endhighlight %}
 
 直觉上觉得这个效率并不是很好，但是又不知道差多少，所以稍微做了个实验比了一下。
 测试代码如下：
 
+{% highlight perl %}
+	 
 	#!/usr/bin/perl
 
 	use strict;
@@ -64,6 +70,8 @@ categories: perl
 	}
 
 	main();
+	
+{% endhighlight %}
 
 结果如下：
 

@@ -33,6 +33,8 @@ tie则是将变量绑定到一个定义好的类上，使之成为该类的一�
 注：未重新定义(override)的行为将会通过继承父类得到。<br>
 具体是`our @ISA = 'Tie::StdArray';`这一句
 
+{% highlight perl %}
+	
 	#!/usr/bin/perl
 
 	package ClockArray;
@@ -57,11 +59,13 @@ tie则是将变量绑定到一个定义好的类上，使之成为该类的一�
 	@array = ("a".."z");
 
 	print join(',', @array), "\n";
+	
+{% endhighlight %}
 
 
 对于各类变量绑定类中可以重写的函数列表以及其默认的行为，可以在这里查询。
 
-    perldoc -m Tie::Scalar
+	perldoc -m Tie::Scalar
 	perldoc -m Tie::Hash
 	perldoc -m Tie::Array
 	perldoc -m Tie::Handle
@@ -71,6 +75,5 @@ CPAN上还有更多Tie的模块，包括DBI甚至Windows的注册表。<br>
 
 #### 最后
 
-虽然这是个写大型项目的利器，不过不推荐滥用这个特性。<br>
-原因你懂的。	
+虽然这个很方便，不过容易被滥用，因此不推荐使用这个特性。<br>
 

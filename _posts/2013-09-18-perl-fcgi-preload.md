@@ -24,15 +24,18 @@ categories: perl
 * 这里子函数内的局部变量的值，在子函数执行完成之后会被回收，因此是不会被保存的。
 * 被保存的只有模块内的全局变量(perl的情况)，它们充当的角色有些类似于C++里类的静态变量。
 
-
-	package Model::Example;
+{% highlight perl %}
 	
+	package Model::Example;
+
 	my $result = 100;
 
 	sub get_result {
 		my $a = 3;
 		return $a * $result++;
 	}
+	
+{% endhighlight %}
 
 在上边的例子中$result的值会被缓存，而$a的值则不会。
 这样会导致每次执行get_result得到的结果都不一样。

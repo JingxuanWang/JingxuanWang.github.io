@@ -13,10 +13,14 @@ categories: perl
 
 Perl的垃圾回收机制是在每次从一个block里退出时被触发的，比如：
 
+{% highlight perl %}
+	 	
 	{
 		my $var = "hello world";
 		my $ret = func();
 	}
+	
+{% endhighlight %}
 
 这个code block可能是一个子函数，一个循环，一个if-else分支，甚至可能只是如上边这样的代码块。
 当perl退出这样的block的时候会回收在代码块内部定义的变量。
@@ -24,19 +28,27 @@ Perl的垃圾回收机制是在每次从一个block里退出时被触发的，�
 
 于是就有了如下问题：
 
+{% highlight perl %}
+	 
 	{
 		my ($a, $b) = @_;
 		$a = \$b;
 		$b = \$a;
 	}
+	
+{% endhighlight %}
 
 这样的代码由于`$a`和`$b`相互引用形成环，而使得**两个变量都没有被释放**。<br>
 上边这个例子更简单的版本是这样的：
 
+{% highlight perl %}
+	 
 	{
 		my $a;
 		$a = \$a;
 	}
+	
+{% endhighlight %}
 
 当然，在程序退出的时候，Perl会采用一种[mark-and-sweep](http://www.brpreiss.com/books/opus5/html/page424.html)的方法释放内存，可以彻底的释放掉所有使用的内存。<br>
 所以对于CGI程序来说，以适当的间隔重启可以有效防止内存泄漏吃光机器的内存。
@@ -51,6 +63,8 @@ CPAN上有这个模块，这样的引用不会影响引用计数。
 
 下面是一个简单的例子：
 
+{% highlight perl %}
+	
 	#/usr/bin/perl
 
 	use strict;
@@ -86,6 +100,8 @@ CPAN上有这个模块，这样的引用不会影响引用计数。
 	}
 
 	&main();
+	
+{% endhighlight %}
 
 当然，也有缺点，因为检测比较费时间，所以基本上线上跑这个比较困难。<br>
 这对于大型项目来说自然不是什么好消息。<br>

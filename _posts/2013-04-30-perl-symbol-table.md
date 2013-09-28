@@ -39,6 +39,8 @@ Perl中符号表的概念其实跟包的概念联系的非常紧密。
 
 下列代码可以dump出整个main包的符号表：
 
+{% highlight perl %}
+	
 	#!/usr/bin/perl
 	
 	use Data::Dumper;
@@ -49,6 +51,8 @@ Perl中符号表的概念其实跟包的概念联系的非常紧密。
     	print Dumper \@sym if @sym;
     	print Dumper \%sym if %sym;
 	}
+	
+{% endhighlight %}
 
 
 ### 一个重要的概念——typeglob
@@ -63,20 +67,30 @@ PS: 如果这玩意用C实现，应该是个Union吧？——某一块内存同�
 
 typeglob的基本操作如下例：
 
+{% highlight perl %}
+	 
 	*sym = *oldvar;
 	*sym = \*oldvar;	# the same to previous one, autodereferenced by perl
 	*sym = *{"oldvar"};	# explicit symbol table lookup
 	*sym = "oldvar";	# implicit symbol talbe lookup
+	
+{% endhighlight %}
 
 当直接对一个typeglob进行赋值时，实际上是等于做了以下几个赋值的其中之一：
 
+{% highlight perl %}
+	 
 	*sym = \$var;
 	*sym = \@arr;
 	*sym = \%hash;
 	*sym = \&foo;
+	
+{% endhighlight %}
 
 typeglob其实也可以看做一个hash，里面包含了所有可能的变量类型（key）及其对应的引用（value）。
 
+{% highlight perl %}
+	 
 	*pkg::sym{SCALAR} 	# same as \$pkg::sym
 	*pkg::sym{ARRAY} 	# same as \@pkg::sym
 	*pkg::sym{HASH} 	# same as \%pkg::sym
@@ -86,6 +100,8 @@ typeglob其实也可以看做一个hash，里面包含了所有可能的变量�
 	*pkg::sym{NAME} 	# "sym" (not a reference)
 	*pkg::sym{PACKAGE} 	# "pkg" (not a reference)
 	
+{% endhighlight %}
+
 在程序中操作符号表可以创建变量别名，比如：
 
 	*alias = *base;
