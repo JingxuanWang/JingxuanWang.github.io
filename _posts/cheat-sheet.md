@@ -63,6 +63,7 @@ f选项可以展现出进程的父子关系
 #### git show
 
 	git show [md5]
+	git show [md5] --stat
 
 可以直接看到某个提交的diff内容
 
@@ -71,6 +72,35 @@ f选项可以展现出进程的父子关系
 	git fetch -p
 
 可以在本地清除已经被删掉的远程分支
+
+#### git remote
+
+在本地删除一个不用的远程仓库的关联
+
+	git remote rm destination
+
+#### git rev-parse
+
+得到当前所在的分支(这个主要是程序读入用的)
+
+	git rev-parse --abbrev-ref HEAD
+
+#### git format-patch
+
+将commit打包为path
+
+	git format-patch -1 <sha>
+
+读入path
+
+	git am [patch-file]
+
+#### git apply
+
+读入一个补丁
+
+	git diff > [patch-file]
+	git apply [patch-file]
 
 #### git reflog
 
