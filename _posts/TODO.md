@@ -5,15 +5,37 @@ TODO List
 这里汇集了一些日常的“小问题”。问题虽小，但是弄明白背后的原理都会是不小的收获。  
 因此把所有没有弄明白的“小问题”汇集于此，等日后有时间慢慢调查整理。  
 
-#### Mac OS X中的Terminal和Xterm有什么不同？
+#### Mac OS X中的Terminal和Xterm有什么不同？(done)
 之前因为改乱了/usr/bin/里头的权限，造成login不可用，于是使用不了Terminal。  
 因为Terminal默认要进行login，而login权限不对导致terminal直接退出。  
 因此用了xterm，这个不需要login的shell，才算将权限设置正确。  
 但是后来发现terminal中如果不进行login，sudo会出现password不正常的现象。  
-而用xterm则无此问题。所以希望能整理这两者到底有什么不同
+而用xterm则无此问题。所以希望能整理这两者到底有什么不同。
+
+以下内容来自:[《Mac OS X for Unix Geeks》](#http://docstore.mik.ua/orelly/unix3/mac/ch01_02.htm)
+
+There are several important differences between Mac OS X's Terminal application and the xterm common to Unix systems running X Windows:
+
+* You cannot customize the characteristics of the Terminal with command-line switches such as -fn, -fg, and -bg. Instead, you must use the Terminal's Show Info dialog.
+* Unlike xterm, in which each window corresponds to a separate process, a single master process controls the Terminal. However, each shell session is run as a separate child process of the Terminal.
+* The Terminal selection is not automatically put into the clipboard. Use Command-C to copy, Command-V to paste. Even before you press Command-C, the current text selection is contained in a selection called the pasteboard. The operations described in Section 1.4, later in this chapter, use the pasteboard.
+* The value of $TERM is vt100 when running under Terminal (it's set to xterm under xterm by default).
+* Pressing PageUp or PageDown scrolls the Terminal window, rather than letting the running program handle it.
+* On compatible systems (generally, a system with an ATI Radeon or NVidia GeForce AGP graphics adapter), the Mac OS X Terminal (and all of the Aqua user interface) will use Quartz Extreme acceleration to make everything faster and smoother.
+
+If you need an xterm, you can have it; however, you will have to install a compatible version of the X Window System first. See Chapter 9 for more information about the X Window System.
+
+PS: 其实是否login，在Preference中是可以设置的。
+
+PS2: /usr/bin/login和/usr/bin/bash的区别。
+
+* if you pick /bin/login, then this program will check in the user database what your default shell is and run that shell as a login shell, thereby invoking the rc files that are run only when the shell is run as a login shell (in case of bash those are /etc/profile, ~/.bash_profile, ~/.bash_login and , and ~/.profile.
+* if you pick /bin/bash, that shell will be executed as a login shell, independently of what shell is set in the user database. This can come in useful when the shell in the user database does not work properly, or you want to be able to use different shells.
+
+if you have not changed your login shell from the default, which is /bin/bash, and you have not changed the rc files of this shell, then the difference will not be noticeable.
 
 
-#### 4755权限和755权限到底有什么不同？
+#### 4755权限和755权限到底有什么不同？(done)
 很多/usr/bin下的可执行程序包括sudo 就是因为设置了755导致不可用。  
 所以要搞清楚两种权限到底有何不同。
 

@@ -59,6 +59,7 @@ f选项可以展现出进程的父子关系
 #### git branch
 
 	git branch --set-upstream  local_branch origin/remote_branch
+	git branch -m [old_branch_name] [new_branch_name]
 
 #### git show
 
