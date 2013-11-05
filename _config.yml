@@ -1,4 +1,3 @@
-auto: true
 name: Blog
 markdown: redcarpet
 pygments: true

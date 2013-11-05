@@ -2,7 +2,7 @@
 layout: post
 title:  "用MySQL实现排行榜"
 date:   2013-06-10 12:00:00
-categories: 算法 MySQL
+categories: Algorithm MySQL
 ---
 
 ### 问题的引出
