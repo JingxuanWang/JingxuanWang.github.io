@@ -17,6 +17,7 @@ Last Update: 20130808
 	*	[git] (#git)
 	*	[perl] (#perl)
 	*	[bashrc] (#bashrc)
+	*	[unity] (#unity)
 
 <h3 id="cmd">cmd相关</h3>
 
@@ -171,3 +172,56 @@ defined($module->func)即可
 
 	PS1='[\t]\u@\h:\W$(__git_ps1)\$ '
 
+<h3 id="unity">unity相关</h3>
+
+#### Input和以及简单的Character controll
+
+* Input.GetAxis("Horizontal") 和 Input.GetAxis("Vertical")控制上下左右
+* Input.GetButton("Fire1") 等可以控制射击等行为
+* "Horizontal", "Vertical", "Fire1"等对应的按键映射在Edit->Project Settings->Input中可以找到
+
+#### Scene controll
+
+* 暂停或者全局的加速、减速可以通过设置Time.timeScale的方式实现：0就是暂停，1是正常速度。
+
+#### Coroutine
+
+类似定时触发的功能尽量用coroutine完成，全部在Update函数中判断会写的比较乱。
+
+	IEmulator foo() {
+		Debug.Log("Coroutine Started!");
+		
+		// wait for 1.0 second and proceed
+		yield return new WaitForSeconds(1.0F);
+		
+		Debug.Log("Hey! We are back!");
+		
+		yield return 0;
+	}
+
+
+#### Delegate / Event vs SendMessage
+
+对于事件异步调用，不推荐使用SendMessage，因为不能调私有方法，而且代码写起来不够优雅。
+
+	// Event Invoker
+	class Invoker {
+		public delegate void TapCompleted(uint total_tapped_num) ;
+		public event TapCompleted OnTapCompleted;
+	
+		// ...
+	}
+	
+	// Event Listener
+	class Listener {
+		Invoker invoker;
+		invoker.OnTapCompleted += onTapCompleted;
+	
+		void onTapCompleted() {
+			Debug.Log("onTapCompleted Called");
+		}
+	}
+
+#### 性能
+
+* GameObject.Find()少用，效率低
