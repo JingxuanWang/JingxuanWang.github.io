@@ -222,6 +222,31 @@ defined($module->func)即可
 		}
 	}
 
+#### Serialize的坑
+
+* 没有被序列化的对象或属性无法被保存在Scene文件中(.Unity)。
+* Class上加了[Serializable]属性不能保证所有field都被序列化，必须在想要被序列化的属性上加[SerializeField]
+* Public属性是自动被序列化的
+* [SerializeField]只有在属性(field)上加才有效，在Property(方法、getter/setter)上无效
+
+#### EditorGUI
+
+* 主要是在OnGUI()里头进行操作
+* 类似于HTML中的Table可以用
+	* EditorGUILayout.BeginHorizontal
+	* EditorGUILayout.EndHorizontal
+	* EditorGUILayout.BeginVertical
+	* EditorGUIlayout.EndVertical
+
+#### InspectorGUI
+
+* 主要在OnInspectorGUI里头定制Inspector的样式
+* DrawDefaultInspector()可以绘制默认的InspectorGUI
+* 基本上用EditorGUILayout.PropertyField()可以搞定一切Inspector对象赋值等麻烦的操作
+* serializedObject是被序列化的部分，基本上是serializedObject.FindProperty("fieldName")进行操作
+* target是对象的实例。不方便用serializedObject的时候（比如有自定义类的赋值之类），可以将target进行类型转换并进行赋值
+
+
 #### 性能
 
 * GameObject.Find()少用，效率低
