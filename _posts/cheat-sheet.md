@@ -51,6 +51,7 @@ f选项可以展现出进程的父子关系
 	git config --global color.diff auto # git diff 显示颜色
 	git config --global color.status auto # git status 显示颜色
 	git config --global color.branch auto # git branch 显示颜色
+	git config --global core.editor "/usr/bin/vim" # 默认editor 当出现 Could not execute editor 错误时更改此设置
 
 #### git log
 
@@ -58,6 +59,13 @@ f选项可以展现出进程的父子关系
 
 	git config --global alias.graph 'log --graph -C -M --pretty=format:"<%h> %ad [%an] %Cgreen%d%Creset %s" --all --date=short'
 	然后敲 `git graph`即可，有惊喜
+
+#### git commit
+
+修改commit的提交者
+
+	git commit --amend --author="Author Name <email@address.com>"
+
 
 #### git branch
 
