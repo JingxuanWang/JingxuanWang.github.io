@@ -1,11 +1,13 @@
+---
+layout: post
+title:  CheatSheet
+date:   2014-02-14 18:34:22
+categories: CheatSheet
+---
+
+
 日积月累
 ========
-
-Tag: 程序语言
-
-Date: 20130515
-Last Update: 20130808
-
 
 目录
 ====
@@ -202,32 +204,48 @@ defined($module->func)即可
 
 #### Delegate / Event vs SendMessage
 
-对于事件异步调用，不推荐使用SendMessage，因为不能调私有方法，而且代码写起来不够优雅。
+对于事件异步调用，不推荐使用SendMessage，因为其可以无视private的限制调私有方法，而且代码写起来不够优雅。
 
 	// Event Invoker
 	class Invoker {
-		public delegate void TapCompleted(uint total_tapped_num) ;
-		public event TapCompleted OnTapCompleted;
-	
+		public event NotifyEventHandler<EventInformation> EventGenerate; // 注意定义Event要使用动词
+		
+		protected virtual void OnEventGenerate(object sender, NotifyEventHandler<EventInformation> args)
+		{
+			// 如果这个Event存在有Listener
+			if (this.EventGenerate != null)
+			{
+				this.EventGenerate(sender, args);
+			}
+		}
+		
+		NotifyEventHandler<EventInformation> args = new NotifyEventHandler<EventInformation>();	
+		this.OnEventGenerate(this, args);
+		
 		// ...
 	}
 	
 	// Event Listener
 	class Listener {
 		Invoker invoker;
-		invoker.OnTapCompleted += onTapCompleted;
-	
-		void onTapCompleted() {
-			Debug.Log("onTapCompleted Called");
+		invoker.EventGenerate += HandleEventGenerate;
+		
+		void HandleEventGenerate() {
+			Debug.Log("HandleEventGenerate Called");
 		}
 	}
 
 #### Serialize的坑
 
 * 没有被序列化的对象或属性无法被保存在Scene文件中(.Unity)。
+* 未被序列化的数据在Unity发生重新加载Assembly的时候会被抹掉。
+* MonoBehaviour无法被序列化，但是可以将其属性设置为[SerializeField]以保存在Scene文件中。
 * Class上加了[Serializable]属性不能保证所有field都被序列化，必须在想要被序列化的属性上加[SerializeField]
 * Public属性是自动被序列化的
 * [SerializeField]只有在属性(field)上加才有效，在Property(方法、getter/setter)上无效
+* 如果被序列化时存在两个field指向一个对象的情况，序列化的结果会讲该对象保存两份。这样在反序列化的时候就变成了指向不同的对象。
+	* 解决方法是使用ScriptableObject。即让对象类继承ScriptableObject。
+* 更多的可以参考这篇文章[Unity Serialization](#http://blogs.unity3d.com/2012/10/25/unity-serialization/)
 
 #### EditorGUI
 
@@ -245,7 +263,14 @@ defined($module->func)即可
 * 基本上用EditorGUILayout.PropertyField()可以搞定一切Inspector对象赋值等麻烦的操作
 * serializedObject是被序列化的部分，基本上是serializedObject.FindProperty("fieldName")进行操作
 * target是对象的实例。不方便用serializedObject的时候（比如有自定义类的赋值之类），可以将target进行类型转换并进行赋值
+* 如果是直接通过target进行赋值的话，记得要调用EditorUtility.SetDirty(target);
 
+
+#### XML Serialization
+
+* 使用System.Xml.Serialization进行序列化。
+* 想要转换成XML的类最好不要使用ScriptableObject。因为会调用默认的构造函数，而ScriptableObject的创建方法是CreateInstance<TClass>()。
+* 通过[XMLIgnore] [XMLAttribute]等属性控制序列化的方式。
 
 #### 性能
 
