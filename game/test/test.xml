@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ResourceDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="module">
-	<ResourceEntity url="testBundle.unity3d" version="20140326" md5="bd7d0633b3cadb01cf0e7d62520119be"/>
+	<ResourceEntity url="testBundle.unity3d" version="1" md5="bd7d0633b3cadb01cf0e7d62520119be"/>
 </ResourceDefinition>
