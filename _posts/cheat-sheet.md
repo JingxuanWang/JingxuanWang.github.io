@@ -184,6 +184,14 @@ defined($module->func)即可
 
 <h3 id="unity">unity相关</h3>
 
+#### C#
+
+不能够使用默认函数参数，比如：
+
+	void foo(int a, int b = 0)
+
+C# 4.0虽然支持这个特性，但是Unity中并不支持。
+
 #### Input和以及简单的Character controll
 
 * Input.GetAxis("Horizontal") 和 Input.GetAxis("Vertical")控制上下左右
@@ -198,7 +206,8 @@ defined($module->func)即可
 
 类似定时触发的功能尽量用coroutine完成，全部在Update函数中判断会写的比较乱。
 
-	IEmulator foo() {
+	IEmulator foo() 
+	{
 		Debug.Log("Coroutine Started!");
 		
 		// wait for 1.0 second and proceed
@@ -208,7 +217,6 @@ defined($module->func)即可
 		
 		yield return 0;
 	}
-
 
 #### Delegate / Event vs SendMessage
 
@@ -251,9 +259,10 @@ defined($module->func)即可
 * Class上加了[Serializable]属性不能保证所有field都被序列化，必须在想要被序列化的属性上加[SerializeField]
 * Public属性是自动被序列化的
 * [SerializeField]只有在属性(field)上加才有效，在Property(方法、getter/setter)上无效
-* 如果被序列化时存在两个field指向一个对象的情况，序列化的结果会讲该对象保存两份。这样在反序列化的时候就变成了指向不同的对象。
+* 如果被序列化时存在两个field指向一个对象的情况，序列化的结果会将该对象保存两份。这样在反序列化的时候就变成了指向不同的对象。
 	* 解决方法是使用ScriptableObject。即让对象类继承ScriptableObject。
 * 更多的可以参考这篇文章[Unity Serialization](#http://blogs.unity3d.com/2012/10/25/unity-serialization/)
+* generics只有List可以被序列化。自定义的类则不行。
 
 #### EditorGUI
 
@@ -280,6 +289,13 @@ defined($module->func)即可
 * 想要转换成XML的类最好不要使用ScriptableObject。因为会调用默认的构造函数，而ScriptableObject的创建方法是CreateInstance<TClass>()。
 * 通过[XMLIgnore] [XMLAttribute]等属性控制序列化的方式。
 
+#### AssetDatabase
+
+* AssetDatabase.ExportPackage可以将Asset打包成package，注意需要自己指定扩展名。
+
 #### 性能
 
 * GameObject.Find()少用，效率低
+* OnRenderImage函数不能用在移动设备上。
+	会触发RenderTexture.GrabPixels导致FPS降低。
+	即使函数体为空也会导致FPS下降。
