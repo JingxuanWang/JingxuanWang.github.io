@@ -58,6 +58,8 @@ f选项可以展现出进程的父子关系
 设定如下alias可以在命令行里更容易的把握分支的情况。
 
 	git config --global alias.graph 'log --graph -C -M --pretty=format:"<%h> %ad [%an] %Cgreen%d%Creset %s" --all --date=short'
+	git config --global alias.config_private_username 'config --local user.name "Jingxuan Wang"'
+	git config --global alias.config_private_email 'config --local user.email wjx1985@gmail.com'
 	然后敲 `git graph`即可，有惊喜
 
 #### git commit
