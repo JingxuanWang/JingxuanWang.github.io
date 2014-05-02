@@ -23,6 +23,22 @@ categories: CheatSheet
 
 <h3 id="cmd">cmd相关</h3>
 
+登陆Server时出现如下错误提示：
+```
+-bash: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8)
+```
+经查，是因为local机器的locale和远程server的locale不匹配导致。
+重新设定local机器的locale解决。
+
+检查可以使用`locale`。
+可以在bashrc或bash_profile中更改设置
+```
+export LANG=en_US.UTF-8
+export LC_CTYPE=zh_CN.UTF-8
+export LC_ALL=ja_JP.UTF-8
+```
+等
+
 <h4 id="hdparm">hdparm命令</h4>
 
 	hdparm -tT /dev/sda
