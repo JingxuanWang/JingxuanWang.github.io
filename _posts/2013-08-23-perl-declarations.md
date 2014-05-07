@@ -15,12 +15,10 @@ perl其实允许像C那样将函数的声明与定义分开。
 就会被识别为一个函数定义，而不是函数声明。
 
 {% highlight perl %}
-	 
-	sub count(@);
-	my $x;
-	$x = count(3, 2, 1);
-	sub count(@) {@_;}
-	 
+sub count(@);
+my $x;
+$x = count(3, 2, 1);
+sub count(@) {@_;}
 {% endhighlight %}
 
 #### 全局定义
@@ -28,13 +26,11 @@ perl其实允许像C那样将函数的声明与定义分开。
 函数默认是全局定义的
 
 {% highlight perl %}
-	 
-	package Bar;
-	sub foo {
-		return 1;
-	}
-	1;
-	 
+package Bar;
+sub foo {
+	return 1;
+}
+1;
 {% endhighlight %}
 
 可以在其他包中被调用 Bar::foo();
@@ -53,11 +49,9 @@ perl其实允许像C那样将函数的声明与定义分开。
 例：
 
 {% highlight perl %}
-	 
-	my ($a, @b, %c);
-	our ($d, @e, %f);
-	local (*g, $h{i});
-	 
+my ($a, @b, %c);
+our ($d, @e, %f);
+local (*g, $h{i});
 {% endhighlight %}
 
 
@@ -67,13 +61,11 @@ perl其实允许像C那样将函数的声明与定义分开。
 例：
 
 {% highlight perl %}
-	 
-	my $a;
-	{
-		my $b;
-		sub {my $c = $a + $b; return $c;}
-	}
-	 
+my $a;
+{
+	my $b;
+	sub {my $c = $a + $b; return $c;}
+}
 {% endhighlight %}
 
 
@@ -85,28 +77,24 @@ perl其实允许像C那样将函数的声明与定义分开。
 例：
 
 {% highlight perl %}
-	 
-	{
-		local $var = $newvalue;
-		foo();
-	}
-	 
+{
+	local $var = $newvalue;
+	foo();
+}
 {% endhighlight %}
 
 
 又一例：
 
 {% highlight perl %}
-	 
-	{
-		$oldvalue = $newvalue;
-		$var = $newvalue;
-		some_func();
-	}
-	continue {
-		$var = $oldvalue;
-	}
-	 
+{
+	$oldvalue = $newvalue;
+	$var = $newvalue;
+	some_func();
+}
+continue {
+	$var = $oldvalue;
+}
 {% endhighlight %}
 
 

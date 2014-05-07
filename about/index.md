@@ -5,4 +5,4 @@ title: About
 
 github: https://github.com/JingxuanWang
 
-Jekyll Theme by: https://github.com/aigarsdz/brume
+Jekyll Theme by: [brume](https://github.com/aigarsdz/brume)

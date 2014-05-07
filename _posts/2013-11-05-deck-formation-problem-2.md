@@ -7,8 +7,6 @@ categories: Algorithm
 
 #### 无附加限制 + 有相互作用deck
 
-[接上文](../../../../algorithm/2013/10/31/deck-formation-problem.html)
-
 上文说了穷举法只是一个“简单的想法”，缺点在于代价太大。  
 那么对于这类deck的自动编成问题应该如何解决呢？
 

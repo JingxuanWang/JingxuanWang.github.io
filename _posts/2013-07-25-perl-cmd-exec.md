@@ -41,18 +41,16 @@ categories: perl
 当然，也可以用下面代码检查程序的返回状态
 
 {% highlight perl %}
-	 
-	if ($? == −1) {
-	   print "failed to execute: $!\n";
-	}
-	elsif ($? & 127) {
-	   printf "child died with signal %d, %s coredump\n",
-		   ($? & 127),  ($? & 128) ? 'with' : 'without';
-	}
-	else {
-	   printf "child exited with value %d\n", $? >> 8;
-	}
-	
+if ($? == −1) {
+   print "failed to execute: $!\n";
+}
+elsif ($? & 127) {
+   printf "child died with signal %d, %s coredump\n",
+	   ($? & 127),  ($? & 128) ? 'with' : 'without';
+}
+else {
+   printf "child exited with value %d\n", $? >> 8;
+}
 {% endhighlight %}
 
 #### `` (反引号，backticks) 
@@ -75,22 +73,20 @@ categories: perl
 用法：
 
 {% highlight perl %}
-	
-	use IPC::Open2;
-	$pid = open2(\*CHLD_OUT, \*CHLD_IN, 'some cmd and args');
+use IPC::Open2;
+$pid = open2(\*CHLD_OUT, \*CHLD_IN, 'some cmd and args');
 
-	# or without using the shell
-	$pid = open2(\*CHLD_OUT, \*CHLD_IN, 'some', 'cmd', 'and', 'args');
+# or without using the shell
+$pid = open2(\*CHLD_OUT, \*CHLD_IN, 'some', 'cmd', 'and', 'args');
 
-	# or with handle autovivification
-	my($chld_out, $chld_in);
-	$pid = open2($chld_out, $chld_in, 'some cmd and args');
+# or with handle autovivification
+my($chld_out, $chld_in);
+$pid = open2($chld_out, $chld_in, 'some cmd and args');
 
-	# or without using the shell
-	$pid = open2($chld_out, $chld_in, 'some', 'cmd', 'and', 'args');
-	waitpid( $pid, 0 );
-	my $child_exit_status = $? >> 8;
-	
+# or without using the shell
+$pid = open2($chld_out, $chld_in, 'some', 'cmd', 'and', 'args');
+waitpid( $pid, 0 );
+my $child_exit_status = $? >> 8;
 {% endhighlight %}
 
 

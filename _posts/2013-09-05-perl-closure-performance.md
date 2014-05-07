@@ -8,69 +8,65 @@ categories: perl
 最近经常见到这种写法：
 
 {% highlight perl %}
-	 
-	sub returning(&) {
-		my ($code) = @_;
-		return $code->();
-	}
+sub returning(&) {
+	my ($code) = @_;
+	return $code->();
+}
 
-	my $ret = returning(sub{
-		return 0 if $cond1;
-		return 0 if $cond2;
-		return 1;
-	});
-	
+my $ret = returning(sub{
+	return 0 if $cond1;
+	return 0 if $cond2;
+	return 1;
+});
 {% endhighlight %}
 
 直觉上觉得这个效率并不是很好，但是又不知道差多少，所以稍微做了个实验比了一下。
 测试代码如下：
 
 {% highlight perl %}
-	 
-	#!/usr/bin/perl
+#!/usr/bin/perl
 
-	use strict;
-	use Benchmark qw(:all);
+use strict;
+use Benchmark qw(:all);
 
-	sub returning(&) {
-		my ($code) = @_; 
-		return $code->();
-	}
+sub returning(&) {
+	my ($code) = @_; 
+	return $code->();
+}
 
-	sub calc {
-		my ($a, $b) = @_; 
-		return $a * $a + $b * $b; 
-	}
+sub calc {
+	my ($a, $b) = @_; 
+	return $a * $a + $b * $b; 
+}
 
-	sub main {
+sub main {
 
-		my $r = timethese(
-			10_000_000, 
-			{   
-				'2_flat' => q{
-					my $a = int(rand(100));
-					my $b = int(rand(100));
-					my $c = $a * $a + $b * $b;
-				},
-				'3_sub' => q{
-					my $a = int(rand(100));
-					my $b = int(rand(100));
-					my $c = calc($a, $b);
-				},
-				'1_closure' => q{
-					my $a = int(rand(100));
-					my $b = int(rand(100));
-					my $c = returning(sub {
-						return $a * $a + $b * $b;
-					});
-				},
-			}   
-		);  
-		cmpthese $r; 
-	}
+	my $r = timethese(
+		10_000_000, 
+		{   
+			'2_flat' => q{
+				my $a = int(rand(100));
+				my $b = int(rand(100));
+				my $c = $a * $a + $b * $b;
+			},
+			'3_sub' => q{
+				my $a = int(rand(100));
+				my $b = int(rand(100));
+				my $c = calc($a, $b);
+			},
+			'1_closure' => q{
+				my $a = int(rand(100));
+				my $b = int(rand(100));
+				my $c = returning(sub {
+					return $a * $a + $b * $b;
+				});
+			},
+		}   
+	);  
+	cmpthese $r; 
+}
 
-	main();
-	
+main();
 {% endhighlight %}
 
 结果如下：
