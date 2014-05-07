@@ -9,9 +9,7 @@ categories: perl
 在perl中，如果想要把数组中的元素根据某函数的计算结果进行排序，一般会写成如下形式：
 
 {% highlight perl %}
-	 
-	@sorted = sort { foo($a) <=> foo($b) } @unsorted;
-	 
+@sorted = sort { foo($a) <=> foo($b) } @unsorted;
 {% endhighlight %}
 
 学过perl的朋友对于[施瓦茨变换(schwartzian transform)](#http://en.wikipedia.org/wiki/Schwartzian_transform)这个词应该不会陌生。
@@ -22,15 +20,13 @@ categories: perl
 我们先来看一看经典的施瓦茨变换：
 
 {% highlight perl %}
-	 
-	@sorted = map  { 
-		$_->[0] 
-	} sort { 
-		$a->[1] cmp $b->[1] 
-	} map  { 
-		[$_, foo($_)] 
-	} @unsorted;
-	 
+@sorted = map  { 
+	$_->[0] 
+} sort { 
+	$a->[1] cmp $b->[1] 
+} map  { 
+	[$_, foo($_)] 
+} @unsorted;
 {% endhighlight %}
 
 从下往上看:

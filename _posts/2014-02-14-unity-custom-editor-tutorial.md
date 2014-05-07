@@ -47,13 +47,10 @@ Unity提供了`EditorGUILayout.BeginHorizontal()`、`EditorGUILayaout.BeginVerti
 用法如下：
 
 {% highlight csharp %}
-
-
-	EditorGUILayout.BeginVertical(
-		GUILayout.Width(blockWidth),
-		GUILayout.ExpandHeight(true)
-	);
-
+EditorGUILayout.BeginVertical(
+	GUILayout.Width(blockWidth),
+	GUILayout.ExpandHeight(true)
+);
 {% endhighlight %}
 
 [GUIStyle][5]
@@ -64,12 +61,9 @@ GUIStyle可以满足对于自定义样式的种种需求，但是缺点是需要
 例子如下：
 
 {% highlight csharp %}
-
-
-	GUISkin editorGUISkin = (GUISkin)Resources.Load("EditorGUISkin");
-	GUIStyle blockStyle = editorGUISkin.customStyles[0];
-	EditorGUILayout.BeginVertical(blockStyle, GUILayout.Width(stateListBlockWidth));
-
+GUISkin editorGUISkin = (GUISkin)Resources.Load("EditorGUISkin");
+GUIStyle blockStyle = editorGUISkin.customStyles[0];
+EditorGUILayout.BeginVertical(blockStyle, GUILayout.Width(stateListBlockWidth));
 {% endhighlight %}
 
 **3, 事件处理**
@@ -127,77 +121,74 @@ Event.current.Use()
 以下的例子实现了一个可以调节大小的区域。
 
 {% highlight csharp %}
-
-
-	void drawVerticalResizeBlock(ref float parameterToResize)
-	{
-		float blockWidth = 0f;
-		Rect blockRect = EditorGUILayout.BeginVertical(
-			GUILayout.Width(blockWidth),
-			GUILayout.ExpandHeight(true)
+void drawVerticalResizeBlock(ref float parameterToResize)
+{
+	float blockWidth = 0f;
+	Rect blockRect = EditorGUILayout.BeginVertical(
+		GUILayout.Width(blockWidth),
+		GUILayout.ExpandHeight(true)
+	);
+	EditorGUILayout.EndVertical();
+	
+	Rect resizeBlockRect = 
+		new Rect(
+			blockRect.xMin - resizeDetectSize,
+			blockRect.yMin,
+			blockRect.width + 2 * resizeDetectSize,
+			blockRect.height
 		);
-		EditorGUILayout.EndVertical();
-		
-		Rect resizeBlockRect = 
-			new Rect(
-				blockRect.xMin - resizeDetectSize,
-				blockRect.yMin,
-				blockRect.width + 2 * resizeDetectSize,
-				blockRect.height
-			);
-		EditorGUIUtility.AddCursorRect(resizeBlockRect, MouseCursor.ResizeHorizontal);
-		
-		if (resizeBlockRect.Contains(Event.current.mousePosition))
+	EditorGUIUtility.AddCursorRect(resizeBlockRect, MouseCursor.ResizeHorizontal);
+	
+	if (resizeBlockRect.Contains(Event.current.mousePosition))
+	{
+		if (Event.current.type == EventType.mouseDown)
 		{
-			if (Event.current.type == EventType.mouseDown)
-			{
-				mouseOffset = Event.current.mousePosition.x - parameterToResize;
-				Event.current.Use();
-			}
-			
-			if (Event.current.type == EventType.mouseDrag)
-			{
-				parameterToResize = Event.current.mousePosition.x - mouseOffset;
-				Event.current.Use();
-			}
+			mouseOffset = Event.current.mousePosition.x - parameterToResize;
+			Event.current.Use();
 		}
-	
-	}
-	
-	void drawHorizontalResizeBlock(ref float parameterToResize)
-	{
-		float blockHeight = 0f;
-		Rect blockRect = EditorGUILayout.BeginHorizontal(
-			GUILayout.Height(blockHeight),
-			GUILayout.ExpandWidth(true)
-		);
-		EditorGUILayout.EndHorizontal();
 		
-		Rect resizeBlockRect = 
-			new Rect(
-				blockRect.xMin,
-				blockRect.yMin - resizeDetectSize,
-				blockRect.width,
-				blockRect.height + 2 * resizeDetectSize
-			);
-		EditorGUIUtility.AddCursorRect(resizeBlockRect, MouseCursor.ResizeVertical);
-		
-		if (resizeBlockRect.Contains(Event.current.mousePosition))
+		if (Event.current.type == EventType.mouseDrag)
 		{
-			if (Event.current.type == EventType.mouseDown)
-			{
-				mouseOffset = Event.current.mousePosition.y - parameterToResize;
-				Event.current.Use();
-			}
-			
-			if (Event.current.type == EventType.mouseDrag)
-			{
-				parameterToResize = Event.current.mousePosition.y - mouseOffset;
-				Event.current.Use();
-			}
+			parameterToResize = Event.current.mousePosition.x - mouseOffset;
+			Event.current.Use();
 		}
 	}
 
+}
+
+void drawHorizontalResizeBlock(ref float parameterToResize)
+{
+	float blockHeight = 0f;
+	Rect blockRect = EditorGUILayout.BeginHorizontal(
+		GUILayout.Height(blockHeight),
+		GUILayout.ExpandWidth(true)
+	);
+	EditorGUILayout.EndHorizontal();
+	
+	Rect resizeBlockRect = 
+		new Rect(
+			blockRect.xMin,
+			blockRect.yMin - resizeDetectSize,
+			blockRect.width,
+			blockRect.height + 2 * resizeDetectSize
+		);
+	EditorGUIUtility.AddCursorRect(resizeBlockRect, MouseCursor.ResizeVertical);
+	
+	if (resizeBlockRect.Contains(Event.current.mousePosition))
+	{
+		if (Event.current.type == EventType.mouseDown)
+		{
+			mouseOffset = Event.current.mousePosition.y - parameterToResize;
+			Event.current.Use();
+		}
+		
+		if (Event.current.type == EventType.mouseDrag)
+		{
+			parameterToResize = Event.current.mousePosition.y - mouseOffset;
+			Event.current.Use();
+		}
+	}
+}
 {% endhighlight %}
 
 
@@ -227,16 +218,14 @@ OnInspectorGUI中可以操作一个名为serializedObject的对象。
 
 
 {% highlight csharp %}
+// 更新serializedObject的值
+serializedObject.Update();
 
-	// 更新serializedObject的值
-	serializedObject.Update();
+SerializedProperty sp = serializedObject.FindProperty("intField");
+EditorGUILayout.PropertyField(sp, new GUIContent("IntField"), GUILayout.Width("100"));
 
-	SerializedProperty sp = serializedObject.FindProperty("intField");
-	EditorGUILayout.PropertyField(sp, new GUIContent("IntField"), GUILayout.Width("100"));
-
-	// 将更新的值写回
-	serializedObject.ApplyModifiedProperties();
-
+// 将更新的值写回
+serializedObject.ApplyModifiedProperties();
 {% endhighlight %}
 
 
@@ -247,16 +236,13 @@ target
 例子如下：
 
 {% highlight csharp %}
+CustomClass cc = target as CustomClass;
 
+cc.IntField = 30;
+cc.CustomMethod("Hello World");
 
-	CustomClass cc = target as CustomClass;
-	
-	cc.IntField = 30;
-	cc.CustomMethod("Hello World");
-
-	//提示Unity更新target信息
-	EditorUtility.SetDirty(target);
-
+//提示Unity更新target信息
+EditorUtility.SetDirty(target);
 {% endhighlight %}
 
 

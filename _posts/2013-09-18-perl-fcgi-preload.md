@@ -25,16 +25,14 @@ categories: perl
 * 被保存的只有模块内的全局变量(perl的情况)，它们充当的角色有些类似于C++里类的静态变量。
 
 {% highlight perl %}
-	
-	package Model::Example;
+package Model::Example;
 
-	my $result = 100;
+my $result = 100;
 
-	sub get_result {
-		my $a = 3;
-		return $a * $result++;
-	}
-	
+sub get_result {
+	my $a = 3;
+	return $a * $result++;
+}
 {% endhighlight %}
 
 在上边的例子中$result的值会被缓存，而$a的值则不会。

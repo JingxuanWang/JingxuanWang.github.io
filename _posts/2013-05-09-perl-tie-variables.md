@@ -34,32 +34,30 @@ tie则是将变量绑定到一个定义好的类上，使之成为该类的一�
 具体是`our @ISA = 'Tie::StdArray';`这一句
 
 {% highlight perl %}
-	
-	#!/usr/bin/perl
+#!/usr/bin/perl
 
-	package ClockArray;
+package ClockArray;
 
-	use Tie::Array;
+use Tie::Array;
 
-	our @ISA = 'Tie::StdArray';
+our @ISA = 'Tie::StdArray';
 
-	sub FETCH {
-		my ($self, $place) = @_;
-		$self->[$place % 12];
-	}
+sub FETCH {
+	my ($self, $place) = @_;
+	$self->[$place % 12];
+}
 
-	sub STORE {
-		my ($self, $place, $value) = @_;
-		$self->[$place % 12] = $value;
-	}
+sub STORE {
+	my ($self, $place, $value) = @_;
+	$self->[$place % 12] = $value;
+}
 
-	package main;
+package main;
 
-	tie my @array, 'ClockArray';
-	@array = ("a".."z");
+tie my @array, 'ClockArray';
+@array = ("a".."z");
 
-	print join(',', @array), "\n";
-	
+print join(',', @array), "\n";
 {% endhighlight %}
 
 

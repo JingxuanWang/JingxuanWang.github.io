@@ -53,39 +53,36 @@ Blend Tree<br>
 
 
 {% highlight csharp %}
-
-
-	using UnityEngine;
-	using System.Collections;
+using UnityEngine;
+using System.Collections;
+ 
+public class SpriteAnimationController : MonoBehaviour {
+ 
+	private Animator animator;
+ 
+	// Use this for initialization
+	void Start () {
+		this.animator = GetComponent<Animator>();
+	}
 	 
-	public class SpriteAnimationController : MonoBehaviour {
-	 
-		private Animator animator;
-	 
-		// Use this for initialization
-		void Start () {
-			this.animator = GetComponent<Animator>();
+	// Update is called once per frame
+	void Update () {
+		float horizontal = Input.GetAxis("Horizontal");
+		if ( horizontal < 0)
+		{
+			this.animator.SetBool("RightKeyDown", false);
+			this.animator.SetBool("LeftKeyDown", true);
 		}
-		 
-		// Update is called once per frame
-		void Update () {
-			float horizontal = Input.GetAxis("Horizontal");
-			if ( horizontal < 0)
-			{
-				this.animator.SetBool("RightKeyDown", false);
-				this.animator.SetBool("LeftKeyDown", true);
-			}
-			else if (horizontal > 0)
-			{
-				this.animator.SetBool("RightKeyDown", true);
-				this.animator.SetBool("LeftKeyDown", false);
-			}
-			else
-			{
-				this.animator.SetBool("RightKeyDown", false);
-				this.animator.SetBool("LeftKeyDown", false);
-			}
+		else if (horizontal > 0)
+		{
+			this.animator.SetBool("RightKeyDown", true);
+			this.animator.SetBool("LeftKeyDown", false);
+		}
+		else
+		{
+			this.animator.SetBool("RightKeyDown", false);
+			this.animator.SetBool("LeftKeyDown", false);
 		}
 	}
-
+}
 {% endhighlight %}

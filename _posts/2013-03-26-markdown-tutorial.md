@@ -557,7 +557,6 @@ Markdown并不支持对于图片的其他操作，比如dimension属性。
 2. 有些Markdown语法(比如上边的`####`如果后边不加空格直接跟标题文本)在Issues里是不被支持的
 
 
-***如果谁有什么更好的解决方法欢迎告诉我。***
 
 [1]: http://docutils.sourceforge.net/mirror/setext.html
 [2]: http://www.aaronsw.com/2002/atx/

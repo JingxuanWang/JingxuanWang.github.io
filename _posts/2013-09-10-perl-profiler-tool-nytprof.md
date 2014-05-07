@@ -35,14 +35,15 @@ categories: perl
 * 如果是使用了mod_perl模块，可以直接参照[官网上的方法](#http://search.cpan.org/~timb/Devel-NYTProf-5.05/lib/Devel/NYTProf/Apache.pm)。
 * 或者执行脚本线程的时候带上命令行参数/环境变量
 
+{% highlight perl %}
+# 在apache的httpd.conf中进行配置
+PerlModule Devel::NYTProf::Apache
 
-	# 在apache的httpd.conf中进行配置
-	PerlModule Devel::NYTProf::Apache
-
-	# 执行时带命令行参数
-	perl -d:NYTProf some_perl.pl
-	# 或者设置环境变量
-	$ENV{PERL5OPT} = '-d:NYTProf'
+# 执行时带命令行参数
+perl -d:NYTProf some_perl.pl
+# 或者设置环境变量
+$ENV{PERL5OPT} = '-d:NYTProf'
+{% endhighlight %}
 
 #### 总结
 
