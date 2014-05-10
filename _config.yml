@@ -1,6 +1,6 @@
 markdown: redcarpet
-pygments: true
-permalink: /:title
+highlighter: pygments
+#permalink: /:year/:month/:day/:title
 
 url: http://jingxuanwang.github.io
 baseurl:
