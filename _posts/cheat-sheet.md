@@ -68,7 +68,7 @@ f选项可以展现出进程的父子关系
 	git config --global color.status auto # git status 显示颜色
 	git config --global color.branch auto # git branch 显示颜色
 	git config --global core.editor "/usr/bin/vim" # 默认editor 当出现 Could not execute editor 错误时更改此设置
-
+	git config --local core.precomposeunicode true # 用以解决日语文件名造成的诡异问题(显示Untracked, 删了以后又显示Deleted, 详见: http://btmn.jp/2012/08/22/git-1-7-12-utf8-mac/)
 #### git log
 
 设定如下alias可以在命令行里更容易的把握分支的情况。
@@ -164,6 +164,20 @@ f选项可以展现出进程的父子关系
 
 对于其他操作也一样，关键是找准之前的有效状态。
 
+#### git submodule
+
+初始化一个submodule
+
+	git submodule init
+
+更新一个submodule
+
+	git submodule update
+
+在主Repository上初始化过的submodule相当于在Repository上注册了一个连接，指向这个commit相对应的submodule的commit。
+在本地commit并push submodule之后，一定要在主Repo上将submodule add commit并且push。
+这相当于更新本地repo保有的submodule的连接。
+这样pull的人因为submodule的连接被更新，就会看到需要更新提示。
 
 <h3 id="perl">perl相关</h3>
 
