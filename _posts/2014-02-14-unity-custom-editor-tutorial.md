@@ -13,7 +13,6 @@ Asset Store上大部分第三方插件如NGUI、PlayMaker等都包含自定义Ed
 
 #### [Editor Window][2]
 
-<img src="http://docs.unity3d.com/Documentation/Images/manual/editor-EditorWindows-0.jpg" height="50%" width="50%"><br>
 顾名思义就是一个单独窗口的Editor。
 
 简单的例子在官方网站上可以找到，这里不再赘述。  
