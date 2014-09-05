@@ -1,4 +1,7 @@
-Tech Blog Update
+[Tech Blog](http://jingxuanWang.github.io)
+===========
+
+Update
 ================
 
 #### 20140507
