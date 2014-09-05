@@ -7,7 +7,9 @@ categories: CSharp
 
 继续水。今天的内容是Type System。
 
-### 编程语言对于类型系统(type system)的划分
+## 类型系统(type system)
+
+编程语言可以按照很多维度对类型系统进行划分。比如：
 
 * strong/weak
 * safe/unsafe
@@ -19,7 +21,7 @@ categories: CSharp
 那么我们先来看看静态类型和动态类型的定义。
 
 
-#### 静态类型与动态类型(static typing vs dynamic typing)
+### 静态类型与动态类型(static typing vs dynamic typing)
 
 * 静态类型：每一个变量都必须有一个在编译期就可以被明确的类型。
 这样编译器就可以保证只有被该类型接受的操作才可以被执行。
@@ -39,7 +41,7 @@ Console.WriteLine(o.Length);
 CSharp4中加入了一些动态类型的要素，但是大部分的代码仍然属于静态类型的范畴。
 
 
-#### 显示类型与隐式类型(explicit typing vs implicit typing)
+### 显示类型与隐式类型(explicit typing vs implicit typing)
 
 显示类型与隐式类型同属静态类型当中的概念，而与动态类型无关。
 
@@ -56,7 +58,7 @@ var x = "world"; // 隐式推导
 因此显式类型和隐式类型同属静态类型的范畴。
 
 
-#### 类型安全与非类型安全(type-safe and type-unsafe)
+### 类型安全与非类型安全(type-safe and type-unsafe)
 
 <b>类型是否安全主要是指编译器是否允许程序员将一个变量强制解释成一个与其定义类型“不相容”的类型。</b>
 
@@ -65,7 +67,7 @@ var x = "world"; // 隐式推导
 
 因此在类型系统这一点上，C/C++是非类型安全的，而CSharp是类型安全的。
 
-#### 集合，强类型和弱类型(collections, strong and weak)
+### 集合，强类型和弱类型(collections, strong and weak)
 
 <b>强类型和弱类型经常与静态类型、动态类型的概念混用。作者为了不引起歧义，将对强弱类型的讨论限制在了集合的范畴里。</b>
 
@@ -99,11 +101,11 @@ objects[0] = new Stream(); // Error
 而对于强类型的集合，尽管不用担心发生类型错误，但是由于其适应面较窄，
 对于每一个类型定义一种集合无疑增加了很多的冗余代码。
 
-#### 返回值的协变与参数的逆变
+### 返回值的协变与参数的逆变
 
 (这个等到总结协变与逆变的时候一起说吧，待更)
 
-### 小结
+## 小结
 
 * CSharp1是静态类型的。编译器在变量定义的时候就必须明确的知道变量时什么类型。
 变量可以执行的操作是直接与其被定义的类型相关
