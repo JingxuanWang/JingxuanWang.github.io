@@ -50,4 +50,4 @@ Unity.app/Contents/PlaybackEngines/iOSSupport/Tools/OSX/Unity4XC.xcplugin/Conten
 {% endhighlight %}
 
 
-**这样就可以在最新的Xcode下执行Build And Run了~**
+**这样即使升级了最新的Xcode也可以继续在Unity中执行Build And Run了~**
