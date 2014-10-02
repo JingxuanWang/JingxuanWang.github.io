@@ -7,14 +7,14 @@ categories: CSharp
 
 ## Lamda expressions
 
-CSharp从3.0开始支持lamda表达式。
+CSharp从3.0开始支持lambda表达式。
 对于Lamda演算而言，CSharp支持的方式从复杂到简单如下所示：
 
 {% highlight csharp %}
-// Anonymous method, not lamda expression
+// Anonymous method, not lambda expression
 delegate(string text) { return text.Length; }
 
-// lamda expression
+// lambda expression
 (string text) => { return text.Length; }
 
 // single expression
@@ -38,10 +38,10 @@ List<Film> films = new List<Film>{/* Initialization */};
 // Print original list
 films.ForEach(print);
 
-// Filter using lamda expression
+// Filter using lambda expression
 films.FindAll(film => film.Year < 1960).ForEach(print);
 
-// Sort using lamda expression
+// Sort using lambda expression
 films.Sort((f1, f2) => f1.Name.CompareTo(f2.Name));
 
 // Print sorted list
@@ -50,7 +50,7 @@ films.ForEach(print);
 
 Lamda表达式的应用使得对于集合操作变得更加简洁。
 
-**注意：实际上List<T>.Sort()使用的Comparison<T>等函数都是delegate。所以实际上lamda表达式在编译期被转换成了delegate实例。**
+**注意：实际上List<T>.Sort()使用的Comparison<T>等函数都是delegate。所以实际上lambda表达式在编译期被转换成了delegate实例。**
 
 ### Expression trees
 
@@ -77,7 +77,7 @@ console.WriteLine(compiled());
 
 {% highlight csharp %}
 //
-// Using lamda expression
+// Using lambda expression
 //
 Expression<Func<string, string, bool>> expression = (x, y) => x.StartsWith(y);
 
@@ -97,10 +97,10 @@ var methodArg = Expression.Parameter(typeof(string), "y");
 Expression[] methodArgs = new[] { methodArg };
 Expression call = Expression.Call(target, method, methodArgs);
 
-var lamdaParameters = new[] { target, methodArg };
-var lamda = Expression.Lamda<Func<string, string, bool>>(call, lamdaParameters);
+var lambdaParameters = new[] { target, methodArg };
+var lambda = Expression.Lamda<Func<string, string, bool>>(call, lambdaParameters);
 
-var compiled = lamda.Comile();
+var compiled = lambda.Compile();
 
 Console.WriteLine(compiled("First", "Second"));
 Console.WriteLine(compiled("First", "Fir"));
