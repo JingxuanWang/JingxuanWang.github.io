@@ -54,9 +54,6 @@ var game = {
 };
 
 game.resources = [
-    // background
-    {name: "bg",        type:"image", src: "data/img/bg.png"},
-
     // common ui
     {name: "left",        type:"image", src: "data/img/Left.png"},
     {name: "right",       type:"image", src: "data/img/Right.png"},
