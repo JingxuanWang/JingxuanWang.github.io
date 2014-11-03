@@ -8,7 +8,7 @@ var game = {
         start: false,
         hiScore: false,
         muted: false,
-        totalTime: 10,
+        totalTime: 60,
         curTime: 0,
         startTime: 0,
 
