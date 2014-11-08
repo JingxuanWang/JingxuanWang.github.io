@@ -2,15 +2,16 @@
  * Created by wang.jingxuan on 14/11/5.
  */
 var SelectableObject = me.Container.extend({
-    init : function(x, y, spriteName, frameName, onSelect, onDeselect) {
+    init : function(x, y, spriteName, frameName, onSelect, onDeselect, targetSize) {
         this._super(me.Container, 'init');
-
-        this.targetScale = 0.5;
 
         this.spriteName = spriteName;
         this.sprite = new me.Sprite(x, y, me.loader.getImage(spriteName));
         this.frame = new me.Sprite(x, y, me.loader.getImage(frameName));
         this.frame.alpha = 0;
+
+        this.targetSize = targetSize == null ? 128 : targetSize;
+        this.targetScale = this.targetSize / this.sprite.width;
 
         this.sprite.resize(0.05, 0.05);
 

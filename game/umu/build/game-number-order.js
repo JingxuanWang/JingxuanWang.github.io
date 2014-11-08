@@ -95,9 +95,32 @@ game.resources = [
     {name: "number-24",   type:"image", src: "data/img/24.png"},
     {name: "number-25",   type:"image", src: "data/img/25.png"},
 
+	// icons
+    {name: "icon-1",    type:"image", src: "data/img/icon-1.png"},
+    {name: "icon-2",    type:"image", src: "data/img/icon-2.png"},
+    {name: "icon-3",    type:"image", src: "data/img/icon-3.png"},
+    {name: "icon-4",    type:"image", src: "data/img/icon-4.png"},
+    {name: "icon-5",    type:"image", src: "data/img/icon-5.png"},
+    {name: "icon-6",    type:"image", src: "data/img/icon-6.png"},
+    {name: "icon-7",    type:"image", src: "data/img/icon-7.png"},
+    {name: "icon-8",    type:"image", src: "data/img/icon-8.png"},
+    {name: "icon-9",    type:"image", src: "data/img/icon-9.png"},
+    {name: "icon-10",   type:"image", src: "data/img/icon-10.png"},
+    {name: "icon-11",   type:"image", src: "data/img/icon-11.png"},
+    {name: "icon-12",   type:"image", src: "data/img/icon-12.png"},
+    {name: "icon-13",   type:"image", src: "data/img/icon-13.png"},
+    {name: "icon-14",   type:"image", src: "data/img/icon-14.png"},
+    {name: "icon-15",   type:"image", src: "data/img/icon-15.png"},
+    {name: "icon-16",   type:"image", src: "data/img/icon-16.png"},
+    {name: "icon-17",   type:"image", src: "data/img/icon-17.png"},
+    {name: "icon-18",   type:"image", src: "data/img/icon-18.png"},
+    {name: "icon-19",   type:"image", src: "data/img/icon-19.png"},
+    {name: "icon-20",   type:"image", src: "data/img/icon-20.png"},
+
     // font
     {name: "32x32_font",  type:"image", src: "data/img/32x32_font.png"}
 ];
+
 /**
  * Created by wang.jingxuan on 14-11-3.
  */
@@ -226,86 +249,25 @@ var UILabel = me.Renderable.extend({
     }
 });
 /**
- * Created by wang.jingxuan on 14-11-2.
+ * Created by wang.jingxuan on 14-11-3.
  */
-var Fruit = me.Sprite.extend({
-    init: function(imageName, x, y) {
-        me.Sprite.prototype.init.apply(this, [x, y, me.loader.getImage(imageName), 256, 256]);
-
-        this.imageName = imageName;
-
-        //this.alpha = 0;
-        this.resize(0.05, 0.05);
-
-        this.targetScale = game.data.spriteSize / 256;
-        console.log(this.targetScale);
-
-        this.isScaling = false;
-
-    },
-
-    update : function(dt) {
-        // force update
-        return true;
-    },
-
-    open: function () {
-        var self = this;
-        var scaleTween = new me.Tween(this.scale)
-            .to({x: self.targetScale, y: self.targetScale}, 200)
-            .onComplete(function() {
-                self.resize(self.targetScale, self.targetScale);
-                self.scaleFlag = true;
-                self.isScaling = false;
-            })
-            .start();
-    },
-
-    move: function(legendSprite) {
-        var offsetTween = new me.Tween(this.pos)
-            .to({x: legendSprite.pos.x, y: legendSprite.pos.y}, 200)
-            .easing(me.Tween.Easing.Linear.None)
-            .start();
-    },
-
-    close: function () {
-        var alphaTween = new me.Tween(this)
-            .to({alpha: 0}, 200)
-            .easing(me.Tween.Easing.Linear.None)
-            .start();
-    }
-});
-/**
- * Created by wang.jingxuan on 14-11-2.
- */
-var Arrow = UIButton.extend({
-    init: function(imageName, legendSprite, x, y, onclick) {
+var Retry = UIButton.extend({
+    // constructor
+    init: function() {
 
         this._super(UIButton, 'init',
-            [x, y, {
-                imageName: imageName,
-                onclick: onclick
-            }]
+            [
+                game.data.screenWidth / 2 - 128,
+                game.data.screenHeight / 2,
+                {
+                    imageName: "retry",
+                    onclick: function() {
+                        me.state.change(me.state.PLAY);
+                    }
+                }
+            ]
         );
-
-        this.legendSprite = legendSprite;
-    },
-
-    onPointerUp: function () {
-        //console.log("OnPointerUp");
-        var self = this;
-        this.touchStartTween.stop();
-        this.touchEndTween.to({x: 1, y: 1}, 100)
-            .onComplete(function(){
-                self.resize(1, 1);
-                self.scaleFlag = true;
-            })
-            .start();
-
-        if (this.onclick != null) {
-            this.onclick(self.legendSprite);
-        }
-    },
+    }
 });
 /**
  * Created by wang.jingxuan on 14-11-2.
@@ -334,27 +296,6 @@ var Mark = me.Sprite.extend({
     update: function() {
         // force update
         return true;
-    }
-});
-/**
- * Created by wang.jingxuan on 14-11-3.
- */
-var Retry = UIButton.extend({
-    // constructor
-    init: function() {
-
-        this._super(UIButton, 'init',
-            [
-                game.data.screenWidth / 2 - 128,
-                game.data.screenHeight / 2,
-                {
-                    imageName: "retry",
-                    onclick: function() {
-                        me.state.change(me.state.PLAY);
-                    }
-                }
-            ]
-        );
     }
 });
 game.hud = game.hud || {};
@@ -432,15 +373,16 @@ game.hud.TimeItem = UILabel.extend({
  * Created by wang.jingxuan on 14/11/5.
  */
 var SelectableObject = me.Container.extend({
-    init : function(x, y, spriteName, frameName, onSelect, onDeselect) {
+    init : function(x, y, spriteName, frameName, onSelect, onDeselect, targetSize) {
         this._super(me.Container, 'init');
-
-        this.targetScale = 0.5;
 
         this.spriteName = spriteName;
         this.sprite = new me.Sprite(x, y, me.loader.getImage(spriteName));
         this.frame = new me.Sprite(x, y, me.loader.getImage(frameName));
         this.frame.alpha = 0;
+
+        this.targetSize = targetSize == null ? 128 : targetSize;
+        this.targetScale = this.targetSize / this.sprite.width;
 
         this.sprite.resize(0.05, 0.05);
 

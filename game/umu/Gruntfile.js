@@ -23,13 +23,27 @@ module.exports = function(grunt) {
 	        'js/resources.js',
 	        'js/ui/uiButton.js',
 	        'js/ui/uiLabel.js',
-	        'js/objects/fruit.js',
-	        'js/objects/arrow.js',
-	        'js/objects/mark.js',
 	        'js/objects/retry.js',
+	        'js/objects/mark.js',
 	        'js/objects/hud.js',
 	        'js/objects/selectable-object.js',
 	        'js/game-logic/number-order.js',
+	        'js/scenes/loading.js',
+	        'js/scenes/play.js',
+	        'js/scenes/gameover.js'
+		],
+
+		matchingPair: [
+	        'js/main.js',
+	        'js/resources.js',
+	        'js/util.js',
+	        'js/ui/uiButton.js',
+	        'js/ui/uiLabel.js',
+	        'js/objects/retry.js',
+	        'js/objects/mark.js',
+	        'js/objects/hud.js',
+	        'js/objects/selectable-object.js',
+	        'js/game-logic/matching-pair.js',
 	        'js/scenes/loading.js',
 	        'js/scenes/play.js',
 	        'js/scenes/gameover.js'
@@ -46,6 +60,10 @@ module.exports = function(grunt) {
 			numberOrder: {
                 src: source.numberOrder,
                 dest: 'build/game-number-order.js'
+			},
+			matchingPair: {
+                src: source.matchingPair,
+                dest: 'build/game-matching-pair.js'
 			}
         },
 
@@ -65,6 +83,13 @@ module.exports = function(grunt) {
                 files: {
                     'build/game-number-order-min.js': [
                         source.numberOrder
+                    ]
+                }
+            },
+           	matchingPair: {
+                files: {
+                    'build/game-matching-pair-min.js': [
+                        source.matchingPair
                     ]
                 }
             }

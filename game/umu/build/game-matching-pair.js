@@ -122,6 +122,14 @@ game.resources = [
 ];
 
 /**
+ * Created by wang.jingxuan on 14-11-8.
+ */
+
+function shuffle(o) {
+    for(var j, x, i = o.length; i; j = Math.floor(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
+    return o;
+};
+/**
  * Created by wang.jingxuan on 14-11-3.
  */
 var UIButton = me.Sprite.extend({
@@ -249,86 +257,25 @@ var UILabel = me.Renderable.extend({
     }
 });
 /**
- * Created by wang.jingxuan on 14-11-2.
+ * Created by wang.jingxuan on 14-11-3.
  */
-var Fruit = me.Sprite.extend({
-    init: function(imageName, x, y) {
-        me.Sprite.prototype.init.apply(this, [x, y, me.loader.getImage(imageName), 256, 256]);
-
-        this.imageName = imageName;
-
-        //this.alpha = 0;
-        this.resize(0.05, 0.05);
-
-        this.targetScale = game.data.spriteSize / 256;
-        console.log(this.targetScale);
-
-        this.isScaling = false;
-
-    },
-
-    update : function(dt) {
-        // force update
-        return true;
-    },
-
-    open: function () {
-        var self = this;
-        var scaleTween = new me.Tween(this.scale)
-            .to({x: self.targetScale, y: self.targetScale}, 200)
-            .onComplete(function() {
-                self.resize(self.targetScale, self.targetScale);
-                self.scaleFlag = true;
-                self.isScaling = false;
-            })
-            .start();
-    },
-
-    move: function(legendSprite) {
-        var offsetTween = new me.Tween(this.pos)
-            .to({x: legendSprite.pos.x, y: legendSprite.pos.y}, 200)
-            .easing(me.Tween.Easing.Linear.None)
-            .start();
-    },
-
-    close: function () {
-        var alphaTween = new me.Tween(this)
-            .to({alpha: 0}, 200)
-            .easing(me.Tween.Easing.Linear.None)
-            .start();
-    }
-});
-/**
- * Created by wang.jingxuan on 14-11-2.
- */
-var Arrow = UIButton.extend({
-    init: function(imageName, legendSprite, x, y, onclick) {
+var Retry = UIButton.extend({
+    // constructor
+    init: function() {
 
         this._super(UIButton, 'init',
-            [x, y, {
-                imageName: imageName,
-                onclick: onclick
-            }]
+            [
+                game.data.screenWidth / 2 - 128,
+                game.data.screenHeight / 2,
+                {
+                    imageName: "retry",
+                    onclick: function() {
+                        me.state.change(me.state.PLAY);
+                    }
+                }
+            ]
         );
-
-        this.legendSprite = legendSprite;
-    },
-
-    onPointerUp: function () {
-        //console.log("OnPointerUp");
-        var self = this;
-        this.touchStartTween.stop();
-        this.touchEndTween.to({x: 1, y: 1}, 100)
-            .onComplete(function(){
-                self.resize(1, 1);
-                self.scaleFlag = true;
-            })
-            .start();
-
-        if (this.onclick != null) {
-            this.onclick(self.legendSprite);
-        }
-    },
+    }
 });
 /**
  * Created by wang.jingxuan on 14-11-2.
@@ -357,27 +304,6 @@ var Mark = me.Sprite.extend({
     update: function() {
         // force update
         return true;
-    }
-});
-/**
- * Created by wang.jingxuan on 14-11-3.
- */
-var Retry = UIButton.extend({
-    // constructor
-    init: function() {
-
-        this._super(UIButton, 'init',
-            [
-                game.data.screenWidth / 2 - 128,
-                game.data.screenHeight / 2,
-                {
-                    imageName: "retry",
-                    onclick: function() {
-                        me.state.change(me.state.PLAY);
-                    }
-                }
-            ]
-        );
     }
 });
 game.hud = game.hud || {};
@@ -452,150 +378,195 @@ game.hud.TimeItem = UILabel.extend({
     }
 });
 /**
- * Created by wang.jingxuan on 14-11-2.
+ * Created by wang.jingxuan on 14/11/5.
+ */
+var SelectableObject = me.Container.extend({
+    init : function(x, y, spriteName, frameName, onSelect, onDeselect, targetSize) {
+        this._super(me.Container, 'init');
+
+        this.spriteName = spriteName;
+        this.sprite = new me.Sprite(x, y, me.loader.getImage(spriteName));
+        this.frame = new me.Sprite(x, y, me.loader.getImage(frameName));
+        this.frame.alpha = 0;
+
+        this.targetSize = targetSize == null ? 128 : targetSize;
+        this.targetScale = this.targetSize / this.sprite.width;
+
+        this.sprite.resize(0.05, 0.05);
+
+        this.addChild(this.sprite, 1);
+        this.addChild(this.frame, 2);
+
+        this.isSelected = false;
+        this.onSelect = onSelect;
+        this.onDeselect = onDeselect;
+
+        this.collider = new me.Rect(x + 64, y + 64, 128, 128);
+        me.input.registerPointerEvent('pointerup', this.collider, this.onPointerUp.bind(this));
+
+        this.open();
+    },
+
+    open: function () {
+        this.frame.resize(this.targetScale + 0.05, this.targetScale + 0.05);
+
+        var self = this;
+        var scaleTween = new me.Tween(this.sprite.scale)
+            .to({x: self.targetScale, y: self.targetScale}, 200)
+            .onComplete(function() {
+                self.resize(self.targetScale, self.targetScale);
+                self.scaleFlag = true;
+                self.isScaling = false;
+            })
+            .start();
+    },
+
+    onPointerUp : function() {
+        if (this.isSelected) {
+            if (this.onDeselect != null && this.onDeselect(this.spriteName)) {
+                this.isSelected = !this.isSelected;
+                this.frame.alpha = 1 - this.frame.alpha;
+            }
+        } else {
+            if (this.onSelect != null && this.onSelect(this.spriteName)) {
+                this.isSelected = !this.isSelected;
+                this.frame.alpha = 1 - this.frame.alpha;
+            }
+        }
+    },
+
+    destroy: function() {
+        me.input.releasePointerEvent("pointerup", this.collider);
+
+        this._super(me.Container, 'destroy');
+
+        this.collider = null;
+        this.sprite = null;
+        this.frame = null;
+    }
+});
+/**
+ * Created by wang.jingxuan on 14-11-8.
  */
 var Round = me.Container.extend({
 
-    init: function(restart) {
+    init: function() {
 
-        this.fruits = [
-            "banana",
-            "cherry",
-            "grape",
-            "pear",
-            "pineapple",
-            "watermelon"
-        ];
+        this.prefix = "icon-";
 
-        this.countMax = 9;
-        this.countInit = 5;
-        this.count = this.countInit;
+        this.countArray = [4, 4, 6, 6, 9];
+        this.elemPositions = {
+            4: [
+                [game.data.screenWidth / 3,     game.data.screenHeight / 3],
+                [game.data.screenWidth * 2 / 3, game.data.screenHeight / 3],
+                [game.data.screenWidth / 3,     game.data.screenHeight * 2 / 3],
+                [game.data.screenWidth * 2 / 3, game.data.screenHeight * 2 / 3]
+            ],
+            6: [
+                [game.data.screenWidth / 3,     game.data.screenHeight / 4],
+                [game.data.screenWidth * 2 / 3, game.data.screenHeight / 4],
+                [game.data.screenWidth / 3,     game.data.screenHeight / 2],
+                [game.data.screenWidth * 2 / 3, game.data.screenHeight / 2],
+                [game.data.screenWidth / 3,     game.data.screenHeight * 3 / 4],
+                [game.data.screenWidth * 2 / 3, game.data.screenHeight * 3 / 4]
+            ],
+            9: [
+                [game.data.screenWidth / 4,     game.data.screenHeight / 4],
+                [game.data.screenWidth / 2,     game.data.screenHeight / 4],
+                [game.data.screenWidth * 3 / 4, game.data.screenHeight / 4],
+                [game.data.screenWidth / 4,     game.data.screenHeight / 2],
+                [game.data.screenWidth / 2,     game.data.screenHeight / 2],
+                [game.data.screenWidth * 3 / 4, game.data.screenHeight / 2],
+                [game.data.screenWidth / 4,     game.data.screenHeight * 3 / 4],
+                [game.data.screenWidth / 2,     game.data.screenHeight * 3 / 4],
+                [game.data.screenWidth * 3 / 4, game.data.screenHeight * 3 / 4]
+            ]
+        };
 
-        this._super(me.Container, 'init');
+        this._super(me.Container, 'init', [0, 0, game.data.screenWidth, game.data.screenHeight]);
 
         this._init();
+        /*
+         this.label = new UILabel(200, 200, {
+         font : "arial", size : 64, text: "Hello World"
+         });
+         this.addChild(this.label);
+
+         this.bitmapLabel = new UILabel(100, 100, {
+         bitmapFont: true
+         });
+         this.addChild(this.bitmapLabel);
+         */
     },
 
     _init: function() {
-
-        this.alpha = 0;
-
-        // set legend
-        this.leftId = Math.floor((Math.random() * this.fruits.length));
-        this.rightId = Math.floor((Math.random() * this.fruits.length));
-
-        if (this.leftId == this.rightId)
-        {
-            this.leftId = (this.leftId + 1) % this.fruits.length;
-        }
-
-        this.leftSprite = new Fruit(
-            this.fruits[this.leftId],
-            0,
-            game.data.screenHeight - 1.75 * 256
-        );
-
-        this.rightSprite = new Fruit(
-            this.fruits[this.rightId],
-            game.data.screenWidth - 256,
-            game.data.screenHeight - 1.75 * 256
-        );
-
-        this.leftSprite.open();
-        this.rightSprite.open();
-
-        this.addChild(this.leftSprite, 20);
-        this.addChild(this.rightSprite, 20);
-
-        var self = this;
-
-        this.leftArrow = new Arrow(
-            "left",
-            this.leftSprite,
-            0,
-            game.data.screenHeight - 256,
-            function(legendSprite) {
-                if (!self.ready) {
-                    return;
-                }
-                if (self.curObj.imageName == legendSprite.imageName)
-                {
-                    self._onCorrect(legendSprite);
-                }
-                else
-                {
-                    self._onMiss();
-                }
-            }
-        );
-        this.rightArrow = new Arrow(
-            "right",
-            this.rightSprite,
-            game.data.screenWidth - 256,
-            game.data.screenHeight - 256,
-            function(legendSprite) {
-                if (!self.ready) {
-                    return;
-                }
-                if (self.curObj.imageName == legendSprite.imageName)
-                {
-                    self._onCorrect(legendSprite);
-                }
-                else
-                {
-                    self._onMiss();
-                }
-            }
-        );
-
-        this.addChild(this.leftArrow);
-        this.addChild(this.rightArrow);
-
-        this.headX = game.data.screenWidth / 2 - 128;
-        this.headY = game.data.screenHeight - 1.75 * 256;
-
-        this.objList = [];
-        for (var i = 0; i < this.count; i ++)
-        {
-            var sprite = this._spawn(i);
-            this.objList.push(sprite);
-        }
-
-        this.curObj = this.objList.shift();
-
         this.ready = true;
+        if (game.data.level < this.countArray.length) {
+            this.count = this.countArray[game.data.level - 1];
+        } else {
+            this.count = this.countArray[this.countArray.length - 1];
+        }
+        this.objList = [];
+        this.selectedObjs = [];
+
+        var array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+        if (game.data.level > 5) {
+            array = [
+                1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
+                11, 12, 13, 14, 15, 16, 17, 18, 19, 20
+            ];
+        }
+
+        var objsToSpawn = [];
+        array = shuffle(array);
+
+        for(var i = 0; i < this.count - 1; i++) {
+            objsToSpawn.push(array.shift());
+        }
+        // add head element
+        objsToSpawn.push(objsToSpawn[0]);
+        objsToSpawn = shuffle(objsToSpawn);
+
+        for(var i = 0; i < objsToSpawn.length; i++) {
+            // create selectable number
+            console.log(this.prefix + objsToSpawn[i]);
+            var elem = new SelectableObject(
+                this.elemPositions[this.count][i][0] - 128,
+                this.elemPositions[this.count][i][1] - 128,
+                this.prefix + objsToSpawn[i],
+                "frame",
+                this.onSelect.bind(this),
+                this.onDeselect.bind(this),
+                192
+            );
+
+            // insert into this.objList
+            this.objList.push(elem);
+            this.addChild(elem, 10);
+        }
     },
 
-    _onCorrect : function(legendSprite)
-    {
-        var detachedObj = this.curObj;
-        detachedObj.move(legendSprite);
-        detachedObj.close();
-
-        game.data.score += game.data.hitScore;
-
-        var self = this;
-        var delayedRemove = new me.Tween()
-            .delay(400)
-            .onComplete(function() {
-                self.removeChild(detachedObj);
-            })
-            .start();
-
-        if (this.objList.length > 0) {
-            this.curObj = this.objList.shift();
-            this.curObj.move(detachedObj);
-
-            var prevObj = this.curObj;
-            for (var i = 0; i < this.objList.length; i++) {
-                this.objList[i].move(prevObj);
-                prevObj = this.objList[i];
-            }
-        }
-        else {
+    onSelect: function(spriteName) {
+        if (this.selectedObjs.length == 0) {
+            this._onCorrect(spriteName);
+        } else if (spriteName == this.selectedObjs[this.selectedObjs.length - 1]) {
             this._onClear();
+        } else {
+            this._onMiss();
         }
 
+        return true;
+    },
+
+    onDeselect: function(spriteName) {
+        this.selectedObjs.pop();
+        return true;
+    },
+
+    _onCorrect : function(spriteName)
+    {
+        this.selectedObjs.push(spriteName);
     },
 
     _onMiss : function()
@@ -619,11 +590,8 @@ var Round = me.Container.extend({
 
     _onClear : function()
     {
-        game.data.score += this.count * game.data.hitScore;
-        if (this.count < this.countMax) {
-            this.count++;
-            game.data.level++;
-        }
+        game.data.score += (game.data.level + this.count) * game.data.hitScore;
+        game.data.level++;
 
         var markSprite = new Mark(
             "correct",
@@ -657,42 +625,15 @@ var Round = me.Container.extend({
             .start();
     },
 
-    _spawn: function(index)
-    {
-        var id = this.leftId;
-        if (Math.random() > 0.5)
-        {
-            id = this.rightId;
-        }
-
-        var sprite = new Fruit(
-            this.fruits[id],
-            this.headX,
-            this.headY - 64 * index
-        );
-
-        sprite.open();
-        this.addChild(sprite, 10 - index);
-        return sprite;
-    },
-
     restart: function() {
-        this.removeChild(this.leftArrow);
-        this.removeChild(this.rightArrow);
-        this.removeChild(this.leftSprite);
-        this.removeChild(this.rightSprite);
-        this.removeChild(this.curObj);
 
-        while(this.objList.length > 0)
-        {
-            this.removeChild(this.objList.shift());
+        this.selectedObjs = [];
+        while (this.objList.length > 0) {
+            var elem = this.objList.shift();
+            this.removeChild(elem);
+            elem.destroy();
+            elem = null;
         }
-
-        this.leftArrow = null;
-        this.rightArrow = null;
-        this.leftSprite = null;
-        this.rightArrow = null;
-        this.curObj = null;
         this.objList = [];
 
         this._init();

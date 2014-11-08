@@ -46,6 +46,28 @@ game.resources = [
     {name: "number-24",   type:"image", src: "data/img/24.png"},
     {name: "number-25",   type:"image", src: "data/img/25.png"},
 
+	// icons
+    {name: "icon-1",    type:"image", src: "data/img/icon-1.png"},
+    {name: "icon-2",    type:"image", src: "data/img/icon-2.png"},
+    {name: "icon-3",    type:"image", src: "data/img/icon-3.png"},
+    {name: "icon-4",    type:"image", src: "data/img/icon-4.png"},
+    {name: "icon-5",    type:"image", src: "data/img/icon-5.png"},
+    {name: "icon-6",    type:"image", src: "data/img/icon-6.png"},
+    {name: "icon-7",    type:"image", src: "data/img/icon-7.png"},
+    {name: "icon-8",    type:"image", src: "data/img/icon-8.png"},
+    {name: "icon-9",    type:"image", src: "data/img/icon-9.png"},
+    {name: "icon-10",   type:"image", src: "data/img/icon-10.png"},
+    {name: "icon-11",   type:"image", src: "data/img/icon-11.png"},
+    {name: "icon-12",   type:"image", src: "data/img/icon-12.png"},
+    {name: "icon-13",   type:"image", src: "data/img/icon-13.png"},
+    {name: "icon-14",   type:"image", src: "data/img/icon-14.png"},
+    {name: "icon-15",   type:"image", src: "data/img/icon-15.png"},
+    {name: "icon-16",   type:"image", src: "data/img/icon-16.png"},
+    {name: "icon-17",   type:"image", src: "data/img/icon-17.png"},
+    {name: "icon-18",   type:"image", src: "data/img/icon-18.png"},
+    {name: "icon-19",   type:"image", src: "data/img/icon-19.png"},
+    {name: "icon-20",   type:"image", src: "data/img/icon-20.png"},
+
     // font
     {name: "32x32_font",  type:"image", src: "data/img/32x32_font.png"}
 ];
