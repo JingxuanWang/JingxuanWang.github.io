@@ -2,24 +2,10 @@ var game = {
     data: {
         score : 0,
         hitScore : 10,
-        count_max: 9,
-        count_min: 5,
-        count : 5,
-        start: false,
-        hiScore: false,
-        muted: false,
-        totalTime: 10,
+        level : 1,
+        totalTime: 60,
         curTime: 0,
         startTime: 0,
-
-        fruits: [
-            "banana",
-            "cherry",
-            "grape",
-            "pear",
-            "pineapple",
-            "watermelon"
-        ],
 
         screenWidth: 640,
         screenHeight: 960,
@@ -36,6 +22,17 @@ var game = {
             return;
         }
 
+        me.state.set(me.state.LOADING, new game.LoadingScene());
+        me.state.set(me.state.PLAY, new game.PlayScene());
+        me.state.set(me.state.GAMEOVER, new game.GameOverScene());
+
+        me.loader.load(
+            {name: "logo", type:"image", src: "data/img/Logo.png"},
+            this.onLogoLoaded.bind(this)
+        );
+    },
+
+    "onLogoLoaded" : function() {
         // Load the resources.
         me.loader.preload(game.resources);
         me.loader.onload = this.loaded;
@@ -45,9 +42,6 @@ var game = {
     },
 
     "loaded": function() {
-        me.state.set(me.state.PLAY, new game.PlayScene());
-        me.state.set(me.state.GAMEOVER, new game.GameOverScene());
-
         // Start the game.
         me.state.change(me.state.PLAY);
     }

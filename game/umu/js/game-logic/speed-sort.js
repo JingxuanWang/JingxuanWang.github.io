@@ -5,6 +5,19 @@ var Round = me.Container.extend({
 
     init: function(restart) {
 
+        this.fruits = [
+            "banana",
+            "cherry",
+            "grape",
+            "pear",
+            "pineapple",
+            "watermelon"
+        ];
+
+        this.countMax = 9;
+        this.countInit = 5;
+        this.count = this.countInit;
+
         this._super(me.Container, 'init');
 
         this._init();
@@ -12,27 +25,25 @@ var Round = me.Container.extend({
 
     _init: function() {
 
-        this.alpha = 1;
+        this.alpha = 0;
 
         // set legend
-        this.leftId = Math.floor((Math.random() * game.data.fruits.length));
-        this.rightId = Math.floor((Math.random() * game.data.fruits.length));
+        this.leftId = Math.floor((Math.random() * this.fruits.length));
+        this.rightId = Math.floor((Math.random() * this.fruits.length));
 
         if (this.leftId == this.rightId)
         {
-            this.leftId = (this.leftId + 1) % game.data.fruits.length;
+            this.leftId = (this.leftId + 1) % this.fruits.length;
         }
 
-        console.log(this.leftId + " : " + this.rightId);
-
         this.leftSprite = new Fruit(
-            game.data.fruits[this.leftId],
+            this.fruits[this.leftId],
             0,
             game.data.screenHeight - 1.75 * 256
         );
 
         this.rightSprite = new Fruit(
-            game.data.fruits[this.rightId],
+            this.fruits[this.rightId],
             game.data.screenWidth - 256,
             game.data.screenHeight - 1.75 * 256
         );
@@ -91,7 +102,7 @@ var Round = me.Container.extend({
         this.headY = game.data.screenHeight - 1.75 * 256;
 
         this.objList = [];
-        for (var i = 0; i < game.data.count; i ++)
+        for (var i = 0; i < this.count; i ++)
         {
             var sprite = this._spawn(i);
             this.objList.push(sprite);
@@ -104,7 +115,6 @@ var Round = me.Container.extend({
 
     _onCorrect : function(legendSprite)
     {
-        console.log("OnCorrect");
         var detachedObj = this.curObj;
         detachedObj.move(legendSprite);
         detachedObj.close();
@@ -137,8 +147,6 @@ var Round = me.Container.extend({
 
     _onMiss : function()
     {
-        console.log("OnMiss");
-
         var markSprite = new Mark(
             "miss",
             game.data.screenWidth / 2 - 128,
@@ -147,16 +155,21 @@ var Round = me.Container.extend({
 
         this.addChild(markSprite, 30);
 
-        this._onFinish(false);
+        var self = this;
+        this.finish(
+            false,
+            function() {
+                self.restart();
+            }
+        );
     },
 
     _onClear : function()
     {
-        console.log("OnClear");
-
-        game.data.score += game.data.count * game.data.hitScore;
-        if (game.data.count < game.data.count_max) {
-            game.data.count++;
+        game.data.score += this.count * game.data.hitScore;
+        if (this.count < this.countMax) {
+            this.count++;
+            game.data.level++;
         }
 
         var markSprite = new Mark(
@@ -167,21 +180,26 @@ var Round = me.Container.extend({
 
         this.addChild(markSprite, 30);
 
-        this._onFinish(true);
+        var self = this;
+        this.finish(
+            true,
+            function() {
+                self.restart();
+            }
+        );
     },
 
-    _onFinish : function(success)
+    finish : function(success, callback)
     {
-        console.log("OnFinish : " + success);
-
         this.ready = false;
         var self = this;
         var finish = new me.Tween(this)
             .delay(800)
             .to({alpha: 0}, 400)
             .onComplete(function(){
-                //me.state.change(me.state.MENU);
-                self.restart();
+                if (callback != null) {
+                    callback();
+                }
             })
             .start();
     },
@@ -195,7 +213,7 @@ var Round = me.Container.extend({
         }
 
         var sprite = new Fruit(
-            game.data.fruits[id],
+            this.fruits[id],
             this.headX,
             this.headY - 64 * index
         );

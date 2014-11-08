@@ -1,6 +1,6 @@
-game.HUD = game.HUD || {};
+game.hud = game.hud || {};
 
-game.HUD.Container = me.Container.extend({
+game.hud.Container = me.Container.extend({
 
     init: function() {
         // call the constructor
@@ -13,19 +13,22 @@ game.HUD.Container = me.Container.extend({
         this.z = Infinity;
 
         // give a name
-        this.name = "HUD";
+        this.name = "hud";
 
         // add our child score object at the right-bottom position
-        this.addChild(new game.HUD.ScoreItem(0, 0));
-        this.addChild(new game.HUD.TimeItem(0, 50));
+        this.addChild(new game.hud.ScoreItem(0, 0));
+        this.addChild(new game.hud.TimeItem(0, 50));
     }
 });
 
 /**
- * a basic HUD item to display score
+ * a basic hud item to display score
  */
 
-game.HUD.ScoreItem = UILable.extend({
+game.hud.ScoreItem = UILabel.extend({
+    init : function(x, y) {
+        this._super(UILabel, 'init', [x, y, {bitmapFont : true}]);
+    },
     /**
      * update function
      */
@@ -37,8 +40,10 @@ game.HUD.ScoreItem = UILable.extend({
     }
 });
 
-game.HUD.TimeItem = UILable.extend({
-
+game.hud.TimeItem = UILabel.extend({
+    init : function(x, y) {
+        this._super(UILabel, 'init', [x, y, {bitmapFont : true}]);
+    },
     /**
      * update function
      */

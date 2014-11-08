@@ -14603,7 +14603,6 @@ if (!window.performance.now) {
                 // Load previous data if local Storage is supported
                 if (me.device.localStorage === true) {
                     var keys = JSON.parse(localStorage.getItem("me.save")) || [];
-                    console.log(keys);
                     keys.forEach(function (key) {
                         console.log(key);
                         data[key] = JSON.parse(localStorage.getItem("me.save." + key));

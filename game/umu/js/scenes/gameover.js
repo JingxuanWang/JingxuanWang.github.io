@@ -8,11 +8,12 @@ game.GameOverScene = me.ScreenObject.extend({
         //this.background.alpha = 0.75;
         me.game.world.addChild(this.background, 0);
 
-        this.dialog = new UILable(
+        this.dialog = new UILabel(
             game.data.screenWidth / 2,
             game.data.screenHeight / 2 - 256,
             {
-                align: "center",
+                bitmapFont: true,
+                textAlign: "center",
                 text: "TIME'S UP\n\nSCORE: " + game.data.score
             }
         )

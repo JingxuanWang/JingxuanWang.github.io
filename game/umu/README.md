@@ -13,7 +13,7 @@ npm install
 Then just type on your shell:
 
 ```
-grunt concat && grunt connect
+grunt
 ```
 
 Open your browser at `http://localhost:8001/`
