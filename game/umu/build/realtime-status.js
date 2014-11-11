@@ -103,8 +103,8 @@ var Avatar = me.Container.extend({
         this.speedNormal = 100;
         this.speedMax = 50;
         this.speedMin = 200;
-        this.labelOffsetX = 50;
-        this.labelOffsetY = 50;
+        this.labelOffsetX = 170;
+        this.labelOffsetY = 150;
 
         this._super(me.Container, 'init');
 
@@ -237,7 +237,7 @@ game.PlayScene = me.ScreenObject.extend({
         for (var i = 0; i < 30; i ++) {
             var avatar = new Avatar(
                 game.data.screenWidth - 50,
-                Math.random() * (game.data.screenHeight - 200) - 100,
+                Math.random() * (game.data.screenHeight - 200),
                 {
                     user_id: "ID: " + i,
                     score: 0

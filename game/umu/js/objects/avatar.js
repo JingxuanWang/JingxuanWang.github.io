@@ -7,8 +7,8 @@ var Avatar = me.Container.extend({
         this.speedNormal = 100;
         this.speedMax = 50;
         this.speedMin = 200;
-        this.labelOffsetX = 50;
-        this.labelOffsetY = 50;
+        this.labelOffsetX = 170;
+        this.labelOffsetY = 150;
 
         this._super(me.Container, 'init');
 

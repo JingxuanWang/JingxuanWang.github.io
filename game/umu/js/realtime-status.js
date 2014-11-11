@@ -59,7 +59,7 @@ game.PlayScene = me.ScreenObject.extend({
         for (var i = 0; i < 5; i ++) {
             var avatar = new Avatar(
                 game.data.screenWidth - 50,
-                Math.random() * (game.data.screenHeight - 200) - 100,
+                Math.random() * (game.data.screenHeight - 200),
                 {
                     user_id: "ID: " + i,
                     score: 0
