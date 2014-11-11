@@ -17,7 +17,7 @@
 (function($) {
 
 	// ensure that me.debug is defined
-	me.debug = me.debug || {};
+	me.moveTo = me.moveTo || {};
 
 	/**
 	 * @class
@@ -97,7 +97,7 @@
 			this.fps_str_len = this.font.measureText(me.video.getSystemContext(), "00/00 fps").width;
 
 			// enable the FPS counter
-			me.debug.displayFPS = true;
+			me.moveTo.displayFPS = true;
 
 			// bind the "S" and "H" keys
 			me.input.bindKey(showKey || me.input.KEY.S, "show", false, false);
@@ -123,8 +123,8 @@
 		patchSystemFn : function() {
 
 			// add a few new debug flag (if not yet defined)
-			me.debug.renderHitBox = me.debug.renderHitBox || false;
-			me.debug.renderVelocity = me.debug.renderVelocity || false;
+			me.moveTo.renderHitBox = me.moveTo.renderHitBox || false;
+			me.moveTo.renderVelocity = me.moveTo.renderVelocity || false;
 			var _this = this;
 			// patch timer.js
 			me.plugin.patch(me.timer, "update", function (time) {
@@ -161,7 +161,7 @@
 				this.parent(context);
 
 				// draw the sprite rectangle
-				if (me.debug.renderHitBox) {
+				if (me.moveTo.renderHitBox) {
 					context.strokeStyle =  "green";
 					context.strokeRect(this.left, this.top, this.width, this.height);
 				}
@@ -173,7 +173,7 @@
 				this.parent(context);
 
 				// check if debug mode is enabled
-				if (me.debug.renderHitBox && this.shapes.length) {
+				if (me.moveTo.renderHitBox && this.shapes.length) {
 
                     // translate to the object position
                     var translateX = this.pos.x ;
@@ -192,7 +192,7 @@
 
 				}
 
-				if (me.debug.renderVelocity) {
+				if (me.moveTo.renderVelocity) {
 					// draw entity current velocity
 					var x = ~~(this.pos.x + this.hWidth);
 					var y = ~~(this.pos.y + this.hHeight);
@@ -200,7 +200,7 @@
 					context.strokeStyle = "blue";
 					context.lineWidth = 1;
 					context.beginPath();
-					context.moveTo(x, y);
+					context.moveEffect(x, y);
 					context.lineTo(
 						x + ~~(this.vel.x * this.hWidth),
 						y + ~~(this.vel.y * this.hHeight)
@@ -257,10 +257,10 @@
 		onClick : function(e)  {
 			// check the clickable areas
 			if (this.area.renderHitBox.containsPoint(e.gameX, e.gameY)) {
-				me.debug.renderHitBox = !me.debug.renderHitBox;
+				me.moveTo.renderHitBox = !me.moveTo.renderHitBox;
 			}
 			else if (this.area.renderCollisionMap.containsPoint(e.gameX, e.gameY)) {
-				me.debug.renderCollisionMap = !me.debug.renderCollisionMap;
+				me.moveTo.renderCollisionMap = !me.moveTo.renderCollisionMap;
 				/*
 					// not working with dynamic rendering since
 					// collision layer does not have allocated renderers
@@ -279,7 +279,7 @@
 			} else if (this.area.renderVelocity.containsPoint(e.gameX, e.gameY)) {
 				// does nothing for now, since velocity is
 				// rendered together with hitboxes (is a global debug flag required?)
-				me.debug.renderVelocity = !me.debug.renderVelocity;
+				me.moveTo.renderVelocity = !me.moveTo.renderVelocity;
 			}
 			// force repaint
 			me.game.repaint();
@@ -303,7 +303,7 @@
 					var where = endX - (len - x);
 					context.beginPath();
 					context.strokeStyle = "lightblue";
-					context.moveTo(where, 30);
+					context.moveEffect(where, 30);
 					context.lineTo(where, 30 - (this.samples[x] || 0));
 					context.stroke();
 				}
@@ -331,11 +331,11 @@
 			this.font.draw(context, "#draws   : " + me.game.world.drawCount, 5, 18);
 
 			// debug checkboxes
-			this.font.draw(context, "?hitbox   ["+ (me.debug.renderHitBox?"x":" ") +"]", 	100, 5);
-			this.font.draw(context, "?velocity ["+ (me.debug.renderVelocity?"x":" ") +"]", 	100, 18);
+			this.font.draw(context, "?hitbox   ["+ (me.moveTo.renderHitBox?"x":" ") +"]", 	100, 5);
+			this.font.draw(context, "?velocity ["+ (me.moveTo.renderVelocity?"x":" ") +"]", 	100, 18);
 
 			this.font.draw(context, "?dirtyRect  [ ]",	200, 5);
-			this.font.draw(context, "?col. layer ["+ (me.debug.renderCollisionMap?"x":" ") +"]", 200, 18);
+			this.font.draw(context, "?col. layer ["+ (me.moveTo.renderCollisionMap?"x":" ") +"]", 200, 18);
 
 			// draw the update duration
 			this.font.draw(context, "Update : " + this.frameUpdateTime.toFixed(2) + " ms", 310, 5);

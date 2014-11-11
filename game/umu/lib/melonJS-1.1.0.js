@@ -9922,7 +9922,7 @@ if (!window.performance.now) {
             var context = renderer.getContext();
 
             context.beginPath();
-            context.moveTo(0.7, 48.9);
+            context.moveEffect(0.7, 48.9);
             context.bezierCurveTo(10.8, 68.9, 38.4, 75.8, 62.2, 64.5);
             context.bezierCurveTo(86.1, 53.1, 97.2, 27.7, 87.0, 7.7);
             context.lineTo(87.0, 7.7);
@@ -9935,7 +9935,7 @@ if (!window.performance.now) {
             context.fill();
 
             context.beginPath();
-            context.moveTo(84.0, 7.0);
+            context.moveEffect(84.0, 7.0);
             context.bezierCurveTo(87.6, 14.7, 72.5, 30.2, 50.2, 41.6);
             context.bezierCurveTo(27.9, 53.0, 6.9, 55.9, 3.2, 48.2);
             context.bezierCurveTo(-0.5, 40.4, 14.6, 24.9, 36.9, 13.5);
@@ -11812,7 +11812,7 @@ if (!window.performance.now) {
             backBufferContext2D.strokeStyle = color;
             backBufferContext2D.beginPath();
             backBufferContext2D.translate(startX, startY);
-            backBufferContext2D.moveTo(0, 0);
+            backBufferContext2D.moveEffect(0, 0);
             backBufferContext2D.lineTo(endX, endY);
             backBufferContext2D.stroke();
             backBufferContext2D.closePath();
@@ -12122,10 +12122,10 @@ if (!window.performance.now) {
             this.translate(poly.pos.x, poly.pos.y);
             backBufferContext2D.strokeStyle = color;
             backBufferContext2D.beginPath();
-            backBufferContext2D.moveTo(poly.points[0].x, poly.points[0].y);
+            backBufferContext2D.moveEffect(poly.points[0].x, poly.points[0].y);
             poly.points.forEach(function (point) {
                 backBufferContext2D.lineTo(point.x, point.y);
-                backBufferContext2D.moveTo(point.x, point.y);
+                backBufferContext2D.moveEffect(point.x, point.y);
             });
             if (poly.closed === true) {
                 backBufferContext2D.lineTo(poly.points[0].x, poly.points[0].y);

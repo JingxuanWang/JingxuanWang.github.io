@@ -39,17 +39,6 @@ var Round = me.Container.extend({
         this._super(me.Container, 'init', [0, 0, game.data.screenWidth, game.data.screenHeight]);
 
         this._init();
-/*
-        this.label = new UILabel(200, 200, {
-           font : "arial", size : 64, text: "Hello World"
-        });
-        this.addChild(this.label);
-
-        this.bitmapLabel = new UILabel(100, 100, {
-            bitmapFont: true
-        });
-        this.addChild(this.bitmapLabel);
-*/
     },
 
     _init: function() {

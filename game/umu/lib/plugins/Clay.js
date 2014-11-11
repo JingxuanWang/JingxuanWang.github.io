@@ -42,7 +42,7 @@
       }
 
       Clay.options = {
-        debug: options.debug === undefined ? false: options.debug,
+        debug: options.moveTo === undefined ? false: options.moveTo,
         hideUI: options.hideUI === undefined ? false: options.hideUI,
         fail: options.fail
       }

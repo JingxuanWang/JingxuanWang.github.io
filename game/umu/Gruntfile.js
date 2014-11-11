@@ -47,6 +47,14 @@ module.exports = function(grunt) {
 	        'js/scenes/loading.js',
 	        'js/scenes/play.js',
 	        'js/scenes/gameover.js'
+		],
+
+		realtimeStatus: [
+	        'js/util.js',
+	        'js/ui/uiLabel.js',
+	        'js/objects/avatar.js',
+		    'js/realtime-status.js',
+	        'js/scenes/loading.js',
 		]
 	};
 
@@ -64,6 +72,10 @@ module.exports = function(grunt) {
 			matchingPair: {
                 src: source.matchingPair,
                 dest: 'build/game-matching-pair.js'
+			},
+			realtimeStatus: {
+				src: source.realtimeStatus,
+                dest: 'build/realtime-status.js'
 			}
         },
 
@@ -92,6 +104,13 @@ module.exports = function(grunt) {
                         source.matchingPair
                     ]
                 }
+            },
+        	realtimeStatus: {
+                files: {
+                    'build/realtime-status-min.js': [
+                        source.realtimeStatus
+                    ]
+                }
             }
         },
 
@@ -108,6 +127,7 @@ module.exports = function(grunt) {
         clean: {
             dist: [
                 'build/game*.js',
+				'build/realtime-status*.js'
             ],
         },
 
