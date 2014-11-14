@@ -7,7 +7,7 @@ var Avatar = me.Container.extend({
         this.speedNormal = 100;
         this.speedMax = 50;
         this.speedMin = 200;
-        this.labelOffsetX = 170;
+        this.labelOffsetX = 100;
         this.labelOffsetY = 150;
 
         this._super(me.Container, 'init');
@@ -29,7 +29,7 @@ var Avatar = me.Container.extend({
             x + this.labelOffsetX,
             y + this.labelOffsetY,
             {
-                bitmapFont: true,
+                size: 20,
                 text: this.userData.user_id + " : " + this.userData.score
             }
         );

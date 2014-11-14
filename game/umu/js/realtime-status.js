@@ -56,10 +56,10 @@ game.PlayScene = me.ScreenObject.extend({
         this.avatars = {};
         this.userData = {};
 
-        for (var i = 0; i < 5; i ++) {
+        for (var i = 0; i < 30; i ++) {
             var avatar = new Avatar(
                 game.data.screenWidth - 50,
-                Math.random() * (game.data.screenHeight - 200),
+                Math.random() * (game.data.screenHeight - 200) - 50,
                 {
                     user_id: "ID: " + i,
                     score: 0
