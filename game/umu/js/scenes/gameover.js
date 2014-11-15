@@ -8,13 +8,20 @@ game.GameOverScene = me.ScreenObject.extend({
         //this.background.alpha = 0.75;
         me.game.world.addChild(this.background, 0);
 
+        ajax(
+            "GET",
+            game.data.apiUrl + "?m=post&game_id=" + game.data.gameId
+            + "&user_id=" + game.data.playerId
+            + "&score=" + game.data.score
+        );
+
         this.dialog = new UILabel(
             game.data.screenWidth / 2,
             game.data.screenHeight / 2 - 256,
             {
                 bitmapFont: true,
                 textAlign: "center",
-                text: "TIME'S UP\n\nSCORE: " + game.data.score
+                text: "TIME'S UP\n\nID: " + game.data.playerId + "\n\nSCORE: " + game.data.score
             }
         )
 

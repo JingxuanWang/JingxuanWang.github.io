@@ -26,11 +26,10 @@ var Avatar = me.Container.extend({
         this.animSprite.setAnimationFrame(Math.floor(Math.random() * 4));
 
         this.label = new UILabel(
-            x + this.labelOffsetX,
-            y + this.labelOffsetY,
+            ~~(x) + this.labelOffsetX,
+            ~~(y) + this.labelOffsetY,
             {
-                size: 20,
-                text: this.userData.user_id + " : " + this.userData.score
+                size: 20
             }
         );
 
@@ -41,7 +40,7 @@ var Avatar = me.Container.extend({
     update: function(dt) {
         this.label.pos.x = this.animSprite.pos.x + this.labelOffsetX;
         this.label.pos.y = this.animSprite.pos.y + this.labelOffsetY;
-        this.label.text = this.userData.user_id + "\n" + this.userData.score;
+        this.label.text = "ID: " + this.userData.user_id + "\n" + this.userData.score;
         return this._super(me.Container, 'update', [dt]);
     },
 
@@ -76,6 +75,10 @@ var Avatar = me.Container.extend({
                     .to({x: 1, y: 1}, 200)
                     .easing(me.Tween.Easing.Linear.None)
                     .start();
+
+                if (self.expired == true) {
+                    self.toBeRemove = true;
+                }
             })
             .start();
     }

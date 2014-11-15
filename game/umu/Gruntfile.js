@@ -5,6 +5,7 @@ module.exports = function(grunt) {
 		speedSort: [
 	        'js/main.js',
 	        'js/resources.js',
+	        'js/util.js',
 	        'js/ui/uiButton.js',
 	        'js/ui/uiLabel.js',
 	        'js/objects/fruit.js',
@@ -21,6 +22,7 @@ module.exports = function(grunt) {
 		numberOrder: [
 	        'js/main.js',
 	        'js/resources.js',
+	        'js/util.js',
 	        'js/ui/uiButton.js',
 	        'js/ui/uiLabel.js',
 	        'js/objects/retry.js',

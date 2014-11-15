@@ -7,33 +7,60 @@ function shuffle(o) {
     return o;
 };
 
-function ajax(url, onSuccess, onError) {
-    var xmlhttp = new XMLHttpRequest();
 
-    if (xmlhttp.overrideMimeType) {
-        xmlhttp.overrideMimeType("application/json");
+function ajax(method, url, onSuccess, onError) {
+    var xhr = new XMLHttpRequest();
+
+    if (xhr.overrideMimeType) {
+        xhr.overrideMimeType("application/json");
     }
 
-    xmlhttp.open("GET", url, true);
+    xhr.open(method, url, true);
+
+    //console.log(method + " : " + url);
 
     // set the callbacks
-    xmlhttp.ontimeout = onError;
-    xmlhttp.onreadystatechange = function () {
-        if (xmlhttp.readyState === 4) {
+    xhr.ontimeout = onError;
+    xhr.onreadystatechange = function () {
+        if (xhr.readyState === 4) {
             // status = 0 when file protocol is used, or cross-domain origin,
             // (With Chrome use "--allow-file-access-from-files --disable-web-security")
-            if ((xmlhttp.status === 200) || ((xmlhttp.status === 0) && xmlhttp.responseText)) {
-                // get the Texture Packer Atlas content
-                //var data = JSON.parse();
-
-                // fire the callback
-                onSuccess(xmlhttp.responseText);
+            if ((xhr.status === 200) || ((xhr.status === 0) && xhr.responseText)) {
+                if (onSuccess != null) {
+                    // fire the callback
+                    onSuccess(xhr.responseText);
+                }
             }
             else {
-                onError();
+                if (onError != null) {
+                    onError();
+                }
             }
         }
     };
     // send the request
-    xmlhttp.send(null);
+    xhr.send(null);
 };
+
+var QueryString = function () {
+    // This function is anonymous, is executed immediately and
+    // the return value is assigned to QueryString!
+    var query_string = {};
+    var query = window.location.search.substring(1);
+    var vars = query.split("&");
+    for (var i=0;i<vars.length;i++) {
+        var pair = vars[i].split("=");
+        // If first entry with this name
+        if (typeof query_string[pair[0]] === "undefined") {
+            query_string[pair[0]] = pair[1];
+            // If second entry with this name
+        } else if (typeof query_string[pair[0]] === "string") {
+            var arr = [ query_string[pair[0]], pair[1] ];
+            query_string[pair[0]] = arr;
+            // If third or later entry with this name
+        } else {
+            query_string[pair[0]].push(pair[1]);
+        }
+    }
+    return query_string;
+} ();

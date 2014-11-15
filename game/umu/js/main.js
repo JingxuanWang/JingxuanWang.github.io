@@ -11,7 +11,10 @@ var game = {
         screenHeight: 960,
 
         spriteSize: 192,
-        margin: 0
+        margin: 0,
+
+        playerId: Math.floor(Math.random() * 100000),
+        apiUrl: "http://pd.iuv.net/game.php"
     },
 
     "onload": function() {

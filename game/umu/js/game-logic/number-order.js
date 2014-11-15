@@ -1,6 +1,9 @@
 /**
  * Created by wang.jingxuan on 14-11-2.
  */
+
+game.data.gameId = 1002;
+
 var Round = me.Container.extend({
 
     init: function() {
