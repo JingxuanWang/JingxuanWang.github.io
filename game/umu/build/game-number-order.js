@@ -68,15 +68,10 @@ game.resources = [
     {name: "frame",       type:"image", src: "data/img/matching_pair/mp_highlighted.png"},
 
     // fruits
-    //{name: "fruit-1",      type:"image", src: "data/img/speed_sort/0.png"},
-    //{name: "fruit-2",      type:"image", src: "data/img/speed_sort/1.png"},
-    //{name: "fruit-3",      type:"image", src: "data/img/speed_sort/2.png"},
-    //{name: "fruit-4",      type:"image", src: "data/img/speed_sort/3.png"},
-
-    {name: "fruit-1",      type:"image", src: "data/img/Banana.png"},
-    {name: "fruit-2",      type:"image", src: "data/img/Grape.png"},
-    {name: "fruit-3",      type:"image", src: "data/img/Cherry.png"},
-    {name: "fruit-4",      type:"image", src: "data/img/Pear.png"},
+    {name: "fruit-1",      type:"image", src: "data/img/speed_sort/0.png"},
+    {name: "fruit-2",      type:"image", src: "data/img/speed_sort/1.png"},
+    {name: "fruit-3",      type:"image", src: "data/img/speed_sort/2.png"},
+    {name: "fruit-4",      type:"image", src: "data/img/speed_sort/3.png"},
 
     // food
     {name: "food-1",       type:"image", src: "data/img/speed_sort/4.png"},
