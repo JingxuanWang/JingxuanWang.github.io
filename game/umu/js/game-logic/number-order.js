@@ -4,6 +4,8 @@
 
 game.data.gameId = 1002;
 
+var imgSize = 183;
+
 var Round = me.Container.extend({
 
     init: function() {
@@ -27,15 +29,15 @@ var Round = me.Container.extend({
                 [game.data.screenWidth * 2 / 3, game.data.screenHeight * 3 / 4]
             ],
             9: [
-                [game.data.screenWidth / 4,     game.data.screenHeight / 4],
+                [game.data.screenWidth / 6,     game.data.screenHeight / 4],
                 [game.data.screenWidth / 2,     game.data.screenHeight / 4],
-                [game.data.screenWidth * 3 / 4, game.data.screenHeight / 4],
-                [game.data.screenWidth / 4,     game.data.screenHeight / 2],
+                [game.data.screenWidth * 5 / 6, game.data.screenHeight / 4],
+                [game.data.screenWidth / 6,     game.data.screenHeight / 2],
                 [game.data.screenWidth / 2,     game.data.screenHeight / 2],
-                [game.data.screenWidth * 3 / 4, game.data.screenHeight / 2],
-                [game.data.screenWidth / 4,     game.data.screenHeight * 3 / 4],
+                [game.data.screenWidth * 5 / 6, game.data.screenHeight / 2],
+                [game.data.screenWidth / 6,     game.data.screenHeight * 3 / 4],
                 [game.data.screenWidth / 2,     game.data.screenHeight * 3 / 4],
-                [game.data.screenWidth * 3 / 4, game.data.screenHeight * 3 / 4]
+                [game.data.screenWidth * 5 / 6, game.data.screenHeight * 3 / 4]
             ]
         };
 
@@ -54,15 +56,8 @@ var Round = me.Container.extend({
         this.objList = [];
         this.selectedObjs = [];
 
-        var array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+        var array = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
-        if (game.data.level > 5) {
-            array = [
-                1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
-                11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
-                21, 22, 23, 24, 25
-            ];
-        }
 
         for(var i = 0; i < this.count; i++) {
             var index = Math.floor((Math.random() * array.length));
@@ -70,12 +65,13 @@ var Round = me.Container.extend({
 
             // create selectable number
             var elem = new SelectableObject(
-                this.elemPositions[this.count][i][0] - 128,
-                this.elemPositions[this.count][i][1] - 128,
+                this.elemPositions[this.count][i][0] - imgSize / 2,
+                this.elemPositions[this.count][i][1] - imgSize / 2,
                 this.prefix + number,
                 "frame",
                 this.onSelect.bind(this),
-                this.onDeselect.bind(this)
+                this.onDeselect.bind(this),
+                imgSize
             );
 
             // insert into this.objList
@@ -120,8 +116,8 @@ var Round = me.Container.extend({
     {
         var markSprite = new Mark(
             "miss",
-            game.data.screenWidth / 2 - 128,
-            game.data.screenHeight / 2 - 128
+            game.data.screenWidth / 2 - imgSize / 2,
+            game.data.screenHeight / 2 - imgSize / 2
         );
 
         this.addChild(markSprite, 30);
@@ -142,8 +138,8 @@ var Round = me.Container.extend({
 
         var markSprite = new Mark(
             "correct",
-            game.data.screenWidth / 2 - 128,
-            game.data.screenHeight / 2 - 128
+            game.data.screenWidth / 2 - imgSize / 2,
+            game.data.screenHeight / 2 - imgSize / 2
         );
 
         this.addChild(markSprite, 30);
@@ -181,7 +177,7 @@ var Round = me.Container.extend({
         }
 
         var sprite = new Fruit(
-            this.fruits[id],
+            this.elems[id],
             this.headX,
             this.headY - 64 * index
         );

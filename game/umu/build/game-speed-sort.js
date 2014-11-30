@@ -61,64 +61,64 @@ game.resources = [
     {name: "miss",        type:"image", src: "data/img/Miss.png"},
     {name: "quit",        type:"image", src: "data/img/Quit.png"},
     {name: "retry",       type:"image", src: "data/img/Retry.png"},
-    {name: "frame",       type:"image", src: "data/img/Frame.png"},
+    //{name: "frame",       type:"image", src: "data/img/Frame.png"},
+
+    {name: "button",      type:"image", src: "data/img/speed_sort/button.png"},
+    {name: "background",  type:"image", src: "data/img/speed_sort/back.png"},
+    {name: "frame",       type:"image", src: "data/img/matching_pair/mp_highlighted.png"},
 
     // fruits
-    {name: "banana",      type:"image", src: "data/img/Banana.png"},
-    {name: "cherry",      type:"image", src: "data/img/Cherry.png"},
-    {name: "grape",       type:"image", src: "data/img/Grape.png"},
-    {name: "pear",        type:"image", src: "data/img/Pear.png"},
-    {name: "pineapple",   type:"image", src: "data/img/Pineapple.png"},
-    {name: "watermelon",  type:"image", src: "data/img/Watermelon.png"},
+    {name: "fruit-1",      type:"image", src: "data/img/speed_sort/0.png"},
+    {name: "fruit-2",      type:"image", src: "data/img/speed_sort/1.png"},
+    {name: "fruit-3",      type:"image", src: "data/img/speed_sort/2.png"},
+    {name: "fruit-4",      type:"image", src: "data/img/speed_sort/3.png"},
+
+    // food
+    {name: "food-1",       type:"image", src: "data/img/speed_sort/4.png"},
+    {name: "food-2",       type:"image", src: "data/img/speed_sort/5.png"},
+    {name: "food-3",       type:"image", src: "data/img/speed_sort/6.png"},
+    {name: "food-4",       type:"image", src: "data/img/speed_sort/7.png"},
+
+    // dessert
+    {name: "dessert-1",    type:"image", src: "data/img/speed_sort/8.png"},
+    {name: "dessert-2",    type:"image", src: "data/img/speed_sort/9.png"},
+    {name: "dessert-3",    type:"image", src: "data/img/speed_sort/10.png"},
+    {name: "dessert-4",    type:"image", src: "data/img/speed_sort/11.png"},
+    {name: "dessert-5",    type:"image", src: "data/img/speed_sort/12.png"},
+    {name: "dessert-6",    type:"image", src: "data/img/speed_sort/13.png"},
 
     // numbers
-    {name: "number-1",    type:"image", src: "data/img/1.png"},
-    {name: "number-2",    type:"image", src: "data/img/2.png"},
-    {name: "number-3",    type:"image", src: "data/img/3.png"},
-    {name: "number-4",    type:"image", src: "data/img/4.png"},
-    {name: "number-5",    type:"image", src: "data/img/5.png"},
-    {name: "number-6",    type:"image", src: "data/img/6.png"},
-    {name: "number-7",    type:"image", src: "data/img/7.png"},
-    {name: "number-8",    type:"image", src: "data/img/8.png"},
-    {name: "number-9",    type:"image", src: "data/img/9.png"},
-    {name: "number-10",   type:"image", src: "data/img/10.png"},
-    {name: "number-11",   type:"image", src: "data/img/11.png"},
-    {name: "number-12",   type:"image", src: "data/img/12.png"},
-    {name: "number-13",   type:"image", src: "data/img/13.png"},
-    {name: "number-14",   type:"image", src: "data/img/14.png"},
-    {name: "number-15",   type:"image", src: "data/img/15.png"},
-    {name: "number-16",   type:"image", src: "data/img/16.png"},
-    {name: "number-17",   type:"image", src: "data/img/17.png"},
-    {name: "number-18",   type:"image", src: "data/img/18.png"},
-    {name: "number-19",   type:"image", src: "data/img/19.png"},
-    {name: "number-20",   type:"image", src: "data/img/20.png"},
-    {name: "number-21",   type:"image", src: "data/img/21.png"},
-    {name: "number-22",   type:"image", src: "data/img/22.png"},
-    {name: "number-23",   type:"image", src: "data/img/23.png"},
-    {name: "number-24",   type:"image", src: "data/img/24.png"},
-    {name: "number-25",   type:"image", src: "data/img/25.png"},
+    {name: "number-1",    type:"image", src: "data/img/matching_pair/mp_num_1.png"},
+    {name: "number-2",    type:"image", src: "data/img/matching_pair/mp_num_2.png"},
+    {name: "number-3",    type:"image", src: "data/img/matching_pair/mp_num_3.png"},
+    {name: "number-4",    type:"image", src: "data/img/matching_pair/mp_num_4.png"},
+    {name: "number-5",    type:"image", src: "data/img/matching_pair/mp_num_5.png"},
+    {name: "number-6",    type:"image", src: "data/img/matching_pair/mp_num_6.png"},
+    {name: "number-7",    type:"image", src: "data/img/matching_pair/mp_num_7.png"},
+    {name: "number-8",    type:"image", src: "data/img/matching_pair/mp_num_8.png"},
+    {name: "number-9",    type:"image", src: "data/img/matching_pair/mp_num_9.png"},
 
 	// icons
-    {name: "icon-1",    type:"image", src: "data/img/icon-1.png"},
-    {name: "icon-2",    type:"image", src: "data/img/icon-2.png"},
-    {name: "icon-3",    type:"image", src: "data/img/icon-3.png"},
-    {name: "icon-4",    type:"image", src: "data/img/icon-4.png"},
-    {name: "icon-5",    type:"image", src: "data/img/icon-5.png"},
-    {name: "icon-6",    type:"image", src: "data/img/icon-6.png"},
-    {name: "icon-7",    type:"image", src: "data/img/icon-7.png"},
-    {name: "icon-8",    type:"image", src: "data/img/icon-8.png"},
-    {name: "icon-9",    type:"image", src: "data/img/icon-9.png"},
-    {name: "icon-10",   type:"image", src: "data/img/icon-10.png"},
-    {name: "icon-11",   type:"image", src: "data/img/icon-11.png"},
-    {name: "icon-12",   type:"image", src: "data/img/icon-12.png"},
-    {name: "icon-13",   type:"image", src: "data/img/icon-13.png"},
-    {name: "icon-14",   type:"image", src: "data/img/icon-14.png"},
-    {name: "icon-15",   type:"image", src: "data/img/icon-15.png"},
-    {name: "icon-16",   type:"image", src: "data/img/icon-16.png"},
-    {name: "icon-17",   type:"image", src: "data/img/icon-17.png"},
-    {name: "icon-18",   type:"image", src: "data/img/icon-18.png"},
-    {name: "icon-19",   type:"image", src: "data/img/icon-19.png"},
-    {name: "icon-20",   type:"image", src: "data/img/icon-20.png"},
+    {name: "icon-1",    type:"image", src: "data/img/matching_pair/mp_shape_0.png"},
+    {name: "icon-2",    type:"image", src: "data/img/matching_pair/mp_shape_1.png"},
+    {name: "icon-3",    type:"image", src: "data/img/matching_pair/mp_shape_2.png"},
+    {name: "icon-4",    type:"image", src: "data/img/matching_pair/mp_shape_3.png"},
+    {name: "icon-5",    type:"image", src: "data/img/matching_pair/mp_shape_4.png"},
+    {name: "icon-6",    type:"image", src: "data/img/matching_pair/mp_shape_5.png"},
+    {name: "icon-7",    type:"image", src: "data/img/matching_pair/mp_shape_6.png"},
+    {name: "icon-8",    type:"image", src: "data/img/matching_pair/mp_shape_7.png"},
+    {name: "icon-9",    type:"image", src: "data/img/matching_pair/mp_shape_8.png"},
+    {name: "icon-10",    type:"image", src: "data/img/matching_pair/mp_shape_9.png"},
+    {name: "icon-11",    type:"image", src: "data/img/matching_pair/mp_shape_10.png"},
+    {name: "icon-12",    type:"image", src: "data/img/matching_pair/mp_shape_11.png"},
+    {name: "icon-13",    type:"image", src: "data/img/matching_pair/mp_shape_12.png"},
+    {name: "icon-14",    type:"image", src: "data/img/matching_pair/mp_shape_13.png"},
+    {name: "icon-15",    type:"image", src: "data/img/matching_pair/mp_shape_14.png"},
+    {name: "icon-16",    type:"image", src: "data/img/matching_pair/mp_shape_15.png"},
+    {name: "icon-17",    type:"image", src: "data/img/matching_pair/mp_shape_16.png"},
+    {name: "icon-18",    type:"image", src: "data/img/matching_pair/mp_shape_17.png"},
+    {name: "icon-19",    type:"image", src: "data/img/matching_pair/mp_shape_18.png"},
+    {name: "icon-20",    type:"image", src: "data/img/matching_pair/mp_shape_19.png"},
 
     // font
     {name: "32x32_font",  type:"image", src: "data/img/32x32_font.png"}
@@ -371,25 +371,45 @@ var Fruit = me.Sprite.extend({
  * Created by wang.jingxuan on 14-11-2.
  */
 var Arrow = UIButton.extend({
-    init: function(imageName, legendSprite, x, y, onclick) {
+    init: function(direction, legendSprite, x, y, imageWidth, imageHeight, onclick) {
 
         this._super(UIButton, 'init',
             [x, y, {
-                imageName: imageName,
-                onclick: onclick
+                imageName: "button",
+                onclick: onclick,
+                width: imageWidth,
+                height: imageHeight
             }]
         );
 
+        this.xScale = 1;
+        if (direction == "right") {
+            this.flipX(true);
+            this.xScale = -1;
+        }
+
         this.legendSprite = legendSprite;
+    },
+
+    onPointerDown: function() {
+        var self = this;
+        this.touchEndTween.stop();
+        this.touchStartTween
+            .to({x: self.xScale * 0.75, y: 0.75}, 100)
+            .onComplete(function(){
+                self.resize(self.xScale * 1, 1);
+                self.scaleFlag = true;
+            })
+            .start();
     },
 
     onPointerUp: function () {
         //console.log("OnPointerUp");
         var self = this;
         this.touchStartTween.stop();
-        this.touchEndTween.to({x: 1, y: 1}, 100)
+        this.touchEndTween.to({x: self.xScale * 1, y: 1}, 100)
             .onComplete(function(){
-                self.resize(1, 1);
+                self.resize(self.xScale * 1, 1);
                 self.scaleFlag = true;
             })
             .start();
@@ -525,18 +545,21 @@ game.hud.TimeItem = UILabel.extend({
  */
 
 game.data.gameId = 1003;
+var imgSize = 220;
 
 var Round = me.Container.extend({
 
     init: function(restart) {
 
-        this.fruits = [
-            "banana",
-            "cherry",
-            "grape",
-            "pear",
-            "pineapple",
-            "watermelon"
+        this.elems = [
+            "fruit-1",
+            "fruit-2",
+            "fruit-3",
+            "fruit-4",
+            "food-1",
+            "food-2",
+            "food-3",
+            "food-4"
         ];
 
         this.countMax = 9;
@@ -553,24 +576,24 @@ var Round = me.Container.extend({
         this.alpha = 0;
 
         // set legend
-        this.leftId = Math.floor((Math.random() * this.fruits.length));
-        this.rightId = Math.floor((Math.random() * this.fruits.length));
+        this.leftId = Math.floor((Math.random() * this.elems.length));
+        this.rightId = Math.floor((Math.random() * this.elems.length));
 
         if (this.leftId == this.rightId)
         {
-            this.leftId = (this.leftId + 1) % this.fruits.length;
+            this.leftId = (this.leftId + 1) % this.elems.length;
         }
 
         this.leftSprite = new Fruit(
-            this.fruits[this.leftId],
+            this.elems[this.leftId],
             0,
-            game.data.screenHeight - 1.75 * 256
+            game.data.screenHeight - 2 * imgSize
         );
 
         this.rightSprite = new Fruit(
-            this.fruits[this.rightId],
-            game.data.screenWidth - 256,
-            game.data.screenHeight - 1.75 * 256
+            this.elems[this.rightId],
+            game.data.screenWidth - imgSize,
+            game.data.screenHeight - 2 * imgSize
         );
 
         this.leftSprite.open();
@@ -585,7 +608,9 @@ var Round = me.Container.extend({
             "left",
             this.leftSprite,
             0,
-            game.data.screenHeight - 256,
+            game.data.screenHeight - imgSize,
+            imgSize,
+            imgSize,
             function(legendSprite) {
                 if (!self.ready) {
                     return;
@@ -603,8 +628,10 @@ var Round = me.Container.extend({
         this.rightArrow = new Arrow(
             "right",
             this.rightSprite,
-            game.data.screenWidth - 256,
-            game.data.screenHeight - 256,
+            game.data.screenWidth - imgSize,
+            game.data.screenHeight - imgSize,
+            imgSize,
+            imgSize,
             function(legendSprite) {
                 if (!self.ready) {
                     return;
@@ -623,8 +650,8 @@ var Round = me.Container.extend({
         this.addChild(this.leftArrow);
         this.addChild(this.rightArrow);
 
-        this.headX = game.data.screenWidth / 2 - 128;
-        this.headY = game.data.screenHeight - 1.75 * 256;
+        this.headX = game.data.screenWidth / 2 - imgSize / 2;
+        this.headY = game.data.screenHeight - 2 * imgSize;
 
         this.objList = [];
         for (var i = 0; i < this.count; i ++)
@@ -674,8 +701,8 @@ var Round = me.Container.extend({
     {
         var markSprite = new Mark(
             "miss",
-            game.data.screenWidth / 2 - 128,
-            game.data.screenHeight / 2 - 128
+            game.data.screenWidth / 2 - imgSize / 2,
+            game.data.screenHeight / 2 - imgSize / 2
         );
 
         this.addChild(markSprite, 30);
@@ -699,8 +726,8 @@ var Round = me.Container.extend({
 
         var markSprite = new Mark(
             "correct",
-            game.data.screenWidth / 2 - 128,
-            game.data.screenHeight / 2 - 128
+            game.data.screenWidth / 2 - imgSize / 2,
+            game.data.screenHeight / 2 - imgSize / 2
         );
 
         this.addChild(markSprite, 30);
@@ -738,9 +765,9 @@ var Round = me.Container.extend({
         }
 
         var sprite = new Fruit(
-            this.fruits[id],
+            this.elems[id],
             this.headX,
-            this.headY - 64 * index
+            this.headY - imgSize / 4 * index
         );
 
         sprite.open();

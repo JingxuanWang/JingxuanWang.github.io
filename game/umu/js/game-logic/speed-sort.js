@@ -3,18 +3,21 @@
  */
 
 game.data.gameId = 1003;
+var imgSize = 220;
 
 var Round = me.Container.extend({
 
     init: function(restart) {
 
-        this.fruits = [
-            "banana",
-            "cherry",
-            "grape",
-            "pear",
-            "pineapple",
-            "watermelon"
+        this.elems = [
+            "fruit-1",
+            "fruit-2",
+            "fruit-3",
+            "fruit-4",
+            "food-1",
+            "food-2",
+            "food-3",
+            "food-4"
         ];
 
         this.countMax = 9;
@@ -31,24 +34,24 @@ var Round = me.Container.extend({
         this.alpha = 0;
 
         // set legend
-        this.leftId = Math.floor((Math.random() * this.fruits.length));
-        this.rightId = Math.floor((Math.random() * this.fruits.length));
+        this.leftId = Math.floor((Math.random() * this.elems.length));
+        this.rightId = Math.floor((Math.random() * this.elems.length));
 
         if (this.leftId == this.rightId)
         {
-            this.leftId = (this.leftId + 1) % this.fruits.length;
+            this.leftId = (this.leftId + 1) % this.elems.length;
         }
 
         this.leftSprite = new Fruit(
-            this.fruits[this.leftId],
+            this.elems[this.leftId],
             0,
-            game.data.screenHeight - 1.75 * 256
+            game.data.screenHeight - 2 * imgSize
         );
 
         this.rightSprite = new Fruit(
-            this.fruits[this.rightId],
-            game.data.screenWidth - 256,
-            game.data.screenHeight - 1.75 * 256
+            this.elems[this.rightId],
+            game.data.screenWidth - imgSize,
+            game.data.screenHeight - 2 * imgSize
         );
 
         this.leftSprite.open();
@@ -63,7 +66,9 @@ var Round = me.Container.extend({
             "left",
             this.leftSprite,
             0,
-            game.data.screenHeight - 256,
+            game.data.screenHeight - imgSize,
+            imgSize,
+            imgSize,
             function(legendSprite) {
                 if (!self.ready) {
                     return;
@@ -81,8 +86,10 @@ var Round = me.Container.extend({
         this.rightArrow = new Arrow(
             "right",
             this.rightSprite,
-            game.data.screenWidth - 256,
-            game.data.screenHeight - 256,
+            game.data.screenWidth - imgSize,
+            game.data.screenHeight - imgSize,
+            imgSize,
+            imgSize,
             function(legendSprite) {
                 if (!self.ready) {
                     return;
@@ -101,8 +108,8 @@ var Round = me.Container.extend({
         this.addChild(this.leftArrow);
         this.addChild(this.rightArrow);
 
-        this.headX = game.data.screenWidth / 2 - 128;
-        this.headY = game.data.screenHeight - 1.75 * 256;
+        this.headX = game.data.screenWidth / 2 - imgSize / 2;
+        this.headY = game.data.screenHeight - 2 * imgSize;
 
         this.objList = [];
         for (var i = 0; i < this.count; i ++)
@@ -152,8 +159,8 @@ var Round = me.Container.extend({
     {
         var markSprite = new Mark(
             "miss",
-            game.data.screenWidth / 2 - 128,
-            game.data.screenHeight / 2 - 128
+            game.data.screenWidth / 2 - imgSize / 2,
+            game.data.screenHeight / 2 - imgSize / 2
         );
 
         this.addChild(markSprite, 30);
@@ -177,8 +184,8 @@ var Round = me.Container.extend({
 
         var markSprite = new Mark(
             "correct",
-            game.data.screenWidth / 2 - 128,
-            game.data.screenHeight / 2 - 128
+            game.data.screenWidth / 2 - imgSize / 2,
+            game.data.screenHeight / 2 - imgSize / 2
         );
 
         this.addChild(markSprite, 30);
@@ -216,9 +223,9 @@ var Round = me.Container.extend({
         }
 
         var sprite = new Fruit(
-            this.fruits[id],
+            this.elems[id],
             this.headX,
-            this.headY - 64 * index
+            this.headY - imgSize / 4 * index
         );
 
         sprite.open();

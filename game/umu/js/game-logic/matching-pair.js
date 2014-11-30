@@ -4,6 +4,8 @@
 
 game.data.gameId = 1001;
 
+var imgSize = 183;
+
 var Round = me.Container.extend({
 
     init: function() {
@@ -27,15 +29,15 @@ var Round = me.Container.extend({
                 [game.data.screenWidth * 2 / 3, game.data.screenHeight * 3 / 4]
             ],
             9: [
-                [game.data.screenWidth / 4,     game.data.screenHeight / 4],
+                [game.data.screenWidth / 6,     game.data.screenHeight / 4],
                 [game.data.screenWidth / 2,     game.data.screenHeight / 4],
-                [game.data.screenWidth * 3 / 4, game.data.screenHeight / 4],
-                [game.data.screenWidth / 4,     game.data.screenHeight / 2],
+                [game.data.screenWidth * 5 / 6, game.data.screenHeight / 4],
+                [game.data.screenWidth / 6,     game.data.screenHeight / 2],
                 [game.data.screenWidth / 2,     game.data.screenHeight / 2],
-                [game.data.screenWidth * 3 / 4, game.data.screenHeight / 2],
-                [game.data.screenWidth / 4,     game.data.screenHeight * 3 / 4],
+                [game.data.screenWidth * 5 / 6, game.data.screenHeight / 2],
+                [game.data.screenWidth / 6,     game.data.screenHeight * 3 / 4],
                 [game.data.screenWidth / 2,     game.data.screenHeight * 3 / 4],
-                [game.data.screenWidth * 3 / 4, game.data.screenHeight * 3 / 4]
+                [game.data.screenWidth * 5 / 6, game.data.screenHeight * 3 / 4]
             ]
         };
 
@@ -88,13 +90,13 @@ var Round = me.Container.extend({
             // create selectable number
             console.log(this.prefix + objsToSpawn[i]);
             var elem = new SelectableObject(
-                this.elemPositions[this.count][i][0] - 128,
-                this.elemPositions[this.count][i][1] - 128,
+                this.elemPositions[this.count][i][0] - imgSize / 2,
+                this.elemPositions[this.count][i][1] - imgSize / 2,
                 this.prefix + objsToSpawn[i],
                 "frame",
                 this.onSelect.bind(this),
                 this.onDeselect.bind(this),
-                192
+                imgSize
             );
 
             // insert into this.objList
@@ -129,8 +131,8 @@ var Round = me.Container.extend({
     {
         var markSprite = new Mark(
             "miss",
-            game.data.screenWidth / 2 - 128,
-            game.data.screenHeight / 2 - 128
+            game.data.screenWidth / 2 - imgSize / 2,
+            game.data.screenHeight / 2 - imgSize / 2
         );
 
         this.addChild(markSprite, 30);
@@ -151,8 +153,8 @@ var Round = me.Container.extend({
 
         var markSprite = new Mark(
             "correct",
-            game.data.screenWidth / 2 - 128,
-            game.data.screenHeight / 2 - 128
+            game.data.screenWidth / 2 - imgSize / 2,
+            game.data.screenHeight / 2 - imgSize / 2
         );
 
         this.addChild(markSprite, 30);

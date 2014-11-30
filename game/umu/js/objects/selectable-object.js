@@ -22,7 +22,7 @@ var SelectableObject = me.Container.extend({
         this.onSelect = onSelect;
         this.onDeselect = onDeselect;
 
-        this.collider = new me.Rect(x + 64, y + 64, 128, 128);
+        this.collider = new me.Rect(x, y, targetSize, targetSize);
         me.input.registerPointerEvent('pointerup', this.collider, this.onPointerUp.bind(this));
 
         this.open();
