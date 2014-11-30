@@ -329,7 +329,8 @@ var Fruit = me.Sprite.extend({
         //this.alpha = 0;
         this.resize(0.05, 0.05);
 
-        this.targetScale = game.data.spriteSize / imgSize;
+        //this.targetScale = game.data.spriteSize / imgSize;
+        this.targetScale = 1;
         console.log(this.targetScale);
 
         this.isScaling = false;
