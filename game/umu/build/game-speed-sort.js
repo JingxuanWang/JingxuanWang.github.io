@@ -68,10 +68,15 @@ game.resources = [
     {name: "frame",       type:"image", src: "data/img/matching_pair/mp_highlighted.png"},
 
     // fruits
-    {name: "fruit-1",      type:"image", src: "data/img/speed_sort/0.png"},
-    {name: "fruit-2",      type:"image", src: "data/img/speed_sort/1.png"},
-    {name: "fruit-3",      type:"image", src: "data/img/speed_sort/2.png"},
-    {name: "fruit-4",      type:"image", src: "data/img/speed_sort/3.png"},
+    //{name: "fruit-1",      type:"image", src: "data/img/speed_sort/0.png"},
+    //{name: "fruit-2",      type:"image", src: "data/img/speed_sort/1.png"},
+    //{name: "fruit-3",      type:"image", src: "data/img/speed_sort/2.png"},
+    //{name: "fruit-4",      type:"image", src: "data/img/speed_sort/3.png"},
+
+    {name: "fruit-1",      type:"image", src: "data/img/Banana.png"},
+    {name: "fruit-2",      type:"image", src: "data/img/Grape.png"},
+    {name: "fruit-3",      type:"image", src: "data/img/Cherry.png"},
+    {name: "fruit-4",      type:"image", src: "data/img/Pear.png"},
 
     // food
     {name: "food-1",       type:"image", src: "data/img/speed_sort/4.png"},
@@ -80,12 +85,12 @@ game.resources = [
     {name: "food-4",       type:"image", src: "data/img/speed_sort/7.png"},
 
     // dessert
-    {name: "dessert-1",    type:"image", src: "data/img/speed_sort/8.png"},
-    {name: "dessert-2",    type:"image", src: "data/img/speed_sort/9.png"},
-    {name: "dessert-3",    type:"image", src: "data/img/speed_sort/10.png"},
-    {name: "dessert-4",    type:"image", src: "data/img/speed_sort/11.png"},
-    {name: "dessert-5",    type:"image", src: "data/img/speed_sort/12.png"},
-    {name: "dessert-6",    type:"image", src: "data/img/speed_sort/13.png"},
+    //{name: "dessert-1",    type:"image", src: "data/img/speed_sort/8.png"},
+    //{name: "dessert-2",    type:"image", src: "data/img/speed_sort/9.png"},
+    //{name: "dessert-3",    type:"image", src: "data/img/speed_sort/10.png"},
+    //{name: "dessert-4",    type:"image", src: "data/img/speed_sort/11.png"},
+    //{name: "dessert-5",    type:"image", src: "data/img/speed_sort/12.png"},
+    //{name: "dessert-6",    type:"image", src: "data/img/speed_sort/13.png"},
 
     // numbers
     {name: "number-1",    type:"image", src: "data/img/matching_pair/mp_num_1.png"},
