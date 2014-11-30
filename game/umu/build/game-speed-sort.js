@@ -113,17 +113,17 @@ game.resources = [
     {name: "icon-7",    type:"image", src: "data/img/matching_pair/mp_shape_6.png"},
     {name: "icon-8",    type:"image", src: "data/img/matching_pair/mp_shape_7.png"},
     {name: "icon-9",    type:"image", src: "data/img/matching_pair/mp_shape_8.png"},
-    {name: "icon-10",    type:"image", src: "data/img/matching_pair/mp_shape_9.png"},
-    {name: "icon-11",    type:"image", src: "data/img/matching_pair/mp_shape_10.png"},
-    {name: "icon-12",    type:"image", src: "data/img/matching_pair/mp_shape_11.png"},
-    {name: "icon-13",    type:"image", src: "data/img/matching_pair/mp_shape_12.png"},
-    {name: "icon-14",    type:"image", src: "data/img/matching_pair/mp_shape_13.png"},
-    {name: "icon-15",    type:"image", src: "data/img/matching_pair/mp_shape_14.png"},
-    {name: "icon-16",    type:"image", src: "data/img/matching_pair/mp_shape_15.png"},
-    {name: "icon-17",    type:"image", src: "data/img/matching_pair/mp_shape_16.png"},
-    {name: "icon-18",    type:"image", src: "data/img/matching_pair/mp_shape_17.png"},
-    {name: "icon-19",    type:"image", src: "data/img/matching_pair/mp_shape_18.png"},
-    {name: "icon-20",    type:"image", src: "data/img/matching_pair/mp_shape_19.png"},
+    {name: "icon-10",   type:"image", src: "data/img/matching_pair/mp_shape_9.png"},
+    {name: "icon-11",   type:"image", src: "data/img/matching_pair/mp_shape_10.png"},
+    {name: "icon-12",   type:"image", src: "data/img/matching_pair/mp_shape_11.png"},
+    {name: "icon-13",   type:"image", src: "data/img/matching_pair/mp_shape_12.png"},
+    {name: "icon-14",   type:"image", src: "data/img/matching_pair/mp_shape_13.png"},
+    {name: "icon-15",   type:"image", src: "data/img/matching_pair/mp_shape_14.png"},
+    {name: "icon-16",   type:"image", src: "data/img/matching_pair/mp_shape_15.png"},
+    {name: "icon-17",   type:"image", src: "data/img/matching_pair/mp_shape_16.png"},
+    {name: "icon-18",   type:"image", src: "data/img/matching_pair/mp_shape_17.png"},
+    {name: "icon-19",   type:"image", src: "data/img/matching_pair/mp_shape_18.png"},
+    {name: "icon-20",   type:"image", src: "data/img/matching_pair/mp_shape_19.png"},
 
     // font
     {name: "32x32_font",  type:"image", src: "data/img/32x32_font.png"}
@@ -326,15 +326,15 @@ var UILabel = me.Renderable.extend({
  * Created by wang.jingxuan on 14-11-2.
  */
 var Fruit = me.Sprite.extend({
-    init: function(imageName, x, y) {
-        me.Sprite.prototype.init.apply(this, [x, y, me.loader.getImage(imageName), 256, 256]);
+    init: function(imageName, x, y, imgSize) {
+        me.Sprite.prototype.init.apply(this, [x, y, me.loader.getImage(imageName), imgSize, imgSize]);
 
         this.imageName = imageName;
 
         //this.alpha = 0;
         this.resize(0.05, 0.05);
 
-        this.targetScale = game.data.spriteSize / 256;
+        this.targetScale = game.data.spriteSize / imgSize;
         console.log(this.targetScale);
 
         this.isScaling = false;
@@ -772,7 +772,8 @@ var Round = me.Container.extend({
         var sprite = new Fruit(
             this.elems[id],
             this.headX,
-            this.headY - imgSize / 4 * index
+            this.headY - imgSize / 4 * index,
+            imgSize
         );
 
         sprite.open();
