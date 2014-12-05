@@ -44,17 +44,6 @@ var Round = me.Container.extend({
         this._super(me.Container, 'init', [0, 0, game.data.screenWidth, game.data.screenHeight]);
 
         this._init();
-        /*
-         this.label = new UILabel(200, 200, {
-         font : "arial", size : 64, text: "Hello World"
-         });
-         this.addChild(this.label);
-
-         this.bitmapLabel = new UILabel(100, 100, {
-         bitmapFont: true
-         });
-         this.addChild(this.bitmapLabel);
-         */
     },
 
     _init: function() {
@@ -129,6 +118,7 @@ var Round = me.Container.extend({
 
     _onMiss : function()
     {
+		this.ready = false;
         var markSprite = new Mark(
             "miss",
             game.data.screenWidth / 2 - imgSize / 2,
@@ -148,6 +138,7 @@ var Round = me.Container.extend({
 
     _onClear : function()
     {
+		this.ready = false;
         game.data.score += (game.data.level + this.count) * game.data.hitScore;
         game.data.level++;
 

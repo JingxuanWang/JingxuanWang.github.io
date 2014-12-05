@@ -496,6 +496,10 @@ var SelectableObject = me.Container.extend({
         }
     },
 
+	disable: function() {
+        me.input.releasePointerEvent("pointerup", this.collider);
+	},
+
     destroy: function() {
         me.input.releasePointerEvent("pointerup", this.collider);
 
@@ -506,6 +510,7 @@ var SelectableObject = me.Container.extend({
         this.frame = null;
     }
 });
+
 /**
  * Created by wang.jingxuan on 14-11-8.
  */
@@ -637,7 +642,13 @@ var Round = me.Container.extend({
 
     _onMiss : function()
     {
-        var markSprite = new Mark(
+		if (!this.ready) {
+			return;
+		}
+		this.ready = false;
+		this.disableObjects();
+        
+		var markSprite = new Mark(
             "miss",
             game.data.screenWidth / 2 - imgSize / 2,
             game.data.screenHeight / 2 - imgSize / 2
@@ -656,7 +667,13 @@ var Round = me.Container.extend({
 
     _onClear : function()
     {
-        game.data.score += (game.data.level + this.count) * game.data.hitScore;
+		if (!this.ready) {
+			return;
+		}
+		this.ready = false;
+		this.disableObjects();
+        
+		game.data.score += (game.data.level + this.count) * game.data.hitScore;
         game.data.level++;
 
         var markSprite = new Mark(
@@ -691,6 +708,12 @@ var Round = me.Container.extend({
             .start();
     },
 
+	disableObjects: function() {
+		for (var i = 0; i < this.objList.length; i++) {
+			this.objList[i].disable();
+		}
+	},
+
     restart: function() {
 
         this.selectedObjs = [];
@@ -721,6 +744,7 @@ var Round = me.Container.extend({
             .start();
     }
 });
+
 /**
  * Created by wang.jingxuan on 14/11/4.
  */
