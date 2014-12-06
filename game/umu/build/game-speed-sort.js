@@ -3,7 +3,7 @@ var game = {
         score : 0,
         hitScore : 10,
         level : 1,
-        totalTime: 3,
+        totalTime: 60,
         curTime: 0,
         startTime: 0,
 
