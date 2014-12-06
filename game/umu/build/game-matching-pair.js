@@ -327,7 +327,7 @@ var Retry = UIButton.extend({
         this._super(UIButton, 'init',
             [
                 game.data.screenWidth / 2 - 128,
-                game.data.screenHeight / 2,
+                game.data.screenHeight / 2 - 128,
                 {
                     imageName: "retry",
                     onclick: function() {
@@ -338,6 +338,7 @@ var Retry = UIButton.extend({
         );
     }
 });
+
 /**
  * Created by wang.jingxuan on 14-11-2.
  */
@@ -888,7 +889,7 @@ game.GameOverScene = me.ScreenObject.extend({
             {
                 bitmapFont: true,
                 textAlign: "center",
-                text: "TIME'S UP\n\nID: " + game.data.playerId + "\n\nSCORE: " + game.data.score
+                text: "TIME'S UP\n\nSCORE: " + game.data.score
             }
         )
 
@@ -897,11 +898,41 @@ game.GameOverScene = me.ScreenObject.extend({
         this.retry = new Retry();
         me.game.world.addChild(this.retry, 100);
 
+        this.inputParent = document.getElementById('screen');
+        this.input = document.createElement('input');
+        this.input.id = 'input'
+        this.input.type = 'text';
+        this.input.style.position = 'absolute';
+        this.input.style.opacity = 1;
+        this.input.style.zIndex = 100;
+		this.input.value = "Your Name";
+	
+		this.canvas = this.inputParent.children[0];
+		this.canvasWidth = parseInt(this.canvas.style.width);
+		this.canvasHeight = parseInt(this.canvas.style.height);
+		this.canvasScaleX = this.canvasWidth / game.data.screenWidth;
+		this.canvasScaleY = this.canvasHeight / game.data.screenHeight;
+		
+		//console.log("Canvas Size : " + this.canvasWidth + " : " + this.canvasHeight);
+		//console.log("Canvas Style : " + this.canvas.style.width + " : " + this.canvas.style.height);
+		//console.log("Canvas Scale : " + this.canvasScaleX + " : " + this.canvasScaleY);
+		//console.log("Canvas Offset : " + this.canvas.offsetLeft + " : " + this.canvas.offsetTop);
+
+		this.input.style.width = 200 + 'px';
+		this.input.style.height = 18 + 'px';
+		this.input.style.left =  (this.canvas.offsetLeft + this.canvasWidth / 2 - 100) + 'px';
+		this.input.style.top = (this.canvas.offsetTop + this.canvasHeight / 2 + 100) + 'px';
+
+		//console.log("Final Pos : " + this.input.style.left + " : " + this.input.style.top);
+
+		document.body.appendChild(this.input);
     },
 
     onDestroyEvent: function() {
         me.game.world.addChild(this.dialog);
         me.game.world.addChild(this.retry);
+
+		document.body.removeChild(this.input);
         this.dialog = null;
         this.retry = null;
     }

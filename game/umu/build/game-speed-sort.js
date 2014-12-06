@@ -3,7 +3,7 @@ var game = {
         score : 0,
         hitScore : 10,
         level : 1,
-        totalTime: 3,
+        totalTime: 60,
         curTime: 0,
         startTime: 0,
 
@@ -331,7 +331,6 @@ var Fruit = me.Sprite.extend({
 
         //this.targetScale = game.data.spriteSize / imgSize;
         this.targetScale = 1;
-        console.log(this.targetScale);
 
         this.isScaling = false;
 
@@ -368,6 +367,7 @@ var Fruit = me.Sprite.extend({
             .start();
     }
 });
+
 /**
  * Created by wang.jingxuan on 14-11-2.
  */
@@ -459,7 +459,7 @@ var Retry = UIButton.extend({
         this._super(UIButton, 'init',
             [
                 game.data.screenWidth / 2 - 128,
-                game.data.screenHeight / 2,
+                game.data.screenHeight / 2 - 128,
                 {
                     imageName: "retry",
                     onclick: function() {
@@ -470,6 +470,7 @@ var Retry = UIButton.extend({
         );
     }
 });
+
 game.hud = game.hud || {};
 
 game.hud.Container = me.Container.extend({
@@ -959,7 +960,7 @@ game.GameOverScene = me.ScreenObject.extend({
             {
                 bitmapFont: true,
                 textAlign: "center",
-                text: "TIME'S UP\n\nID: " + game.data.playerId + "\n\nSCORE: " + game.data.score
+                text: "TIME'S UP\n\nSCORE: " + game.data.score
             }
         )
 
@@ -968,42 +969,41 @@ game.GameOverScene = me.ScreenObject.extend({
         this.retry = new Retry();
         me.game.world.addChild(this.retry, 100);
 
-        this.canvas = document.getElementById('CanvasInput');
+        this.inputParent = document.getElementById('screen');
+        this.input = document.createElement('input');
+        this.input.id = 'input'
+        this.input.type = 'text';
+        this.input.style.position = 'absolute';
+        this.input.style.opacity = 1;
+        this.input.style.zIndex = 100;
+		this.input.value = "Your Name";
+	
+		this.canvas = this.inputParent.children[0];
+		this.canvasWidth = parseInt(this.canvas.style.width);
+		this.canvasHeight = parseInt(this.canvas.style.height);
+		this.canvasScaleX = this.canvasWidth / game.data.screenWidth;
+		this.canvasScaleY = this.canvasHeight / game.data.screenHeight;
+		
+		//console.log("Canvas Size : " + this.canvasWidth + " : " + this.canvasHeight);
+		//console.log("Canvas Style : " + this.canvas.style.width + " : " + this.canvas.style.height);
+		//console.log("Canvas Scale : " + this.canvasScaleX + " : " + this.canvasScaleY);
+		//console.log("Canvas Offset : " + this.canvas.offsetLeft + " : " + this.canvas.offsetTop);
 
-		this.input = new CanvasInput({
-			  canvas: this.canvas,
-			  fontSize: 18,
-			  fontFamily: 'Arial',
-			  fontColor: '#212121',
-			  fontWeight: 'bold',
-			  x: 0,
-			  y: 0,
-			  width: 200,
-			  padding: 8,
-			  borderWidth: 1,
-			  borderColor: '#000',
-			  borderRadius: 3,
-			  boxShadow: '1px 1px 0px #fff',
-			  innerShadow: '0px 0px 5px rgba(0, 0, 0, 0.5)',
-			  placeHolder: 'Enter Your Name...',
-			  //value: '',
-			  onsubmit: function() { console.log("Submit : " + input.value());}
-		});
+		this.input.style.width = 200 + 'px';
+		this.input.style.height = 18 + 'px';
+		this.input.style.left =  (this.canvas.offsetLeft + this.canvasWidth / 2 - 100) + 'px';
+		this.input.style.top = (this.canvas.offsetTop + this.canvasHeight / 2 + 100) + 'px';
+
+		//console.log("Final Pos : " + this.input.style.left + " : " + this.input.style.top);
+
+		document.body.appendChild(this.input);
     },
 
     onDestroyEvent: function() {
         me.game.world.addChild(this.dialog);
         me.game.world.addChild(this.retry);
 
-		// remove input element
-		var element = document.getElementById("input");
-		if (element != undefined) {
-			element.parentNode.removeChild(element);
-			this.input = null;
-		}
-
-        var context = this.canvas.getContext('2d');
-        context.clearRect(0, 0, this.canvas.width, this.canvas.height);
+		document.body.removeChild(this.input);
         this.dialog = null;
         this.retry = null;
     }
