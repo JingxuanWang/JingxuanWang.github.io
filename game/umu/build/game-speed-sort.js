@@ -3,7 +3,7 @@ var game = {
         score : 0,
         hitScore : 10,
         level : 1,
-        totalTime: 60,
+        totalTime: 3,
         curTime: 0,
         startTime: 0,
 
@@ -570,7 +570,7 @@ var Round = me.Container.extend({
         this._super(me.Container, 'init');
 
         this._init();
-    },
+   },
 
     _init: function() {
 
@@ -815,6 +815,7 @@ var Round = me.Container.extend({
             .start();
     }
 });
+
 /**
  * Created by wang.jingxuan on 14/11/4.
  */
@@ -967,11 +968,42 @@ game.GameOverScene = me.ScreenObject.extend({
         this.retry = new Retry();
         me.game.world.addChild(this.retry, 100);
 
+        this.canvas = document.getElementById('CanvasInput');
+
+		this.input = new CanvasInput({
+			  canvas: this.canvas,
+			  fontSize: 18,
+			  fontFamily: 'Arial',
+			  fontColor: '#212121',
+			  fontWeight: 'bold',
+			  x: 0,
+			  y: 0,
+			  width: 200,
+			  padding: 8,
+			  borderWidth: 1,
+			  borderColor: '#000',
+			  borderRadius: 3,
+			  boxShadow: '1px 1px 0px #fff',
+			  innerShadow: '0px 0px 5px rgba(0, 0, 0, 0.5)',
+			  placeHolder: 'Enter Your Name...',
+			  //value: '',
+			  onsubmit: function() { console.log("Submit : " + input.value());}
+		});
     },
 
     onDestroyEvent: function() {
         me.game.world.addChild(this.dialog);
         me.game.world.addChild(this.retry);
+
+		// remove input element
+		var element = document.getElementById("input");
+		if (element != undefined) {
+			element.parentNode.removeChild(element);
+			this.input = null;
+		}
+
+        var context = this.canvas.getContext('2d');
+        context.clearRect(0, 0, this.canvas.width, this.canvas.height);
         this.dialog = null;
         this.retry = null;
     }

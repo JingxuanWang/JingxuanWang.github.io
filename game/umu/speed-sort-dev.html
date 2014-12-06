@@ -9,16 +9,19 @@
 	
 	<body>
 		<!-- Canvas placeholder -->
-		<div id="screen" align="center"></div>
+		<div id="screen" align="center">
+			<canvas id="CanvasInput" width="320" height="60" style="position: absolute; z-index: 100;"></canvas>
+		</div>
 		<!-- Sharing section -->
 
+		<!-- CanvasInput Library -->
+		<script type="text/javascript" src="lib/CanvasInput.js" ></script>
 		<!-- melonJS Library -->
 		<script type="text/javascript" src="lib/melonJS-1.1.0.js" ></script>
 		<script type="text/javascript" src="build/game-speed-sort.js" ></script>
 		<!-- Bootstrap & Mobile optimization tricks -->
 		<script type="text/javascript">
 		  window.onReady(function onReady() {
-
 			game.onload();
 			// Mobile browser hacks
 			if (me.device.isMobile && !navigator.isCocoonJS) {
