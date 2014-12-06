@@ -3,7 +3,7 @@ var game = {
         score : 0,
         hitScore : 10,
         level : 1,
-        totalTime: 60,
+        totalTime: 3,
         curTime: 0,
         startTime: 0,
 
@@ -945,10 +945,11 @@ game.GameOverScene = me.ScreenObject.extend({
         this.input = document.createElement('input');
         this.input.id = 'input'
         this.input.type = 'text';
+		this.input.placeholder="请输入你的昵称";
+		this.input.class="nickname inputBox";
         this.input.style.position = 'absolute';
         this.input.style.opacity = 1;
         this.input.style.zIndex = 100;
-		this.input.value = "Your Name";
 	
 		this.canvas = this.inputParent.children[0];
 		this.canvasWidth = parseInt(this.canvas.style.width);
