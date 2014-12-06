@@ -3,7 +3,7 @@ var game = {
         score : 0,
         hitScore : 10,
         level : 1,
-        totalTime: 60,
+        totalTime: 3,
         curTime: 0,
         startTime: 0,
 
@@ -326,12 +326,41 @@ var Retry = UIButton.extend({
 
         this._super(UIButton, 'init',
             [
-                game.data.screenWidth / 2 - 128,
+                game.data.screenWidth / 4 - 128 - 5,
                 game.data.screenHeight / 2 - 128,
                 {
                     imageName: "retry",
                     onclick: function() {
                         me.state.change(me.state.PLAY);
+                    }
+                }
+            ]
+        );
+    }
+});
+
+/**
+ * Created by wang.jingxuan on 14-12-6.
+ */
+var Upload = UIButton.extend({
+    // constructor
+    init: function(onUploadSuccess, onUploadError) {
+
+        this._super(UIButton, 'init',
+            [
+                game.data.screenWidth / 4 * 3 - 128,
+                game.data.screenHeight / 2 - 128,
+                {
+                    imageName: "correct",
+                    onclick: function() {
+						ajax(
+							"GET",
+							game.data.apiUrl + "?m=post&game_id=" + game.data.gameId
+							+ "&user_id=" + game.data.playerId
+							+ "&score=" + game.data.score,
+							onUploadSuccess,
+							onUploadError
+						);
                     }
                 }
             ]
@@ -876,13 +905,6 @@ game.GameOverScene = me.ScreenObject.extend({
         //this.background.alpha = 0.75;
         me.game.world.addChild(this.background, 0);
 
-        ajax(
-            "GET",
-            game.data.apiUrl + "?m=post&game_id=" + game.data.gameId
-            + "&user_id=" + game.data.playerId
-            + "&score=" + game.data.score
-        );
-
         this.dialog = new UILabel(
             game.data.screenWidth / 2,
             game.data.screenHeight / 2 - 256,
@@ -892,11 +914,32 @@ game.GameOverScene = me.ScreenObject.extend({
                 text: "TIME'S UP\n\nSCORE: " + game.data.score
             }
         )
-
         me.game.world.addChild(this.dialog, 101);
+
+		this.message = new UILabel(
+            game.data.screenWidth / 2,
+            30,
+            {
+                bitmapFont: true,
+                textAlign: "center",
+                text: " "
+            }
+        )
+        me.game.world.addChild(this.message, 101);
 
         this.retry = new Retry();
         me.game.world.addChild(this.retry, 100);
+      
+		var self = this;
+		this.upload = new Upload(
+			function() {
+				self.message.text = "UPLOAD SUCCESS";
+			}, 
+			function(){
+				self.message.text = "UPLOAD ERROR";
+			}
+		);
+        me.game.world.addChild(this.upload, 100);
 
         this.inputParent = document.getElementById('screen');
         this.input = document.createElement('input');
