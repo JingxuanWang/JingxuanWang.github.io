@@ -50,14 +50,16 @@ function _loadCookieValues() {
 		// calculate rand and rank according to user score
 		rate = Math.round(zRate * 100);
 		rank = Math.round(totalRank - totalRank * zRate);
-	}
 
-	if (rank !== undefined) {
-		$("#rank").html("总分排名：" + rank + "位");
-	}
+		if (rank !== undefined) {
+			$("#rank").html("总分排名：" + rank + "位");
+		}
 
-	if (rate !== undefined) {
-		$("#rate").html("超越了" + rate + "%的用户");
+		if (rate !== undefined) {
+			$("#rate").html("超越了" + rate + "%的用户");
+		}
+	} else {
+		$("#status").remove();
 	}
 }
 
