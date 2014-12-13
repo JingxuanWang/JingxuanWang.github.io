@@ -10,6 +10,7 @@ function _loadCookieValues() {
 	var user_name = $.cookie("user_name")
 	if (user_name !== undefined) {
 		$("#user_name").val(user_name);
+		$("#user_name_submit").html("更改");
 	}
 
 	// TODO: use php template to implement logic below
@@ -75,4 +76,9 @@ function onSubmit() {
 	if (user_name !== undefined) {
 		$.cookie("user_name", user_name);
 	}
+
+	$("#user_name").remove();
+	$("#user_name_submit").remove();
+	
+	$("#name").html("你好，" + user_name);
 }
