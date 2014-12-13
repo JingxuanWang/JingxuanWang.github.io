@@ -2,16 +2,16 @@
  * Created by wang.jingxuan on 14-11-2.
  */
 var Fruit = me.Sprite.extend({
-    init: function(imageName, x, y) {
-        me.Sprite.prototype.init.apply(this, [x, y, me.loader.getImage(imageName), 256, 256]);
+    init: function(imageName, x, y, imgSize) {
+        me.Sprite.prototype.init.apply(this, [x, y, me.loader.getImage(imageName), imgSize, imgSize]);
 
         this.imageName = imageName;
 
         //this.alpha = 0;
         this.resize(0.05, 0.05);
 
-        this.targetScale = game.data.spriteSize / 256;
-        console.log(this.targetScale);
+        //this.targetScale = game.data.spriteSize / imgSize;
+        this.targetScale = 1;
 
         this.isScaling = false;
 

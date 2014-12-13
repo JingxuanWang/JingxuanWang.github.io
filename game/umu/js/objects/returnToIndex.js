@@ -1,18 +1,18 @@
 /**
  * Created by wang.jingxuan on 14-11-3.
  */
-var Retry = UIButton.extend({
+var ReturnToIndex = UIButton.extend({
     // constructor
     init: function() {
 
         this._super(UIButton, 'init',
             [
-                game.data.screenWidth / 4 * 3 - 128,
+                game.data.screenWidth / 4 - 128 - 5,
                 game.data.screenHeight / 2 + 128,
                 {
-                    imageName: "retry",
+                    imageName: "quit",
                     onclick: function() {
-                        me.state.change(me.state.PLAY);
+                    	window.location.href = "./index.html";    
                     }
                 }
             ]

@@ -1,9 +1,13 @@
 var game = {
     data: {
-        score : 0,
+        
+		score : 0,
         hitScore : 10,
-        level : 1,
-        totalTime: 60,
+		maxScore : 3000,
+		totalRank : 10000,
+        
+		level : 1,
+        totalTime: 45,
         curTime: 0,
         startTime: 0,
 
@@ -190,6 +194,135 @@ var QueryString = function () {
     }
     return query_string;
 } ();
+
+// convert game info from string into hash
+// Should be a string of game_id:game_score,game_id:game_score ...
+function deserializeGameInfo(game_str) {
+	var parsed_game_info = {};
+	
+	if (game_str === undefined || game_str === null || game_str == "") {
+		return parsed_game_info;
+	}
+	
+	game_str.split(',').map(function(game) {
+		
+		if (game !== undefined) {
+			var values = game.split(':');
+			
+			if (values[0] !== undefined && values[1] !== undefined) {
+				parsed_game_info[values[0]] = values[1];
+				//console.log(values[0] + " : " + values[1]);
+			}
+		}
+	});
+
+	return parsed_game_info;
+}
+
+// convert game info into string
+// Should be a string of game_id:game_score,game_id:game_score ...
+function serializeGameInfo(games) {
+	return Object.keys(games).map(function(key) {
+		return key + ":" + games[key];
+	}).join(',');
+} 
+
+// From https://github.com/errcw/gaussian
+
+// Complementary error function
+// From Numerical Recipes in C 2e p221
+function erfc(x) {
+  var z = Math.abs(x);
+  var t = 1 / (1 + z / 2);
+  var r = t * Math.exp(-z * z - 1.26551223 + t * (1.00002368 +
+          t * (0.37409196 + t * (0.09678418 + t * (-0.18628806 +
+          t * (0.27886807 + t * (-1.13520398 + t * (1.48851587 +
+          t * (-0.82215223 + t * 0.17087277)))))))))
+  return x >= 0 ? r : 2 - r;
+};
+
+// Inverse complementary error function
+// From Numerical Recipes 3e p265
+function ierfc(x) {
+  if (x >= 2) { return -100; }
+  if (x <= 0) { return 100; }
+
+  var xx = (x < 1) ? x : 2 - x;
+  var t = Math.sqrt(-2 * Math.log(xx / 2));
+
+  var r = -0.70711 * ((2.30753 + t * 0.27061) /
+          (1 + t * (0.99229 + t * 0.04481)) - t);
+
+  for (var j = 0; j < 2; j++) {
+    var err = erfc(r) - xx;
+    r += err / (1.12837916709551257 * Math.exp(-(r * r)) - r * err);
+  }
+
+  return (x < 1) ? r : -r;
+};
+
+// Construct a new distribution from the precision and precisionmean
+function fromPrecisionMean(precision, precisionmean) {
+  return gaussian(precisionmean/precision, 1/precision);
+};
+
+// Models the normal distribution
+var Gaussian = function(mean, variance) {
+  if (variance <= 0) {
+    throw new Error('Variance must be > 0 (but was ' + variance + ')');
+  }
+  this.mean = mean;
+  this.variance = variance;
+  this.standardDeviation = Math.sqrt(variance);
+}
+// Probability density function
+Gaussian.prototype.pdf = function(x) {
+  var m = this.standardDeviation * Math.sqrt(2 * Math.PI);
+  var e = Math.exp(-Math.pow(x - this.mean, 2) / (2 * this.variance));
+  return e / m;
+};
+
+// Cumulative density function
+Gaussian.prototype.cdf = function(x) {
+  return 0.5 * erfc(-(x - this.mean) / (this.standardDeviation * Math.sqrt(2)));
+};
+
+// Add distribution of this and d
+Gaussian.prototype.add = function(d) {
+  return gaussian(this.mean + d.mean, this.variance + d.variance);
+};
+
+// Subtract distribution of this and d
+Gaussian.prototype.sub = function(d) {
+  return gaussian(this.mean - d.mean, this.variance + d.variance);
+};
+
+// Scales this distribution by constant c
+Gaussian.prototype.scale = function(c) {
+  return gaussian(this.mean*c, this.variance*c*c);
+};
+
+Gaussian.prototype.mul = function(d) {
+  if(typeof(d)==="number"){ return this.scale(d); }
+  var precision = 1/this.variance;
+  var dprecision = 1/d.variance;
+  return fromPrecisionMean(precision+dprecision, 
+    precision*this.mean+dprecision*d.mean);
+};
+
+Gaussian.prototype.div = function(d) {
+  if(typeof(d)==="number"){ return this.scale(1/d); }
+  var precision = 1/this.variance;
+  var dprecision = 1/d.variance;
+  return fromPrecisionMean(precision-dprecision, 
+    precision*this.mean-dprecision*d.mean);
+};
+
+Gaussian.prototype.ppf = function(x) {
+  return this.mean - this.standardDeviation * Math.sqrt(2) * ierfc(2 * x);
+};
+
+
 /**
  * Created by wang.jingxuan on 14-11-3.
  */
@@ -458,12 +591,34 @@ var Retry = UIButton.extend({
 
         this._super(UIButton, 'init',
             [
-                game.data.screenWidth / 4 - 128 - 5,
-                game.data.screenHeight / 2 - 128,
+                game.data.screenWidth / 4 * 3 - 128,
+                game.data.screenHeight / 2 + 128,
                 {
                     imageName: "retry",
                     onclick: function() {
                         me.state.change(me.state.PLAY);
+                    }
+                }
+            ]
+        );
+    }
+});
+
+/**
+ * Created by wang.jingxuan on 14-11-3.
+ */
+var ReturnToIndex = UIButton.extend({
+    // constructor
+    init: function() {
+
+        this._super(UIButton, 'init',
+            [
+                game.data.screenWidth / 4 - 128 - 5,
+                game.data.screenHeight / 2 + 128,
+                {
+                    imageName: "quit",
+                    onclick: function() {
+                    	window.location.href = "./index.html";    
                     }
                 }
             ]
@@ -575,7 +730,7 @@ game.hud.TimeItem = UILabel.extend({
  * Created by wang.jingxuan on 14-11-2.
  */
 
-game.data.gameId = 1003;
+game.data.gameId = 1002;
 var imgSize = 220;
 
 var Round = me.Container.extend({
@@ -593,10 +748,9 @@ var Round = me.Container.extend({
             "food-4"
         ];
 
-        this.countMax = 9;
-        this.countInit = 5;
         this.count = this.countInit;
-
+        this.countArray = [4, 5, 6, 7, 8, 9];
+        
         this._super(me.Container, 'init');
 
         this._init();
@@ -605,6 +759,14 @@ var Round = me.Container.extend({
     _init: function() {
 
         this.alpha = 0;
+
+		if (game.data.level < this.countArray.length) {
+            this.count = this.countArray[game.data.level - 1];
+        } else {
+            this.count = this.countArray[this.countArray.length - 1];
+        }
+
+		console.log(this.count + " : " + game.data.level);
 
         // set legend
         this.leftId = Math.floor((Math.random() * this.elems.length));
@@ -730,6 +892,12 @@ var Round = me.Container.extend({
 
     _onMiss : function()
     {
+
+		game.data.level--;
+		if (game.data.level < 1) {
+			game.data.level = 1;
+		}
+
         var markSprite = new Mark(
             "miss",
             game.data.screenWidth / 2 - imgSize / 2,
@@ -750,10 +918,7 @@ var Round = me.Container.extend({
     _onClear : function()
     {
         game.data.score += this.count * game.data.hitScore;
-        if (this.count < this.countMax) {
-            this.count++;
-            game.data.level++;
-        }
+        game.data.level++;
 
         var markSprite = new Mark(
             "correct",
@@ -976,79 +1141,120 @@ game.GameOverScene = me.ScreenObject.extend({
         //this.background.alpha = 0.75;
         me.game.world.addChild(this.background, 0);
 
-        this.dialog = new UILabel(
-            game.data.screenWidth / 2,
-            game.data.screenHeight / 2 - 256,
-            {
-                bitmapFont: true,
-                textAlign: "center",
-                text: "TIME'S UP\n\nSCORE: " + game.data.score
-            }
-        )
-        me.game.world.addChild(this.dialog, 101);
+		this.hiScore = 0;
 
-		this.message = new UILabel(
+
+		// get game score from cookie
+		var games = deserializeGameInfo($.cookie("games"));
+	
+		// update score
+		if (games[game.data.gameId] === undefined 
+			|| games[game.data.gameId] < game.data.score) {
+			games[game.data.gameId] = game.data.score;
+		}
+			
+		// write back to cookie
+		$.cookie("games", serializeGameInfo(games), { expires: 1, path: '/' });
+	
+		// get high score
+		this.hiScore = games[game.data.gameId];
+
+		
+		// calculate rank from score
+		this.calcRank();
+
+		// Debug
+		//for (var i = 0; i <= game.data.maxScore; i += 100) {
+		//	game.data.score = i;
+		//	this.calcRank();
+		//}
+
+		// Messages
+		this.messages = [];
+		this.messages[0] = new UILabel(
             game.data.screenWidth / 2,
-            30,
-            {
-                bitmapFont: true,
-                textAlign: "center",
-                text: " "
-            }
-        )
-        me.game.world.addChild(this.message, 101);
+            game.data.screenHeight / 2 - 256 - 128,
+			{
+				textAlign: "center",
+				size: 48,
+				text: "本次得分"
+			}
+		);
+		this.messages[1] = new UILabel(
+            game.data.screenWidth / 2,
+            game.data.screenHeight / 2 - 256 - 128 + 48 + 16,
+			{
+				textAlign: "center",
+				size: 128,
+				text: game.data.score || "0"
+			}
+		);
+		this.messages[2] = new UILabel(
+            game.data.screenWidth / 2,
+            game.data.screenHeight / 2 - 256 - 128 + 48 + 128 + 32,
+			{
+				textAlign: "center",
+				size: 48,
+				text: "个人最佳：" + this.hiScore
+			}
+		);
+
+
+		this.messages[3] = new UILabel(
+            game.data.screenWidth / 2,
+            game.data.screenHeight / 2 - 256 - 128 + 128 + 96 + 64,
+			{
+				textAlign: "center",
+				size: 48,
+				text: "总分排名：" + this.rank + "\n\n超越了全球" + this.rate + "%的用户"
+			}
+		);
+
+		// add all messages
+		this.messages.map(function(message) {
+			me.game.world.addChild(message, 101);
+		});
+
 
         this.retry = new Retry();
         me.game.world.addChild(this.retry, 100);
       
-		var self = this;
-		this.upload = new Upload(
-			function() {
-				self.message.text = "UPLOAD SUCCESS";
-			}, 
-			function(){
-				self.message.text = "UPLOAD ERROR";
-			}
-		);
-        me.game.world.addChild(this.upload, 100);
-
-        this.inputParent = document.getElementById('screen');
-        this.input = document.createElement('input');
-        this.input.id = 'input'
-        this.input.type = 'text';
-		this.input.placeholder="请输入你的昵称";
-		this.input.class="nickname inputBox";
-        this.input.style.position = 'absolute';
-        this.input.style.opacity = 1;
-        this.input.style.zIndex = 100;
-	
-		this.canvas = this.inputParent.children[0];
-		this.canvasWidth = parseInt(this.canvas.style.width);
-		this.canvasHeight = parseInt(this.canvas.style.height);
-		this.canvasScaleX = this.canvasWidth / game.data.screenWidth;
-		this.canvasScaleY = this.canvasHeight / game.data.screenHeight;
-		
-		//console.log("Canvas Size : " + this.canvasWidth + " : " + this.canvasHeight);
-		//console.log("Canvas Style : " + this.canvas.style.width + " : " + this.canvas.style.height);
-		//console.log("Canvas Scale : " + this.canvasScaleX + " : " + this.canvasScaleY);
-		//console.log("Canvas Offset : " + this.canvas.offsetLeft + " : " + this.canvas.offsetTop);
-
-		this.input.style.width = 200 + 'px';
-		this.input.style.height = 18 + 'px';
-		this.input.style.left =  (this.canvas.offsetLeft + this.canvasWidth / 2 - 100) + 'px';
-		this.input.style.top = (this.canvas.offsetTop + this.canvasHeight / 2 + 100) + 'px';
-
-		//console.log("Final Pos : " + this.input.style.left + " : " + this.input.style.top);
-
-		document.body.appendChild(this.input);
+		this.returnToIndex = new ReturnToIndex();
+        me.game.world.addChild(this.returnToIndex, 100);
     },
 
-    onDestroyEvent: function() {
-        me.game.world.addChild(this.dialog);
-        me.game.world.addChild(this.retry);
+	calcRank: function() {
+		if (game.data.score === undefined || game.data.score == 0) {
+			this.rate = 0;
+			this.rank = game.data.totalRank;
+		} else if (game.data.score >= game.data.maxScore) {
+			this.rate = 100;
+			this.rank = 1;
+		} else {
+			// mean = 3/7 stddev = 1/7
+			var mean = game.data.maxScore * 3 / 7;
+			var stddev = game.data.maxScore / 4;
+		
+			// generate gaussian distribution and get z-rate
+			var distribution = new Gaussian(mean, stddev * stddev);
+			var zRate = distribution.cdf(game.data.score);
 
-		document.body.removeChild(this.input);
-        this.dialog = null;
+			// calculate rand and rank according to user score
+			this.rate = Math.round(zRate * 100);
+			this.rank = Math.round(game.data.totalRank - game.data.totalRank * zRate);
+		}
+		//console.log("Score: " + game.data.score + " zRate: " + zRate + " rate: " + this.rate + " rank: " + this.rank);
+	},
+
+    onDestroyEvent: function() {
+		this.messages.map(function(message) {
+        	me.game.world.removeChild(message);
+		});
+        me.game.world.removeChild(this.retry);
+        me.game.world.removeChild(this.returnToIndex);
+
         this.retry = null;
+		this.returnToIndex = null;
+		this.message = [];
     }
 });

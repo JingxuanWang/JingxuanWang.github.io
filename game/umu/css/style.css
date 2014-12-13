@@ -218,7 +218,7 @@ textarea {
 
 /* content */
 .content {
-	padding: 45px 0 54px;
+	padding: 45px 0 0px;
 }
 .survey .content {
 	padding-bottom: 90px;
@@ -284,7 +284,7 @@ textarea {
 	color: #7f53b6;
 }
 .question .title p {
-	margin-left: 45px;
+	/*margin-left: 45px;*/
 	line-height: 20px;
 }
 .msgList li {
@@ -580,6 +580,16 @@ textarea {
 	color: #fff;
 	border-radius: 3px;
 }
+.ask .operate span {
+	display: block;
+	height: 43px;
+	line-height: 43px;
+	text-align: center;
+	font-size: 18px;
+	color: #fff;
+	border-radius: 3px;
+}
+
 .ask .operate .btn_cancel {
 	-webkit-box-flex: 1;
 	-moz-box-flex: 1;
@@ -587,6 +597,7 @@ textarea {
 	-ms-box-flex: 1;
 	box-flex: 1;
 	background-color: #c9c8c8;
+	margin-bottom: 10px;
 }
 .ask .operate .btn_submit {
 	-webkit-box-flex: 2;
@@ -597,7 +608,7 @@ textarea {
 	background: #ffbd2b url(../images/giraffe.png) no-repeat 100% 0;
 	background-size: 35px auto;
 	-webkit-background-size: 35px auto;
-	margin-left: 10px;
+	/*margin-left: 10px;*/
 }
 
 /* layer */

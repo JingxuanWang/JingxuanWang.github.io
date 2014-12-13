@@ -5,11 +5,57 @@
 		<meta name="apple-mobile-web-app-capable" content="yes">
     	<meta name="apple-mobile-web-app-status-bar-style" content="black">
     	<meta name="apple-mobile-web-app-title" content="Speed Sort">
+		<link href="css/style.css" rel="stylesheet" type="text/css">
 	</head>
-	
-	<body>
-		<a href="speed-sort.html">Speed Sort</a><br>
-		<a href="matching-pair.html">Matching Pair</a><br>
-		<a href="number-order.html">Number Order</a><br>
+	<body class="qa ask" onload="onLoad()">
+		<script type="text/javascript" src="lib/jquery-1.11.1.min.js" ></script>
+		<script type="text/javascript" src="lib/jquery.cookie.min.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+		<script type="text/javascript" src="js/util.js"></script>
+
+		<div class="content">
+			<div class="question">
+
+				<div class="title" align="center">
+					<p>游戏列表</p>
+				</div>
+
+				<!-- status -->
+				<div align="center">
+					<span id="total_score" style="font-size: 250%;"></span></br>
+					</br>
+					<span id="rank" style="font-size: 150%;"></span></br>
+					</br>
+					<span id="rate" style="font-size: 150%;"></span></br>
+					</br>
+				</div>
+
+				<!-- Game List -->
+				<div id="1001" class="operate">
+					<div id="box" class="btn_cancel">
+						<a href="matching-pair.html">对对碰</a>
+					</div>
+				</div>
+				<div id="1002" class="operate">
+					<div id="box" class="btn_cancel">
+						<a href="speed-sort.html">快速分类</a>
+					</div>
+				</div>
+				<div id="1003" class="operate">
+					<div id="box" class="btn_cancel">
+						<a href="number-order.html">顺序方阵</a>
+					</div>
+				</div>
+				<!-- End of Game List -->
+
+				<div class="inputWrap">
+					<input id="user_name" class="nickname inputBox" name="" type="text" placeholder="请输入你的昵称">
+				</div>
+
+				<div class="operate">
+					<a id="user_name_submit" class="btn_submit" href="#" onclick="onSubmit">确认</a>
+				</div>
+			</div>
+		</div>
 	</body>
 </html>

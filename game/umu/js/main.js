@@ -1,9 +1,13 @@
 var game = {
     data: {
-        score : 0,
+        
+		score : 0,
         hitScore : 10,
-        level : 1,
-        totalTime: 60,
+		maxScore : 3000,
+		totalRank : 10000,
+        
+		level : 1,
+        totalTime: 45,
         curTime: 0,
         startTime: 0,
 

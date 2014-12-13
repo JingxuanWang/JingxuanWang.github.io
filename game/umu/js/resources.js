@@ -28,12 +28,12 @@ game.resources = [
     {name: "food-4",       type:"image", src: "data/img/speed_sort/7.png"},
 
     // dessert
-    {name: "dessert-1",    type:"image", src: "data/img/speed_sort/8.png"},
-    {name: "dessert-2",    type:"image", src: "data/img/speed_sort/9.png"},
-    {name: "dessert-3",    type:"image", src: "data/img/speed_sort/10.png"},
-    {name: "dessert-4",    type:"image", src: "data/img/speed_sort/11.png"},
-    {name: "dessert-5",    type:"image", src: "data/img/speed_sort/12.png"},
-    {name: "dessert-6",    type:"image", src: "data/img/speed_sort/13.png"},
+    //{name: "dessert-1",    type:"image", src: "data/img/speed_sort/8.png"},
+    //{name: "dessert-2",    type:"image", src: "data/img/speed_sort/9.png"},
+    //{name: "dessert-3",    type:"image", src: "data/img/speed_sort/10.png"},
+    //{name: "dessert-4",    type:"image", src: "data/img/speed_sort/11.png"},
+    //{name: "dessert-5",    type:"image", src: "data/img/speed_sort/12.png"},
+    //{name: "dessert-6",    type:"image", src: "data/img/speed_sort/13.png"},
 
     // numbers
     {name: "number-1",    type:"image", src: "data/img/matching_pair/mp_num_1.png"},
@@ -56,17 +56,17 @@ game.resources = [
     {name: "icon-7",    type:"image", src: "data/img/matching_pair/mp_shape_6.png"},
     {name: "icon-8",    type:"image", src: "data/img/matching_pair/mp_shape_7.png"},
     {name: "icon-9",    type:"image", src: "data/img/matching_pair/mp_shape_8.png"},
-    {name: "icon-10",    type:"image", src: "data/img/matching_pair/mp_shape_9.png"},
-    {name: "icon-11",    type:"image", src: "data/img/matching_pair/mp_shape_10.png"},
-    {name: "icon-12",    type:"image", src: "data/img/matching_pair/mp_shape_11.png"},
-    {name: "icon-13",    type:"image", src: "data/img/matching_pair/mp_shape_12.png"},
-    {name: "icon-14",    type:"image", src: "data/img/matching_pair/mp_shape_13.png"},
-    {name: "icon-15",    type:"image", src: "data/img/matching_pair/mp_shape_14.png"},
-    {name: "icon-16",    type:"image", src: "data/img/matching_pair/mp_shape_15.png"},
-    {name: "icon-17",    type:"image", src: "data/img/matching_pair/mp_shape_16.png"},
-    {name: "icon-18",    type:"image", src: "data/img/matching_pair/mp_shape_17.png"},
-    {name: "icon-19",    type:"image", src: "data/img/matching_pair/mp_shape_18.png"},
-    {name: "icon-20",    type:"image", src: "data/img/matching_pair/mp_shape_19.png"},
+    {name: "icon-10",   type:"image", src: "data/img/matching_pair/mp_shape_9.png"},
+    {name: "icon-11",   type:"image", src: "data/img/matching_pair/mp_shape_10.png"},
+    {name: "icon-12",   type:"image", src: "data/img/matching_pair/mp_shape_11.png"},
+    {name: "icon-13",   type:"image", src: "data/img/matching_pair/mp_shape_12.png"},
+    {name: "icon-14",   type:"image", src: "data/img/matching_pair/mp_shape_13.png"},
+    {name: "icon-15",   type:"image", src: "data/img/matching_pair/mp_shape_14.png"},
+    {name: "icon-16",   type:"image", src: "data/img/matching_pair/mp_shape_15.png"},
+    {name: "icon-17",   type:"image", src: "data/img/matching_pair/mp_shape_16.png"},
+    {name: "icon-18",   type:"image", src: "data/img/matching_pair/mp_shape_17.png"},
+    {name: "icon-19",   type:"image", src: "data/img/matching_pair/mp_shape_18.png"},
+    {name: "icon-20",   type:"image", src: "data/img/matching_pair/mp_shape_19.png"},
 
     // font
     {name: "32x32_font",  type:"image", src: "data/img/32x32_font.png"}

@@ -2,7 +2,7 @@
  * Created by wang.jingxuan on 14-11-2.
  */
 
-game.data.gameId = 1003;
+game.data.gameId = 1002;
 var imgSize = 220;
 
 var Round = me.Container.extend({
@@ -20,18 +20,25 @@ var Round = me.Container.extend({
             "food-4"
         ];
 
-        this.countMax = 9;
-        this.countInit = 5;
         this.count = this.countInit;
-
+        this.countArray = [4, 5, 6, 7, 8, 9];
+        
         this._super(me.Container, 'init');
 
         this._init();
-    },
+   },
 
     _init: function() {
 
         this.alpha = 0;
+
+		if (game.data.level < this.countArray.length) {
+            this.count = this.countArray[game.data.level - 1];
+        } else {
+            this.count = this.countArray[this.countArray.length - 1];
+        }
+
+		console.log(this.count + " : " + game.data.level);
 
         // set legend
         this.leftId = Math.floor((Math.random() * this.elems.length));
@@ -157,6 +164,12 @@ var Round = me.Container.extend({
 
     _onMiss : function()
     {
+
+		game.data.level--;
+		if (game.data.level < 1) {
+			game.data.level = 1;
+		}
+
         var markSprite = new Mark(
             "miss",
             game.data.screenWidth / 2 - imgSize / 2,
@@ -177,10 +190,7 @@ var Round = me.Container.extend({
     _onClear : function()
     {
         game.data.score += this.count * game.data.hitScore;
-        if (this.count < this.countMax) {
-            this.count++;
-            game.data.level++;
-        }
+        game.data.level++;
 
         var markSprite = new Mark(
             "correct",
@@ -225,7 +235,8 @@ var Round = me.Container.extend({
         var sprite = new Fruit(
             this.elems[id],
             this.headX,
-            this.headY - imgSize / 4 * index
+            this.headY - imgSize / 4 * index,
+            imgSize
         );
 
         sprite.open();

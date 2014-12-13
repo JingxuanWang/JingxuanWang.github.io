@@ -56,6 +56,10 @@ var SelectableObject = me.Container.extend({
         }
     },
 
+	disable: function() {
+        me.input.releasePointerEvent("pointerup", this.collider);
+	},
+
     destroy: function() {
         me.input.releasePointerEvent("pointerup", this.collider);
 

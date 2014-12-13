@@ -2,7 +2,7 @@
  * Created by wang.jingxuan on 14-11-2.
  */
 
-game.data.gameId = 1002;
+game.data.gameId = 1003;
 
 var imgSize = 183;
 
@@ -53,6 +53,7 @@ var Round = me.Container.extend({
         } else {
             this.count = this.countArray[this.countArray.length - 1];
         }
+
         this.objList = [];
         this.selectedObjs = [];
 
@@ -88,6 +89,8 @@ var Round = me.Container.extend({
         } else {
             this._onMiss();
         }
+		
+		game.data.score += game.data.hitScore;
 
         return true;
     },
@@ -114,6 +117,17 @@ var Round = me.Container.extend({
 
     _onMiss : function()
     {
+		if (!this.ready) {
+			return;
+		}
+		this.ready = false;
+		this.disableObjects();
+
+		game.data.level--;
+		if (game.data.level < 1) {
+			game.data.level = 1;
+		}
+
         var markSprite = new Mark(
             "miss",
             game.data.screenWidth / 2 - imgSize / 2,
@@ -133,6 +147,12 @@ var Round = me.Container.extend({
 
     _onClear : function()
     {
+		if (!this.ready) {
+			return;
+		}
+		this.ready = false;
+		this.disableObjects();
+				
         game.data.score += (game.data.level + this.count) * game.data.hitScore;
         game.data.level++;
 
@@ -186,6 +206,12 @@ var Round = me.Container.extend({
         this.addChild(sprite, 10 - index);
         return sprite;
     },
+
+	disableObjects: function() {
+		for (var i = 0; i < this.objList.length; i++) {
+			this.objList[i].disable();
+		}
+	},
 
     restart: function() {
 

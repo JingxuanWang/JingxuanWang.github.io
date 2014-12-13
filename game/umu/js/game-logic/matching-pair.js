@@ -44,6 +44,17 @@ var Round = me.Container.extend({
         this._super(me.Container, 'init', [0, 0, game.data.screenWidth, game.data.screenHeight]);
 
         this._init();
+        /*
+         this.label = new UILabel(200, 200, {
+         font : "arial", size : 64, text: "Hello World"
+         });
+         this.addChild(this.label);
+
+         this.bitmapLabel = new UILabel(100, 100, {
+         bitmapFont: true
+         });
+         this.addChild(this.bitmapLabel);
+         */
     },
 
     _init: function() {
@@ -77,7 +88,6 @@ var Round = me.Container.extend({
 
         for(var i = 0; i < objsToSpawn.length; i++) {
             // create selectable number
-            console.log(this.prefix + objsToSpawn[i]);
             var elem = new SelectableObject(
                 this.elemPositions[this.count][i][0] - imgSize / 2,
                 this.elemPositions[this.count][i][1] - imgSize / 2,
@@ -103,6 +113,8 @@ var Round = me.Container.extend({
             this._onMiss();
         }
 
+		game.data.score += game.data.hitScore;
+
         return true;
     },
 
@@ -118,8 +130,18 @@ var Round = me.Container.extend({
 
     _onMiss : function()
     {
+		if (!this.ready) {
+			return;
+		}
 		this.ready = false;
-        var markSprite = new Mark(
+		this.disableObjects();
+       
+		game.data.level--;
+		if (game.data.level < 1) {
+			game.data.level = 1;
+		}
+
+		var markSprite = new Mark(
             "miss",
             game.data.screenWidth / 2 - imgSize / 2,
             game.data.screenHeight / 2 - imgSize / 2
@@ -138,8 +160,13 @@ var Round = me.Container.extend({
 
     _onClear : function()
     {
+		if (!this.ready) {
+			return;
+		}
 		this.ready = false;
-        game.data.score += (game.data.level + this.count) * game.data.hitScore;
+		this.disableObjects();
+        
+		game.data.score += (game.data.level + this.count) * game.data.hitScore;
         game.data.level++;
 
         var markSprite = new Mark(
@@ -173,6 +200,12 @@ var Round = me.Container.extend({
             })
             .start();
     },
+
+	disableObjects: function() {
+		for (var i = 0; i < this.objList.length; i++) {
+			this.objList[i].disable();
+		}
+	},
 
     restart: function() {
 
