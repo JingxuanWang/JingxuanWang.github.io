@@ -7,6 +7,7 @@ var game = {
 		totalRank : 10000,
         
 		level : 1,
+		combo : 0,
         totalTime: 45,
         curTime: 0,
         startTime: 0,
@@ -570,8 +571,9 @@ game.hud.Container = me.Container.extend({
         this.name = "hud";
 
         // add our child score object at the right-bottom position
-        this.addChild(new game.hud.ScoreItem(0, 0));
-        this.addChild(new game.hud.TimeItem(0, 50));
+        this.addChild(new game.hud.Score(0, 0));
+        this.addChild(new game.hud.Time(0, 50));
+        this.addChild(new game.hud.Combo(0, 100));
     }
 });
 
@@ -579,7 +581,7 @@ game.hud.Container = me.Container.extend({
  * a basic hud item to display score
  */
 
-game.hud.ScoreItem = UILabel.extend({
+game.hud.Score = UILabel.extend({
     init : function(x, y) {
         this._super(UILabel, 'init', [x, y, {bitmapFont : true}]);
     },
@@ -594,7 +596,7 @@ game.hud.ScoreItem = UILabel.extend({
     }
 });
 
-game.hud.TimeItem = UILabel.extend({
+game.hud.Time = UILabel.extend({
     init : function(x, y) {
         this._super(UILabel, 'init', [x, y, {bitmapFont : true}]);
     },
@@ -623,6 +625,31 @@ game.hud.TimeItem = UILabel.extend({
         return true;
     }
 });
+
+/**
+ * a basic hud item to display combo
+ */
+
+game.hud.Combo = UILabel.extend({
+    init : function(x, y) {
+        this._super(UILabel, 'init', [x, y, {bitmapFont : true}]);
+    },
+    /**
+     * update function
+     */
+    update : function (dt) {
+        
+		if (game.data.combo > 0) {
+			this.text = game.data.combo + " COMBO";
+		} else {
+			this.text = "";
+		}
+        return false;
+    }
+});
+
+
+
 /**
  * Created by wang.jingxuan on 14/11/5.
  */
@@ -776,11 +803,26 @@ var Round = me.Container.extend({
             // insert into this.objList
             this.objList.push(elem);
             this.addChild(elem, 10);
-        }
+       	}
+		
+		var self = this;
+		this.numList = this.objList.map(function(elem) {
+			return ~~(elem.spriteName.replace(self.prefix, ""));
+		}).sort(function(a, b) {
+			return a - b;
+		});
+
     },
 
     onSelect: function(spriteName) {
         var number = ~~(spriteName.replace(this.prefix, ""));
+
+		// if we selected the wrong one, treated as error
+		if (this.numList[this.selectedObjs.length] < number) {
+			this._onMiss();
+			return;
+		}
+
         if (this.selectedObjs.length == 0 ||
             number > this.selectedObjs[this.selectedObjs.length - 1]) {
             this._onCorrect(number);
@@ -821,6 +863,7 @@ var Round = me.Container.extend({
 		this.ready = false;
 		this.disableObjects();
 
+		game.data.combo = 0;
 		game.data.level--;
 		if (game.data.level < 1) {
 			game.data.level = 1;
@@ -851,8 +894,9 @@ var Round = me.Container.extend({
 		this.ready = false;
 		this.disableObjects();
 				
-        game.data.score += (game.data.level + this.count) * game.data.hitScore;
+        game.data.score += (game.data.level + game.data.combo * 2) * game.data.hitScore;
         game.data.level++;
+		game.data.combo++;
 
         var markSprite = new Mark(
             "correct",

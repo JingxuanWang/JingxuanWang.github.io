@@ -7,6 +7,7 @@ var game = {
 		totalRank : 10000,
         
 		level : 1,
+		combo : 0,
         totalTime: 45,
         curTime: 0,
         startTime: 0,
@@ -673,8 +674,9 @@ game.hud.Container = me.Container.extend({
         this.name = "hud";
 
         // add our child score object at the right-bottom position
-        this.addChild(new game.hud.ScoreItem(0, 0));
-        this.addChild(new game.hud.TimeItem(0, 50));
+        this.addChild(new game.hud.Score(0, 0));
+        this.addChild(new game.hud.Time(0, 50));
+        this.addChild(new game.hud.Combo(0, 100));
     }
 });
 
@@ -682,7 +684,7 @@ game.hud.Container = me.Container.extend({
  * a basic hud item to display score
  */
 
-game.hud.ScoreItem = UILabel.extend({
+game.hud.Score = UILabel.extend({
     init : function(x, y) {
         this._super(UILabel, 'init', [x, y, {bitmapFont : true}]);
     },
@@ -697,7 +699,7 @@ game.hud.ScoreItem = UILabel.extend({
     }
 });
 
-game.hud.TimeItem = UILabel.extend({
+game.hud.Time = UILabel.extend({
     init : function(x, y) {
         this._super(UILabel, 'init', [x, y, {bitmapFont : true}]);
     },
@@ -726,6 +728,31 @@ game.hud.TimeItem = UILabel.extend({
         return true;
     }
 });
+
+/**
+ * a basic hud item to display combo
+ */
+
+game.hud.Combo = UILabel.extend({
+    init : function(x, y) {
+        this._super(UILabel, 'init', [x, y, {bitmapFont : true}]);
+    },
+    /**
+     * update function
+     */
+    update : function (dt) {
+        
+		if (game.data.combo > 0) {
+			this.text = game.data.combo + " COMBO";
+		} else {
+			this.text = "";
+		}
+        return false;
+    }
+});
+
+
+
 /**
  * Created by wang.jingxuan on 14-11-2.
  */
@@ -765,8 +792,6 @@ var Round = me.Container.extend({
         } else {
             this.count = this.countArray[this.countArray.length - 1];
         }
-
-		console.log(this.count + " : " + game.data.level);
 
         // set legend
         this.leftId = Math.floor((Math.random() * this.elems.length));
@@ -893,6 +918,7 @@ var Round = me.Container.extend({
     _onMiss : function()
     {
 
+		game.data.combo = 0;
 		game.data.level--;
 		if (game.data.level < 1) {
 			game.data.level = 1;
@@ -917,8 +943,9 @@ var Round = me.Container.extend({
 
     _onClear : function()
     {
-        game.data.score += this.count * game.data.hitScore;
+        game.data.score += (game.data.level  + game.data.combo * 2) * game.data.hitScore;
         game.data.level++;
+		game.data.combo++;
 
         var markSprite = new Mark(
             "correct",
