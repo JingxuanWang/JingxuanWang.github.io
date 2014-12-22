@@ -590,6 +590,17 @@ textarea {
 	border-radius: 3px;
 }
 
+.ask .operate .btn_status {
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	-o-box-flex: 1;
+	-ms-box-flex: 1;
+	box-flex: 1;
+	text-align: center;
+	background-color: #c9c8c8;
+	margin-bottom: 10px;
+}
+
 .ask .operate .btn_cancel {
 	-webkit-box-flex: 1;
 	-moz-box-flex: 1;
@@ -609,6 +620,7 @@ textarea {
 	background-size: 35px auto;
 	-webkit-background-size: 35px auto;
 	/*margin-left: 10px;*/
+	margin-bottom: 10px;
 }
 
 /* layer */

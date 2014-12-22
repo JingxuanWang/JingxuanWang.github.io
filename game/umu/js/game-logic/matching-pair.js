@@ -136,6 +136,7 @@ var Round = me.Container.extend({
 		this.ready = false;
 		this.disableObjects();
        
+		game.data.combo = 0;
 		game.data.level--;
 		if (game.data.level < 1) {
 			game.data.level = 1;
@@ -166,8 +167,9 @@ var Round = me.Container.extend({
 		this.ready = false;
 		this.disableObjects();
         
-		game.data.score += (game.data.level + this.count) * game.data.hitScore;
+		game.data.score += (game.data.level + game.data.combo * 2) * game.data.hitScore;
         game.data.level++;
+		game.data.combo++;
 
         var markSprite = new Mark(
             "correct",

@@ -16,8 +16,9 @@ game.hud.Container = me.Container.extend({
         this.name = "hud";
 
         // add our child score object at the right-bottom position
-        this.addChild(new game.hud.ScoreItem(0, 0));
-        this.addChild(new game.hud.TimeItem(0, 50));
+        this.addChild(new game.hud.Score(0, 0));
+        this.addChild(new game.hud.Time(0, 50));
+        this.addChild(new game.hud.Combo(0, 100));
     }
 });
 
@@ -25,7 +26,7 @@ game.hud.Container = me.Container.extend({
  * a basic hud item to display score
  */
 
-game.hud.ScoreItem = UILabel.extend({
+game.hud.Score = UILabel.extend({
     init : function(x, y) {
         this._super(UILabel, 'init', [x, y, {bitmapFont : true}]);
     },
@@ -40,7 +41,7 @@ game.hud.ScoreItem = UILabel.extend({
     }
 });
 
-game.hud.TimeItem = UILabel.extend({
+game.hud.Time = UILabel.extend({
     init : function(x, y) {
         this._super(UILabel, 'init', [x, y, {bitmapFont : true}]);
     },
@@ -69,3 +70,27 @@ game.hud.TimeItem = UILabel.extend({
         return true;
     }
 });
+
+/**
+ * a basic hud item to display combo
+ */
+
+game.hud.Combo = UILabel.extend({
+    init : function(x, y) {
+        this._super(UILabel, 'init', [x, y, {bitmapFont : true}]);
+    },
+    /**
+     * update function
+     */
+    update : function (dt) {
+        
+		if (game.data.combo > 0) {
+			this.text = game.data.combo + " COMBO";
+		} else {
+			this.text = "";
+		}
+        return false;
+    }
+});
+
+

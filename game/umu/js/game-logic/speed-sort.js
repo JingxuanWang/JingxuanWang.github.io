@@ -38,8 +38,6 @@ var Round = me.Container.extend({
             this.count = this.countArray[this.countArray.length - 1];
         }
 
-		console.log(this.count + " : " + game.data.level);
-
         // set legend
         this.leftId = Math.floor((Math.random() * this.elems.length));
         this.rightId = Math.floor((Math.random() * this.elems.length));
@@ -165,6 +163,7 @@ var Round = me.Container.extend({
     _onMiss : function()
     {
 
+		game.data.combo = 0;
 		game.data.level--;
 		if (game.data.level < 1) {
 			game.data.level = 1;
@@ -189,8 +188,9 @@ var Round = me.Container.extend({
 
     _onClear : function()
     {
-        game.data.score += this.count * game.data.hitScore;
+        game.data.score += (game.data.level  + game.data.combo * 2) * game.data.hitScore;
         game.data.level++;
+		game.data.combo++;
 
         var markSprite = new Mark(
             "correct",

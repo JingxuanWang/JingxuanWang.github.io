@@ -78,11 +78,26 @@ var Round = me.Container.extend({
             // insert into this.objList
             this.objList.push(elem);
             this.addChild(elem, 10);
-        }
+       	}
+		
+		var self = this;
+		this.numList = this.objList.map(function(elem) {
+			return ~~(elem.spriteName.replace(self.prefix, ""));
+		}).sort(function(a, b) {
+			return a - b;
+		});
+
     },
 
     onSelect: function(spriteName) {
         var number = ~~(spriteName.replace(this.prefix, ""));
+
+		// if we selected the wrong one, treated as error
+		if (this.numList[this.selectedObjs.length] < number) {
+			this._onMiss();
+			return;
+		}
+
         if (this.selectedObjs.length == 0 ||
             number > this.selectedObjs[this.selectedObjs.length - 1]) {
             this._onCorrect(number);
@@ -123,6 +138,7 @@ var Round = me.Container.extend({
 		this.ready = false;
 		this.disableObjects();
 
+		game.data.combo = 0;
 		game.data.level--;
 		if (game.data.level < 1) {
 			game.data.level = 1;
@@ -153,8 +169,9 @@ var Round = me.Container.extend({
 		this.ready = false;
 		this.disableObjects();
 				
-        game.data.score += (game.data.level + this.count) * game.data.hitScore;
+        game.data.score += (game.data.level + game.data.combo * 2) * game.data.hitScore;
         game.data.level++;
+		game.data.combo++;
 
         var markSprite = new Mark(
             "correct",

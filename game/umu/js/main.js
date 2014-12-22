@@ -7,6 +7,7 @@ var game = {
 		totalRank : 10000,
         
 		level : 1,
+		combo : 0,
         totalTime: 45,
         curTime: 0,
         startTime: 0,

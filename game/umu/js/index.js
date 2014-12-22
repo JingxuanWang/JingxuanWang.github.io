@@ -19,15 +19,25 @@ function _loadCookieValues() {
 	var games = deserializeGameInfo($.cookie("games"));
 
 	var total_score = 0;
+	var titles = {};
 	for (game_id in games) {
 		var score = games[game_id];
 		total_score += ~~(score);
 
 		if (score !== undefined && ~~(score) > 0) {
 			// set score
-			//$("#" + game_id + " #score").html("本节最佳：" + score + "分");
-			$("#" + game_id + " #box").append("<span id=\"score\" class=\"num\"></span>");
-			$("#" + game_id + " #box #score").html("本节最佳：" + score + "分");
+			var title = $("#" + game_id + " #box #title").html();
+			titles[game_id] = title;
+			$("#" + game_id + " #box #title")
+			.mouseenter(function() {
+				var game_id = $(this).parent().parent().attr("id");
+				$(this).html("本节最佳：" + games[game_id] + "分");
+			})
+			.mouseleave(function() {
+				var game_id = $(this).parent().parent().attr("id");
+				$(this).html(titles[game_id]);
+			});
+		
 		}
 	}
 
