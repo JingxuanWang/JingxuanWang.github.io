@@ -28,6 +28,8 @@ function _loadCookieValues() {
 			// set score
 			var title = $("#" + game_id + " #box #title").html();
 			titles[game_id] = title;
+			$("#" + game_id + " #box #title").html(title + "(本节最佳：" + games[game_id] + "分)")
+			/*
 			$("#" + game_id + " #box #title")
 			.mouseenter(function() {
 				var game_id = $(this).parent().parent().attr("id");
@@ -37,7 +39,7 @@ function _loadCookieValues() {
 				var game_id = $(this).parent().parent().attr("id");
 				$(this).html(titles[game_id]);
 			});
-		
+			*/
 		}
 	}
 
@@ -63,7 +65,7 @@ function _loadCookieValues() {
 		rank = Math.round(totalRank - totalRank * zRate);
 
 		if (rank !== undefined) {
-			$("#rank").html("总分排名：" + rank + "位");
+			$("#rank").html("排名：" + rank + "位");
 		}
 
 		if (rate !== undefined) {
