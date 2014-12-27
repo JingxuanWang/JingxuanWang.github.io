@@ -48,6 +48,11 @@ function _loadCookieValues() {
 	var rate;
 
 	if (total_score > 0) {
+		$("#status").append("<div id=\"detail\" class=\"btn_status\"></div>");
+		$("#status #detail").append("<span id=\"total_score\" style=\"font-size: 150%;\"></span>");
+		$("#status #detail").append("<span id=\"rank\" style=\"font-size: 125%;float:left;display:inline;\"></span>");
+		$("#status #detail").append("<span id=\"rate\" style=\"font-size: 125%;float:right;display:inline;\"></span>");
+		
 		$("#total_score").html("总分：" + total_score);
 
 		var maxScore = 9000;
@@ -71,8 +76,6 @@ function _loadCookieValues() {
 		if (rate !== undefined) {
 			$("#rate").html("超越了" + rate + "%的用户");
 		}
-	} else {
-		$("#status").remove();
 	}
 }
 
