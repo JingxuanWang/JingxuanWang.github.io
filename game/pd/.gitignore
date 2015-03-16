@@ -1,0 +1,20 @@
+#eclipse files
+.project
+.settings
+
+# temp files
+.DS_Store
+Thumbs.db
+npm-debug.log
+
+# project specific ignore
+node_modules/
+.idea/
+.jshintrc
+
+# Vim swap files
+*.sw*
+
+# build files
+/lib/build/
+

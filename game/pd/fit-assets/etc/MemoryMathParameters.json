@@ -1,0 +1,192 @@
+{
+  "beginner" : [
+    {
+      "addition" : true,
+      "questionsBeforeHide" : 6,
+      "maxValue" : 5,
+      "hideThirdOperand" : false,
+      "multiplication" : false,
+      "hideSecondOperand" : true,
+      "minValue" : 1,
+      "numberOfQuestions" : 20,
+      "showThreeOperands" : false
+    },
+    {
+      "addition" : true,
+      "questionsBeforeHide" : 4,
+      "maxValue" : 8,
+      "hideThirdOperand" : true,
+      "multiplication" : false,
+      "hideSecondOperand" : true,
+      "minValue" : 2,
+      "numberOfQuestions" : 20,
+      "showThreeOperands" : false
+    },
+    {
+      "addition" : true,
+      "maxValue" : 8,
+      "hideThirdOperand" : true,
+      "multiplication" : false,
+      "hideSecondOperand" : true,
+      "minValue" : 2,
+      "numberOfQuestions" : 2,
+      "showThreeOperands" : false
+    },
+    {
+      "addition" : true,
+      "maxValue" : 8,
+      "hideThirdOperand" : true,
+      "multiplication" : false,
+      "hideSecondOperand" : true,
+      "minValue" : 2,
+      "numberOfQuestions" : 5,
+      "showThreeOperands" : false
+    },
+    {
+      "addition" : true,
+      "maxValue" : 8,
+      "hideThirdOperand" : true,
+      "multiplication" : false,
+      "hideSecondOperand" : true,
+      "minValue" : 2,
+      "numberOfQuestions" : 5,
+      "showThreeOperands" : false
+    },
+    {
+      "addition" : true,
+      "maxValue" : 8,
+      "hideThirdOperand" : true,
+      "multiplication" : false,
+      "hideSecondOperand" : true,
+      "minValue" : 2,
+      "numberOfQuestions" : 5,
+      "showThreeOperands" : false
+    },
+    {
+      "addition" : true,
+      "maxValue" : 8,
+      "hideThirdOperand" : true,
+      "multiplication" : false,
+      "hideSecondOperand" : true,
+      "minValue" : 2,
+      "numberOfQuestions" : 5,
+      "showThreeOperands" : false
+    }
+  ],
+  "intermediate" : [
+    {
+      "addition" : true,
+      "questionsBeforeHide" : 6,
+      "maxValue" : 10,
+      "hideThirdOperand" : false,
+      "multiplication" : false,
+      "hideSecondOperand" : true,
+      "minValue" : 2,
+      "numberOfQuestions" : 15,
+      "showThreeOperands" : false
+    },
+    {
+      "addition" : true,
+      "questionsBeforeHide" : 4,
+      "maxValue" : 4,
+      "hideThirdOperand" : true,
+      "multiplication" : false,
+      "hideSecondOperand" : false,
+      "minValue" : 1,
+      "numberOfQuestions" : 15,
+      "showThreeOperands" : true
+    },
+    {
+      "addition" : true,
+      "maxValue" : 5,
+      "hideThirdOperand" : true,
+      "multiplication" : false,
+      "hideSecondOperand" : false,
+      "minValue" : 1,
+      "numberOfQuestions" : 10,
+      "showThreeOperands" : true
+    },
+    {
+      "addition" : true,
+      "maxValue" : 6,
+      "hideThirdOperand" : true,
+      "multiplication" : false,
+      "hideSecondOperand" : false,
+      "minValue" : 1,
+      "numberOfQuestions" : 10,
+      "showThreeOperands" : true
+    },
+    {
+      "addition" : true,
+      "maxValue" : 8,
+      "hideThirdOperand" : true,
+      "multiplication" : false,
+      "hideSecondOperand" : false,
+      "minValue" : 1,
+      "numberOfQuestions" : 10,
+      "showThreeOperands" : true
+    }
+  ],
+  "advanced" : [
+    {
+      "addition" : false,
+      "questionsBeforeHide" : 10000,
+      "maxValue" : 4,
+      "hideThirdOperand" : false,
+      "multiplication" : true,
+      "hideSecondOperand" : true,
+      "minValue" : 1,
+      "numberOfQuestions" : 8,
+      "showThreeOperands" : false,
+      "turboAnimation" : true
+    },
+    {
+      "addition" : false,
+      "questionsBeforeHide" : 7,
+      "maxValue" : 6,
+      "multiplication" : true,
+      "hideThirdOperand" : false,
+      "hideSecondOperand" : true,
+      "minValue" : 1,
+      "numberOfQuestions" : 15,
+      "showThreeOperands" : false,
+      "turboAnimation" : true
+    },
+    {
+      "addition" : false,
+      "questionsBeforeHide" : 4,
+      "maxValue" : 7,
+      "hideThirdOperand" : false,
+      "multiplication" : true,
+      "hideSecondOperand" : true,
+      "minValue" : 2,
+      "numberOfQuestions" : 10,
+      "showThreeOperands" : false,
+      "turboAnimation" : true
+    },
+    {
+      "addition" : false,
+      "questionsBeforeHide" : 5,
+      "maxValue" : 6,
+      "hideThirdOperand" : false,
+      "multiplication" : true,
+      "hideSecondOperand" : true,
+      "minValue" : 1,
+      "numberOfQuestions" : 10,
+      "showThreeOperands" : true,
+      "turboAnimation" : true
+    },
+    {
+      "addition" : false,
+      "questionsBeforeHide" : 4,
+      "maxValue" : 6,
+      "hideThirdOperand" : true,
+      "multiplication" : true,
+      "hideSecondOperand" : false,
+      "minValue" : 2,
+      "numberOfQuestions" : 10,
+      "showThreeOperands" : true,
+      "turboAnimation" : true
+    }
+  ]
+}

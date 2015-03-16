@@ -1,0 +1,368 @@
+{
+  "beginner" : [
+    {
+      "numberOfColumns" : 2,
+      "delay" : 2,
+      "grid" : "1,1,1,1",
+      "matchingTiles" : false,
+      "grid2" : "0,0,0,0",
+      "numberOfRows" : 2
+    },
+    {
+      "numberOfColumns" : 2,
+      "delay" : 2,
+      "grid" : "1,1,1,1",
+      "matchingTiles" : false,
+      "grid2" : "0,0,0,0",
+      "numberOfRows" : 2
+    },
+    {
+      "numberOfColumns" : 2,
+      "delay" : 2,
+      "grid" : "1,1,1,1",
+      "matchingTiles" : false,
+      "grid2" : "0,0,0,0",
+      "numberOfRows" : 2
+    },
+    {
+      "numberOfColumns" : 3,
+      "delay" : 2,
+      "grid" : "1,1,1,1,1,1",
+      "matchingTiles" : false,
+      "grid2" : "0,0,0,0,0,0",
+      "numberOfRows" : 2
+    },
+    {
+      "numberOfColumns" : 3,
+      "delay" : 2,
+      "grid" : "1,1,1,1,1,1",
+      "matchingTiles" : false,
+      "grid2" : "0,0,0,0,0,0",
+      "numberOfRows" : 2
+    },
+    {
+      "numberOfColumns" : 3,
+      "delay" : 2,
+      "grid" : "1,1,1,1,1,1",
+      "matchingTiles" : false,
+      "grid2" : "0,0,0,0,0,0",
+      "numberOfRows" : 2
+    },
+    {
+      "numberOfColumns" : 3,
+      "delay" : 2,
+      "grid" : "1,1,1,1,1,1",
+      "matchingTiles" : false,
+      "grid2" : "0,0,0,0,0,0",
+      "numberOfRows" : 2
+    },
+    {
+      "numberOfColumns" : 3,
+      "delay" : 2,
+      "grid" : "1,1,1,1,1,1",
+      "matchingTiles" : false,
+      "grid2" : "0,0,0,0,0,0",
+      "numberOfRows" : 2
+    },
+    {
+      "numberOfColumns" : 3,
+      "delay" : 2,
+      "grid" : "1,1,1,1,1,1,1,0,1",
+      "matchingTiles" : false,
+      "grid2" : "0,0,0,0,0,0,0,0,0",
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfColumns" : 3,
+      "delay" : 2,
+      "grid" : "1,1,1,1,1,1,1,0,1",
+      "matchingTiles" : false,
+      "grid2" : "0,0,0,0,0,0,0,0,0",
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfColumns" : 3,
+      "delay" : 2,
+      "grid" : "1,1,1,1,1,1,1,0,1",
+      "matchingTiles" : false,
+      "grid2" : "0,0,0,0,0,0,0,0,0",
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfColumns" : 4,
+      "delay" : 2,
+      "grid" : "1,1,1,1,1,1,1,1,1,1,1,1",
+      "matchingTiles" : false,
+      "grid2" : "0,0,0,0,0,0,0,0,0,0,0,0",
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfColumns" : 4,
+      "delay" : 2,
+      "grid" : "1,1,1,1,1,1,1,1,1,1,1,1",
+      "matchingTiles" : false,
+      "grid2" : "0,0,0,0,0,0,0,0,0,0,0,0",
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfColumns" : 4,
+      "delay" : 2,
+      "grid" : "1,1,1,1,1,1,1,1,1,1,1,1",
+      "matchingTiles" : false,
+      "grid2" : "0,0,0,0,0,0,0,0,0,0,0,0",
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfColumns" : 4,
+      "delay" : 2,
+      "grid" : "1,1,1,1,1,1,1,1,1,1,1,1",
+      "matchingTiles" : false,
+      "grid2" : "0,0,0,0,0,0,0,0,0,0,0,0",
+      "numberOfRows" : 3
+    }
+  ],
+  "intermediate" : [
+    {
+      "numberOfColumns" : 2,
+      "delay" : 2.5,
+      "grid" : "1,1,1,1",
+      "matchingTiles" : false,
+      "grid2" : "1,1,0,0",
+      "numberOfRows" : 2
+    },
+    {
+      "numberOfColumns" : 2,
+      "delay" : 2.5,
+      "grid" : "1,1,1,1",
+      "matchingTiles" : false,
+      "grid2" : "0,1,1,0",
+      "numberOfRows" : 2
+    },
+    {
+      "numberOfColumns" : 2,
+      "delay" : 2.5,
+      "grid" : "1,1,1,1",
+      "matchingTiles" : false,
+      "grid2" : "1,0,0,1",
+      "numberOfRows" : 2
+    },
+    {
+      "numberOfColumns" : 2,
+      "delay" : 2.5,
+      "grid" : "1,1,1,1",
+      "matchingTiles" : false,
+      "grid2" : "0,0,1,1",
+      "numberOfRows" : 2
+    },
+    {
+      "numberOfColumns" : 2,
+      "delay" : 2.5,
+      "grid" : "1,1,1,1",
+      "matchingTiles" : false,
+      "grid2" : "0,1,0,1",
+      "numberOfRows" : 2
+    },
+    {
+      "numberOfColumns" : 3,
+      "delay" : 2.5,
+      "grid" : "0,1,0,1,1,1,0,1,0",
+      "matchingTiles" : false,
+      "grid2" : "0,0,0,0,1,0,0,0,0",
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfColumns" : 3,
+      "delay" : 2.5,
+      "grid" : "0,1,0,1,1,1,0,1,0",
+      "matchingTiles" : false,
+      "grid2" : "0,0,0,0,1,0,0,0,0",
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfColumns" : 3,
+      "delay" : 2.5,
+      "grid" : "0,1,0,1,1,1,0,1,0",
+      "matchingTiles" : false,
+      "grid2" : "0,0,0,0,1,0,0,0,0",
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfColumns" : 3,
+      "delay" : 2.5,
+      "grid" : "1,1,1,1,1,1",
+      "matchingTiles" : false,
+      "grid2" : "0,0,1,1,0,0",
+      "numberOfRows" : 2
+    },
+    {
+      "numberOfColumns" : 3,
+      "delay" : 2.5,
+      "grid" : "1,1,1,1,1,1",
+      "matchingTiles" : false,
+      "grid2" : "0,0,1,1,0,0",
+      "numberOfRows" : 2
+    },
+    {
+      "numberOfColumns" : 3,
+      "delay" : 2.5,
+      "grid" : "1,1,1,1,1,1,1,1,1",
+      "matchingTiles" : false,
+      "grid2" : "0,0,0,0,1,0,0,0,0",
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfColumns" : 3,
+      "delay" : 2.5,
+      "grid" : "1,1,1,1,1,1,1,1,1",
+      "matchingTiles" : false,
+      "grid2" : "0,0,0,0,1,0,0,0,0",
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfColumns" : 3,
+      "delay" : 2.5,
+      "grid" : "1,1,1,1,1,1,1,1,1",
+      "matchingTiles" : false,
+      "grid2" : "0,0,0,0,1,0,0,0,0",
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfColumns" : 3,
+      "delay" : 2.5,
+      "grid" : "1,1,1,1,0,1,1,1,1",
+      "matchingTiles" : false,
+      "grid2" : "0,1,0,0,0,0,0,1,0",
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfColumns" : 3,
+      "delay" : 2.5,
+      "grid" : "1,0,1,1,1,1,1,0,1",
+      "matchingTiles" : false,
+      "grid2" : "0,0,0,1,1,1,0,0,0",
+      "numberOfRows" : 3
+    }
+  ],
+  "advanced" : [
+    {
+      "numberOfColumns" : 3,
+      "delay" : 2.5,
+      "grid" : "0,1,0,1,1,1,0,1,0",
+      "matchingTiles" : true,
+      "grid2" : "0,0,0,0,1,0,0,0,0",
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfColumns" : 3,
+      "delay" : 2.5,
+      "grid" : "0,1,0,1,1,1,0,1,0",
+      "matchingTiles" : true,
+      "grid2" : "0,0,0,0,1,0,0,0,0",
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfColumns" : 3,
+      "delay" : 2.5,
+      "grid" : "0,1,0,1,1,1,0,1,0",
+      "matchingTiles" : true,
+      "grid2" : "0,0,0,0,1,0,0,0,0",
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfColumns" : 3,
+      "delay" : 2.5,
+      "grid" : "0,1,0,1,1,1,0,1,0",
+      "matchingTiles" : true,
+      "grid2" : "0,0,0,1,1,1,0,0,0",
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfColumns" : 3,
+      "delay" : 2.5,
+      "grid" : "0,1,0,1,1,1,0,1,0",
+      "matchingTiles" : true,
+      "grid2" : "0,0,0,1,1,1,0,0,0",
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfColumns" : 3,
+      "delay" : 2.5,
+      "grid" : "0,1,0,1,1,1,0,1,0",
+      "matchingTiles" : true,
+      "grid2" : "0,0,0,1,1,1,0,0,0",
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfColumns" : 4,
+      "delay" : 2.5,
+      "grid" : "0,1,1,0,1,1,1,1,0,1,1,0",
+      "matchingTiles" : true,
+      "grid2" : "0,0,0,0,0,1,1,0,0,0,0,0",
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfColumns" : 4,
+      "delay" : 2.5,
+      "grid" : "0,1,1,0,1,1,1,1,0,1,1,0",
+      "matchingTiles" : true,
+      "grid2" : "0,0,0,0,0,1,1,0,0,0,0,0",
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfColumns" : 4,
+      "delay" : 2.5,
+      "grid" : "0,1,1,0,1,1,1,1,0,1,1,0",
+      "matchingTiles" : true,
+      "grid2" : "0,0,0,0,0,1,1,0,0,0,0,0",
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfColumns" : 4,
+      "delay" : 2.5,
+      "grid" : "1,1,1,1,1,1,1,1,1,1,1,1",
+      "matchingTiles" : true,
+      "grid2" : "0,0,0,0,0,1,1,0,0,0,0,0",
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfColumns" : 4,
+      "delay" : 2.5,
+      "grid" : "1,1,1,1,1,1,1,1,1,1,1,1",
+      "matchingTiles" : true,
+      "grid2" : "0,0,0,0,0,1,1,0,0,0,0,0",
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfColumns" : 4,
+      "delay" : 2.5,
+      "grid" : "0,1,1,0,1,1,1,1,1,1,1,1,0,1,1,0",
+      "matchingTiles" : true,
+      "grid2" : "0,0,0,0,0,1,1,0,0,1,1,0,0,0,0,0",
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfColumns" : 4,
+      "delay" : 2.5,
+      "grid" : "0,1,1,0,1,1,1,1,1,1,1,1,0,1,1,0",
+      "matchingTiles" : true,
+      "grid2" : "0,0,0,0,0,1,1,0,0,1,1,0,0,0,0,0",
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfColumns" : 4,
+      "delay" : 2.5,
+      "grid" : "0,1,1,0,1,1,1,1,1,1,1,1,0,1,1,0",
+      "matchingTiles" : true,
+      "grid2" : "0,1,1,0,0,0,0,0,0,0,0,0,0,1,1,0",
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfColumns" : 4,
+      "delay" : 2.5,
+      "grid" : "0,1,1,0,1,1,1,1,1,1,1,1,0,1,1,0",
+      "matchingTiles" : true,
+      "grid2" : "0,1,1,0,0,0,0,0,0,0,0,0,0,1,1,0",
+      "numberOfRows" : 4
+    }
+  ]
+}

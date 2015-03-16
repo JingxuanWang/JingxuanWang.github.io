@@ -1,0 +1,176 @@
+{
+  "beginner" : [
+    {
+      "speed" : 1,
+      "speedIncrease" : 0.01,
+      "speedCap" : "0.3",
+      "numOfHexes" : "3",
+      "numOfSequence" : 2,
+      "lightDelay" : 0.5
+    },
+    {
+      "speed" : 1,
+      "speedIncrease" : 0.01,
+      "speedCap" : "0.3",
+      "numOfHexes" : "3",
+      "numOfSequence" : 3,
+      "lightDelay" : 0.6
+    },
+    {
+      "speed" : 1,
+      "speedIncrease" : 0.01,
+      "speedCap" : "0.3",
+      "numOfHexes" : "3",
+      "numOfSequence" : 3,
+      "lightDelay" : 0.6
+    },
+    {
+      "speed" : 1,
+      "speedIncrease" : 0.01,
+      "speedCap" : "0.3",
+      "numOfHexes" : "3",
+      "numOfSequence" : 4,
+      "lightDelay" : 0.6
+    },
+    {
+      "speed" : 1,
+      "speedIncrease" : 0.01,
+      "speedCap" : "0.3",
+      "numOfHexes" : "3",
+      "numOfSequence" : 4,
+      "lightDelay" : 0.6
+    },
+    {
+      "speed" : 1,
+      "speedIncrease" : 0.01,
+      "speedCap" : "0.3",
+      "numOfHexes" : "3",
+      "numOfSequence" : 4,
+      "lightDelay" : 0.6
+    },
+    {
+      "speed" : 1,
+      "speedIncrease" : 0.01,
+      "speedCap" : "0.3",
+      "numOfHexes" : "3",
+      "numOfSequence" : 5,
+      "lightDelay" : 0.6
+    },
+    {
+      "speed" : 1,
+      "speedIncrease" : 0.01,
+      "speedCap" : "0.3",
+      "numOfHexes" : "3",
+      "numOfSequence" : 5,
+      "lightDelay" : 0.6
+    },
+    {
+      "speed" : 1,
+      "speedIncrease" : 0.01,
+      "speedCap" : "0.3",
+      "numOfHexes" : "3",
+      "numOfSequence" : 5,
+      "lightDelay" : 0.6
+    },
+    {
+      "speed" : 1,
+      "speedIncrease" : 0.01,
+      "speedCap" : "0.3",
+      "numOfHexes" : "3",
+      "numOfSequence" : 6,
+      "lightDelay" : 0.6
+    }
+  ],
+  "intermediate" : [
+    {
+      "speed" : 0.65,
+      "speedIncrease" : 0.01,
+      "speedCap" : "0.3",
+      "numOfHexes" : "4",
+      "numOfSequence" : 3,
+      "lightDelay" : 0.35
+    },
+    {
+      "speed" : 0.65,
+      "speedIncrease" : 0.01,
+      "speedCap" : "0.3",
+      "numOfHexes" : "4",
+      "numOfSequence" : 4,
+      "lightDelay" : 0.35
+    },
+    {
+      "speed" : 0.65,
+      "speedIncrease" : 0.01,
+      "speedCap" : "0.3",
+      "numOfHexes" : "4",
+      "numOfSequence" : 5,
+      "lightDelay" : 0.35
+    },
+    {
+      "speed" : 0.65,
+      "speedIncrease" : 0.01,
+      "speedCap" : "0.3",
+      "numOfHexes" : "4",
+      "numOfSequence" : 5,
+      "lightDelay" : 0.35
+    },
+    {
+      "speed" : 0.65,
+      "speedIncrease" : 0.01,
+      "speedCap" : "0.3",
+      "numOfHexes" : "4",
+      "numOfSequence" : 6,
+      "lightDelay" : 0.35
+    },
+    {
+      "speed" : 0.65,
+      "speedIncrease" : 0.01,
+      "speedCap" : "0.3",
+      "numOfHexes" : "4",
+      "numOfSequence" : 6,
+      "lightDelay" : 0.35
+    },
+    {
+      "speed" : 0.65,
+      "speedIncrease" : 0.01,
+      "speedCap" : "0.3",
+      "numOfHexes" : "4",
+      "numOfSequence" : 6,
+      "lightDelay" : 0.35
+    },
+    {
+      "speed" : 0.65,
+      "speedIncrease" : 0.01,
+      "speedCap" : "0.3",
+      "numOfHexes" : "4",
+      "numOfSequence" : 7,
+      "lightDelay" : 0.35
+    },
+    {
+      "speed" : 0.65,
+      "speedIncrease" : 0.01,
+      "speedCap" : "0.3",
+      "numOfHexes" : "4",
+      "numOfSequence" : 7,
+      "lightDelay" : 0.35
+    },
+    {
+      "speed" : 0.65,
+      "speedIncrease" : 0.01,
+      "speedCap" : "0.3",
+      "numOfHexes" : "4",
+      "numOfSequence" : 7,
+      "lightDelay" : 0.35
+    }
+  ],
+  "advanced" : [
+    {
+      "speed" : 0.5,
+      "speedIncrease" : 0.01,
+      "speedCap" : "0.3",
+      "numOfHexes" : "6",
+      "numOfSequence" : 3,
+      "lightDelay" : 0.3
+    }
+  ]
+}

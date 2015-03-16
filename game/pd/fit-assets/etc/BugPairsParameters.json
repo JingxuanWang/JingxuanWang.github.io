@@ -1,0 +1,102 @@
+{
+  "beginner": [{
+    "numberOfNuts": 2,
+    "hideDelay": 2.3
+  }, {
+    "numberOfNuts": 4,
+    "hideDelay": 2.3
+  }, {
+    "numberOfNuts": 4,
+    "hideDelay": 2.3
+  }, {
+    "numberOfNuts": 6,
+    "hideDelay": 2.3
+  }, {
+    "numberOfNuts": 6,
+    "hideDelay": 2.3
+  }, {
+    "numberOfNuts": 8,
+    "hideDelay": 2.3
+  }, {
+    "numberOfNuts": 8,
+    "hideDelay": 2.4
+  }, {
+    "numberOfNuts": 8,
+    "hideDelay": 2.4
+  }, {
+    "numberOfNuts": 8,
+    "hideDelay": 2.4
+  }, {
+    "numberOfNuts": 10,
+    "hideDelay": 2.4
+  }, {
+    "numberOfNuts": 10,
+    "hideDelay": 2.4
+  }, {
+    "numberOfNuts": 10,
+    "hideDelay": 2.6
+  }, {
+    "numberOfNuts": 10,
+    "swapInterval": {
+      "min": 5,
+      "max": 5
+    },
+    "hideDelay": 2.6
+  }, {
+    "numberOfNuts": 10,
+    "swapInterval": {
+      "min": 5,
+      "max": 5
+    },
+    "hideDelay": 2.6
+  }, {
+    "numberOfNuts": 12,
+    "swapInterval": {
+      "min": 5,
+      "max": 5
+    },
+    "hideDelay": 2.6
+  }, {
+    "numberOfNuts": 12,
+    "swapInterval": {
+      "min": 3,
+      "max": 4
+    },
+    "hideDelay": 2.8
+  }, {
+    "numberOfNuts": 12,
+    "swapInterval": {
+      "min": 3,
+      "max": 4
+    },
+    "hideDelay": 2.8
+  }, {
+    "numberOfNuts": 12,
+    "swapInterval": {
+      "min": 3,
+      "max": 4
+    },
+    "hideDelay": 2.8
+  }, {
+    "numberOfNuts": 14,
+    "swapInterval": {
+      "min": 2,
+      "max": 3
+    },
+    "hideDelay": 2.8
+  }, {
+    "numberOfNuts": 14,
+    "swapInterval": {
+      "min": 2,
+      "max": 3
+    },
+    "hideDelay": 2.8
+  }, {
+    "numberOfNuts": 16,
+    "swapInterval": {
+      "min": 1,
+      "max": 2
+    },
+    "hideDelay": 3
+  }]
+}

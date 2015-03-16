@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+<title>{$sessionInfo.title}</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/avatar.css" rel="stylesheet" type="text/css">
+</head>
+
+<body class="game" onload="onLoadNickname()">
+	<script type="text/javascript" src="lib/jquery-1.11.1.min.js" ></script>
+	<script type="text/javascript" src="lib/jquery.cookie.min.js"></script>
+	<script type="text/javascript" src="lib/build/index-min.js"></script>
+	<div class="header">
+		<a class="logo" href="#"><img src="images/logo.png" alt=""></a>
+		<h1 id="title">{$sessionInfo.title}</h1>
+	</div>
+	<div class="content">
+		<div class="top">
+			<p class="tip">请输入您的昵称，然后可以进行游戏，游戏完成后，您的综合排名越高，越有机会登上大屏幕</p>
+		</div>
+		<div class="inputWrap">
+			<input id="user_name" class="nickname inputBox" name="" type="text" placeholder="请输入你的昵称">
+		</div>
+		<div class="operate">
+			<a class="btn_cancel" href="index.html">取消</a>
+			<a class="btn_submit" href="javascript:void(0);" onclick="onSubmit();return false;">确认</a>
+		</div>
+	</div>	
+</body>
+</html>

@@ -1,0 +1,968 @@
+{
+  "beginner" : [
+    {
+      "rotation2Max" : -10,
+      "typeString" : "0,1,2",
+      "rotation1Max" : -10,
+      "scoreValue" : 10,
+      "rotation2Min" : -10,
+      "rotation1Min" : -10
+    },
+    {
+      "rotation2Max" : -10,
+      "typeString" : "2,23",
+      "rotation1Max" : -10,
+      "scoreValue" : 10,
+      "rotation2Min" : -10,
+      "rotation1Min" : -10
+    },
+    {
+      "rotation2Max" : -10,
+      "typeString" : "3,4,5",
+      "rotation1Max" : -10,
+      "scoreValue" : 10,
+      "rotation2Min" : -10,
+      "rotation1Min" : -10
+    },
+    {
+      "rotation2Max" : 25,
+      "typeString" : "0,1,2,3,4,5",
+      "rotation1Max" : 25,
+      "scoreValue" : 10,
+      "rotation2Min" : -25,
+      "rotation1Min" : -25
+    },
+    {
+      "rotation2Max" : 25,
+      "typeString" : "0,1,2,3,4,5",
+      "rotation1Max" : 25,
+      "scoreValue" : 10,
+      "rotation2Min" : -25,
+      "rotation1Min" : -25
+    },
+    {
+      "rotation2Max" : 15,
+      "typeString" : "0,1,2,3,4,5",
+      "rotation1Max" : 15,
+      "scoreValue" : 10,
+      "rotation2Min" : -25,
+      "rotation1Min" : -25
+    },
+    {
+      "rotation2Max" : 15,
+      "typeString" : "0,1,2,3,4,5",
+      "rotation1Max" : 15,
+      "scoreValue" : 10,
+      "rotation2Min" : -25,
+      "rotation1Min" : -25
+    },
+    {
+      "rotation2Max" : 25,
+      "typeString" : "0,1,2,3,4,5",
+      "rotation1Max" : 25,
+      "scoreValue" : 10,
+      "rotation2Min" : -35,
+      "rotation1Min" : -35
+    },
+    {
+      "rotation2Max" : 25,
+      "typeString" : "4,5,0",
+      "rotation1Max" : 25,
+      "scoreValue" : 10,
+      "rotation2Min" : -35,
+      "rotation1Min" : -35
+    },
+    {
+      "rotation2Max" : 35,
+      "typeString" : "23,24",
+      "rotation1Max" : 35,
+      "scoreValue" : 10,
+      "rotation2Min" : -25,
+      "rotation1Min" : -25
+    },
+    {
+      "rotation2Max" : 35,
+      "typeString" : "2,5,27",
+      "rotation1Max" : 35,
+      "scoreValue" : 15,
+      "rotation2Min" : -25,
+      "rotation1Min" : -25
+    },
+    {
+      "rotation2Max" : 0,
+      "typeString" : "22,26,28",
+      "rotation1Max" : 0,
+      "scoreValue" : 15,
+      "rotation2Min" : -25,
+      "rotation1Min" : -25
+    },
+    {
+      "rotation2Max" : 0,
+      "typeString" : "5,3,2",
+      "rotation1Max" : 0,
+      "scoreValue" : 15,
+      "rotation2Min" : -25,
+      "rotation1Min" : -25
+    },
+    {
+      "rotation2Max" : 45,
+      "typeString" : "2,4,23,25",
+      "rotation1Max" : 45,
+      "scoreValue" : 15,
+      "rotation2Min" : -45,
+      "rotation1Min" : -45
+    },
+    {
+      "rotation2Max" : 25,
+      "typeString" : "22,24",
+      "rotation1Max" : 25,
+      "scoreValue" : 15,
+      "rotation2Min" : -45,
+      "rotation1Min" : -45
+    },
+    {
+      "rotation2Max" : 25,
+      "typeString" : "1,25",
+      "rotation1Max" : 25,
+      "scoreValue" : 20,
+      "rotation2Min" : -25,
+      "rotation1Min" : -25
+    },
+    {
+      "rotation2Max" : 25,
+      "typeString" : "5,3,2",
+      "rotation1Max" : 25,
+      "scoreValue" : 20,
+      "rotation2Min" : -25,
+      "rotation1Min" : -25
+    },
+    {
+      "rotation2Max" : 45,
+      "typeString" : "0,1,2",
+      "rotation1Max" : 45,
+      "scoreValue" : 20,
+      "rotation2Min" : -25,
+      "rotation1Min" : -25
+    },
+    {
+      "rotation2Max" : 45,
+      "typeString" : "0,4,5",
+      "rotation1Max" : 45,
+      "scoreValue" : 20,
+      "rotation2Min" : 0,
+      "rotation1Min" : 0
+    },
+    {
+      "rotation2Max" : 45,
+      "typeString" : "1,25,2",
+      "rotation1Max" : 45,
+      "scoreValue" : 20,
+      "rotation2Min" : 0,
+      "rotation1Min" : 0
+    },
+    {
+      "rotation2Max" : 45,
+      "typeString" : "21,22",
+      "rotation1Max" : 45,
+      "scoreValue" : 25,
+      "rotation2Min" : 0,
+      "rotation1Min" : 0
+    },
+    {
+      "rotation2Max" : 25,
+      "typeString" : "21,25,26",
+      "rotation1Max" : 25,
+      "scoreValue" : 25,
+      "rotation2Min" : -45,
+      "rotation1Min" : -45
+    },
+    {
+      "rotation2Max" : 25,
+      "typeString" : "21,22,23",
+      "rotation1Max" : 25,
+      "scoreValue" : 25,
+      "rotation2Min" : -45,
+      "rotation1Min" : -45
+    },
+    {
+      "rotation2Max" : 25,
+      "typeString" : "26,27,28",
+      "rotation1Max" : 25,
+      "scoreValue" : 25,
+      "rotation2Min" : -45,
+      "rotation1Min" : -45
+    },
+    {
+      "rotation2Max" : 25,
+      "typeString" : "23,4,5",
+      "rotation1Max" : 25,
+      "scoreValue" : 25,
+      "rotation2Min" : 0,
+      "rotation1Min" : 0
+    },
+    {
+      "rotation2Max" : 25,
+      "typeString" : "5,21,26",
+      "rotation1Max" : 25,
+      "scoreValue" : 30,
+      "rotation2Min" : -45,
+      "rotation1Min" : -45
+    },
+    {
+      "rotation2Max" : 25,
+      "typeString" : "2,3,6",
+      "rotation1Max" : 25,
+      "scoreValue" : 30,
+      "rotation2Min" : -25,
+      "rotation1Min" : -25
+    },
+    {
+      "rotation2Max" : 25,
+      "typeString" : "1,4,3",
+      "rotation1Max" : 25,
+      "scoreValue" : 30,
+      "rotation2Min" : -25,
+      "rotation1Min" : -25
+    },
+    {
+      "rotation2Max" : 25,
+      "typeString" : "3,4,5",
+      "rotation1Max" : 25,
+      "scoreValue" : 30,
+      "rotation2Min" : 0,
+      "rotation1Min" : 0
+    },
+    {
+      "rotation2Max" : 25,
+      "typeString" : "21,22,24",
+      "rotation1Max" : 25,
+      "scoreValue" : 30,
+      "rotation2Min" : -25,
+      "rotation1Min" : -25
+    },
+    {
+      "rotation2Max" : 25,
+      "typeString" : "6,3,2",
+      "rotation1Max" : 25,
+      "scoreValue" : 30,
+      "rotation2Min" : -45,
+      "rotation1Min" : -45
+    },
+    {
+      "rotation2Max" : 25,
+      "typeString" : "2,23,21",
+      "rotation1Max" : 25,
+      "scoreValue" : 30,
+      "rotation2Min" : -45,
+      "rotation1Min" : -45
+    },
+    {
+      "rotation2Max" : 0,
+      "typeString" : "21,24,1",
+      "rotation1Max" : 0,
+      "scoreValue" : 30,
+      "rotation2Min" : -25,
+      "rotation1Min" : -25
+    },
+    {
+      "rotation2Max" : 0,
+      "typeString" : "22,3,1",
+      "rotation1Max" : 0,
+      "scoreValue" : 30,
+      "rotation2Min" : -25,
+      "rotation1Min" : -25
+    },
+    {
+      "rotation2Max" : 25,
+      "typeString" : "2,7,19",
+      "rotation1Max" : 25,
+      "scoreValue" : 30,
+      "rotation2Min" : -25,
+      "rotation1Min" : -25
+    },
+    {
+      "rotation2Max" : 25,
+      "typeString" : "23,3,2",
+      "rotation1Max" : 25,
+      "scoreValue" : 30,
+      "rotation2Min" : -25,
+      "rotation1Min" : -25
+    },
+    {
+      "rotation2Max" : 0,
+      "typeString" : "21,24",
+      "rotation1Max" : 0,
+      "scoreValue" : 30,
+      "rotation2Min" : -45,
+      "rotation1Min" : -45
+    },
+    {
+      "rotation2Max" : 0,
+      "typeString" : "21,22,23,24,25,26,27,28",
+      "rotation1Max" : 0,
+      "scoreValue" : 30,
+      "rotation2Min" : -45,
+      "rotation1Min" : -45
+    },
+    {
+      "rotation2Max" : 25,
+      "typeString" : "21,22,23,24,25,26,27,28",
+      "rotation1Max" : 25,
+      "scoreValue" : 30,
+      "rotation2Min" : -45,
+      "rotation1Min" : -45
+    },
+    {
+      "rotation2Max" : 25,
+      "typeString" : "21,22,23,24,25,26,27,28",
+      "rotation1Max" : 25,
+      "scoreValue" : 30,
+      "rotation2Min" : -45,
+      "rotation1Min" : -45
+    }
+  ],
+  "intermediate" : [
+    {
+      "rotation2Max" : 25,
+      "typeString" : "3,4,5,24,25,26",
+      "rotation1Max" : 25,
+      "scoreValue" : 40,
+      "rotation2Min" : -25,
+      "rotation1Min" : -25
+    },
+    {
+      "rotation2Max" : 25,
+      "typeString" : "6,7,8",
+      "rotation1Max" : 25,
+      "scoreValue" : 40,
+      "rotation2Min" : -25,
+      "rotation1Min" : -25
+    },
+    {
+      "rotation2Max" : 0,
+      "typeString" : "6,7,8,9,10,11",
+      "rotation1Max" : 0,
+      "scoreValue" : 40,
+      "rotation2Min" : -90,
+      "rotation1Min" : -90
+    },
+    {
+      "rotation2Max" : 90,
+      "typeString" : "6,7,8,9,10,11",
+      "rotation1Max" : 90,
+      "scoreValue" : 40,
+      "rotation2Min" : -25,
+      "rotation1Min" : 0
+    },
+    {
+      "rotation2Max" : 90,
+      "typeString" : "6,7,8,9,10,11",
+      "rotation1Max" : 90,
+      "scoreValue" : 40,
+      "rotation2Min" : -90,
+      "rotation1Min" : -25
+    },
+    {
+      "rotation2Max" : 90,
+      "typeString" : "6,7,8,9,10,11",
+      "rotation1Max" : 90,
+      "scoreValue" : 50,
+      "rotation2Min" : -90,
+      "rotation1Min" : -25
+    },
+    {
+      "rotation2Max" : 90,
+      "typeString" : "6,7,8,9,10,11",
+      "rotation1Max" : 90,
+      "scoreValue" : 50,
+      "rotation2Min" : -90,
+      "rotation1Min" : -25
+    },
+    {
+      "rotation2Max" : 90,
+      "typeString" : "6,7,8,9,10,11",
+      "rotation1Max" : 90,
+      "scoreValue" : 60,
+      "rotation2Min" : -35,
+      "rotation1Min" : -120
+    },
+    {
+      "rotation2Max" : 90,
+      "typeString" : "12,13,14,15,16",
+      "rotation1Max" : 90,
+      "scoreValue" : 60,
+      "rotation2Min" : -120,
+      "rotation1Min" : -90
+    },
+    {
+      "rotation2Max" : 90,
+      "typeString" : "6,7,8,9,10,11",
+      "rotation1Max" : 90,
+      "scoreValue" : 60,
+      "rotation2Min" : -120,
+      "rotation1Min" : -90
+    },
+    {
+      "rotation2Max" : 90,
+      "typeString" : "12,13,14,15,16",
+      "rotation1Max" : 90,
+      "scoreValue" : 60,
+      "rotation2Min" : -25,
+      "rotation1Min" : -90
+    },
+    {
+      "rotation2Max" : 0,
+      "typeString" : "6,7,8,9,10,11",
+      "rotation1Max" : 0,
+      "scoreValue" : 60,
+      "rotation2Min" : -25,
+      "rotation1Min" : -25
+    },
+    {
+      "rotation2Max" : 0,
+      "typeString" : "12,13,14,15,16",
+      "rotation1Max" : 0,
+      "scoreValue" : 60,
+      "rotation2Min" : -25,
+      "rotation1Min" : -25
+    },
+    {
+      "rotation2Max" : 90,
+      "typeString" : "6,7,8,9,10,11",
+      "rotation1Max" : 90,
+      "scoreValue" : 60,
+      "rotation2Min" : -45,
+      "rotation1Min" : -90
+    },
+    {
+      "rotation2Max" : 180,
+      "typeString" : "12,13,14,15,16",
+      "rotation1Max" : 180,
+      "scoreValue" : 60,
+      "rotation2Min" : -120,
+      "rotation1Min" : -90
+    },
+    {
+      "rotation2Max" : 180,
+      "typeString" : "6,7,8,9,10,11",
+      "rotation1Max" : 180,
+      "scoreValue" : 70,
+      "rotation2Min" : -90,
+      "rotation1Min" : -90
+    },
+    {
+      "rotation2Max" : 180,
+      "typeString" : "12,13,14,15,16",
+      "rotation1Max" : 180,
+      "scoreValue" : 70,
+      "rotation2Min" : -90,
+      "rotation1Min" : -25
+    },
+    {
+      "rotation2Max" : 90,
+      "typeString" : "17,18,19,20,21,22",
+      "rotation1Max" : 90,
+      "scoreValue" : 70,
+      "rotation2Min" : -25,
+      "rotation1Min" : -25
+    },
+    {
+      "rotation2Max" : 90,
+      "typeString" : "12,13,14,15,16",
+      "rotation1Max" : 90,
+      "scoreValue" : 70,
+      "rotation2Min" : 0,
+      "rotation1Min" : 0
+    },
+    {
+      "rotation2Max" : 120,
+      "typeString" : "17,18,19,20,21,22",
+      "rotation1Max" : 120,
+      "scoreValue" : 70,
+      "rotation2Min" : -120,
+      "rotation1Min" : -120
+    },
+    {
+      "rotation2Max" : 120,
+      "typeString" : "12,13,14,15,16",
+      "rotation1Max" : 120,
+      "scoreValue" : 80,
+      "rotation2Min" : 0,
+      "rotation1Min" : 0
+    },
+    {
+      "rotation2Max" : 120,
+      "typeString" : "17,18,19,20,21,22",
+      "rotation1Max" : 120,
+      "scoreValue" : 80,
+      "rotation2Min" : 0,
+      "rotation1Min" : 0
+    },
+    {
+      "rotation2Max" : 120,
+      "typeString" : "6,7,8,9,10,11",
+      "rotation1Max" : 120,
+      "scoreValue" : 80,
+      "rotation2Min" : 0,
+      "rotation1Min" : 0
+    },
+    {
+      "rotation2Max" : 90,
+      "typeString" : "17,18,19,20,21,22",
+      "rotation1Max" : 90,
+      "scoreValue" : 80,
+      "rotation2Min" : -90,
+      "rotation1Min" : -90
+    },
+    {
+      "rotation2Max" : 90,
+      "typeString" : "6,7,8,9,10,11",
+      "rotation1Max" : 90,
+      "scoreValue" : 80,
+      "rotation2Min" : -120,
+      "rotation1Min" : -120
+    },
+    {
+      "rotation2Max" : 120,
+      "typeString" : "17,18,19,20,21,22",
+      "rotation1Max" : 120,
+      "scoreValue" : 80,
+      "rotation2Min" : -120,
+      "rotation1Min" : -120
+    },
+    {
+      "rotation2Max" : 120,
+      "typeString" : "7,8,9,10,11",
+      "rotation1Max" : 120,
+      "scoreValue" : 80,
+      "rotation2Min" : -120,
+      "rotation1Min" : -120
+    },
+    {
+      "rotation2Max" : 120,
+      "typeString" : "17,18,19,20,21,22",
+      "rotation1Max" : 120,
+      "scoreValue" : 80,
+      "rotation2Min" : -90,
+      "rotation1Min" : -90
+    },
+    {
+      "rotation2Max" : 180,
+      "typeString" : "7,8,9,10,11",
+      "rotation1Max" : 120,
+      "scoreValue" : 80,
+      "rotation2Min" : -90,
+      "rotation1Min" : -90
+    },
+    {
+      "rotation2Max" : 120,
+      "typeString" : "7,3,2",
+      "rotation1Max" : 120,
+      "scoreValue" : 80,
+      "rotation2Min" : -90,
+      "rotation1Min" : -90
+    },
+    {
+      "rotation2Max" : 120,
+      "typeString" : "7,8,9,10,11",
+      "rotation1Max" : 120,
+      "scoreValue" : 80,
+      "rotation2Min" : -90,
+      "rotation1Min" : -90
+    },
+    {
+      "rotation2Max" : 120,
+      "typeString" : "15,17,20",
+      "rotation1Max" : 120,
+      "scoreValue" : 80,
+      "rotation2Min" : -90,
+      "rotation1Min" : -90
+    },
+    {
+      "rotation2Max" : 120,
+      "typeString" : "21,24,17",
+      "rotation1Max" : 180,
+      "scoreValue" : 80,
+      "rotation2Min" : -90,
+      "rotation1Min" : -90
+    },
+    {
+      "rotation2Max" : 180,
+      "typeString" : "7,3,2",
+      "rotation1Max" : 180,
+      "scoreValue" : 80,
+      "rotation2Min" : -90,
+      "rotation1Min" : -90
+    },
+    {
+      "rotation2Max" : 180,
+      "typeString" : "2,7,19",
+      "rotation1Max" : 180,
+      "scoreValue" : 80,
+      "rotation2Min" : 0,
+      "rotation1Min" : 0
+    },
+    {
+      "rotation2Max" : 180,
+      "typeString" : "7,3,2",
+      "rotation1Max" : 180,
+      "scoreValue" : 80,
+      "rotation2Min" : 0,
+      "rotation1Min" : 0
+    },
+    {
+      "rotation2Max" : 180,
+      "typeString" : "21,24,17",
+      "rotation1Max" : 180,
+      "scoreValue" : 80,
+      "rotation2Min" : 0,
+      "rotation1Min" : 0
+    },
+    {
+      "rotation2Max" : 180,
+      "typeString" : "15,17,20",
+      "rotation1Max" : 180,
+      "scoreValue" : 80,
+      "rotation2Min" : -90,
+      "rotation1Min" : -90
+    },
+    {
+      "rotation2Max" : 180,
+      "typeString" : "2,7,19",
+      "rotation1Max" : 180,
+      "scoreValue" : 80,
+      "rotation2Min" : -90,
+      "rotation1Min" : -90
+    },
+    {
+      "rotation2Max" : 180,
+      "typeString" : "7,3,2",
+      "rotation1Max" : 180,
+      "scoreValue" : 80,
+      "rotation2Min" : -90,
+      "rotation1Min" : -90
+    }
+  ],
+  "advanced" : [
+    {
+      "rotation2Max" : 180,
+      "typeString" : "18,19,20,21,22",
+      "rotation1Max" : 180,
+      "scoreValue" : 50,
+      "rotation2Min" : -180,
+      "rotation1Min" : -180
+    },
+    {
+      "rotation2Max" : 180,
+      "typeString" : "7,13,20,8,34,41",
+      "rotation1Max" : 180,
+      "scoreValue" : 50,
+      "rotation2Min" : -180,
+      "rotation1Min" : -180
+    },
+    {
+      "rotation2Max" : 180,
+      "typeString" : "38,39,40,41,42,43",
+      "rotation1Max" : 180,
+      "scoreValue" : 60,
+      "rotation2Min" : -180,
+      "rotation1Min" : -180
+    },
+    {
+      "rotation2Max" : 180,
+      "typeString" : "29,30,31,32",
+      "rotation1Max" : 180,
+      "scoreValue" : 60,
+      "rotation2Min" : -180,
+      "rotation1Min" : -180
+    },
+    {
+      "rotation2Max" : 180,
+      "typeString" : "33,34,35,36,37",
+      "rotation1Max" : 180,
+      "scoreValue" : 60,
+      "rotation2Min" : -180,
+      "rotation1Min" : -180
+    },
+    {
+      "rotation2Max" : 180,
+      "typeString" : "33,34,35,36,37",
+      "rotation1Max" : 180,
+      "scoreValue" : 70,
+      "rotation2Min" : -180,
+      "rotation1Min" : -180
+    },
+    {
+      "rotation2Max" : 180,
+      "typeString" : "29,30,31,32",
+      "rotation1Max" : 180,
+      "scoreValue" : 70,
+      "rotation2Min" : -180,
+      "rotation1Min" : -180
+    },
+    {
+      "rotation2Max" : 180,
+      "typeString" : "38,39,40,41,42,43",
+      "rotation1Max" : 180,
+      "scoreValue" : 70,
+      "rotation2Min" : -180,
+      "rotation1Min" : -180
+    },
+    {
+      "rotation2Max" : 180,
+      "typeString" : "18,19,20,21,22",
+      "rotation1Max" : 180,
+      "scoreValue" : 70,
+      "rotation2Min" : -180,
+      "rotation1Min" : -180
+    },
+    {
+      "rotation2Max" : 180,
+      "typeString" : "33,34,35,36,37",
+      "rotation1Max" : 180,
+      "scoreValue" : 70,
+      "rotation2Min" : -180,
+      "rotation1Min" : -180
+    },
+    {
+      "rotation2Max" : 180,
+      "typeString" : "38,39,40,41,42,43",
+      "rotation1Max" : 180,
+      "scoreValue" : 80,
+      "rotation2Min" : -180,
+      "rotation1Min" : -180
+    },
+    {
+      "rotation2Max" : 180,
+      "typeString" : "33,34,35,36,37",
+      "rotation1Max" : 180,
+      "scoreValue" : 80,
+      "rotation2Min" : -180,
+      "rotation1Min" : -180
+    },
+    {
+      "rotation2Max" : 180,
+      "typeString" : "18,19,20,21,22",
+      "rotation1Max" : 180,
+      "scoreValue" : 80,
+      "rotation2Min" : -180,
+      "rotation1Min" : -180
+    },
+    {
+      "rotation2Max" : 180,
+      "typeString" : "29,30,31,32",
+      "rotation1Max" : 180,
+      "scoreValue" : 80,
+      "rotation2Min" : -180,
+      "rotation1Min" : -180
+    },
+    {
+      "rotation2Max" : 180,
+      "typeString" : "7,13,20,8,34,41",
+      "rotation1Max" : 180,
+      "scoreValue" : 80,
+      "rotation2Min" : -180,
+      "rotation1Min" : -180
+    },
+    {
+      "rotation2Max" : 180,
+      "typeString" : "7,13,20,8,34,41",
+      "rotation1Max" : 180,
+      "scoreValue" : 90,
+      "rotation2Min" : -180,
+      "rotation1Min" : -180
+    },
+    {
+      "rotation2Max" : 180,
+      "typeString" : "29,30,31,32",
+      "rotation1Max" : 180,
+      "scoreValue" : 90,
+      "rotation2Min" : -180,
+      "rotation1Min" : -180
+    },
+    {
+      "rotation2Max" : 180,
+      "typeString" : "38,39,40,41,42,43",
+      "rotation1Max" : 180,
+      "scoreValue" : 90,
+      "rotation2Min" : -180,
+      "rotation1Min" : -180
+    },
+    {
+      "rotation2Max" : 180,
+      "typeString" : "38,39,40,41,42,43",
+      "rotation1Max" : 180,
+      "scoreValue" : 90,
+      "rotation2Min" : -180,
+      "rotation1Min" : -180
+    },
+    {
+      "rotation2Max" : 180,
+      "typeString" : "38,39,40,41,42,43",
+      "rotation1Max" : 180,
+      "scoreValue" : 90,
+      "rotation2Min" : -180,
+      "rotation1Min" : -180
+    },
+    {
+      "rotation2Max" : 180,
+      "typeString" : "38,39,40,41,42,43",
+      "rotation1Max" : 180,
+      "scoreValue" : 100,
+      "rotation2Min" : -180,
+      "rotation1Min" : -180
+    },
+    {
+      "rotation2Max" : 180,
+      "typeString" : "38,39,40,41,42,43",
+      "rotation1Max" : 180,
+      "scoreValue" : 100,
+      "rotation2Min" : -180,
+      "rotation1Min" : -180
+    },
+    {
+      "rotation2Max" : 180,
+      "typeString" : "7,13,20,8,34,41",
+      "rotation1Max" : 180,
+      "scoreValue" : 90,
+      "rotation2Min" : -180,
+      "rotation1Min" : -180
+    },
+    {
+      "rotation2Max" : 180,
+      "typeString" : "7,13,20,8,34,41",
+      "rotation1Max" : 180,
+      "scoreValue" : 100,
+      "rotation2Min" : -180,
+      "rotation1Min" : -180
+    },
+    {
+      "rotation2Max" : 180,
+      "typeString" : "38,39,40,41,42,43",
+      "rotation1Max" : 180,
+      "scoreValue" : 100,
+      "rotation2Min" : -180,
+      "rotation1Min" : -180
+    },
+    {
+      "rotation2Max" : 180,
+      "typeString" : "7,13,20,8,34,41",
+      "rotation1Max" : 180,
+      "scoreValue" : 110,
+      "rotation2Min" : -180,
+      "rotation1Min" : -180
+    },
+    {
+      "rotation2Max" : 180,
+      "typeString" : "18,19,20,21,22",
+      "rotation1Max" : 180,
+      "scoreValue" : 110,
+      "rotation2Min" : -180,
+      "rotation1Min" : -180
+    },
+    {
+      "rotation2Max" : 180,
+      "typeString" : "38,39,40,41,42,43",
+      "rotation1Max" : 180,
+      "scoreValue" : 110,
+      "rotation2Min" : -180,
+      "rotation1Min" : -180
+    },
+    {
+      "rotation2Max" : 180,
+      "typeString" : "18,19,20,21,22",
+      "rotation1Max" : 180,
+      "scoreValue" : 110,
+      "rotation2Min" : -180,
+      "rotation1Min" : -180
+    },
+    {
+      "rotation2Max" : 180,
+      "typeString" : "38,39,40,41,42,43",
+      "rotation1Max" : 180,
+      "scoreValue" : 110,
+      "rotation2Min" : -180,
+      "rotation1Min" : -180
+    },
+    {
+      "rotation2Max" : 180,
+      "typeString" : "14,15,16",
+      "rotation1Max" : 180,
+      "scoreValue" : 120,
+      "rotation2Min" : -180,
+      "rotation1Min" : -180
+    },
+    {
+      "rotation2Max" : 180,
+      "typeString" : "2,7,8",
+      "rotation1Max" : 180,
+      "scoreValue" : 120,
+      "rotation2Min" : -180,
+      "rotation1Min" : -180
+    },
+    {
+      "rotation2Max" : 180,
+      "typeString" : "2,7,19",
+      "rotation1Max" : 180,
+      "scoreValue" : 120,
+      "rotation2Min" : -180,
+      "rotation1Min" : -180
+    },
+    {
+      "rotation2Max" : 180,
+      "typeString" : "15,17,20",
+      "rotation1Max" : 180,
+      "scoreValue" : 120,
+      "rotation2Min" : -180,
+      "rotation1Min" : -180
+    },
+    {
+      "rotation2Max" : 180,
+      "typeString" : "7,3,2",
+      "rotation1Max" : 180,
+      "scoreValue" : 130,
+      "rotation2Min" : -180,
+      "rotation1Min" : -180
+    },
+    {
+      "rotation2Max" : 180,
+      "typeString" : "2,7,19",
+      "rotation1Max" : 180,
+      "scoreValue" : 130,
+      "rotation2Min" : -180,
+      "rotation1Min" : -180
+    },
+    {
+      "rotation2Max" : 180,
+      "typeString" : "21,24,17",
+      "rotation1Max" : 180,
+      "scoreValue" : 130,
+      "rotation2Min" : -180,
+      "rotation1Min" : -180
+    },
+    {
+      "rotation2Max" : 180,
+      "typeString" : "15,17,20",
+      "rotation1Max" : 180,
+      "scoreValue" : 130,
+      "rotation2Min" : -180,
+      "rotation1Min" : -180
+    },
+    {
+      "rotation2Max" : 180,
+      "typeString" : "7,3,2",
+      "rotation1Max" : 180,
+      "scoreValue" : 130,
+      "rotation2Min" : -180,
+      "rotation1Min" : -180
+    },
+    {
+      "rotation2Max" : 180,
+      "typeString" : "7,3,2",
+      "rotation1Max" : 180,
+      "scoreValue" : 130,
+      "rotation2Min" : -180,
+      "rotation1Min" : -180
+    }
+  ]
+}

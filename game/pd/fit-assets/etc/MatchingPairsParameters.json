@@ -1,0 +1,728 @@
+{
+  "beginner" : [
+    {
+      "numberOfColumns" : 2,
+      "numberOfPairs" : 1,
+      "shapeType" : 0,
+      "numberOfRows" : 2
+    },
+    {
+      "numberOfColumns" : 3,
+      "numberOfPairs" : 1,
+      "shapeType" : 0,
+      "numberOfRows" : 2
+    },
+    {
+      "numberOfColumns" : 3,
+      "numberOfPairs" : 1,
+      "shapeType" : 0,
+      "numberOfRows" : 2
+    },
+    {
+      "numberOfColumns" : 3,
+      "numberOfPairs" : 1,
+      "shapeType" : 0,
+      "numberOfRows" : 2
+    },
+    {
+      "numberOfColumns" : 3,
+      "numberOfPairs" : 1,
+      "shapeType" : 0,
+      "numberOfRows" : 2
+    },
+    {
+      "numberOfColumns" : 3,
+      "numberOfPairs" : 1,
+      "shapeType" : 0,
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfColumns" : 3,
+      "numberOfPairs" : 1,
+      "shapeType" : 0,
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfColumns" : 3,
+      "numberOfPairs" : 1,
+      "shapeType" : 0,
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfColumns" : 3,
+      "numberOfPairs" : 1,
+      "shapeType" : 0,
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfColumns" : 3,
+      "numberOfPairs" : 1,
+      "shapeType" : 0,
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfColumns" : 4,
+      "numberOfPairs" : 1,
+      "shapeType" : 0,
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfColumns" : 4,
+      "numberOfPairs" : 1,
+      "shapeType" : 0,
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfColumns" : 4,
+      "numberOfPairs" : 1,
+      "shapeType" : 0,
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfColumns" : 4,
+      "numberOfPairs" : 1,
+      "shapeType" : 0,
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfColumns" : 4,
+      "numberOfPairs" : 1,
+      "shapeType" : 0,
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfColumns" : 4,
+      "numberOfPairs" : 1,
+      "shapeType" : 0,
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfColumns" : 4,
+      "numberOfPairs" : 1,
+      "shapeType" : 0,
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfColumns" : 4,
+      "numberOfPairs" : 1,
+      "shapeType" : 0,
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfColumns" : 4,
+      "numberOfPairs" : 1,
+      "shapeType" : 0,
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfColumns" : 4,
+      "numberOfPairs" : 1,
+      "shapeType" : 0,
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfColumns" : 4,
+      "numberOfPairs" : 1,
+      "shapeType" : 0,
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfColumns" : 4,
+      "numberOfPairs" : 1,
+      "shapeType" : 0,
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfColumns" : 4,
+      "numberOfPairs" : 1,
+      "shapeType" : 0,
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfColumns" : 4,
+      "numberOfPairs" : 1,
+      "shapeType" : 0,
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfColumns" : 4,
+      "numberOfPairs" : 1,
+      "shapeType" : 0,
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfColumns" : 4,
+      "numberOfPairs" : 1,
+      "shapeType" : 0,
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfColumns" : 4,
+      "numberOfPairs" : 1,
+      "shapeType" : 0,
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfColumns" : 4,
+      "numberOfPairs" : 1,
+      "shapeType" : 0,
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfColumns" : 4,
+      "numberOfPairs" : 1,
+      "shapeType" : 0,
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfColumns" : 4,
+      "numberOfPairs" : 1,
+      "shapeType" : 0,
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfColumns" : 4,
+      "numberOfPairs" : 1,
+      "shapeType" : 0,
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfColumns" : 4,
+      "numberOfPairs" : 1,
+      "shapeType" : 0,
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfColumns" : 4,
+      "numberOfPairs" : 1,
+      "shapeType" : 0,
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfColumns" : 4,
+      "numberOfPairs" : 1,
+      "shapeType" : 0,
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfColumns" : 4,
+      "numberOfPairs" : 1,
+      "shapeType" : 0,
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfColumns" : 4,
+      "numberOfPairs" : 1,
+      "shapeType" : 0,
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfColumns" : 4,
+      "numberOfPairs" : 1,
+      "shapeType" : 0,
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfColumns" : 4,
+      "numberOfPairs" : 1,
+      "shapeType" : 0,
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfColumns" : 4,
+      "numberOfPairs" : 1,
+      "shapeType" : 0,
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfColumns" : 4,
+      "numberOfPairs" : 1,
+      "shapeType" : 0,
+      "numberOfRows" : 4
+    }
+  ],
+  "intermediate" : [
+    {
+      "numberOfColumns" : 3,
+      "numberOfPairs" : 1,
+      "shapeType" : 1,
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfColumns" : 3,
+      "numberOfPairs" : 1,
+      "shapeType" : 1,
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfColumns" : 3,
+      "numberOfPairs" : 1,
+      "shapeType" : 1,
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfColumns" : 3,
+      "numberOfPairs" : 1,
+      "shapeType" : 1,
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfColumns" : 3,
+      "numberOfPairs" : 1,
+      "shapeType" : 1,
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfColumns" : 4,
+      "numberOfPairs" : 1,
+      "shapeType" : 1,
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfColumns" : 4,
+      "numberOfPairs" : 1,
+      "shapeType" : 1,
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfColumns" : 4,
+      "numberOfPairs" : 1,
+      "shapeType" : 1,
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfColumns" : 4,
+      "numberOfPairs" : 1,
+      "shapeType" : 1,
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfColumns" : 4,
+      "numberOfPairs" : 2,
+      "shapeType" : 1,
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfColumns" : 4,
+      "numberOfPairs" : 2,
+      "shapeType" : 1,
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfColumns" : 4,
+      "numberOfPairs" : 2,
+      "shapeType" : 1,
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfColumns" : 4,
+      "numberOfPairs" : 2,
+      "shapeType" : 1,
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfColumns" : 4,
+      "numberOfPairs" : 2,
+      "shapeType" : 1,
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfColumns" : 4,
+      "numberOfPairs" : 2,
+      "shapeType" : 1,
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfColumns" : 4,
+      "numberOfPairs" : 2,
+      "shapeType" : 1,
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfColumns" : 4,
+      "numberOfPairs" : 2,
+      "shapeType" : 1,
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfColumns" : 4,
+      "numberOfPairs" : 2,
+      "shapeType" : 1,
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfColumns" : 4,
+      "numberOfPairs" : 2,
+      "shapeType" : 1,
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfColumns" : 4,
+      "numberOfPairs" : 2,
+      "shapeType" : 1,
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfColumns" : 5,
+      "numberOfPairs" : 2,
+      "shapeType" : 1,
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfColumns" : 5,
+      "numberOfPairs" : 2,
+      "shapeType" : 1,
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfColumns" : 5,
+      "numberOfPairs" : 2,
+      "shapeType" : 1,
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfColumns" : 5,
+      "numberOfPairs" : 2,
+      "shapeType" : 1,
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfColumns" : 5,
+      "numberOfPairs" : 2,
+      "shapeType" : 1,
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfColumns" : 5,
+      "numberOfPairs" : 2,
+      "shapeType" : 1,
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfColumns" : 5,
+      "numberOfPairs" : 2,
+      "shapeType" : 1,
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfColumns" : 5,
+      "numberOfPairs" : 2,
+      "shapeType" : 1,
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfColumns" : 5,
+      "numberOfPairs" : 2,
+      "shapeType" : 1,
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfColumns" : 5,
+      "numberOfPairs" : 2,
+      "shapeType" : 1,
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfColumns" : 5,
+      "numberOfPairs" : 2,
+      "shapeType" : 1,
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfColumns" : 5,
+      "numberOfPairs" : 2,
+      "shapeType" : 1,
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfColumns" : 5,
+      "numberOfPairs" : 2,
+      "shapeType" : 1,
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfColumns" : 5,
+      "numberOfPairs" : 2,
+      "shapeType" : 1,
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfColumns" : 5,
+      "numberOfPairs" : 2,
+      "shapeType" : 1,
+      "numberOfRows" : 5
+    },
+    {
+      "numberOfColumns" : 5,
+      "numberOfPairs" : 2,
+      "shapeType" : 1,
+      "numberOfRows" : 5
+    },
+    {
+      "numberOfColumns" : 5,
+      "numberOfPairs" : 2,
+      "shapeType" : 1,
+      "numberOfRows" : 5
+    },
+    {
+      "numberOfColumns" : 5,
+      "numberOfPairs" : 2,
+      "shapeType" : 1,
+      "numberOfRows" : 5
+    },
+    {
+      "numberOfColumns" : 5,
+      "numberOfPairs" : 2,
+      "shapeType" : 1,
+      "numberOfRows" : 5
+    },
+    {
+      "numberOfColumns" : 5,
+      "numberOfPairs" : 2,
+      "shapeType" : 1,
+      "numberOfRows" : 5
+    }
+  ],
+  "advanced" : [
+    {
+      "numberOfColumns" : 4,
+      "numberOfPairs" : 2,
+      "shapeType" : 2,
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfColumns" : 4,
+      "numberOfPairs" : 2,
+      "shapeType" : 2,
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfColumns" : 4,
+      "numberOfPairs" : 2,
+      "shapeType" : 2,
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfColumns" : 4,
+      "numberOfPairs" : 2,
+      "shapeType" : 2,
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfColumns" : 4,
+      "numberOfPairs" : 2,
+      "shapeType" : 2,
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfColumns" : 4,
+      "numberOfPairs" : 2,
+      "shapeType" : 2,
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfColumns" : 4,
+      "numberOfPairs" : 2,
+      "shapeType" : 2,
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfColumns" : 5,
+      "numberOfPairs" : 3,
+      "shapeType" : 2,
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfColumns" : 5,
+      "numberOfPairs" : 3,
+      "shapeType" : 2,
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfColumns" : 5,
+      "numberOfPairs" : 3,
+      "shapeType" : 2,
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfColumns" : 5,
+      "numberOfPairs" : 3,
+      "shapeType" : 2,
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfColumns" : 5,
+      "numberOfPairs" : 3,
+      "shapeType" : 2,
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfColumns" : 5,
+      "numberOfPairs" : 3,
+      "shapeType" : 2,
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfColumns" : 5,
+      "numberOfPairs" : 3,
+      "shapeType" : 2,
+      "numberOfRows" : 5
+    },
+    {
+      "numberOfColumns" : 5,
+      "numberOfPairs" : 3,
+      "shapeType" : 2,
+      "numberOfRows" : 5
+    },
+    {
+      "numberOfColumns" : 5,
+      "numberOfPairs" : 3,
+      "shapeType" : 2,
+      "numberOfRows" : 5
+    },
+    {
+      "numberOfColumns" : 5,
+      "numberOfPairs" : 3,
+      "shapeType" : 2,
+      "numberOfRows" : 5
+    },
+    {
+      "numberOfColumns" : 5,
+      "numberOfPairs" : 3,
+      "shapeType" : 2,
+      "numberOfRows" : 5
+    },
+    {
+      "numberOfColumns" : 5,
+      "numberOfPairs" : 3,
+      "shapeType" : 2,
+      "numberOfRows" : 5
+    },
+    {
+      "numberOfColumns" : 5,
+      "numberOfPairs" : 3,
+      "shapeType" : 2,
+      "numberOfRows" : 5
+    },
+    {
+      "numberOfColumns" : 5,
+      "numberOfPairs" : 3,
+      "shapeType" : 2,
+      "numberOfRows" : 5
+    },
+    {
+      "numberOfColumns" : 5,
+      "numberOfPairs" : 3,
+      "shapeType" : 2,
+      "numberOfRows" : 5
+    },
+    {
+      "numberOfColumns" : 5,
+      "numberOfPairs" : 3,
+      "shapeType" : 2,
+      "numberOfRows" : 5
+    },
+    {
+      "numberOfColumns" : 5,
+      "numberOfPairs" : 3,
+      "shapeType" : 2,
+      "numberOfRows" : 5
+    },
+    {
+      "numberOfColumns" : 5,
+      "numberOfPairs" : 3,
+      "shapeType" : 2,
+      "numberOfRows" : 5
+    },
+    {
+      "numberOfColumns" : 5,
+      "numberOfPairs" : 3,
+      "shapeType" : 2,
+      "numberOfRows" : 5
+    },
+    {
+      "numberOfColumns" : 5,
+      "numberOfPairs" : 3,
+      "shapeType" : 2,
+      "numberOfRows" : 5
+    },
+    {
+      "numberOfColumns" : 5,
+      "numberOfPairs" : 3,
+      "shapeType" : 2,
+      "numberOfRows" : 5
+    },
+    {
+      "numberOfColumns" : 5,
+      "numberOfPairs" : 3,
+      "shapeType" : 2,
+      "numberOfRows" : 5
+    },
+    {
+      "numberOfColumns" : 5,
+      "numberOfPairs" : 4,
+      "shapeType" : 2,
+      "numberOfRows" : 5
+    },
+    {
+      "numberOfColumns" : 6,
+      "numberOfPairs" : 4,
+      "shapeType" : 2,
+      "numberOfRows" : 5
+    },
+    {
+      "numberOfColumns" : 6,
+      "numberOfPairs" : 4,
+      "shapeType" : 2,
+      "numberOfRows" : 5
+    },
+    {
+      "numberOfColumns" : 6,
+      "numberOfPairs" : 4,
+      "shapeType" : 2,
+      "numberOfRows" : 5
+    },
+    {
+      "numberOfColumns" : 6,
+      "numberOfPairs" : 4,
+      "shapeType" : 2,
+      "numberOfRows" : 5
+    },
+    {
+      "numberOfColumns" : 6,
+      "numberOfPairs" : 4,
+      "shapeType" : 2,
+      "numberOfRows" : 5
+    },
+    {
+      "numberOfColumns" : 6,
+      "numberOfPairs" : 4,
+      "shapeType" : 2,
+      "numberOfRows" : 5
+    },
+    {
+      "numberOfColumns" : 6,
+      "numberOfPairs" : 4,
+      "shapeType" : 2,
+      "numberOfRows" : 5
+    },
+    {
+      "numberOfColumns" : 6,
+      "numberOfPairs" : 4,
+      "shapeType" : 2,
+      "numberOfRows" : 5
+    },
+    {
+      "numberOfColumns" : 6,
+      "numberOfPairs" : 4,
+      "shapeType" : 2,
+      "numberOfRows" : 5
+    },
+    {
+      "numberOfColumns" : 6,
+      "numberOfPairs" : 4,
+      "shapeType" : 2,
+      "numberOfRows" : 5
+    }
+  ]
+}

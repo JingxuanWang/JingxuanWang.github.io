@@ -1,0 +1,1884 @@
+{
+  "beginner" : [
+    {
+      "numberOfTargets" : "1",
+      "possibleTargets" : [
+        {
+          "target" : "DAISIES",
+          "gameType" : 0
+        },
+        {
+          "target" : "PIZZAS",
+          "gameType" : 0
+        },
+        {
+          "target" : "CARS",
+          "gameType" : 0
+        }
+      ],
+      "numberOfColumns" : 2,
+      "maxOffset" : 10,
+      "maxAngle" : 0,
+      "minOffset" : 5,
+      "minAngle" : 0,
+      "allowedColors" : [
+        "red",
+        "green",
+        "regular"
+      ],
+      "numberOfRows" : 2
+    },
+    {
+      "numberOfTargets" : "1",
+      "possibleTargets" : [
+        {
+          "target" : "CAKES",
+          "gameType" : 0
+        },
+        {
+          "target" : "DAISIES",
+          "gameType" : 0
+        },
+        {
+          "target" : "CARS",
+          "gameType" : 0
+        }
+      ],
+      "numberOfColumns" : 2,
+      "maxOffset" : 10,
+      "maxAngle" : 90,
+      "minOffset" : 5,
+      "minAngle" : 0,
+      "allowedColors" : [
+        "red",
+        "green",
+        "regular"
+      ],
+      "numberOfRows" : 2
+    },
+    {
+      "numberOfTargets" : "1",
+      "possibleTargets" : [
+        {
+          "target" : "BASEBALL BATS",
+          "gameType" : 0
+        },
+        {
+          "target" : "DONUTS",
+          "gameType" : 0
+        },
+        {
+          "target" : "HAMBURGERS",
+          "gameType" : 0
+        },
+        {
+          "target" : "CARS",
+          "gameType" : 0
+        }
+      ],
+      "numberOfColumns" : 2,
+      "maxOffset" : 10,
+      "maxAngle" : 90,
+      "minOffset" : 5,
+      "minAngle" : 0,
+      "allowedColors" : [
+        "yellow",
+        "green",
+        "orange",
+        "regular"
+      ],
+      "numberOfRows" : 2
+    },
+    {
+      "numberOfTargets" : "1",
+      "possibleTargets" : [
+        {
+          "target" : "GUITARS",
+          "gameType" : 0
+        },
+        {
+          "target" : "ERASERS",
+          "gameType" : 0
+        },
+        {
+          "target" : "PENS",
+          "gameType" : 0
+        },
+        {
+          "target" : "HOCKEY STICKS",
+          "gameType" : 0
+        }
+      ],
+      "numberOfColumns" : 2,
+      "maxOffset" : 10,
+      "maxAngle" : 90,
+      "minOffset" : 5,
+      "minAngle" : 0,
+      "allowedColors" : [
+        "red",
+        "yellow",
+        "green",
+        "orange"
+      ],
+      "numberOfRows" : 2
+    },
+    {
+      "numberOfTargets" : "1",
+      "possibleTargets" : [
+        {
+          "target" : "ERASERS",
+          "gameType" : 0
+        },
+        {
+          "target" : "BASEBALL BATS",
+          "gameType" : 0
+        },
+        {
+          "target" : "ROSES",
+          "gameType" : 0
+        },
+        {
+          "target" : "CACTUSES",
+          "gameType" : 0
+        }
+      ],
+      "numberOfColumns" : 2,
+      "maxOffset" : 10,
+      "maxAngle" : 90,
+      "minOffset" : 5,
+      "minAngle" : 0,
+      "allowedColors" : [
+        "red",
+        "yellow",
+        "green",
+        "orange"
+      ],
+      "numberOfRows" : 2
+    },
+    {
+      "numberOfTargets" : "1",
+      "possibleTargets" : [
+        {
+          "target" : "BASEBALL BATS",
+          "gameType" : 0
+        },
+        {
+          "target" : "ERASERS",
+          "gameType" : 0
+        },
+        {
+          "target" : "PENS",
+          "gameType" : 0
+        },
+        {
+          "target" : "HOCKEY STICKS",
+          "gameType" : 0
+        }
+      ],
+      "numberOfColumns" : 2,
+      "maxOffset" : 10,
+      "maxAngle" : 90,
+      "minOffset" : 5,
+      "minAngle" : 0,
+      "allowedColors" : [
+        "red",
+        "yellow",
+        "green",
+        "orange"
+      ],
+      "numberOfRows" : 2
+    },
+    {
+      "numberOfTargets" : "1",
+      "possibleTargets" : [
+        {
+          "target" : "CAKES",
+          "gameType" : 0
+        },
+        {
+          "target" : "DAISIES",
+          "gameType" : 0
+        },
+        {
+          "target" : "BIKES",
+          "gameType" : 0
+        }
+      ],
+      "numberOfColumns" : 2,
+      "maxOffset" : 10,
+      "maxAngle" : 90,
+      "minOffset" : 5,
+      "minAngle" : 0,
+      "allowedColors" : [
+        "red",
+        "yellow",
+        "green",
+        "orange"
+      ],
+      "numberOfRows" : 2
+    },
+    {
+      "numberOfTargets" : "2",
+      "possibleTargets" : [
+        {
+          "target" : "BASEBALL BATS",
+          "gameType" : 0
+        },
+        {
+          "target" : "ERASERS",
+          "gameType" : 0
+        },
+        {
+          "target" : "PENS",
+          "gameType" : 0
+        },
+        {
+          "target" : "HOCKEY STICKS",
+          "gameType" : 0
+        }
+      ],
+      "numberOfColumns" : 2,
+      "maxOffset" : 10,
+      "maxAngle" : 90,
+      "minOffset" : 5,
+      "minAngle" : 0,
+      "allowedColors" : [
+        "red",
+        "yellow",
+        "green",
+        "orange"
+      ],
+      "numberOfRows" : 2
+    },
+    {
+      "numberOfTargets" : "2",
+      "possibleTargets" : [
+        {
+          "target" : "GUITARS",
+          "gameType" : 0
+        },
+        {
+          "target" : "ERASERS",
+          "gameType" : 0
+        },
+        {
+          "target" : "PENS",
+          "gameType" : 0
+        },
+        {
+          "target" : "HOCKEY STICKS",
+          "gameType" : 0
+        }
+      ],
+      "numberOfColumns" : 3,
+      "maxOffset" : 10,
+      "maxAngle" : 90,
+      "minOffset" : 5,
+      "minAngle" : 0,
+      "allowedColors" : [
+        "red",
+        "yellow",
+        "green",
+        "orange"
+      ],
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfTargets" : "2",
+      "possibleTargets" : [
+        {
+          "target" : "BASEBALL BATS",
+          "gameType" : 0
+        },
+        {
+          "target" : "CARS",
+          "gameType" : 0
+        },
+        {
+          "target" : "DAISIES",
+          "gameType" : 0
+        },
+        {
+          "target" : "HOCKEY STICKS",
+          "gameType" : 0
+        }
+      ],
+      "numberOfColumns" : 3,
+      "maxOffset" : 10,
+      "maxAngle" : 90,
+      "minOffset" : 5,
+      "minAngle" : 0,
+      "allowedColors" : [
+        "red",
+        "yellow",
+        "green",
+        "orange"
+      ],
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfTargets" : "2",
+      "possibleTargets" : [
+        {
+          "target" : "GUITARS",
+          "gameType" : 0
+        },
+        {
+          "target" : "CARS",
+          "gameType" : 0
+        },
+        {
+          "target" : "SKATEBOARDS",
+          "gameType" : 0
+        },
+        {
+          "target" : "HOCKEY STICKS",
+          "gameType" : 0
+        }
+      ],
+      "numberOfColumns" : 3,
+      "maxOffset" : 10,
+      "maxAngle" : 90,
+      "minOffset" : 5,
+      "minAngle" : 0,
+      "allowedColors" : [
+        "red",
+        "yellow",
+        "green",
+        "orange"
+      ],
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfTargets" : "2",
+      "possibleTargets" : [
+        {
+          "target" : "MOTORCYCLES",
+          "gameType" : 0
+        },
+        {
+          "target" : "PENS",
+          "gameType" : 0
+        },
+        {
+          "target" : "ERASERS",
+          "gameType" : 0
+        }
+      ],
+      "numberOfColumns" : 3,
+      "maxOffset" : 10,
+      "maxAngle" : 90,
+      "minOffset" : 5,
+      "minAngle" : 0,
+      "allowedColors" : [
+        "red",
+        "yellow",
+        "green",
+        "orange"
+      ],
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfTargets" : "2",
+      "possibleTargets" : [
+        {
+          "target" : "MOTORCYCLES",
+          "gameType" : 0
+        },
+        {
+          "target" : "PENS",
+          "gameType" : 0
+        },
+        {
+          "target" : "ERASERS",
+          "gameType" : 0
+        },
+        {
+          "target" : "GUITARS",
+          "gameType" : 0
+        }
+      ],
+      "numberOfColumns" : 3,
+      "maxOffset" : 10,
+      "maxAngle" : 90,
+      "minOffset" : 5,
+      "minAngle" : 0,
+      "allowedColors" : [
+        "red",
+        "yellow",
+        "green",
+        "orange"
+      ],
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfTargets" : "2",
+      "possibleTargets" : [
+        {
+          "target" : "BASEBALL BATS",
+          "gameType" : 0
+        },
+        {
+          "target" : "BASKETBALLS",
+          "gameType" : 0
+        },
+        {
+          "target" : "PENS",
+          "gameType" : 0
+        },
+        {
+          "target" : "SCISSORS",
+          "gameType" : 0
+        }
+      ],
+      "numberOfColumns" : 3,
+      "maxOffset" : 10,
+      "maxAngle" : 90,
+      "minOffset" : 5,
+      "minAngle" : 0,
+      "allowedColors" : [
+        "red",
+        "yellow",
+        "green",
+        "orange"
+      ],
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfTargets" : "2",
+      "possibleTargets" : [
+        {
+          "target" : "HAMBURGERS",
+          "gameType" : 0
+        },
+        {
+          "target" : "BOWLING BALLS",
+          "gameType" : 0
+        },
+        {
+          "target" : "SCISSORS",
+          "gameType" : 0
+        }
+      ],
+      "numberOfColumns" : 3,
+      "maxOffset" : 10,
+      "maxAngle" : 90,
+      "minOffset" : 5,
+      "minAngle" : 0,
+      "allowedColors" : [
+        "red",
+        "yellow",
+        "green",
+        "orange"
+      ],
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfTargets" : "2",
+      "possibleTargets" : [
+        {
+          "target" : "BASEBALL BATS",
+          "gameType" : 0
+        },
+        {
+          "target" : "PENS",
+          "gameType" : 0
+        },
+        {
+          "target" : "CARS",
+          "gameType" : 0
+        },
+        {
+          "target" : "SCISSORS",
+          "gameType" : 0
+        }
+      ],
+      "numberOfColumns" : 3,
+      "maxOffset" : 10,
+      "maxAngle" : 90,
+      "minOffset" : 5,
+      "minAngle" : 0,
+      "allowedColors" : [
+        "red",
+        "yellow",
+        "green",
+        "orange"
+      ],
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfTargets" : "2",
+      "possibleTargets" : [
+        {
+          "target" : "GUITARS",
+          "gameType" : 0
+        },
+        {
+          "target" : "ERASERS",
+          "gameType" : 0
+        },
+        {
+          "target" : "PENS",
+          "gameType" : 0
+        },
+        {
+          "target" : "HOCKEY STICKS",
+          "gameType" : 0
+        },
+        {
+          "target" : "BASEBALL BATS",
+          "gameType" : 0
+        }
+      ],
+      "numberOfColumns" : 3,
+      "maxOffset" : 10,
+      "maxAngle" : 90,
+      "minOffset" : 5,
+      "minAngle" : 0,
+      "allowedColors" : [
+        "red",
+        "yellow",
+        "green",
+        "orange"
+      ],
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfTargets" : "2",
+      "possibleTargets" : [
+        {
+          "target" : "PIZZAS",
+          "gameType" : 0
+        },
+        {
+          "target" : "CAKES",
+          "gameType" : 0
+        },
+        {
+          "target" : "BOWLING BALLS",
+          "gameType" : 0
+        },
+        {
+          "target" : "GUITARS",
+          "gameType" : 0
+        }
+      ],
+      "numberOfColumns" : 3,
+      "maxOffset" : 10,
+      "maxAngle" : 90,
+      "minOffset" : 5,
+      "minAngle" : 0,
+      "allowedColors" : [
+        "red",
+        "yellow",
+        "green",
+        "orange"
+      ],
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfTargets" : "2",
+      "possibleTargets" : [
+        {
+          "target" : "ROSES",
+          "gameType" : 0
+        },
+        {
+          "target" : "CACTUSES",
+          "gameType" : 0
+        },
+        {
+          "target" : "VIOLINS",
+          "gameType" : 0
+        }
+      ],
+      "numberOfColumns" : 3,
+      "maxOffset" : 10,
+      "maxAngle" : 90,
+      "minOffset" : 5,
+      "minAngle" : 0,
+      "allowedColors" : [
+        "red",
+        "yellow",
+        "green",
+        "orange"
+      ],
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfTargets" : "2",
+      "possibleTargets" : [
+        {
+          "target" : "SAXOPHONES",
+          "gameType" : 0
+        },
+        {
+          "target" : "DRUMS",
+          "gameType" : 0
+        },
+        {
+          "target" : "VIOLINS",
+          "gameType" : 0
+        },
+        {
+          "target" : "BASEBALL BATS",
+          "gameType" : 0
+        },
+        {
+          "target" : "BASEBALL BATS",
+          "gameType" : 0
+        }
+      ],
+      "numberOfColumns" : 3,
+      "maxOffset" : 10,
+      "maxAngle" : 90,
+      "minOffset" : 5,
+      "minAngle" : 0,
+      "allowedColors" : [
+        "red",
+        "yellow",
+        "green",
+        "orange"
+      ],
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfTargets" : "2",
+      "possibleTargets" : [
+        {
+          "target" : "SCISSORS",
+          "gameType" : 0
+        },
+        {
+          "target" : "BIKES",
+          "gameType" : 0
+        },
+        {
+          "target" : "CARS",
+          "gameType" : 0
+        },
+        {
+          "target" : "CAKES",
+          "gameType" : 0
+        },
+        {
+          "target" : "BASKETBALLS",
+          "gameType" : 0
+        },
+        {
+          "target" : "ERASERS",
+          "gameType" : 0
+        },
+        {
+          "target" : "PENCILS",
+          "gameType" : 0
+        },
+        {
+          "target" : "SKATEBOARDS",
+          "gameType" : 0
+        },
+        {
+          "target" : "SAXOPHONES",
+          "gameType" : 0
+        },
+        {
+          "target" : "ROSES",
+          "gameType" : 0
+        },
+        {
+          "target" : "DRUMS",
+          "gameType" : 0
+        },
+        {
+          "target" : "VIOLINS",
+          "gameType" : 0
+        }
+      ],
+      "numberOfColumns" : 3,
+      "maxOffset" : 10,
+      "maxAngle" : 90,
+      "minOffset" : 5,
+      "minAngle" : 0,
+      "allowedColors" : [
+        "red",
+        "yellow",
+        "green",
+        "orange"
+      ],
+      "numberOfRows" : 3
+    }
+  ],
+  "intermediate" : [
+    {
+      "numberOfTargets" : "1",
+      "possibleTargets" : [
+        {
+          "target" : "SCHOOL SUPPLIES",
+          "gameType" : 1
+        },
+        {
+          "target" : "FOODS",
+          "gameType" : 1
+        },
+        {
+          "target" : "THINGS ON WHEELS",
+          "gameType" : 1
+        }
+      ],
+      "numberOfColumns" : 2,
+      "maxOffset" : 10,
+      "maxAngle" : 90,
+      "minOffset" : 5,
+      "minAngle" : 0,
+      "allowedColors" : [
+        "regular",
+        "green"
+      ],
+      "numberOfRows" : 2
+    },
+    {
+      "numberOfTargets" : "1",
+      "possibleTargets" : [
+        {
+          "target" : "PLANTS",
+          "gameType" : 1
+        },
+        {
+          "target" : "SCHOOL SUPPLIES",
+          "gameType" : 1
+        },
+        {
+          "target" : "FOODS",
+          "gameType" : 1
+        },
+        {
+          "target" : "THINGS ON WHEELS",
+          "gameType" : 1
+        }
+      ],
+      "numberOfColumns" : 2,
+      "maxOffset" : 10,
+      "maxAngle" : 90,
+      "minOffset" : 5,
+      "minAngle" : 0,
+      "allowedColors" : [
+        "red",
+        "regular",
+        "orange"
+      ],
+      "numberOfRows" : 2
+    },
+    {
+      "numberOfTargets" : "1",
+      "possibleTargets" : [
+        {
+          "target" : "SCHOOL SUPPLIES",
+          "gameType" : 1
+        },
+        {
+          "target" : "FOODS",
+          "gameType" : 1
+        },
+        {
+          "target" : "THINGS ON WHEELS",
+          "gameType" : 1
+        }
+      ],
+      "numberOfColumns" : 2,
+      "maxOffset" : 10,
+      "maxAngle" : 90,
+      "minOffset" : 5,
+      "minAngle" : 0,
+      "allowedColors" : [
+        "yellow",
+        "regular",
+        "orange"
+      ],
+      "numberOfRows" : 2
+    },
+    {
+      "numberOfTargets" : "1",
+      "possibleTargets" : [
+        {
+          "target" : "SCHOOL SUPPLIES",
+          "gameType" : 1
+        },
+        {
+          "target" : "FOODS",
+          "gameType" : 1
+        },
+        {
+          "target" : "THINGS ON WHEELS",
+          "gameType" : 1
+        }
+      ],
+      "numberOfColumns" : 2,
+      "maxOffset" : 10,
+      "maxAngle" : 90,
+      "minOffset" : 5,
+      "minAngle" : 0,
+      "allowedColors" : [
+        "green",
+        "regular"
+      ],
+      "numberOfRows" : 2
+    },
+    {
+      "numberOfTargets" : "2",
+      "possibleTargets" : [
+        {
+          "target" : "SCHOOL SUPPLIES",
+          "gameType" : 1
+        },
+        {
+          "target" : "FOODS",
+          "gameType" : 1
+        },
+        {
+          "target" : "THINGS ON WHEELS",
+          "gameType" : 1
+        }
+      ],
+      "numberOfColumns" : 2,
+      "maxOffset" : 10,
+      "maxAngle" : 90,
+      "minOffset" : 5,
+      "minAngle" : 0,
+      "allowedColors" : [
+        "regular",
+        "yellow"
+      ],
+      "numberOfRows" : 2
+    },
+    {
+      "numberOfTargets" : "2",
+      "possibleTargets" : [
+        {
+          "target" : "SCHOOL SUPPLIES",
+          "gameType" : 1
+        },
+        {
+          "target" : "FOODS",
+          "gameType" : 1
+        },
+        {
+          "target" : "THINGS ON WHEELS",
+          "gameType" : 1
+        },
+        {
+          "target" : "PLANTS",
+          "gameType" : 1
+        }
+      ],
+      "numberOfColumns" : 2,
+      "maxOffset" : 10,
+      "maxAngle" : 90,
+      "minOffset" : 5,
+      "minAngle" : 0,
+      "allowedColors" : [
+        "red",
+        "regular",
+        "orange"
+      ],
+      "numberOfRows" : 2
+    },
+    {
+      "numberOfTargets" : "2",
+      "possibleTargets" : [
+        {
+          "target" : "SCHOOL SUPPLIES",
+          "gameType" : 1
+        },
+        {
+          "target" : "FOODS",
+          "gameType" : 1
+        },
+        {
+          "target" : "THINGS ON WHEELS",
+          "gameType" : 1
+        }
+      ],
+      "numberOfColumns" : 2,
+      "maxOffset" : 10,
+      "maxAngle" : 90,
+      "minOffset" : 5,
+      "minAngle" : 0,
+      "allowedColors" : [
+        "red",
+        "regular"
+      ],
+      "numberOfRows" : 2
+    },
+    {
+      "numberOfTargets" : "2",
+      "possibleTargets" : [
+        {
+          "target" : "PLANTS",
+          "gameType" : 1
+        },
+        {
+          "target" : "SPORTS EQUIPMENT",
+          "gameType" : 1
+        },
+        {
+          "target" : "FOODS",
+          "gameType" : 1
+        },
+        {
+          "target" : "THINGS ON WHEELS",
+          "gameType" : 1
+        }
+      ],
+      "numberOfColumns" : 2,
+      "maxOffset" : 10,
+      "maxAngle" : 90,
+      "minOffset" : 5,
+      "minAngle" : 0,
+      "allowedColors" : [
+        "regular",
+        "green"
+      ],
+      "numberOfRows" : 2
+    },
+    {
+      "numberOfTargets" : "2",
+      "possibleTargets" : [
+        {
+          "target" : "SCHOOL SUPPLIES",
+          "gameType" : 1
+        },
+        {
+          "target" : "FOODS",
+          "gameType" : 1
+        },
+        {
+          "target" : "THINGS ON WHEELS",
+          "gameType" : 1
+        }
+      ],
+      "numberOfColumns" : 2,
+      "maxOffset" : 10,
+      "maxAngle" : 90,
+      "minOffset" : 5,
+      "minAngle" : 0,
+      "allowedColors" : [
+        "regular",
+        "green",
+        "orange"
+      ],
+      "numberOfRows" : 2
+    },
+    {
+      "numberOfTargets" : "2",
+      "possibleTargets" : [
+        {
+          "target" : "SCHOOL SUPPLIES",
+          "gameType" : 1
+        },
+        {
+          "target" : "FOODS",
+          "gameType" : 1
+        },
+        {
+          "target" : "THINGS ON WHEELS",
+          "gameType" : 1
+        }
+      ],
+      "numberOfColumns" : 3,
+      "maxOffset" : 10,
+      "maxAngle" : 90,
+      "minOffset" : 5,
+      "minAngle" : 0,
+      "allowedColors" : [
+        "regular",
+        "orange"
+      ],
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfTargets" : "2",
+      "possibleTargets" : [
+        {
+          "target" : "SCHOOL SUPPLIES",
+          "gameType" : 1
+        },
+        {
+          "target" : "FOODS",
+          "gameType" : 1
+        },
+        {
+          "target" : "THINGS ON WHEELS",
+          "gameType" : 1
+        }
+      ],
+      "numberOfColumns" : 3,
+      "maxOffset" : 10,
+      "maxAngle" : 90,
+      "minOffset" : 5,
+      "minAngle" : 0,
+      "allowedColors" : [
+        "red",
+        "regular",
+        "orange"
+      ],
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfTargets" : "2",
+      "possibleTargets" : [
+        {
+          "target" : "SCHOOL SUPPLIES",
+          "gameType" : 1
+        },
+        {
+          "target" : "FOODS",
+          "gameType" : 1
+        },
+        {
+          "target" : "THINGS ON WHEELS",
+          "gameType" : 1
+        }
+      ],
+      "numberOfColumns" : 3,
+      "maxOffset" : 10,
+      "maxAngle" : 90,
+      "minOffset" : 5,
+      "minAngle" : 0,
+      "allowedColors" : [
+        "yellow",
+        "regular",
+        "orange"
+      ],
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfTargets" : "2",
+      "possibleTargets" : [
+        {
+          "target" : "SCHOOL SUPPLIES",
+          "gameType" : 1
+        },
+        {
+          "target" : "FOODS",
+          "gameType" : 1
+        },
+        {
+          "target" : "THINGS ON WHEELS",
+          "gameType" : 1
+        }
+      ],
+      "numberOfColumns" : 3,
+      "maxOffset" : 10,
+      "maxAngle" : 90,
+      "minOffset" : 5,
+      "minAngle" : 0,
+      "allowedColors" : [
+        "green",
+        "regular"
+      ],
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfTargets" : "2",
+      "possibleTargets" : [
+        {
+          "target" : "SCHOOL SUPPLIES",
+          "gameType" : 1
+        },
+        {
+          "target" : "FOODS",
+          "gameType" : 1
+        },
+        {
+          "target" : "THINGS ON WHEELS",
+          "gameType" : 1
+        }
+      ],
+      "numberOfColumns" : 3,
+      "maxOffset" : 10,
+      "maxAngle" : 90,
+      "minOffset" : 5,
+      "minAngle" : 0,
+      "allowedColors" : [
+        "yellow",
+        "regular",
+        "orange"
+      ],
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfTargets" : "2",
+      "possibleTargets" : [
+        {
+          "target" : "SCHOOL SUPPLIES",
+          "gameType" : 1
+        },
+        {
+          "target" : "PLANTS",
+          "gameType" : 1
+        },
+        {
+          "target" : "FOODS",
+          "gameType" : 1
+        },
+        {
+          "target" : "THINGS ON WHEELS",
+          "gameType" : 1
+        }
+      ],
+      "numberOfColumns" : 3,
+      "maxOffset" : 10,
+      "maxAngle" : 90,
+      "minOffset" : 5,
+      "minAngle" : 0,
+      "allowedColors" : [
+        "yellow",
+        "green",
+        "regular"
+      ],
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfTargets" : "2",
+      "possibleTargets" : [
+        {
+          "target" : "SCHOOL SUPPLIES",
+          "gameType" : 1
+        },
+        {
+          "target" : "PLANTS",
+          "gameType" : 1
+        },
+        {
+          "target" : "FOODS",
+          "gameType" : 1
+        },
+        {
+          "target" : "THINGS ON WHEELS",
+          "gameType" : 1
+        }
+      ],
+      "numberOfColumns" : 4,
+      "maxOffset" : 10,
+      "maxAngle" : 90,
+      "minOffset" : 5,
+      "minAngle" : 0,
+      "allowedColors" : [
+        "red",
+        "regular"
+      ],
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfTargets" : "2",
+      "possibleTargets" : [
+        {
+          "target" : "SCHOOL SUPPLIES",
+          "gameType" : 1
+        },
+        {
+          "target" : "PLANTS",
+          "gameType" : 1
+        },
+        {
+          "target" : "FOODS",
+          "gameType" : 1
+        },
+        {
+          "target" : "THINGS ON WHEELS",
+          "gameType" : 1
+        }
+      ],
+      "numberOfColumns" : 4,
+      "maxOffset" : 10,
+      "maxAngle" : 90,
+      "minOffset" : 5,
+      "minAngle" : 0,
+      "allowedColors" : [
+        "regular",
+        "orange"
+      ],
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfTargets" : "2",
+      "possibleTargets" : [
+        {
+          "target" : "SCHOOL SUPPLIES",
+          "gameType" : 1
+        },
+        {
+          "target" : "PLANTS",
+          "gameType" : 1
+        },
+        {
+          "target" : "FOODS",
+          "gameType" : 1
+        },
+        {
+          "target" : "THINGS ON WHEELS",
+          "gameType" : 1
+        }
+      ],
+      "numberOfColumns" : 4,
+      "maxOffset" : 10,
+      "maxAngle" : 90,
+      "minOffset" : 5,
+      "minAngle" : 0,
+      "allowedColors" : [
+        "red",
+        "regular"
+      ],
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfTargets" : "2",
+      "possibleTargets" : [
+        {
+          "target" : "SCHOOL SUPPLIES",
+          "gameType" : 1
+        },
+        {
+          "target" : "PLANTS",
+          "gameType" : 1
+        },
+        {
+          "target" : "FOODS",
+          "gameType" : 1
+        },
+        {
+          "target" : "THINGS ON WHEELS",
+          "gameType" : 1
+        }
+      ],
+      "numberOfColumns" : 4,
+      "maxOffset" : 10,
+      "maxAngle" : 90,
+      "minOffset" : 5,
+      "minAngle" : 0,
+      "allowedColors" : [
+        "regular",
+        "orange"
+      ],
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfTargets" : "2",
+      "possibleTargets" : [
+        {
+          "target" : "SCHOOL SUPPLIES",
+          "gameType" : 1
+        },
+        {
+          "target" : "PLANTS",
+          "gameType" : 1
+        },
+        {
+          "target" : "FOODS",
+          "gameType" : 1
+        },
+        {
+          "target" : "THINGS ON WHEELS",
+          "gameType" : 1
+        }
+      ],
+      "numberOfColumns" : 4,
+      "maxOffset" : 10,
+      "maxAngle" : 90,
+      "minOffset" : 5,
+      "minAngle" : 0,
+      "allowedColors" : [
+        "red",
+        "green",
+        "regular"
+      ],
+      "numberOfRows" : 4
+    }
+  ],
+  "advanced" : [
+    {
+      "numberOfTargets" : "3",
+      "possibleTargets" : [
+        {
+          "target" : "STRING INSTRUMENTS",
+          "gameType" : 2
+        },
+        {
+          "target" : "FLOWERS",
+          "gameType" : 2
+        },
+        {
+          "target" : "WRITING TOOLS",
+          "gameType" : 2
+        },
+        {
+          "target" : "DESSERTS",
+          "gameType" : 2
+        },
+        {
+          "target" : "FOODS",
+          "gameType" : 1
+        },
+        {
+          "target" : "THINGS ON WHEELS",
+          "gameType" : 1
+        }
+      ],
+      "numberOfColumns" : 3,
+      "maxOffset" : 10,
+      "maxAngle" : 180,
+      "minOffset" : 5,
+      "minAngle" : -180,
+      "allowedColors" : [
+        "black",
+        "green",
+        "orange"
+      ],
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfTargets" : "3",
+      "possibleTargets" : [
+        {
+          "target" : "STRING INSTRUMENTS",
+          "gameType" : 2
+        },
+        {
+          "target" : "FLOWERS",
+          "gameType" : 2
+        },
+        {
+          "target" : "WRITING TOOLS",
+          "gameType" : 2
+        },
+        {
+          "target" : "DESSERTS",
+          "gameType" : 2
+        },
+        {
+          "target" : "FOODS",
+          "gameType" : 1
+        },
+        {
+          "target" : "THINGS ON WHEELS",
+          "gameType" : 1
+        },
+        {
+          "target" : "MUSIC INSTRUMENTS",
+          "gameType" : 1
+        },
+        {
+          "target" : "PLANTS",
+          "gameType" : 1
+        }
+      ],
+      "numberOfColumns" : 3,
+      "maxOffset" : 10,
+      "maxAngle" : 180,
+      "minOffset" : 5,
+      "minAngle" : -180,
+      "allowedColors" : [
+        "black",
+        "yellow",
+        "orange"
+      ],
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfTargets" : "3",
+      "possibleTargets" : [
+        {
+          "target" : "STRING INSTRUMENTS",
+          "gameType" : 2
+        },
+        {
+          "target" : "FLOWERS",
+          "gameType" : 2
+        },
+        {
+          "target" : "DESSERTS",
+          "gameType" : 2
+        },
+        {
+          "target" : "FOODS",
+          "gameType" : 1
+        },
+        {
+          "target" : "THINGS ON WHEELS",
+          "gameType" : 1
+        }
+      ],
+      "numberOfColumns" : 3,
+      "maxOffset" : 10,
+      "maxAngle" : 180,
+      "minOffset" : 5,
+      "minAngle" : -180,
+      "allowedColors" : [
+        "black",
+        "red",
+        "orange"
+      ],
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfTargets" : "3",
+      "possibleTargets" : [
+        {
+          "target" : "STRING INSTRUMENTS",
+          "gameType" : 2
+        },
+        {
+          "target" : "FLOWERS",
+          "gameType" : 2
+        },
+        {
+          "target" : "DESSERTS",
+          "gameType" : 2
+        },
+        {
+          "target" : "FOODS",
+          "gameType" : 1
+        },
+        {
+          "target" : "THINGS ON WHEELS",
+          "gameType" : 1
+        }
+      ],
+      "numberOfColumns" : 3,
+      "maxOffset" : 10,
+      "maxAngle" : 180,
+      "minOffset" : 5,
+      "minAngle" : -180,
+      "allowedColors" : [
+        "red",
+        "black",
+        "orange"
+      ],
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfTargets" : "3",
+      "possibleTargets" : [
+        {
+          "target" : "STRING INSTRUMENTS",
+          "gameType" : 2
+        },
+        {
+          "target" : "FLOWERS",
+          "gameType" : 2
+        },
+        {
+          "target" : "DESSERTS",
+          "gameType" : 2
+        },
+        {
+          "target" : "FOODS",
+          "gameType" : 1
+        },
+        {
+          "target" : "THINGS ON WHEELS",
+          "gameType" : 1
+        }
+      ],
+      "numberOfColumns" : 3,
+      "maxOffset" : 10,
+      "maxAngle" : 180,
+      "minOffset" : 5,
+      "minAngle" : -180,
+      "allowedColors" : [
+        "black",
+        "green",
+        "orange"
+      ],
+      "numberOfRows" : 3
+    },
+    {
+      "numberOfTargets" : "3",
+      "possibleTargets" : [
+        {
+          "target" : "STRING INSTRUMENTS",
+          "gameType" : 2
+        },
+        {
+          "target" : "FLOWERS",
+          "gameType" : 2
+        },
+        {
+          "target" : "DESSERTS",
+          "gameType" : 2
+        },
+        {
+          "target" : "FOODS",
+          "gameType" : 1
+        },
+        {
+          "target" : "THINGS ON WHEELS",
+          "gameType" : 1
+        }
+      ],
+      "numberOfColumns" : 4,
+      "maxOffset" : 10,
+      "maxAngle" : 180,
+      "minOffset" : 5,
+      "minAngle" : -180,
+      "allowedColors" : [
+        "red",
+        "black",
+        "yellow"
+      ],
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfTargets" : "3",
+      "possibleTargets" : [
+        {
+          "target" : "STRING INSTRUMENTS",
+          "gameType" : 2
+        },
+        {
+          "target" : "FLOWERS",
+          "gameType" : 2
+        },
+        {
+          "target" : "DESSERTS",
+          "gameType" : 2
+        },
+        {
+          "target" : "FOODS",
+          "gameType" : 1
+        },
+        {
+          "target" : "THINGS ON WHEELS",
+          "gameType" : 1
+        }
+      ],
+      "numberOfColumns" : 4,
+      "maxOffset" : 10,
+      "maxAngle" : 180,
+      "minOffset" : 5,
+      "minAngle" : -180,
+      "allowedColors" : [
+        "black",
+        "green",
+        "orange"
+      ],
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfTargets" : "3",
+      "possibleTargets" : [
+        {
+          "target" : "STRING INSTRUMENTS",
+          "gameType" : 2
+        },
+        {
+          "target" : "FLOWERS",
+          "gameType" : 2
+        },
+        {
+          "target" : "DESSERTS",
+          "gameType" : 2
+        },
+        {
+          "target" : "FOODS",
+          "gameType" : 1
+        },
+        {
+          "target" : "THINGS ON WHEELS",
+          "gameType" : 1
+        }
+      ],
+      "numberOfColumns" : 4,
+      "maxOffset" : 10,
+      "maxAngle" : 180,
+      "minOffset" : 5,
+      "minAngle" : -180,
+      "allowedColors" : [
+        "red",
+        "black",
+        "green"
+      ],
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfTargets" : "3",
+      "possibleTargets" : [
+        {
+          "target" : "STRING INSTRUMENTS",
+          "gameType" : 2
+        },
+        {
+          "target" : "FLOWERS",
+          "gameType" : 2
+        },
+        {
+          "target" : "DESSERTS",
+          "gameType" : 2
+        },
+        {
+          "target" : "FOODS",
+          "gameType" : 1
+        },
+        {
+          "target" : "THINGS ON WHEELS",
+          "gameType" : 1
+        }
+      ],
+      "numberOfColumns" : 4,
+      "maxOffset" : 10,
+      "maxAngle" : 180,
+      "minOffset" : 5,
+      "minAngle" : -180,
+      "allowedColors" : [
+        "black",
+        "green",
+        "orange"
+      ],
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfTargets" : "3",
+      "possibleTargets" : [
+        {
+          "target" : "STRING INSTRUMENTS",
+          "gameType" : 2
+        },
+        {
+          "target" : "FLOWERS",
+          "gameType" : 2
+        },
+        {
+          "target" : "DESSERTS",
+          "gameType" : 2
+        },
+        {
+          "target" : "FOODS",
+          "gameType" : 1
+        },
+        {
+          "target" : "THINGS ON WHEELS",
+          "gameType" : 1
+        }
+      ],
+      "numberOfColumns" : 4,
+      "maxOffset" : 10,
+      "maxAngle" : 180,
+      "minOffset" : 5,
+      "minAngle" : -180,
+      "allowedColors" : [
+        "red",
+        "black",
+        "orange"
+      ],
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfTargets" : "3",
+      "possibleTargets" : [
+        {
+          "target" : "STRING INSTRUMENTS",
+          "gameType" : 2
+        },
+        {
+          "target" : "FLOWERS",
+          "gameType" : 2
+        },
+        {
+          "target" : "DESSERTS",
+          "gameType" : 2
+        },
+        {
+          "target" : "FOODS",
+          "gameType" : 1
+        },
+        {
+          "target" : "THINGS ON WHEELS",
+          "gameType" : 1
+        }
+      ],
+      "numberOfColumns" : 4,
+      "maxOffset" : 10,
+      "maxAngle" : 180,
+      "minOffset" : 5,
+      "minAngle" : -180,
+      "allowedColors" : [
+        "red",
+        "black",
+        "green"
+      ],
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfTargets" : "3",
+      "possibleTargets" : [
+        {
+          "target" : "STRING INSTRUMENTS",
+          "gameType" : 2
+        },
+        {
+          "target" : "FLOWERS",
+          "gameType" : 2
+        },
+        {
+          "target" : "DESSERTS",
+          "gameType" : 2
+        },
+        {
+          "target" : "FOODS",
+          "gameType" : 1
+        },
+        {
+          "target" : "THINGS ON WHEELS",
+          "gameType" : 1
+        }
+      ],
+      "numberOfColumns" : 4,
+      "maxOffset" : 10,
+      "maxAngle" : 180,
+      "minOffset" : 5,
+      "minAngle" : -180,
+      "allowedColors" : [
+        "green",
+        "black",
+        "orange"
+      ],
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfTargets" : "4",
+      "possibleTargets" : [
+        {
+          "target" : "STRING INSTRUMENTS",
+          "gameType" : 2
+        },
+        {
+          "target" : "FLOWERS",
+          "gameType" : 2
+        },
+        {
+          "target" : "DESSERTS",
+          "gameType" : 2
+        },
+        {
+          "target" : "FOODS",
+          "gameType" : 1
+        },
+        {
+          "target" : "THINGS ON WHEELS",
+          "gameType" : 1
+        }
+      ],
+      "numberOfColumns" : 4,
+      "maxOffset" : 10,
+      "maxAngle" : 180,
+      "minOffset" : 5,
+      "minAngle" : -180,
+      "allowedColors" : [
+        "red",
+        "black",
+        "orange"
+      ],
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfTargets" : "4",
+      "possibleTargets" : [
+        {
+          "target" : "STRING INSTRUMENTS",
+          "gameType" : 2
+        },
+        {
+          "target" : "FLOWERS",
+          "gameType" : 2
+        },
+        {
+          "target" : "DESSERTS",
+          "gameType" : 2
+        },
+        {
+          "target" : "FOODS",
+          "gameType" : 1
+        },
+        {
+          "target" : "THINGS ON WHEELS",
+          "gameType" : 1
+        }
+      ],
+      "numberOfColumns" : 4,
+      "maxOffset" : 10,
+      "maxAngle" : 180,
+      "minOffset" : 5,
+      "minAngle" : -180,
+      "allowedColors" : [
+        "yellow",
+        "green",
+        "black"
+      ],
+      "numberOfRows" : 4
+    },
+    {
+      "numberOfTargets" : "4",
+      "possibleTargets" : [
+        {
+          "target" : "WRITING TOOLS",
+          "gameType" : 2
+        },
+        {
+          "target" : "BALLS",
+          "gameType" : 2
+        },
+        {
+          "target" : "MOTORIZED VEHICLES",
+          "gameType" : 2
+        },
+        {
+          "target" : "STRING INSTRUMENTS",
+          "gameType" : 2
+        },
+        {
+          "target" : "FLOWERS",
+          "gameType" : 2
+        },
+        {
+          "target" : "DESSERTS",
+          "gameType" : 2
+        },
+        {
+          "target" : "FOODS",
+          "gameType" : 1
+        },
+        {
+          "target" : "THINGS ON WHEELS",
+          "gameType" : 1
+        },
+        {
+          "target" : "SPORTS EQUIPMENT",
+          "gameType" : 1
+        },
+        {
+          "target" : "PLANTS",
+          "gameType" : 1
+        },
+        {
+          "target" : "SCHOOL SUPPLIES",
+          "gameType" : 1
+        },
+        {
+          "target" : "MUSIC INSTRUMENTS",
+          "gameType" : 1
+        }
+      ],
+      "numberOfColumns" : 4,
+      "maxOffset" : 10,
+      "maxAngle" : 180,
+      "minOffset" : 5,
+      "minAngle" : -180,
+      "allowedColors" : [
+        "green",
+        "black",
+        "orange"
+      ],
+      "numberOfRows" : 4
+    }
+  ]
+}

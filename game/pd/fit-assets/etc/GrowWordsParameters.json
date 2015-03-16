@@ -1,0 +1,53 @@
+{
+  "beginner" : [
+    {
+      "numLetters" : 4
+    },
+    {
+      "numLetters" : 4
+    },
+    {
+      "numLetters" : 4
+    },
+    {
+      "numLetters" : 5
+    },
+    {
+      "numLetters" : 5
+    }
+  ],
+  "intermediate" : [
+    {
+      "numLetters" : 5
+    },
+    {
+      "numLetters" : 5
+    },
+    {
+      "numLetters" : 5
+    },
+    {
+      "numLetters" : 6
+    },
+    {
+      "numLetters" : 6
+    }
+  ],
+  "advanced" : [
+    {
+      "numLetters" : 5
+    },
+    {
+      "numLetters" : 5
+    },
+    {
+      "numLetters" : 6
+    },
+    {
+      "numLetters" : 7
+    },
+    {
+      "numLetters" : 7
+    }
+  ]
+}

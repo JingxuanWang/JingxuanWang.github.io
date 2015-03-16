@@ -1,0 +1,290 @@
+[
+  {
+    "colors" : [
+      "regular",
+      "black",
+      "orange",
+      "yellow"
+    ],
+    "primary" : "FOODS",
+    "imageName" : "cake",
+    "name" : "CAKES",
+    "secondary" : "DESSERTS"
+  },
+  {
+    "colors" : [
+      "regular",
+      "black",
+      "orange",
+      "red"
+    ],
+    "primary" : "FOODS",
+    "imageName" : "donut",
+    "name" : "DONUTS",
+    "secondary" : "DESSERTS"
+  },
+  {
+    "colors" : [
+      "regular",
+      "black",
+      "orange",
+      "yellow"
+    ],
+    "primary" : "FOODS",
+    "imageName" : "pizza",
+    "name" : "PIZZAS",
+    "secondary" : ""
+  },
+  {
+    "colors" : [
+      "regular",
+      "black",
+      "orange",
+      "yellow"
+    ],
+    "primary" : "FOODS",
+    "imageName" : "hamburger",
+    "name" : "HAMBURGERS",
+    "secondary" : ""
+  },
+  {
+    "colors" : [
+      "regular",
+      "black",
+      "orange",
+      "yellow"
+    ],
+    "primary" : "SPORTS EQUIPMENT",
+    "imageName" : "basketball",
+    "name" : "BASKETBALLS",
+    "secondary" : "BALLS"
+  },
+  {
+    "colors" : [
+      "regular",
+      "black",
+      "red",
+      "green"
+    ],
+    "primary" : "SPORTS EQUIPMENT",
+    "imageName" : "bowling_ball",
+    "name" : "BOWLING BALLS",
+    "secondary" : "BALLS"
+  },
+  {
+    "colors" : [
+      "regular",
+      "black",
+      "orange",
+      "red"
+    ],
+    "primary" : "SPORTS EQUIPMENT",
+    "imageName" : "hockey_stick",
+    "name" : "HOCKEY STICKS",
+    "secondary" : ""
+  },
+  {
+    "colors" : [
+      "regular",
+      "black",
+      "orange",
+      "yellow"
+    ],
+    "primary" : "SPORTS EQUIPMENT",
+    "imageName" : "baseball_bat",
+    "name" : "BASEBALL BATS",
+    "secondary" : ""
+  },
+  {
+    "colors" : [
+      "regular",
+      "black",
+      "red",
+      "green"
+    ],
+    "primary" : "SCHOOL SUPPLIES",
+    "imageName" : "pen",
+    "name" : "PENS",
+    "secondary" : "WRITING TOOLS"
+  },
+  {
+    "colors" : [
+      "regular",
+      "black",
+      "red",
+      "yellow"
+    ],
+    "primary" : "SCHOOL SUPPLIES",
+    "imageName" : "pencil",
+    "name" : "PENCILS",
+    "secondary" : "WRITING TOOLS"
+  },
+  {
+    "colors" : [
+      "regular",
+      "black",
+      "red",
+      "green"
+    ],
+    "primary" : "SCHOOL SUPPLIES",
+    "imageName" : "eraser",
+    "name" : "ERASERS",
+    "secondary" : "WRITING TOOLS"
+  },
+  {
+    "colors" : [
+      "regular",
+      "black",
+      "orange",
+      "red"
+    ],
+    "primary" : "SCHOOL SUPPLIES",
+    "imageName" : "scissor",
+    "name" : "SCISSORS",
+    "secondary" : ""
+  },
+  {
+    "colors" : [
+      "regular",
+      "black",
+      "red",
+      "green"
+    ],
+    "primary" : "THINGS ON WHEELS",
+    "imageName" : "car",
+    "name" : "CARS",
+    "secondary" : "MOTORIZED VEHICLES"
+  },
+  {
+    "colors" : [
+      "regular",
+      "black",
+      "red",
+      "green"
+    ],
+    "primary" : "THINGS ON WHEELS",
+    "imageName" : "motorcycle",
+    "name" : "MOTORCYCLES",
+    "secondary" : "MOTORIZED VEHICLES"
+  },
+  {
+    "colors" : [
+      "regular",
+      "black",
+      "red",
+      "green"
+    ],
+    "primary" : "THINGS ON WHEELS",
+    "imageName" : "skateboard",
+    "name" : "SKATEBOARDS",
+    "secondary" : ""
+  },
+  {
+    "colors" : [
+      "regular",
+      "black",
+      "red",
+      "yellow"
+    ],
+    "primary" : "THINGS ON WHEELS",
+    "imageName" : "bike",
+    "name" : "BIKES",
+    "secondary" : ""
+  },
+  {
+    "colors" : [
+      "regular",
+      "black",
+      "yellow",
+      "green"
+    ],
+    "primary" : "PLANTS",
+    "imageName" : "daisy",
+    "name" : "DAISIES",
+    "secondary" : "FLOWERS"
+  },
+  {
+    "colors" : [
+      "regular",
+      "black",
+      "red",
+      "green"
+    ],
+    "primary" : "PLANTS",
+    "imageName" : "rose",
+    "name" : "ROSES",
+    "secondary" : "FLOWERS"
+  },
+  {
+    "colors" : [
+      "regular",
+      "black",
+      "yellow",
+      "green"
+    ],
+    "primary" : "PLANTS",
+    "imageName" : "plant",
+    "name" : "PLANTS",
+    "secondary" : ""
+  },
+  {
+    "colors" : [
+      "regular",
+      "black",
+      "orange",
+      "green"
+    ],
+    "primary" : "PLANTS",
+    "imageName" : "cactus",
+    "name" : "CACTUSES",
+    "secondary" : ""
+  },
+  {
+    "colors" : [
+      "regular",
+      "black",
+      "orange",
+      "yellow"
+    ],
+    "primary" : "MUSIC INSTRUMENTS",
+    "imageName" : "violin",
+    "name" : "VIOLINS",
+    "secondary" : "STRING INSTRUMENTS"
+  },
+  {
+    "colors" : [
+      "regular",
+      "black",
+      "orange",
+      "red"
+    ],
+    "primary" : "MUSIC INSTRUMENTS",
+    "imageName" : "guitar",
+    "name" : "GUITARS",
+    "secondary" : "STRING INSTRUMENTS"
+  },
+  {
+    "colors" : [
+      "regular",
+      "black",
+      "red",
+      "green"
+    ],
+    "primary" : "MUSIC INSTRUMENTS",
+    "imageName" : "drum",
+    "name" : "DRUMS",
+    "secondary" : ""
+  },
+  {
+    "colors" : [
+      "regular",
+      "black",
+      "orange",
+      "yellow"
+    ],
+    "primary" : "MUSIC INSTRUMENTS",
+    "imageName" : "saxophone",
+    "name" : "SAXOPHONES",
+    "secondary" : ""
+  }
+]

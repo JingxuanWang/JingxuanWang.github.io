@@ -1,0 +1,728 @@
+{
+  "beginner" : [
+    {
+      "totalItems" : 2,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 1
+    },
+    {
+      "totalItems" : 3,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 2
+    },
+    {
+      "totalItems" : 3,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 2
+    },
+    {
+      "totalItems" : 3,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 3
+    },
+    {
+      "totalItems" : 3,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 3
+    },
+    {
+      "totalItems" : 3,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 3
+    },
+    {
+      "totalItems" : 4,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 3
+    },
+    {
+      "totalItems" : 4,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 3
+    },
+    {
+      "totalItems" : 4,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 4
+    },
+    {
+      "totalItems" : 4,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 4
+    },
+    {
+      "totalItems" : 4,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 4
+    },
+    {
+      "totalItems" : 5,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 4
+    },
+    {
+      "totalItems" : 5,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 4
+    },
+    {
+      "totalItems" : 5,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 4
+    },
+    {
+      "totalItems" : 5,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 5
+    },
+    {
+      "totalItems" : 5,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 5
+    },
+    {
+      "totalItems" : 6,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 5
+    },
+    {
+      "totalItems" : 6,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 5
+    },
+    {
+      "totalItems" : 6,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 5
+    },
+    {
+      "totalItems" : 6,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 5
+    },
+    {
+      "totalItems" : 6,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 5
+    },
+    {
+      "totalItems" : 6,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 5
+    },
+    {
+      "totalItems" : 6,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 5
+    },
+    {
+      "totalItems" : 6,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 5
+    },
+    {
+      "totalItems" : 6,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 5
+    },
+    {
+      "totalItems" : 6,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 5
+    },
+    {
+      "totalItems" : 6,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 5
+    },
+    {
+      "totalItems" : 6,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 5
+    },
+    {
+      "totalItems" : 6,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 5
+    },
+    {
+      "totalItems" : 6,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 5
+    },
+    {
+      "totalItems" : 6,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 5
+    },
+    {
+      "totalItems" : 5,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 5
+    },
+    {
+      "totalItems" : 5,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 5
+    },
+    {
+      "totalItems" : 5,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 5
+    },
+    {
+      "totalItems" : 5,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 5
+    },
+    {
+      "totalItems" : 5,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 5
+    },
+    {
+      "totalItems" : 5,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 5
+    },
+    {
+      "totalItems" : 5,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 5
+    },
+    {
+      "totalItems" : 5,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 5
+    },
+    {
+      "totalItems" : 5,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 5
+    }
+  ],
+  "intermediate" : [
+    {
+      "totalItems" : 3,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 2
+    },
+    {
+      "totalItems" : 3,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 2
+    },
+    {
+      "totalItems" : 4,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 3
+    },
+    {
+      "totalItems" : 4,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 3
+    },
+    {
+      "totalItems" : 4,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 3
+    },
+    {
+      "totalItems" : 5,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 3
+    },
+    {
+      "totalItems" : 5,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 3
+    },
+    {
+      "totalItems" : 5,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 3
+    },
+    {
+      "totalItems" : 5,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 4
+    },
+    {
+      "totalItems" : 6,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 4
+    },
+    {
+      "totalItems" : 6,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 4
+    },
+    {
+      "totalItems" : 6,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 4
+    },
+    {
+      "totalItems" : 6,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 4
+    },
+    {
+      "totalItems" : 6,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 4
+    },
+    {
+      "totalItems" : 6,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 4
+    },
+    {
+      "totalItems" : 6,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 5
+    },
+    {
+      "totalItems" : 7,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 5
+    },
+    {
+      "totalItems" : 7,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 5
+    },
+    {
+      "totalItems" : 7,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 5
+    },
+    {
+      "totalItems" : 7,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 5
+    },
+    {
+      "totalItems" : 7,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 5
+    },
+    {
+      "totalItems" : 7,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 5
+    },
+    {
+      "totalItems" : 7,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 5
+    },
+    {
+      "totalItems" : 7,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 5
+    },
+    {
+      "totalItems" : 7,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 5
+    },
+    {
+      "totalItems" : 7,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 5
+    },
+    {
+      "totalItems" : 8,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 5
+    },
+    {
+      "totalItems" : 8,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 5
+    },
+    {
+      "totalItems" : 8,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 5
+    },
+    {
+      "totalItems" : 8,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 5
+    },
+    {
+      "totalItems" : 8,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 5
+    },
+    {
+      "totalItems" : 9,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 5
+    },
+    {
+      "totalItems" : 9,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 5
+    },
+    {
+      "totalItems" : 9,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 5
+    },
+    {
+      "totalItems" : 9,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 5
+    },
+    {
+      "totalItems" : 10,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 5
+    },
+    {
+      "totalItems" : 10,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 5
+    },
+    {
+      "totalItems" : 10,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 5
+    },
+    {
+      "totalItems" : 10,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 5
+    },
+    {
+      "totalItems" : 10,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 5
+    }
+  ],
+  "advanced" : [
+    {
+      "totalItems" : 5,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 3
+    },
+    {
+      "totalItems" : 5,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 3
+    },
+    {
+      "totalItems" : 5,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 3
+    },
+    {
+      "totalItems" : 6,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 3
+    },
+    {
+      "totalItems" : 6,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 4
+    },
+    {
+      "totalItems" : 6,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 4
+    },
+    {
+      "totalItems" : 6,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 4
+    },
+    {
+      "totalItems" : 7,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 4
+    },
+    {
+      "totalItems" : 7,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 4
+    },
+    {
+      "totalItems" : 7,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 5
+    },
+    {
+      "totalItems" : 7,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 5
+    },
+    {
+      "totalItems" : 7,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 5
+    },
+    {
+      "totalItems" : 8,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 5
+    },
+    {
+      "totalItems" : 8,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 5
+    },
+    {
+      "totalItems" : 8,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 6
+    },
+    {
+      "totalItems" : 8,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 6
+    },
+    {
+      "totalItems" : 8,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 6
+    },
+    {
+      "totalItems" : 9,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 6
+    },
+    {
+      "totalItems" : 9,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 6
+    },
+    {
+      "totalItems" : 9,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 6
+    },
+    {
+      "totalItems" : 9,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 8
+    },
+    {
+      "totalItems" : 9,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 8
+    },
+    {
+      "totalItems" : 9,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 8
+    },
+    {
+      "totalItems" : 9,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 8
+    },
+    {
+      "totalItems" : 9,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 9
+    },
+    {
+      "totalItems" : 10,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 9
+    },
+    {
+      "totalItems" : 10,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 9
+    },
+    {
+      "totalItems" : 10,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 9
+    },
+    {
+      "totalItems" : 10,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 10
+    },
+    {
+      "totalItems" : 10,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 10
+    },
+    {
+      "totalItems" : 10,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 10
+    },
+    {
+      "totalItems" : 10,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 10
+    },
+    {
+      "totalItems" : 10,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 10
+    },
+    {
+      "totalItems" : 10,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 10
+    },
+    {
+      "totalItems" : 10,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 10
+    },
+    {
+      "totalItems" : 10,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 10
+    },
+    {
+      "totalItems" : 10,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 10
+    },
+    {
+      "totalItems" : 10,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 10
+    },
+    {
+      "totalItems" : 10,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 10
+    },
+    {
+      "totalItems" : 10,
+      "changedItems" : 0,
+      "movedItems" : 0,
+      "addedItems" : 10
+    }
+  ]
+}

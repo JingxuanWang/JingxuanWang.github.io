@@ -1,0 +1,218 @@
+{
+  "beginner" : [
+    {
+      "sameRatio" : true,
+      "rangeOfRatios" : "1-2",
+      "numOfScales" : 1,
+      "rangeOfWeightsOnScale" : "2-3",
+      "rangeOfWeightsToRemove" : "1-2"
+    },
+    {
+      "sameRatio" : false,
+      "rangeOfRatios" : "1-2",
+      "numOfScales" : 1,
+      "rangeOfWeightsOnScale" : "2-4",
+      "rangeOfWeightsToRemove" : "1-3"
+    },
+    {
+      "sameRatio" : true,
+      "rangeOfRatios" : "2-3",
+      "numOfScales" : 1,
+      "rangeOfWeightsOnScale" : "2-4",
+      "rangeOfWeightsToRemove" : "1-4"
+    },
+    {
+      "sameRatio" : true,
+      "rangeOfRatios" : "2-3",
+      "numOfScales" : 1,
+      "rangeOfWeightsOnScale" : "2-4",
+      "rangeOfWeightsToRemove" : "1-4"
+    },
+    {
+      "sameRatio" : true,
+      "rangeOfRatios" : "2-3",
+      "numOfScales" : 2,
+      "rangeOfWeightsOnScale" : "2-4",
+      "rangeOfWeightsToRemove" : "1-4"
+    },
+    {
+      "sameRatio" : true,
+      "rangeOfRatios" : "2-3",
+      "numOfScales" : 2,
+      "rangeOfWeightsOnScale" : "2-4",
+      "rangeOfWeightsToRemove" : "1-4"
+    },
+    {
+      "sameRatio" : true,
+      "rangeOfRatios" : "2-3",
+      "numOfScales" : 2,
+      "rangeOfWeightsOnScale" : "2-6",
+      "rangeOfWeightsToRemove" : "1-4"
+    },
+    {
+      "sameRatio" : true,
+      "rangeOfRatios" : "2-3",
+      "numOfScales" : 2,
+      "rangeOfWeightsOnScale" : "2-6",
+      "rangeOfWeightsToRemove" : "1-4"
+    },
+    {
+      "sameRatio" : true,
+      "rangeOfRatios" : "2-3",
+      "numOfScales" : 2,
+      "rangeOfWeightsOnScale" : "2-6",
+      "rangeOfWeightsToRemove" : "1-4"
+    },
+    {
+      "sameRatio" : true,
+      "rangeOfRatios" : "2-3",
+      "numOfScales" : 2,
+      "rangeOfWeightsOnScale" : "2-6",
+      "rangeOfWeightsToRemove" : "1-4"
+    }
+  ],
+  "intermediate" : [
+    {
+      "sameRatio" : true,
+      "rangeOfRatios" : "2-3",
+      "numOfScales" : 1,
+      "rangeOfWeightsOnScale" : "3-7",
+      "rangeOfWeightsToRemove" : "1-4"
+    },
+    {
+      "sameRatio" : true,
+      "rangeOfRatios" : "2-3",
+      "numOfScales" : 2,
+      "rangeOfWeightsOnScale" : "3-6",
+      "rangeOfWeightsToRemove" : "1-4"
+    },
+    {
+      "sameRatio" : true,
+      "rangeOfRatios" : "2-3",
+      "numOfScales" : 2,
+      "rangeOfWeightsOnScale" : "3-6",
+      "rangeOfWeightsToRemove" : "1-4"
+    },
+    {
+      "sameRatio" : true,
+      "rangeOfRatios" : "2-4",
+      "numOfScales" : 2,
+      "rangeOfWeightsOnScale" : "3-6",
+      "rangeOfWeightsToRemove" : "1-4"
+    },
+    {
+      "sameRatio" : false,
+      "rangeOfRatios" : "2-4",
+      "numOfScales" : 2,
+      "rangeOfWeightsOnScale" : "3-6",
+      "rangeOfWeightsToRemove" : "1-4"
+    },
+    {
+      "sameRatio" : false,
+      "rangeOfRatios" : "2-4",
+      "numOfScales" : 2,
+      "rangeOfWeightsOnScale" : "3-6",
+      "rangeOfWeightsToRemove" : "1-4"
+    },
+    {
+      "sameRatio" : false,
+      "rangeOfRatios" : "2-4",
+      "numOfScales" : 2,
+      "rangeOfWeightsOnScale" : "3-6",
+      "rangeOfWeightsToRemove" : "1-4"
+    },
+    {
+      "sameRatio" : false,
+      "rangeOfRatios" : "2-4",
+      "numOfScales" : 2,
+      "rangeOfWeightsOnScale" : "3-8",
+      "rangeOfWeightsToRemove" : "1-4"
+    },
+    {
+      "sameRatio" : false,
+      "rangeOfRatios" : "2-4",
+      "numOfScales" : 2,
+      "rangeOfWeightsOnScale" : "3-8",
+      "rangeOfWeightsToRemove" : "1-4"
+    },
+    {
+      "sameRatio" : false,
+      "rangeOfRatios" : "2-4",
+      "numOfScales" : 2,
+      "rangeOfWeightsOnScale" : "3-8",
+      "rangeOfWeightsToRemove" : "1-4"
+    }
+  ],
+  "advanced" : [
+    {
+      "sameRatio" : false,
+      "rangeOfRatios" : "2",
+      "numOfScales" : 2,
+      "rangeOfWeightsOnScale" : "3-6",
+      "rangeOfWeightsToRemove" : "2-4"
+    },
+    {
+      "sameRatio" : false,
+      "rangeOfRatios" : "2",
+      "numOfScales" : 2,
+      "rangeOfWeightsOnScale" : "3-6",
+      "rangeOfWeightsToRemove" : "2-5"
+    },
+    {
+      "sameRatio" : false,
+      "rangeOfRatios" : "2",
+      "numOfScales" : 2,
+      "rangeOfWeightsOnScale" : "3-6",
+      "rangeOfWeightsToRemove" : "2-5"
+    },
+    {
+      "sameRatio" : false,
+      "rangeOfRatios" : "2",
+      "numOfScales" : 2,
+      "rangeOfWeightsOnScale" : "3-6",
+      "rangeOfWeightsToRemove" : "2-5"
+    },
+    {
+      "sameRatio" : false,
+      "rangeOfRatios" : "2",
+      "numOfScales" : 2,
+      "rangeOfWeightsOnScale" : "3-6",
+      "rangeOfWeightsToRemove" : "2-5"
+    },
+    {
+      "sameRatio" : false,
+      "rangeOfRatios" : "2",
+      "numOfScales" : 2,
+      "rangeOfWeightsOnScale" : "3-7",
+      "rangeOfWeightsToRemove" : "2-5"
+    },
+    {
+      "sameRatio" : false,
+      "rangeOfRatios" : "2",
+      "numOfScales" : 2,
+      "rangeOfWeightsOnScale" : "3-7",
+      "rangeOfWeightsToRemove" : "2-5"
+    },
+    {
+      "sameRatio" : false,
+      "rangeOfRatios" : "2",
+      "numOfScales" : 2,
+      "rangeOfWeightsOnScale" : "3-7",
+      "rangeOfWeightsToRemove" : "2-5"
+    },
+    {
+      "sameRatio" : false,
+      "rangeOfRatios" : "2",
+      "numOfScales" : 2,
+      "rangeOfWeightsOnScale" : "3-7",
+      "rangeOfWeightsToRemove" : "3-6"
+    },
+    {
+      "sameRatio" : false,
+      "rangeOfRatios" : "2",
+      "numOfScales" : 2,
+      "rangeOfWeightsOnScale" : "3-7",
+      "rangeOfWeightsToRemove" : "3-6"
+    }
+  ]
+}

@@ -1,0 +1,608 @@
+{
+  "beginner" : [
+    {
+      "numOfCameras" : 2,
+      "numOfObjects" : 2,
+      "rangeOfSets" : "1"
+    },
+    {
+      "numOfCameras" : 2,
+      "numOfObjects" : 2,
+      "rangeOfSets" : "1"
+    },
+    {
+      "numOfCameras" : 2,
+      "numOfObjects" : 2,
+      "rangeOfSets" : "1"
+    },
+    {
+      "numOfCameras" : 2,
+      "numOfObjects" : 2,
+      "rangeOfSets" : "1"
+    },
+    {
+      "numOfCameras" : 2,
+      "numOfObjects" : 3,
+      "rangeOfSets" : "1"
+    },
+    {
+      "numOfCameras" : 2,
+      "numOfObjects" : 3,
+      "rangeOfSets" : "1"
+    },
+    {
+      "numOfCameras" : 2,
+      "numOfObjects" : 3,
+      "rangeOfSets" : "1"
+    },
+    {
+      "numOfCameras" : 2,
+      "numOfObjects" : 3,
+      "rangeOfSets" : "1"
+    },
+    {
+      "numOfCameras" : 2,
+      "numOfObjects" : 3,
+      "rangeOfSets" : "1"
+    },
+    {
+      "numOfCameras" : 2,
+      "numOfObjects" : 3,
+      "rangeOfSets" : "1"
+    },
+    {
+      "numOfCameras" : 2,
+      "numOfObjects" : 3,
+      "rangeOfSets" : "1"
+    },
+    {
+      "numOfCameras" : 2,
+      "numOfObjects" : 3,
+      "rangeOfSets" : "1"
+    },
+    {
+      "numOfCameras" : 2,
+      "numOfObjects" : 3,
+      "rangeOfSets" : "1"
+    },
+    {
+      "numOfCameras" : 2,
+      "numOfObjects" : 3,
+      "rangeOfSets" : "1"
+    },
+    {
+      "numOfCameras" : 2,
+      "numOfObjects" : 3,
+      "rangeOfSets" : "1"
+    },
+    {
+      "numOfCameras" : 3,
+      "numOfObjects" : 4,
+      "rangeOfSets" : "1"
+    },
+    {
+      "numOfCameras" : 3,
+      "numOfObjects" : 4,
+      "rangeOfSets" : "1"
+    },
+    {
+      "numOfCameras" : 3,
+      "numOfObjects" : 4,
+      "rangeOfSets" : "1"
+    },
+    {
+      "numOfCameras" : 3,
+      "numOfObjects" : 4,
+      "rangeOfSets" : "1"
+    },
+    {
+      "numOfCameras" : 3,
+      "numOfObjects" : 4,
+      "rangeOfSets" : "1-2"
+    },
+    {
+      "numOfCameras" : 3,
+      "numOfObjects" : 5,
+      "rangeOfSets" : "1-2"
+    },
+    {
+      "numOfCameras" : 3,
+      "numOfObjects" : 5,
+      "rangeOfSets" : "1-2"
+    },
+    {
+      "numOfCameras" : 3,
+      "numOfObjects" : 5,
+      "rangeOfSets" : "1-2"
+    },
+    {
+      "numOfCameras" : 3,
+      "numOfObjects" : 5,
+      "rangeOfSets" : "1-2"
+    },
+    {
+      "numOfCameras" : 3,
+      "numOfObjects" : 5,
+      "rangeOfSets" : "1-2"
+    },
+    {
+      "numOfCameras" : 3,
+      "numOfObjects" : 5,
+      "rangeOfSets" : "1-2"
+    },
+    {
+      "numOfCameras" : 3,
+      "numOfObjects" : 5,
+      "rangeOfSets" : "1-2"
+    },
+    {
+      "numOfCameras" : 3,
+      "numOfObjects" : 5,
+      "rangeOfSets" : "1-2"
+    },
+    {
+      "numOfCameras" : 3,
+      "numOfObjects" : 5,
+      "rangeOfSets" : "1-2"
+    },
+    {
+      "numOfCameras" : 3,
+      "numOfObjects" : 5,
+      "rangeOfSets" : "1-2"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 5,
+      "rangeOfSets" : "1-2"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 6,
+      "rangeOfSets" : "1-2"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 6,
+      "rangeOfSets" : "1-2"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 6,
+      "rangeOfSets" : "1-2"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 6,
+      "rangeOfSets" : "1-2"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 6,
+      "rangeOfSets" : "1-2"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 6,
+      "rangeOfSets" : "1-2"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 6,
+      "rangeOfSets" : "1-2"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 6,
+      "rangeOfSets" : "1-2"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 6,
+      "rangeOfSets" : "1-2"
+    }
+  ],
+  "intermediate" : [
+    {
+      "numOfCameras" : 3,
+      "numOfObjects" : 3,
+      "rangeOfSets" : "2"
+    },
+    {
+      "numOfCameras" : 3,
+      "numOfObjects" : 3,
+      "rangeOfSets" : "2"
+    },
+    {
+      "numOfCameras" : 3,
+      "numOfObjects" : 3,
+      "rangeOfSets" : "2"
+    },
+    {
+      "numOfCameras" : 3,
+      "numOfObjects" : 4,
+      "rangeOfSets" : "2"
+    },
+    {
+      "numOfCameras" : 3,
+      "numOfObjects" : 4,
+      "rangeOfSets" : "2"
+    },
+    {
+      "numOfCameras" : 3,
+      "numOfObjects" : 4,
+      "rangeOfSets" : "2"
+    },
+    {
+      "numOfCameras" : 3,
+      "numOfObjects" : 4,
+      "rangeOfSets" : "2"
+    },
+    {
+      "numOfCameras" : 3,
+      "numOfObjects" : 4,
+      "rangeOfSets" : "2"
+    },
+    {
+      "numOfCameras" : 3,
+      "numOfObjects" : 4,
+      "rangeOfSets" : "2"
+    },
+    {
+      "numOfCameras" : 3,
+      "numOfObjects" : 4,
+      "rangeOfSets" : "2"
+    },
+    {
+      "numOfCameras" : 3,
+      "numOfObjects" : 4,
+      "rangeOfSets" : "2"
+    },
+    {
+      "numOfCameras" : 3,
+      "numOfObjects" : 4,
+      "rangeOfSets" : "2"
+    },
+    {
+      "numOfCameras" : 3,
+      "numOfObjects" : 4,
+      "rangeOfSets" : "2"
+    },
+    {
+      "numOfCameras" : 3,
+      "numOfObjects" : 4,
+      "rangeOfSets" : "2"
+    },
+    {
+      "numOfCameras" : 3,
+      "numOfObjects" : 4,
+      "rangeOfSets" : "2"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 4,
+      "rangeOfSets" : "2"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 4,
+      "rangeOfSets" : "2"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 4,
+      "rangeOfSets" : "2"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 4,
+      "rangeOfSets" : "2"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 4,
+      "rangeOfSets" : "2"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 4,
+      "rangeOfSets" : "2"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 3,
+      "rangeOfSets" : "2"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 3,
+      "rangeOfSets" : "2"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 3,
+      "rangeOfSets" : "2"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 3,
+      "rangeOfSets" : "2"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 3,
+      "rangeOfSets" : "2"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 2,
+      "rangeOfSets" : "2"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 2,
+      "rangeOfSets" : "2"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 2,
+      "rangeOfSets" : "2"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 2,
+      "rangeOfSets" : "2"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 2,
+      "rangeOfSets" : "2"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 2,
+      "rangeOfSets" : "2"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 2,
+      "rangeOfSets" : "1-2"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 2,
+      "rangeOfSets" : "1-2"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 2,
+      "rangeOfSets" : "1-2"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 2,
+      "rangeOfSets" : "1-2"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 2,
+      "rangeOfSets" : "1-2"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 2,
+      "rangeOfSets" : "1-2"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 2,
+      "rangeOfSets" : "1-2"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 1,
+      "rangeOfSets" : "1-2"
+    }
+  ],
+  "advanced" : [
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 2,
+      "rangeOfSets" : "0"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 2,
+      "rangeOfSets" : "0"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 3,
+      "rangeOfSets" : "0"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 3,
+      "rangeOfSets" : "0"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 3,
+      "rangeOfSets" : "0"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 3,
+      "rangeOfSets" : "0"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 4,
+      "rangeOfSets" : "0"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 4,
+      "rangeOfSets" : "0"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 4,
+      "rangeOfSets" : "0"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 4,
+      "rangeOfSets" : "0"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 4,
+      "rangeOfSets" : "0"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 4,
+      "rangeOfSets" : "0"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 4,
+      "rangeOfSets" : "0"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 4,
+      "rangeOfSets" : "0"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 5,
+      "rangeOfSets" : "0"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 5,
+      "rangeOfSets" : "0"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 5,
+      "rangeOfSets" : "0"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 5,
+      "rangeOfSets" : "0"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 5,
+      "rangeOfSets" : "0"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 5,
+      "rangeOfSets" : "0"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 6,
+      "rangeOfSets" : "0"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 6,
+      "rangeOfSets" : "0"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 7,
+      "rangeOfSets" : "0"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 7,
+      "rangeOfSets" : "0"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 7,
+      "rangeOfSets" : "0"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 7,
+      "rangeOfSets" : "0"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 7,
+      "rangeOfSets" : "0"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 7,
+      "rangeOfSets" : "0"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 7,
+      "rangeOfSets" : "0"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 7,
+      "rangeOfSets" : "0"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 7,
+      "rangeOfSets" : "0"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 7,
+      "rangeOfSets" : "0"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 7,
+      "rangeOfSets" : "0"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 7,
+      "rangeOfSets" : "0"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 7,
+      "rangeOfSets" : "0"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 7,
+      "rangeOfSets" : "0"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 7,
+      "rangeOfSets" : "0"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 7,
+      "rangeOfSets" : "0"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 7,
+      "rangeOfSets" : "0"
+    },
+    {
+      "numOfCameras" : 4,
+      "numOfObjects" : 7,
+      "rangeOfSets" : "0"
+    }
+  ]
+}

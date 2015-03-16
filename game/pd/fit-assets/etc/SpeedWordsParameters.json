@@ -1,0 +1,38 @@
+{
+  "beginner" : [
+    {
+      "maxLetters" : 8,
+      "bonusLetters" : "aeiouy",
+      "minLetters" : 3,
+      "requiredLetters" : "a",
+      "requiredLettersPerSize" : "000000",
+      "wordsPerSize" : "499990",
+      "bonusLettersPerSize" : "222220",
+      "startingLetters" : "bbbccddfffgghhllmnprstw"
+    }
+  ],
+  "intermediate" : [
+    {
+      "maxLetters" : 6,
+      "bonusLetters" : "wsdrtypghjklmnbvc",
+      "minLetters" : 4,
+      "requiredLetters" : "a",
+      "requiredLettersPerSize" : "000000",
+      "wordsPerSize" : "69999",
+      "bonusLettersPerSize" : "543211",
+      "startingLetters" : "bbccddffgghhjjllllmmmnnooppprrrsssttww"
+    }
+  ],
+  "advanced" : [
+    {
+      "maxLetters" : 6,
+      "bonusLetters" : "zxqrtpojgnmaeiouy",
+      "minLetters" : 4,
+      "requiredLetters" : "aeio",
+      "requiredLettersPerSize" : "000000",
+      "wordsPerSize" : "55999",
+      "bonusLettersPerSize" : "122331",
+      "startingLetters" : "abcdefghijklmnoprstuvwyz"
+    }
+  ]
+}

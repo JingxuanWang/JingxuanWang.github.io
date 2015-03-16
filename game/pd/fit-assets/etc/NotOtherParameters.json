@@ -1,0 +1,606 @@
+{
+  "beginner" : [
+    {
+      "rangeOfTypes" : "8,6,9",
+      "numOfObjects" : 4,
+      "showHint" : true
+    },
+    {
+      "rangeOfTypes" : "6,7",
+      "numOfObjects" : 4,
+      "showHint" : true
+    },
+    {
+      "rangeOfTypes" : "9,10",
+      "numOfObjects" : 4,
+      "showHint" : true
+    },
+    {
+      "rangeOfTypes" : "5,8,9",
+      "numOfObjects" : 4,
+      "showHint" : true
+    },
+    {
+      "rangeOfTypes" : "5,10",
+      "numOfObjects" : 5,
+      "showHint" : true
+    },
+    {
+      "rangeOfTypes" : "7,8",
+      "numOfObjects" : 5,
+      "showHint" : true
+    },
+    {
+      "rangeOfTypes" : "5,9",
+      "numOfObjects" : 5,
+      "showHint" : true
+    },
+    {
+      "rangeOfTypes" : "6,8",
+      "numOfObjects" : 5,
+      "showHint" : true
+    },
+    {
+      "rangeOfTypes" : "5,7",
+      "numOfObjects" : 5,
+      "showHint" : true
+    },
+    {
+      "rangeOfTypes" : "8,10",
+      "numOfObjects" : 5,
+      "showHint" : true
+    },
+    {
+      "rangeOfTypes" : "6,9",
+      "numOfObjects" : 6
+    },
+    {
+      "rangeOfTypes" : "5,8",
+      "numOfObjects" : 6,
+      "showHint" : true
+    },
+    {
+      "rangeOfTypes" : "7,9",
+      "numOfObjects" : 6
+    },
+    {
+      "rangeOfTypes" : "4,7",
+      "numOfObjects" : 6,
+      "showHint" : true
+    },
+    {
+      "rangeOfTypes" : "8,9",
+      "numOfObjects" : 6,
+      "showHint" : true
+    },
+    {
+      "rangeOfTypes" : "5,7,9",
+      "numOfObjects" : 6,
+      "showHint" : true
+    },
+    {
+      "rangeOfTypes" : "8,6",
+      "numOfObjects" : 6,
+      "showHint" : true
+    },
+    {
+      "rangeOfTypes" : "9,7,10",
+      "numOfObjects" : 6,
+      "showHint" : true
+    },
+    {
+      "rangeOfTypes" : "6,9,8",
+      "numOfObjects" : 6,
+      "showHint" : true
+    },
+    {
+      "rangeOfTypes" : "5,7",
+      "numOfObjects" : 6,
+      "showHint" : true
+    },
+    {
+      "rangeOfTypes" : "5,9",
+      "numOfObjects" : 6,
+      "showHint" : true
+    },
+    {
+      "rangeOfTypes" : "5,7",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "5,7",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "7,6",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "5,10",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "8,5",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "6,7",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "9,5",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "9,8",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "6,7",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "10,6",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "5,7",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "9,8",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "6,7",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "9,6",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "2,3,5",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "1,10,2",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "7,8",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "5,6,1",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "0,1",
+      "numOfObjects" : 6,
+      "showHint" : false
+    }
+  ],
+  "intermediate" : [
+    {
+      "rangeOfTypes" : "11,4",
+      "numOfObjects" : 4,
+      "showHint" : true
+    },
+    {
+      "rangeOfTypes" : "1,3",
+      "numOfObjects" : 4,
+      "showHint" : true
+    },
+    {
+      "rangeOfTypes" : "15,14",
+      "numOfObjects" : 4,
+      "showHint" : true
+    },
+    {
+      "rangeOfTypes" : "4,10",
+      "numOfObjects" : 4,
+      "showHint" : true
+    },
+    {
+      "rangeOfTypes" : "0,3,2",
+      "numOfObjects" : 5,
+      "showHint" : true
+    },
+    {
+      "rangeOfTypes" : "6,8",
+      "numOfObjects" : 5,
+      "showHint" : true
+    },
+    {
+      "rangeOfTypes" : "4,15",
+      "numOfObjects" : 5,
+      "showHint" : true
+    },
+    {
+      "rangeOfTypes" : "2,11,4",
+      "numOfObjects" : 5,
+      "showHint" : true
+    },
+    {
+      "rangeOfTypes" : "1,3",
+      "numOfObjects" : 5,
+      "showHint" : true
+    },
+    {
+      "rangeOfTypes" : "12,13",
+      "numOfObjects" : 5,
+      "showHint" : true
+    },
+    {
+      "rangeOfTypes" : "13,12",
+      "numOfObjects" : 6,
+      "showHint" : true
+    },
+    {
+      "rangeOfTypes" : "0,3,2",
+      "numOfObjects" : 6,
+      "showHint" : true
+    },
+    {
+      "rangeOfTypes" : "12,15",
+      "numOfObjects" : 6,
+      "showHint" : true
+    },
+    {
+      "rangeOfTypes" : "4,15",
+      "numOfObjects" : 6,
+      "showHint" : true
+    },
+    {
+      "rangeOfTypes" : "0,3,2",
+      "numOfObjects" : 6,
+      "showHint" : true
+    },
+    {
+      "rangeOfTypes" : "0,2",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "4,0",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "0,2",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "4,1",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "2,4,0",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "4,16",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "6,9",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "0,3,2",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "1,3",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "2,11,4",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "12,13",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "13,12",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "4,16",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "1,17",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "1,3",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "12,13",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "13,12",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "0,3,2",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "6,14",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "4,15",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "0,3,2",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "4,15",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "12,13,14,15",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "0,1,2,3,4,11",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "12,13,14,15",
+      "numOfObjects" : 6,
+      "showHint" : false
+    }
+  ],
+  "advanced" : [
+    {
+      "rangeOfTypes" : "2,11",
+      "numOfObjects" : 6,
+      "showHint" : true
+    },
+    {
+      "rangeOfTypes" : "11,17",
+      "numOfObjects" : 6,
+      "showHint" : true
+    },
+    {
+      "rangeOfTypes" : "14,15",
+      "numOfObjects" : 6,
+      "showHint" : true
+    },
+    {
+      "rangeOfTypes" : "18,19",
+      "numOfObjects" : 6,
+      "showHint" : true
+    },
+    {
+      "rangeOfTypes" : "11,13",
+      "numOfObjects" : 6,
+      "showHint" : true
+    },
+    {
+      "rangeOfTypes" : "12,13",
+      "numOfObjects" : 6,
+      "showHint" : true
+    },
+    {
+      "rangeOfTypes" : "15,16,18",
+      "numOfObjects" : 6,
+      "showHint" : true
+    },
+    {
+      "rangeOfTypes" : "12,15,18",
+      "numOfObjects" : 6,
+      "showHint" : true
+    },
+    {
+      "rangeOfTypes" : "2,14",
+      "numOfObjects" : 6,
+      "showHint" : true
+    },
+    {
+      "rangeOfTypes" : "4,11",
+      "numOfObjects" : 6,
+      "showHint" : true
+    },
+    {
+      "rangeOfTypes" : "16,17",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "2,11,4",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "1,3",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "0,17",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "11,19",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "11,20",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "12,13",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "15,17,18",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "4,3",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "0,1",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "11,3",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "16,17",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "11,19",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "16,20",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "17,18",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "11,16",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "2,11,4",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "14,15",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "12,18",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "13,14",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "16,17,18",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "17,22",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "20,19",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "18,20",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "18,19,20",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "2,11,4",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "11,17",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "17,18",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "11,19",
+      "numOfObjects" : 6,
+      "showHint" : false
+    },
+    {
+      "rangeOfTypes" : "12,13",
+      "numOfObjects" : 6,
+      "showHint" : false
+    }
+  ]
+}

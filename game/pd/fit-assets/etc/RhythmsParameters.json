@@ -1,0 +1,218 @@
+{
+  "beginner" : [
+    {
+      "set" : "B",
+      "speed" : 0.4,
+      "patternLength" : 2,
+      "soundSequence" : "1212",
+      "numOfLoops" : 1
+    },
+    {
+      "set" : "B",
+      "speed" : 0.4,
+      "patternLength" : 2,
+      "soundSequence" : "1331",
+      "numOfLoops" : 2
+    },
+    {
+      "set" : "A",
+      "speed" : 0.3,
+      "patternLength" : 2,
+      "soundSequence" : "01020",
+      "numOfLoops" : 2
+    },
+    {
+      "set" : "A",
+      "speed" : 0.4,
+      "patternLength" : 2,
+      "soundSequence" : "10110",
+      "numOfLoops" : 2
+    },
+    {
+      "set" : "AB",
+      "speed" : 0.4,
+      "patternLength" : 2,
+      "soundSequence" : "03330",
+      "numOfLoops" : 2
+    }
+  ],
+  "intermediate" : [
+    {
+      "set" : "C",
+      "speed" : 0.3,
+      "patternLength" : 3,
+      "soundSequence" : "01211201",
+      "numOfLoops" : 3
+    },
+    {
+      "set" : "C",
+      "speed" : 0.3,
+      "patternLength" : 3,
+      "soundSequence" : "01210121",
+      "numOfLoops" : 3
+    },
+    {
+      "set" : "ABC",
+      "speed" : 0.3,
+      "patternLength" : 3,
+      "soundSequence" : "31123112",
+      "numOfLoops" : 3
+    },
+    {
+      "set" : "D",
+      "speed" : 0.3,
+      "patternLength" : 3,
+      "soundSequence" : "32211223",
+      "numOfLoops" : 3
+    },
+    {
+      "set" : "D",
+      "speed" : 0.3,
+      "patternLength" : 3,
+      "soundSequence" : "01330133",
+      "numOfLoops" : 3
+    },
+    {
+      "set" : "ABD",
+      "speed" : 0.3,
+      "patternLength" : 3,
+      "soundSequence" : "01330133",
+      "numOfLoops" : 3
+    },
+    {
+      "set" : "CD",
+      "speed" : 0.3,
+      "patternLength" : 3,
+      "soundSequence" : "23132313",
+      "numOfLoops" : 3
+    },
+    {
+      "set" : "CD",
+      "speed" : 0.3,
+      "patternLength" : 3,
+      "soundSequence" : "20032003",
+      "numOfLoops" : 3
+    },
+    {
+      "set" : "CD",
+      "speed" : 0.3,
+      "patternLength" : 3,
+      "soundSequence" : "12201221",
+      "numOfLoops" : 4
+    },
+    {
+      "set" : "CD",
+      "speed" : 0.3,
+      "patternLength" : 3,
+      "soundSequence" : "10121012",
+      "numOfLoops" : 4
+    }
+  ],
+  "advanced" : [
+    {
+      "set" : "CD",
+      "speed" : 0.3,
+      "patternLength" : 4,
+      "soundSequence" : "31211203",
+      "numOfLoops" : 2
+    },
+    {
+      "set" : "CD",
+      "speed" : 0.3,
+      "patternLength" : 4,
+      "soundSequence" : "01213203",
+      "numOfLoops" : 2
+    },
+    {
+      "set" : "E",
+      "speed" : 0.3,
+      "patternLength" : 4,
+      "soundSequence" : "01233012",
+      "numOfLoops" : 3
+    },
+    {
+      "set" : "E",
+      "speed" : 0.3,
+      "patternLength" : 4,
+      "soundSequence" : "01233201",
+      "numOfLoops" : 3
+    },
+    {
+      "set" : "E",
+      "speed" : 0.3,
+      "patternLength" : 4,
+      "soundSequence" : "01210131",
+      "numOfLoops" : 4
+    },
+    {
+      "set" : "F",
+      "speed" : 0.3,
+      "patternLength" : 4,
+      "soundSequence" : "01230123",
+      "numOfLoops" : 3
+    },
+    {
+      "set" : "F",
+      "speed" : 0.3,
+      "patternLength" : 4,
+      "soundSequence" : "21032103",
+      "numOfLoops" : 4
+    },
+    {
+      "set" : "F",
+      "speed" : 0.3,
+      "patternLength" : 4,
+      "soundSequence" : "3301330233013302",
+      "numOfLoops" : 2
+    },
+    {
+      "set" : "EF",
+      "speed" : 0.3,
+      "patternLength" : 4,
+      "soundSequence" : "21311312300",
+      "numOfLoops" : 3
+    },
+    {
+      "set" : "EF",
+      "speed" : 0.3,
+      "patternLength" : 4,
+      "soundSequence" : "1112001300121213",
+      "numOfLoops" : 1
+    },
+    {
+      "set" : "EF",
+      "speed" : 0.3,
+      "patternLength" : 4,
+      "soundSequence" : "32113200",
+      "numOfLoops" : 4
+    },
+    {
+      "set" : "",
+      "speed" : 0.3,
+      "patternLength" : 4,
+      "soundSequence" : "21033012",
+      "numOfLoops" : 3
+    },
+    {
+      "set" : "",
+      "speed" : 0.3,
+      "patternLength" : 4,
+      "soundSequence" : "03322110",
+      "numOfLoops" : 4
+    },
+    {
+      "set" : "",
+      "speed" : 0.3,
+      "patternLength" : 5,
+      "soundSequence" : "010202031",
+      "numOfLoops" : 4
+    },
+    {
+      "set" : "",
+      "speed" : 0.3,
+      "patternLength" : 5,
+      "soundSequence" : "22013301",
+      "numOfLoops" : 5
+    }
+  ]
+}

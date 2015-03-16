@@ -1,0 +1,275 @@
+{
+  "beginner" : [
+    {
+      "numberOfSymbols" : 1,
+      "offerSameSymbolTypes" : true,
+      "numberOfUniqueSymbols" : 1,
+      "allowedSymbolTypes" : [
+        "shapes"
+      ],
+      "numberOfOfferedAnswers" : 4,
+      "recallTimerDurationInMinutes" : 2
+    },
+    {
+      "numberOfSymbols" : 3,
+      "offerSameSymbolTypes" : true,
+      "numberOfUniqueSymbols" : 1,
+      "allowedSymbolTypes" : [
+        "shapes"
+      ],
+      "numberOfOfferedAnswers" : 5,
+      "recallTimerDurationInMinutes" : 4
+    },
+    {
+      "numberOfSymbols" : 3,
+      "offerSameSymbolTypes" : true,
+      "numberOfUniqueSymbols" : 2,
+      "allowedSymbolTypes" : [
+        "shapes"
+      ],
+      "numberOfOfferedAnswers" : 6,
+      "recallTimerDurationInMinutes" : 6
+    },
+    {
+      "numberOfSymbols" : 3,
+      "offerSameSymbolTypes" : true,
+      "numberOfUniqueSymbols" : 2,
+      "allowedSymbolTypes" : [
+        "shapes"
+      ],
+      "numberOfOfferedAnswers" : 6,
+      "recallTimerDurationInMinutes" : 8
+    },
+    {
+      "numberOfSymbols" : 3,
+      "offerSameSymbolTypes" : true,
+      "numberOfUniqueSymbols" : 3,
+      "allowedSymbolTypes" : [
+        "shapes"
+      ],
+      "numberOfOfferedAnswers" : 7,
+      "recallTimerDurationInMinutes" : 10
+    }
+  ],
+  "intermediate" : [
+    {
+      "numberOfSymbols" : 3,
+      "offerSameSymbolTypes" : false,
+      "numberOfUniqueSymbols" : 2,
+      "allowedSymbolTypes" : [
+        "smileys"
+      ],
+      "numberOfOfferedAnswers" : 4,
+      "recallTimerDurationInMinutes" : 11
+    },
+    {
+      "numberOfSymbols" : 3,
+      "offerSameSymbolTypes" : false,
+      "numberOfUniqueSymbols" : 2,
+      "allowedSymbolTypes" : [
+        "smileys"
+      ],
+      "numberOfOfferedAnswers" : 5,
+      "recallTimerDurationInMinutes" : 12
+    },
+    {
+      "numberOfSymbols" : 3,
+      "offerSameSymbolTypes" : false,
+      "numberOfUniqueSymbols" : 3,
+      "allowedSymbolTypes" : [
+        "smileys"
+      ],
+      "numberOfOfferedAnswers" : 5,
+      "recallTimerDurationInMinutes" : 13
+    },
+    {
+      "numberOfSymbols" : 3,
+      "offerSameSymbolTypes" : false,
+      "numberOfUniqueSymbols" : 3,
+      "allowedSymbolTypes" : [
+        "smileys"
+      ],
+      "numberOfOfferedAnswers" : 6,
+      "recallTimerDurationInMinutes" : 14
+    },
+    {
+      "numberOfSymbols" : 3,
+      "offerSameSymbolTypes" : false,
+      "numberOfUniqueSymbols" : 3,
+      "allowedSymbolTypes" : [
+        "smileys"
+      ],
+      "numberOfOfferedAnswers" : 6,
+      "recallTimerDurationInMinutes" : 15
+    },
+    {
+      "numberOfSymbols" : 3,
+      "offerSameSymbolTypes" : false,
+      "numberOfUniqueSymbols" : 3,
+      "allowedSymbolTypes" : [
+        "smileys",
+        "shapes"
+      ],
+      "numberOfOfferedAnswers" : 6,
+      "recallTimerDurationInMinutes" : 16
+    },
+    {
+      "numberOfSymbols" : 3,
+      "offerSameSymbolTypes" : false,
+      "numberOfUniqueSymbols" : 3,
+      "allowedSymbolTypes" : [
+        "shapes",
+        "smileys"
+      ],
+      "numberOfOfferedAnswers" : 7,
+      "recallTimerDurationInMinutes" : 17
+    },
+    {
+      "numberOfSymbols" : 3,
+      "offerSameSymbolTypes" : false,
+      "numberOfUniqueSymbols" : 2,
+      "allowedSymbolTypes" : [
+        "shapes",
+        "smileys"
+      ],
+      "numberOfOfferedAnswers" : 7,
+      "recallTimerDurationInMinutes" : 18
+    },
+    {
+      "numberOfSymbols" : 3,
+      "offerSameSymbolTypes" : false,
+      "numberOfUniqueSymbols" : 2,
+      "allowedSymbolTypes" : [
+        "shapes",
+        "smileys"
+      ],
+      "numberOfOfferedAnswers" : 8,
+      "recallTimerDurationInMinutes" : 19
+    },
+    {
+      "numberOfSymbols" : 3,
+      "offerSameSymbolTypes" : false,
+      "numberOfUniqueSymbols" : 2,
+      "allowedSymbolTypes" : [
+        "shapes",
+        "smileys"
+      ],
+      "numberOfOfferedAnswers" : 8,
+      "recallTimerDurationInMinutes" : 20
+    }
+  ],
+  "advanced" : [
+    {
+      "numberOfSymbols" : 3,
+      "offerSameSymbolTypes" : false,
+      "numberOfUniqueSymbols" : 3,
+      "allowedSymbolTypes" : [
+        "flags"
+      ],
+      "numberOfOfferedAnswers" : 9,
+      "recallTimerDurationInMinutes" : 21
+    },
+    {
+      "numberOfSymbols" : 3,
+      "offerSameSymbolTypes" : false,
+      "numberOfUniqueSymbols" : 3,
+      "allowedSymbolTypes" : [
+        "flags"
+      ],
+      "numberOfOfferedAnswers" : 9,
+      "recallTimerDurationInMinutes" : 22
+    },
+    {
+      "numberOfSymbols" : 3,
+      "offerSameSymbolTypes" : false,
+      "numberOfUniqueSymbols" : 3,
+      "allowedSymbolTypes" : [
+        "flags",
+        "shapes"
+      ],
+      "numberOfOfferedAnswers" : 9,
+      "recallTimerDurationInMinutes" : 23
+    },
+    {
+      "numberOfSymbols" : 3,
+      "offerSameSymbolTypes" : false,
+      "numberOfUniqueSymbols" : 3,
+      "allowedSymbolTypes" : [
+        "flags",
+        "shapes"
+      ],
+      "numberOfOfferedAnswers" : 9,
+      "recallTimerDurationInMinutes" : 24
+    },
+    {
+      "numberOfSymbols" : 3,
+      "offerSameSymbolTypes" : false,
+      "numberOfUniqueSymbols" : 3,
+      "allowedSymbolTypes" : [
+        "flags",
+        "smileys"
+      ],
+      "numberOfOfferedAnswers" : 9,
+      "recallTimerDurationInMinutes" : 25
+    },
+    {
+      "numberOfSymbols" : 3,
+      "offerSameSymbolTypes" : false,
+      "numberOfUniqueSymbols" : 3,
+      "allowedSymbolTypes" : [
+        "flags",
+        "smileys"
+      ],
+      "numberOfOfferedAnswers" : 9,
+      "recallTimerDurationInMinutes" : 26
+    },
+    {
+      "numberOfSymbols" : 3,
+      "offerSameSymbolTypes" : false,
+      "numberOfUniqueSymbols" : 3,
+      "allowedSymbolTypes" : [
+        "flags",
+        "smileys",
+        "shapes"
+      ],
+      "numberOfOfferedAnswers" : 9,
+      "recallTimerDurationInMinutes" : 27
+    },
+    {
+      "numberOfSymbols" : 3,
+      "offerSameSymbolTypes" : false,
+      "numberOfUniqueSymbols" : 3,
+      "allowedSymbolTypes" : [
+        "flags",
+        "smileys",
+        "shapes"
+      ],
+      "numberOfOfferedAnswers" : 9,
+      "recallTimerDurationInMinutes" : 28
+    },
+    {
+      "numberOfSymbols" : 3,
+      "offerSameSymbolTypes" : false,
+      "numberOfUniqueSymbols" : 3,
+      "allowedSymbolTypes" : [
+        "flags",
+        "smileys",
+        "shapes"
+      ],
+      "numberOfOfferedAnswers" : 9,
+      "recallTimerDurationInMinutes" : 29
+    },
+    {
+      "numberOfSymbols" : 3,
+      "offerSameSymbolTypes" : false,
+      "numberOfUniqueSymbols" : 3,
+      "allowedSymbolTypes" : [
+        "flags",
+        "smileys",
+        "shapes"
+      ],
+      "numberOfOfferedAnswers" : 9,
+      "recallTimerDurationInMinutes" : 30
+    }
+  ]
+}

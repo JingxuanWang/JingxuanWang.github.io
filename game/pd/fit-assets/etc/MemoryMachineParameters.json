@@ -1,0 +1,548 @@
+{
+  "beginner" : [
+    {
+      "numOfQuestions" : 0,
+      "rangeOfBoxes" : "1",
+      "delayTime" : 6,
+      "rangeOfSections" : "1"
+    },
+    {
+      "numOfQuestions" : 0,
+      "rangeOfBoxes" : "2",
+      "delayTime" : 6,
+      "rangeOfSections" : "1"
+    },
+    {
+      "numOfQuestions" : 0,
+      "rangeOfBoxes" : "2",
+      "delayTime" : 6,
+      "rangeOfSections" : "1"
+    },
+    {
+      "numOfQuestions" : 0,
+      "rangeOfBoxes" : "2",
+      "delayTime" : 6,
+      "rangeOfSections" : "1"
+    },
+    {
+      "numOfQuestions" : 0,
+      "rangeOfBoxes" : "2",
+      "delayTime" : 6,
+      "rangeOfSections" : "1"
+    },
+    {
+      "numOfQuestions" : 0,
+      "rangeOfBoxes" : "2",
+      "delayTime" : 6,
+      "rangeOfSections" : "1-2"
+    },
+    {
+      "numOfQuestions" : 0,
+      "rangeOfBoxes" : "2",
+      "delayTime" : 6,
+      "rangeOfSections" : "2"
+    },
+    {
+      "numOfQuestions" : 0,
+      "rangeOfBoxes" : "2",
+      "delayTime" : 6,
+      "rangeOfSections" : "2"
+    },
+    {
+      "numOfQuestions" : 0,
+      "rangeOfBoxes" : "2",
+      "delayTime" : 6,
+      "rangeOfSections" : "2"
+    },
+    {
+      "numOfQuestions" : 0,
+      "rangeOfBoxes" : "2",
+      "delayTime" : 6,
+      "rangeOfSections" : "2"
+    },
+    {
+      "numOfQuestions" : 0,
+      "rangeOfBoxes" : "2",
+      "delayTime" : 6,
+      "rangeOfSections" : "2"
+    },
+    {
+      "numOfQuestions" : 0,
+      "rangeOfBoxes" : "2",
+      "delayTime" : 6,
+      "rangeOfSections" : "2"
+    },
+    {
+      "numOfQuestions" : 0,
+      "rangeOfBoxes" : "2",
+      "delayTime" : 6,
+      "rangeOfSections" : "2"
+    },
+    {
+      "numOfQuestions" : 0,
+      "rangeOfBoxes" : "2",
+      "delayTime" : 6,
+      "rangeOfSections" : "2"
+    },
+    {
+      "numOfQuestions" : 0,
+      "rangeOfBoxes" : "2",
+      "delayTime" : 6,
+      "rangeOfSections" : "2"
+    },
+    {
+      "numOfQuestions" : 0,
+      "rangeOfBoxes" : "3",
+      "delayTime" : 6,
+      "rangeOfSections" : "2"
+    },
+    {
+      "numOfQuestions" : 0,
+      "rangeOfBoxes" : "3",
+      "delayTime" : 6,
+      "rangeOfSections" : "1-2"
+    },
+    {
+      "numOfQuestions" : 0,
+      "rangeOfBoxes" : "3",
+      "delayTime" : 6,
+      "rangeOfSections" : "1-2"
+    },
+    {
+      "numOfQuestions" : 0,
+      "rangeOfBoxes" : "3",
+      "delayTime" : 6,
+      "rangeOfSections" : "1-2"
+    },
+    {
+      "numOfQuestions" : 0,
+      "rangeOfBoxes" : "3",
+      "delayTime" : 6,
+      "rangeOfSections" : "1-2"
+    },
+    {
+      "numOfQuestions" : 0,
+      "rangeOfBoxes" : "3",
+      "delayTime" : 6,
+      "rangeOfSections" : "1-2"
+    },
+    {
+      "numOfQuestions" : 0,
+      "rangeOfBoxes" : "3",
+      "delayTime" : 6,
+      "rangeOfSections" : "1-2"
+    },
+    {
+      "numOfQuestions" : 0,
+      "rangeOfBoxes" : "3",
+      "delayTime" : 6,
+      "rangeOfSections" : "1-2"
+    },
+    {
+      "numOfQuestions" : 0,
+      "rangeOfBoxes" : "3",
+      "delayTime" : 6,
+      "rangeOfSections" : "1-2"
+    },
+    {
+      "numOfQuestions" : 0,
+      "rangeOfBoxes" : "3",
+      "delayTime" : 6,
+      "rangeOfSections" : "1-2"
+    },
+    {
+      "numOfQuestions" : 0,
+      "rangeOfBoxes" : "3",
+      "delayTime" : 6,
+      "rangeOfSections" : "2"
+    },
+    {
+      "numOfQuestions" : 0,
+      "rangeOfBoxes" : "3",
+      "delayTime" : 6,
+      "rangeOfSections" : "2"
+    },
+    {
+      "numOfQuestions" : 0,
+      "rangeOfBoxes" : "3",
+      "delayTime" : 6,
+      "rangeOfSections" : "2"
+    },
+    {
+      "numOfQuestions" : 0,
+      "rangeOfBoxes" : "3",
+      "delayTime" : 6,
+      "rangeOfSections" : "2"
+    },
+    {
+      "numOfQuestions" : 0,
+      "rangeOfBoxes" : "3",
+      "delayTime" : 6,
+      "rangeOfSections" : "2"
+    }
+  ],
+  "intermediate" : [
+    {
+      "numOfQuestions" : 1,
+      "rangeOfBoxes" : "2",
+      "delayTime" : 6,
+      "rangeOfSections" : "1"
+    },
+    {
+      "numOfQuestions" : 1,
+      "rangeOfBoxes" : "2",
+      "delayTime" : 6,
+      "rangeOfSections" : "1"
+    },
+    {
+      "numOfQuestions" : 1,
+      "rangeOfBoxes" : "3",
+      "delayTime" : 6,
+      "rangeOfSections" : "1"
+    },
+    {
+      "numOfQuestions" : 1,
+      "rangeOfBoxes" : "3",
+      "delayTime" : 6,
+      "rangeOfSections" : "1"
+    },
+    {
+      "numOfQuestions" : 1,
+      "rangeOfBoxes" : "3",
+      "delayTime" : 6,
+      "rangeOfSections" : "1"
+    },
+    {
+      "numOfQuestions" : 1,
+      "rangeOfBoxes" : "3",
+      "delayTime" : 6,
+      "rangeOfSections" : "1"
+    },
+    {
+      "numOfQuestions" : 1,
+      "rangeOfBoxes" : "3",
+      "delayTime" : 6,
+      "rangeOfSections" : "1"
+    },
+    {
+      "numOfQuestions" : 1,
+      "rangeOfBoxes" : "3",
+      "delayTime" : 6,
+      "rangeOfSections" : "1-2"
+    },
+    {
+      "numOfQuestions" : 1,
+      "rangeOfBoxes" : "3",
+      "delayTime" : 6,
+      "rangeOfSections" : "1-2"
+    },
+    {
+      "numOfQuestions" : 1,
+      "rangeOfBoxes" : "3",
+      "delayTime" : 6,
+      "rangeOfSections" : "1-2"
+    },
+    {
+      "numOfQuestions" : 1,
+      "rangeOfBoxes" : "4",
+      "delayTime" : 6,
+      "rangeOfSections" : "1-2"
+    },
+    {
+      "numOfQuestions" : 1,
+      "rangeOfBoxes" : "4",
+      "delayTime" : 6,
+      "rangeOfSections" : "1-2"
+    },
+    {
+      "numOfQuestions" : 1,
+      "rangeOfBoxes" : "4",
+      "delayTime" : 6,
+      "rangeOfSections" : "1-2"
+    },
+    {
+      "numOfQuestions" : 1,
+      "rangeOfBoxes" : "4",
+      "delayTime" : 6,
+      "rangeOfSections" : "1-2"
+    },
+    {
+      "numOfQuestions" : 1,
+      "rangeOfBoxes" : "4",
+      "delayTime" : 6,
+      "rangeOfSections" : "1-2"
+    },
+    {
+      "numOfQuestions" : 1,
+      "rangeOfBoxes" : "4",
+      "delayTime" : 6,
+      "rangeOfSections" : "1-2"
+    },
+    {
+      "numOfQuestions" : 1,
+      "rangeOfBoxes" : "4",
+      "delayTime" : 6,
+      "rangeOfSections" : "2-3"
+    },
+    {
+      "numOfQuestions" : 1,
+      "rangeOfBoxes" : "4",
+      "delayTime" : 6,
+      "rangeOfSections" : "2-3"
+    },
+    {
+      "numOfQuestions" : 1,
+      "rangeOfBoxes" : "4",
+      "delayTime" : 6,
+      "rangeOfSections" : "2-3"
+    },
+    {
+      "numOfQuestions" : 1,
+      "rangeOfBoxes" : "4",
+      "delayTime" : 6,
+      "rangeOfSections" : "2-3"
+    },
+    {
+      "numOfQuestions" : 1,
+      "rangeOfBoxes" : "5",
+      "delayTime" : 6,
+      "rangeOfSections" : "2-3"
+    },
+    {
+      "numOfQuestions" : 1,
+      "rangeOfBoxes" : "5",
+      "delayTime" : 6,
+      "rangeOfSections" : "2-3"
+    },
+    {
+      "numOfQuestions" : 1,
+      "rangeOfBoxes" : "5",
+      "delayTime" : 6,
+      "rangeOfSections" : "2-3"
+    },
+    {
+      "numOfQuestions" : 1,
+      "rangeOfBoxes" : "5",
+      "delayTime" : 6,
+      "rangeOfSections" : "2-3"
+    },
+    {
+      "numOfQuestions" : 1,
+      "rangeOfBoxes" : "5",
+      "delayTime" : 6,
+      "rangeOfSections" : "2-3"
+    },
+    {
+      "numOfQuestions" : 1,
+      "rangeOfBoxes" : "5",
+      "delayTime" : 6,
+      "rangeOfSections" : "2-3"
+    },
+    {
+      "numOfQuestions" : 1,
+      "rangeOfBoxes" : "5",
+      "delayTime" : 6,
+      "rangeOfSections" : "2-3"
+    },
+    {
+      "numOfQuestions" : 1,
+      "rangeOfBoxes" : "5",
+      "delayTime" : 6,
+      "rangeOfSections" : "2-3"
+    },
+    {
+      "numOfQuestions" : 1,
+      "rangeOfBoxes" : "5",
+      "delayTime" : 6,
+      "rangeOfSections" : "3"
+    },
+    {
+      "numOfQuestions" : 1,
+      "rangeOfBoxes" : "5",
+      "delayTime" : 6,
+      "rangeOfSections" : "3"
+    }
+  ],
+  "advanced" : [
+    {
+      "numOfQuestions" : 2,
+      "rangeOfBoxes" : "3",
+      "delayTime" : 6,
+      "rangeOfSections" : "1-4"
+    },
+    {
+      "numOfQuestions" : 2,
+      "rangeOfBoxes" : "3",
+      "delayTime" : 6,
+      "rangeOfSections" : "1-4"
+    },
+    {
+      "numOfQuestions" : 2,
+      "rangeOfBoxes" : "4",
+      "delayTime" : 6,
+      "rangeOfSections" : "1-4"
+    },
+    {
+      "numOfQuestions" : 2,
+      "rangeOfBoxes" : "4",
+      "delayTime" : 6,
+      "rangeOfSections" : "1-4"
+    },
+    {
+      "numOfQuestions" : 2,
+      "rangeOfBoxes" : "4",
+      "delayTime" : 6,
+      "rangeOfSections" : "1-4"
+    },
+    {
+      "numOfQuestions" : 2,
+      "rangeOfBoxes" : "4",
+      "delayTime" : 6,
+      "rangeOfSections" : "1-4"
+    },
+    {
+      "numOfQuestions" : 2,
+      "rangeOfBoxes" : "4",
+      "delayTime" : 6,
+      "rangeOfSections" : "1-4"
+    },
+    {
+      "numOfQuestions" : 2,
+      "rangeOfBoxes" : "4",
+      "delayTime" : 6,
+      "rangeOfSections" : "1-4"
+    },
+    {
+      "numOfQuestions" : 2,
+      "rangeOfBoxes" : "4",
+      "delayTime" : 6,
+      "rangeOfSections" : "1-4"
+    },
+    {
+      "numOfQuestions" : 2,
+      "rangeOfBoxes" : "4",
+      "delayTime" : 6,
+      "rangeOfSections" : "1-4"
+    },
+    {
+      "numOfQuestions" : 2,
+      "rangeOfBoxes" : "5",
+      "delayTime" : 6,
+      "rangeOfSections" : "1-4"
+    },
+    {
+      "numOfQuestions" : 2,
+      "rangeOfBoxes" : "5",
+      "delayTime" : 6,
+      "rangeOfSections" : "1-4"
+    },
+    {
+      "numOfQuestions" : 2,
+      "rangeOfBoxes" : "5",
+      "delayTime" : 6,
+      "rangeOfSections" : "1-4"
+    },
+    {
+      "numOfQuestions" : 2,
+      "rangeOfBoxes" : "5",
+      "delayTime" : 6,
+      "rangeOfSections" : "1-4"
+    },
+    {
+      "numOfQuestions" : 2,
+      "rangeOfBoxes" : "5",
+      "delayTime" : 6,
+      "rangeOfSections" : "2-4"
+    },
+    {
+      "numOfQuestions" : 2,
+      "rangeOfBoxes" : "6",
+      "delayTime" : 6,
+      "rangeOfSections" : "2-4"
+    },
+    {
+      "numOfQuestions" : 2,
+      "rangeOfBoxes" : "6",
+      "delayTime" : 6,
+      "rangeOfSections" : "2-4"
+    },
+    {
+      "numOfQuestions" : 2,
+      "rangeOfBoxes" : "6",
+      "delayTime" : 6,
+      "rangeOfSections" : "2-4"
+    },
+    {
+      "numOfQuestions" : 2,
+      "rangeOfBoxes" : "6",
+      "delayTime" : 6,
+      "rangeOfSections" : "2-4"
+    },
+    {
+      "numOfQuestions" : 2,
+      "rangeOfBoxes" : "6",
+      "delayTime" : 6,
+      "rangeOfSections" : "2-4"
+    },
+    {
+      "numOfQuestions" : 2,
+      "rangeOfBoxes" : "6",
+      "delayTime" : 6,
+      "rangeOfSections" : "2-4"
+    },
+    {
+      "numOfQuestions" : 2,
+      "rangeOfBoxes" : "6",
+      "delayTime" : 6,
+      "rangeOfSections" : "2-4"
+    },
+    {
+      "numOfQuestions" : 2,
+      "rangeOfBoxes" : "6",
+      "delayTime" : 6,
+      "rangeOfSections" : "2-4"
+    },
+    {
+      "numOfQuestions" : 2,
+      "rangeOfBoxes" : "6",
+      "delayTime" : 6,
+      "rangeOfSections" : "2-4"
+    },
+    {
+      "numOfQuestions" : 2,
+      "rangeOfBoxes" : "6",
+      "delayTime" : 6,
+      "rangeOfSections" : "2-4"
+    },
+    {
+      "numOfQuestions" : 2,
+      "rangeOfBoxes" : "6",
+      "delayTime" : 6,
+      "rangeOfSections" : "2-4"
+    },
+    {
+      "numOfQuestions" : 2,
+      "rangeOfBoxes" : "6",
+      "delayTime" : 6,
+      "rangeOfSections" : "2-4"
+    },
+    {
+      "numOfQuestions" : 2,
+      "rangeOfBoxes" : "6",
+      "delayTime" : 6,
+      "rangeOfSections" : "2-4"
+    },
+    {
+      "numOfQuestions" : 2,
+      "rangeOfBoxes" : "6",
+      "delayTime" : 6,
+      "rangeOfSections" : "2-4"
+    },
+    {
+      "numOfQuestions" : 2,
+      "rangeOfBoxes" : "6",
+      "delayTime" : 6,
+      "rangeOfSections" : "2-4"
+    }
+  ]
+}

@@ -1,0 +1,608 @@
+{
+  "beginner" : [
+    {
+      "numOfColors" : 5,
+      "numOfAnswers" : 2,
+      "numOfBlocks" : 3
+    },
+    {
+      "numOfColors" : 5,
+      "numOfAnswers" : 2,
+      "numOfBlocks" : 4
+    },
+    {
+      "numOfColors" : 5,
+      "numOfAnswers" : 2,
+      "numOfBlocks" : 4
+    },
+    {
+      "numOfColors" : 5,
+      "numOfAnswers" : 2,
+      "numOfBlocks" : 4
+    },
+    {
+      "numOfColors" : 5,
+      "numOfAnswers" : 2,
+      "numOfBlocks" : 4
+    },
+    {
+      "numOfColors" : 5,
+      "numOfAnswers" : 2,
+      "numOfBlocks" : 5
+    },
+    {
+      "numOfColors" : 5,
+      "numOfAnswers" : 2,
+      "numOfBlocks" : 5
+    },
+    {
+      "numOfColors" : 5,
+      "numOfAnswers" : 2,
+      "numOfBlocks" : 5
+    },
+    {
+      "numOfColors" : 5,
+      "numOfAnswers" : 2,
+      "numOfBlocks" : 5
+    },
+    {
+      "numOfColors" : 5,
+      "numOfAnswers" : 2,
+      "numOfBlocks" : 5
+    },
+    {
+      "numOfColors" : 5,
+      "numOfAnswers" : 2,
+      "numOfBlocks" : 5
+    },
+    {
+      "numOfColors" : 5,
+      "numOfAnswers" : 2,
+      "numOfBlocks" : 5
+    },
+    {
+      "numOfColors" : 5,
+      "numOfAnswers" : 2,
+      "numOfBlocks" : 6
+    },
+    {
+      "numOfColors" : 5,
+      "numOfAnswers" : 2,
+      "numOfBlocks" : 6
+    },
+    {
+      "numOfColors" : 5,
+      "numOfAnswers" : 2,
+      "numOfBlocks" : 6
+    },
+    {
+      "numOfColors" : 5,
+      "numOfAnswers" : 2,
+      "numOfBlocks" : 6
+    },
+    {
+      "numOfColors" : 5,
+      "numOfAnswers" : 2,
+      "numOfBlocks" : 6
+    },
+    {
+      "numOfColors" : 5,
+      "numOfAnswers" : 2,
+      "numOfBlocks" : 6
+    },
+    {
+      "numOfColors" : 5,
+      "numOfAnswers" : 2,
+      "numOfBlocks" : 6
+    },
+    {
+      "numOfColors" : 5,
+      "numOfAnswers" : 2,
+      "numOfBlocks" : 7
+    },
+    {
+      "numOfColors" : 5,
+      "numOfAnswers" : 2,
+      "numOfBlocks" : 7
+    },
+    {
+      "numOfColors" : 5,
+      "numOfAnswers" : 2,
+      "numOfBlocks" : 7
+    },
+    {
+      "numOfColors" : 5,
+      "numOfAnswers" : 2,
+      "numOfBlocks" : 7
+    },
+    {
+      "numOfColors" : 5,
+      "numOfAnswers" : 2,
+      "numOfBlocks" : 7
+    },
+    {
+      "numOfColors" : 5,
+      "numOfAnswers" : 2,
+      "numOfBlocks" : 7
+    },
+    {
+      "numOfColors" : 5,
+      "numOfAnswers" : 2,
+      "numOfBlocks" : 7
+    },
+    {
+      "numOfColors" : 5,
+      "numOfAnswers" : 2,
+      "numOfBlocks" : 7
+    },
+    {
+      "numOfColors" : 5,
+      "numOfAnswers" : 2,
+      "numOfBlocks" : 8
+    },
+    {
+      "numOfColors" : 5,
+      "numOfAnswers" : 2,
+      "numOfBlocks" : 7
+    },
+    {
+      "numOfColors" : 5,
+      "numOfAnswers" : 2,
+      "numOfBlocks" : 7
+    },
+    {
+      "numOfColors" : 5,
+      "numOfAnswers" : 2,
+      "numOfBlocks" : 7
+    },
+    {
+      "numOfColors" : 5,
+      "numOfAnswers" : 2,
+      "numOfBlocks" : 8
+    },
+    {
+      "numOfColors" : 5,
+      "numOfAnswers" : 2,
+      "numOfBlocks" : 8
+    },
+    {
+      "numOfColors" : 5,
+      "numOfAnswers" : 2,
+      "numOfBlocks" : 8
+    },
+    {
+      "numOfColors" : 5,
+      "numOfAnswers" : 2,
+      "numOfBlocks" : 8
+    },
+    {
+      "numOfColors" : 5,
+      "numOfAnswers" : 2,
+      "numOfBlocks" : 9
+    },
+    {
+      "numOfColors" : 5,
+      "numOfAnswers" : 2,
+      "numOfBlocks" : 9
+    },
+    {
+      "numOfColors" : 5,
+      "numOfAnswers" : 2,
+      "numOfBlocks" : 9
+    },
+    {
+      "numOfColors" : 5,
+      "numOfAnswers" : 2,
+      "numOfBlocks" : 10
+    },
+    {
+      "numOfColors" : 5,
+      "numOfAnswers" : 2,
+      "numOfBlocks" : 10
+    }
+  ],
+  "intermediate" : [
+    {
+      "numOfColors" : 4,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 6
+    },
+    {
+      "numOfColors" : 4,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 6
+    },
+    {
+      "numOfColors" : 4,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 6
+    },
+    {
+      "numOfColors" : 4,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 6
+    },
+    {
+      "numOfColors" : 3,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 6
+    },
+    {
+      "numOfColors" : 3,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 6
+    },
+    {
+      "numOfColors" : 3,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 6
+    },
+    {
+      "numOfColors" : 3,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 6
+    },
+    {
+      "numOfColors" : 4,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 6
+    },
+    {
+      "numOfColors" : 4,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 7
+    },
+    {
+      "numOfColors" : 4,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 7
+    },
+    {
+      "numOfColors" : 4,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 7
+    },
+    {
+      "numOfColors" : 3,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 7
+    },
+    {
+      "numOfColors" : 3,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 7
+    },
+    {
+      "numOfColors" : 3,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 8
+    },
+    {
+      "numOfColors" : 3,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 8
+    },
+    {
+      "numOfColors" : 4,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 8
+    },
+    {
+      "numOfColors" : 4,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 8
+    },
+    {
+      "numOfColors" : 4,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 8
+    },
+    {
+      "numOfColors" : 4,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 9
+    },
+    {
+      "numOfColors" : 3,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 9
+    },
+    {
+      "numOfColors" : 3,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 9
+    },
+    {
+      "numOfColors" : 3,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 10
+    },
+    {
+      "numOfColors" : 3,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 10
+    },
+    {
+      "numOfColors" : 4,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 10
+    },
+    {
+      "numOfColors" : 4,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 11
+    },
+    {
+      "numOfColors" : 4,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 11
+    },
+    {
+      "numOfColors" : 4,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 12
+    },
+    {
+      "numOfColors" : 4,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 12
+    },
+    {
+      "numOfColors" : 4,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 13
+    },
+    {
+      "numOfColors" : 3,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 13
+    },
+    {
+      "numOfColors" : 3,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 13
+    },
+    {
+      "numOfColors" : 3,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 13
+    },
+    {
+      "numOfColors" : 4,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 13
+    },
+    {
+      "numOfColors" : 4,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 14
+    },
+    {
+      "numOfColors" : 3,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 14
+    },
+    {
+      "numOfColors" : 3,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 14
+    },
+    {
+      "numOfColors" : 3,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 14
+    },
+    {
+      "numOfColors" : 3,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 15
+    },
+    {
+      "numOfColors" : 4,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 15
+    }
+  ],
+  "advanced" : [
+    {
+      "numOfColors" : 2,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 12
+    },
+    {
+      "numOfColors" : 2,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 12
+    },
+    {
+      "numOfColors" : 2,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 12
+    },
+    {
+      "numOfColors" : 2,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 12
+    },
+    {
+      "numOfColors" : 2,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 14
+    },
+    {
+      "numOfColors" : 2,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 14
+    },
+    {
+      "numOfColors" : 2,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 14
+    },
+    {
+      "numOfColors" : 2,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 16
+    },
+    {
+      "numOfColors" : 2,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 16
+    },
+    {
+      "numOfColors" : 2,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 16
+    },
+    {
+      "numOfColors" : 1,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 16
+    },
+    {
+      "numOfColors" : 2,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 18
+    },
+    {
+      "numOfColors" : 1,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 18
+    },
+    {
+      "numOfColors" : 2,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 18
+    },
+    {
+      "numOfColors" : 1,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 18
+    },
+    {
+      "numOfColors" : 2,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 20
+    },
+    {
+      "numOfColors" : 1,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 20
+    },
+    {
+      "numOfColors" : 2,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 20
+    },
+    {
+      "numOfColors" : 1,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 20
+    },
+    {
+      "numOfColors" : 2,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 20
+    },
+    {
+      "numOfColors" : 1,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 21
+    },
+    {
+      "numOfColors" : 1,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 21
+    },
+    {
+      "numOfColors" : 1,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 21
+    },
+    {
+      "numOfColors" : 1,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 22
+    },
+    {
+      "numOfColors" : 1,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 22
+    },
+    {
+      "numOfColors" : 1,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 22
+    },
+    {
+      "numOfColors" : 1,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 22
+    },
+    {
+      "numOfColors" : 1,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 23
+    },
+    {
+      "numOfColors" : 1,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 23
+    },
+    {
+      "numOfColors" : 1,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 24
+    },
+    {
+      "numOfColors" : 1,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 24
+    },
+    {
+      "numOfColors" : 1,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 24
+    },
+    {
+      "numOfColors" : 1,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 24
+    },
+    {
+      "numOfColors" : 1,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 24
+    },
+    {
+      "numOfColors" : 1,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 25
+    },
+    {
+      "numOfColors" : 1,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 25
+    },
+    {
+      "numOfColors" : 1,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 25
+    },
+    {
+      "numOfColors" : 1,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 25
+    },
+    {
+      "numOfColors" : 1,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 25
+    },
+    {
+      "numOfColors" : 1,
+      "numOfAnswers" : 3,
+      "numOfBlocks" : 25
+    }
+  ]
+}

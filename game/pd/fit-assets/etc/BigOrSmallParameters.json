@@ -1,0 +1,41 @@
+{
+  "beginner" : [
+    {
+      "rangeOfTypes" : "0-2",
+      "rangeOfOperators" : "+-",
+      "numCorrectToIncrement2" : 1000,
+      "numCorrectToIncrement" : 10,
+      "hasOperatorPercent" : 0,
+      "rangeOfValues" : "1-12",
+      "incrementAmount" : 2,
+      "difficultyInceaseLevel" : "5",
+      "rangeOfQuestions" : "2"
+    }
+  ],
+  "intermediate" : [
+    {
+      "rangeOfTypes" : "0-2",
+      "rangeOfOperators" : "+x",
+      "numCorrectToIncrement2" : 1000,
+      "numCorrectToIncrement" : 10,
+      "hasOperatorPercent" : 70,
+      "rangeOfValues" : "1-12",
+      "incrementAmount" : 1,
+      "difficultyInceaseLevel" : "5",
+      "rangeOfQuestions" : "2"
+    }
+  ],
+  "advanced" : [
+    {
+      "rangeOfTypes" : "0-2",
+      "rangeOfOperators" : "-\/",
+      "numCorrectToIncrement2" : 1000,
+      "numCorrectToIncrement" : 15,
+      "hasOperatorPercent" : 35,
+      "rangeOfValues" : "1-12",
+      "incrementAmount" : 1,
+      "difficultyInceaseLevel" : "5",
+      "rangeOfQuestions" : "3"
+    }
+  ]
+}

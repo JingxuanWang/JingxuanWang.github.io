@@ -1,0 +1,22 @@
+[
+	{
+		user_id: "ID: 1001",
+		user_score: 1000
+	},
+	{
+		user_id: "ID: 1002",
+		user_score: 1002
+	},
+	{
+		user_id: "ID: 1003",
+		user_score: 999
+	},
+	{
+		user_id: "ID: 1004",
+		user_score: 1050
+	},
+	{
+		user_id: "ID: 1005",
+		user_score: 880
+	}
+]

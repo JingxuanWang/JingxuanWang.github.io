@@ -1,0 +1,728 @@
+{
+  "beginner" : [
+    {
+      "stackSize" : 2,
+      "sameColorsInAswers" : 1,
+      "coneShape" : 1,
+      "numberOfChoices" : 2
+    },
+    {
+      "stackSize" : 3,
+      "sameColorsInAswers" : 1,
+      "coneShape" : 1,
+      "numberOfChoices" : 2
+    },
+    {
+      "stackSize" : 3,
+      "sameColorsInAswers" : 1,
+      "coneShape" : 1,
+      "numberOfChoices" : 2
+    },
+    {
+      "stackSize" : 3,
+      "sameColorsInAswers" : 1,
+      "coneShape" : 1,
+      "numberOfChoices" : 2
+    },
+    {
+      "stackSize" : 3,
+      "sameColorsInAswers" : 1,
+      "coneShape" : 1,
+      "numberOfChoices" : 2
+    },
+    {
+      "stackSize" : 3,
+      "sameColorsInAswers" : 1,
+      "coneShape" : 1,
+      "numberOfChoices" : 3
+    },
+    {
+      "stackSize" : 3,
+      "sameColorsInAswers" : 1,
+      "coneShape" : 1,
+      "numberOfChoices" : 3
+    },
+    {
+      "stackSize" : 3,
+      "sameColorsInAswers" : 1,
+      "coneShape" : 1,
+      "numberOfChoices" : 3
+    },
+    {
+      "stackSize" : 3,
+      "sameColorsInAswers" : 1,
+      "coneShape" : 1,
+      "numberOfChoices" : 3
+    },
+    {
+      "stackSize" : 4,
+      "sameColorsInAswers" : 1,
+      "coneShape" : 1,
+      "numberOfChoices" : 3
+    },
+    {
+      "stackSize" : 4,
+      "sameColorsInAswers" : 1,
+      "coneShape" : 1,
+      "numberOfChoices" : 3
+    },
+    {
+      "stackSize" : 4,
+      "sameColorsInAswers" : 1,
+      "coneShape" : 1,
+      "numberOfChoices" : 3
+    },
+    {
+      "stackSize" : 4,
+      "sameColorsInAswers" : 1,
+      "coneShape" : 1,
+      "numberOfChoices" : 3
+    },
+    {
+      "stackSize" : 4,
+      "sameColorsInAswers" : 1,
+      "coneShape" : 1,
+      "numberOfChoices" : 3
+    },
+    {
+      "stackSize" : 4,
+      "sameColorsInAswers" : 1,
+      "coneShape" : 1,
+      "numberOfChoices" : 3
+    },
+    {
+      "stackSize" : 4,
+      "sameColorsInAswers" : 1,
+      "coneShape" : 1,
+      "numberOfChoices" : 3
+    },
+    {
+      "stackSize" : 4,
+      "sameColorsInAswers" : 1,
+      "coneShape" : 1,
+      "numberOfChoices" : 3
+    },
+    {
+      "stackSize" : 4,
+      "sameColorsInAswers" : 1,
+      "coneShape" : 1,
+      "numberOfChoices" : 3
+    },
+    {
+      "stackSize" : 4,
+      "sameColorsInAswers" : 1,
+      "coneShape" : 1,
+      "numberOfChoices" : 3
+    },
+    {
+      "stackSize" : 5,
+      "sameColorsInAswers" : 1,
+      "coneShape" : 1,
+      "numberOfChoices" : 3
+    },
+    {
+      "stackSize" : 5,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 1,
+      "numberOfChoices" : 3
+    },
+    {
+      "stackSize" : 5,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 1,
+      "numberOfChoices" : 3
+    },
+    {
+      "stackSize" : 5,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 1,
+      "numberOfChoices" : 3
+    },
+    {
+      "stackSize" : 5,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 1,
+      "numberOfChoices" : 3
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 1,
+      "numberOfChoices" : 3
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 1,
+      "numberOfChoices" : 3
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 1,
+      "numberOfChoices" : 3
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 1,
+      "numberOfChoices" : 3
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 1,
+      "numberOfChoices" : 3
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 1,
+      "numberOfChoices" : 3
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 1,
+      "numberOfChoices" : 3
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 1,
+      "numberOfChoices" : 3
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 1,
+      "numberOfChoices" : 3
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 1,
+      "numberOfChoices" : 3
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 1,
+      "numberOfChoices" : 3
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 1,
+      "coneShape" : 1,
+      "numberOfChoices" : 3
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 1,
+      "coneShape" : 1,
+      "numberOfChoices" : 3
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 1,
+      "coneShape" : 1,
+      "numberOfChoices" : 3
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 1,
+      "coneShape" : 1,
+      "numberOfChoices" : 3
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 1,
+      "coneShape" : 1,
+      "numberOfChoices" : 3
+    }
+  ],
+  "intermediate" : [
+    {
+      "stackSize" : 3,
+      "sameColorsInAswers" : 0,
+      "coneShape" : 1,
+      "numberOfChoices" : 3
+    },
+    {
+      "stackSize" : 3,
+      "sameColorsInAswers" : 0,
+      "coneShape" : 1,
+      "numberOfChoices" : 3
+    },
+    {
+      "stackSize" : 4,
+      "sameColorsInAswers" : 0,
+      "coneShape" : 2,
+      "numberOfChoices" : 3
+    },
+    {
+      "stackSize" : 4,
+      "sameColorsInAswers" : 0,
+      "coneShape" : 2,
+      "numberOfChoices" : 3
+    },
+    {
+      "stackSize" : 4,
+      "sameColorsInAswers" : 0,
+      "coneShape" : 2,
+      "numberOfChoices" : 3
+    },
+    {
+      "stackSize" : 4,
+      "sameColorsInAswers" : 0,
+      "coneShape" : 2,
+      "numberOfChoices" : 4
+    },
+    {
+      "stackSize" : 4,
+      "sameColorsInAswers" : 1,
+      "coneShape" : 2,
+      "numberOfChoices" : 4
+    },
+    {
+      "stackSize" : 4,
+      "sameColorsInAswers" : 1,
+      "coneShape" : 2,
+      "numberOfChoices" : 4
+    },
+    {
+      "stackSize" : 4,
+      "sameColorsInAswers" : 1,
+      "coneShape" : 2,
+      "numberOfChoices" : 4
+    },
+    {
+      "stackSize" : 5,
+      "sameColorsInAswers" : 1,
+      "coneShape" : 2,
+      "numberOfChoices" : 4
+    },
+    {
+      "stackSize" : 5,
+      "sameColorsInAswers" : 1,
+      "coneShape" : 2,
+      "numberOfChoices" : 4
+    },
+    {
+      "stackSize" : 5,
+      "sameColorsInAswers" : 1,
+      "coneShape" : 2,
+      "numberOfChoices" : 4
+    },
+    {
+      "stackSize" : 5,
+      "sameColorsInAswers" : 1,
+      "coneShape" : 2,
+      "numberOfChoices" : 4
+    },
+    {
+      "stackSize" : 5,
+      "sameColorsInAswers" : 1,
+      "coneShape" : 2,
+      "numberOfChoices" : 4
+    },
+    {
+      "stackSize" : 5,
+      "sameColorsInAswers" : 1,
+      "coneShape" : 2,
+      "numberOfChoices" : 4
+    },
+    {
+      "stackSize" : 5,
+      "sameColorsInAswers" : 1,
+      "coneShape" : 2,
+      "numberOfChoices" : 4
+    },
+    {
+      "stackSize" : 5,
+      "sameColorsInAswers" : 1,
+      "coneShape" : 2,
+      "numberOfChoices" : 4
+    },
+    {
+      "stackSize" : 5,
+      "sameColorsInAswers" : 1,
+      "coneShape" : 2,
+      "numberOfChoices" : 4
+    },
+    {
+      "stackSize" : 5,
+      "sameColorsInAswers" : 1,
+      "coneShape" : 2,
+      "numberOfChoices" : 4
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 2,
+      "numberOfChoices" : 4
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 2,
+      "numberOfChoices" : 4
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 2,
+      "numberOfChoices" : 4
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 2,
+      "numberOfChoices" : 4
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 2,
+      "numberOfChoices" : 4
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 2,
+      "numberOfChoices" : 4
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 2,
+      "numberOfChoices" : 4
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 2,
+      "numberOfChoices" : 4
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 2,
+      "numberOfChoices" : 4
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 2,
+      "numberOfChoices" : 4
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 2,
+      "numberOfChoices" : 4
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 2,
+      "numberOfChoices" : 4
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 2,
+      "numberOfChoices" : 4
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 2,
+      "numberOfChoices" : 4
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 2,
+      "numberOfChoices" : 4
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 2,
+      "numberOfChoices" : 4
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 2,
+      "numberOfChoices" : 4
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 2,
+      "numberOfChoices" : 4
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 2,
+      "numberOfChoices" : 4
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 2,
+      "numberOfChoices" : 4
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 2,
+      "numberOfChoices" : 4
+    }
+  ],
+  "advanced" : [
+    {
+      "stackSize" : 4,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 2,
+      "numberOfChoices" : 2
+    },
+    {
+      "stackSize" : 4,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 2,
+      "numberOfChoices" : 2
+    },
+    {
+      "stackSize" : 4,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 2,
+      "numberOfChoices" : 2
+    },
+    {
+      "stackSize" : 5,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 2,
+      "numberOfChoices" : 2
+    },
+    {
+      "stackSize" : 5,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 2,
+      "numberOfChoices" : 2
+    },
+    {
+      "stackSize" : 5,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 2,
+      "numberOfChoices" : 3
+    },
+    {
+      "stackSize" : 5,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 2,
+      "numberOfChoices" : 3
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 2,
+      "numberOfChoices" : 3
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 2,
+      "numberOfChoices" : 3
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 2,
+      "numberOfChoices" : 3
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 2,
+      "numberOfChoices" : 4
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 2,
+      "numberOfChoices" : 4
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 2,
+      "numberOfChoices" : 4
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 2,
+      "numberOfChoices" : 4
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 2,
+      "numberOfChoices" : 4
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 2,
+      "numberOfChoices" : 4
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 2,
+      "numberOfChoices" : 4
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 2,
+      "numberOfChoices" : 4
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 2,
+      "numberOfChoices" : 4
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 2,
+      "numberOfChoices" : 4
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 2,
+      "numberOfChoices" : 4
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 2,
+      "numberOfChoices" : 4
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 2,
+      "numberOfChoices" : 4
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 2,
+      "numberOfChoices" : 4
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 2,
+      "numberOfChoices" : 4
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 2,
+      "numberOfChoices" : 4
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 2,
+      "numberOfChoices" : 4
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 2,
+      "numberOfChoices" : 4
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 2,
+      "numberOfChoices" : 4
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 2,
+      "numberOfChoices" : 4
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 2,
+      "numberOfChoices" : 4
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 2,
+      "numberOfChoices" : 4
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 2,
+      "numberOfChoices" : 4
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 2,
+      "numberOfChoices" : 4
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 2,
+      "numberOfChoices" : 4
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 2,
+      "numberOfChoices" : 4
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 2,
+      "numberOfChoices" : 4
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 2,
+      "numberOfChoices" : 4
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 2,
+      "numberOfChoices" : 4
+    },
+    {
+      "stackSize" : 6,
+      "sameColorsInAswers" : 2,
+      "coneShape" : 2,
+      "numberOfChoices" : 4
+    }
+  ]
+}

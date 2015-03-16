@@ -1,0 +1,113 @@
+{
+  "beginner" : [
+    {
+      "numOfShapes" : "1",
+      "hasRelativeInstructions" : false,
+      "numOfInstructions" : "1",
+      "shapeDescription" : "0",
+      "hasBoardInstructions" : true
+    },
+    {
+      "numOfShapes" : "2",
+      "hasRelativeInstructions" : false,
+      "numOfInstructions" : "2",
+      "shapeDescription" : "0",
+      "hasBoardInstructions" : true
+    },
+    {
+      "numOfShapes" : "3",
+      "hasRelativeInstructions" : false,
+      "numOfInstructions" : "3",
+      "shapeDescription" : "0",
+      "hasBoardInstructions" : true
+    },
+    {
+      "numOfShapes" : "4",
+      "hasRelativeInstructions" : false,
+      "numOfInstructions" : "4",
+      "shapeDescription" : "0",
+      "hasBoardInstructions" : true
+    },
+    {
+      "numOfShapes" : "5",
+      "hasRelativeInstructions" : false,
+      "numOfInstructions" : "5",
+      "shapeDescription" : "0",
+      "hasBoardInstructions" : true
+    }
+  ],
+  "intermediate" : [
+    {
+      "numOfShapes" : "2",
+      "hasRelativeInstructions" : false,
+      "numOfInstructions" : "2",
+      "shapeDescription" : "2",
+      "hasBoardInstructions" : true
+    },
+    {
+      "numOfShapes" : "4",
+      "hasRelativeInstructions" : false,
+      "numOfInstructions" : "4",
+      "shapeDescription" : "2",
+      "hasBoardInstructions" : true
+    },
+    {
+      "numOfShapes" : "3",
+      "hasRelativeInstructions" : true,
+      "numOfInstructions" : "3",
+      "shapeDescription" : "2",
+      "hasBoardInstructions" : false
+    },
+    {
+      "numOfShapes" : "4",
+      "hasRelativeInstructions" : true,
+      "numOfInstructions" : "4",
+      "shapeDescription" : "2",
+      "hasBoardInstructions" : true
+    },
+    {
+      "numOfShapes" : "5",
+      "hasRelativeInstructions" : true,
+      "numOfInstructions" : "5",
+      "shapeDescription" : "2",
+      "hasBoardInstructions" : true
+    }
+  ],
+  "advanced" : [
+    {
+      "numOfShapes" : "4",
+      "hasRelativeInstructions" : true,
+      "numOfInstructions" : "5",
+      "shapeDescription" : "0",
+      "hasBoardInstructions" : false
+    },
+    {
+      "numOfShapes" : "5",
+      "hasRelativeInstructions" : true,
+      "numOfInstructions" : "6",
+      "shapeDescription" : "2",
+      "hasBoardInstructions" : false
+    },
+    {
+      "numOfShapes" : "6",
+      "hasRelativeInstructions" : true,
+      "numOfInstructions" : "7",
+      "shapeDescription" : "1",
+      "hasBoardInstructions" : false
+    },
+    {
+      "numOfShapes" : "7",
+      "hasRelativeInstructions" : true,
+      "numOfInstructions" : "6",
+      "shapeDescription" : "0",
+      "hasBoardInstructions" : false
+    },
+    {
+      "numOfShapes" : "7",
+      "hasRelativeInstructions" : true,
+      "numOfInstructions" : "7",
+      "shapeDescription" : "1",
+      "hasBoardInstructions" : false
+    }
+  ]
+}

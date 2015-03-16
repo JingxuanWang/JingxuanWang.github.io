@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>gb_lego_overlay.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{2,2},{97,94}}</string>
+                <key>offset</key>
+                <string>{-8,2}</string>
+                <key>rotated</key>
+                <true/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{97,94}}</string>
+                <key>sourceSize</key>
+                <string>{113,98}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>2</integer>
+            <key>realTextureFileName</key>
+            <string>GravityBlocks.png</string>
+            <key>size</key>
+            <string>{98,101}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:b78b6beb00b3db0c8ef743557c826188:caf1cc685bad903c3038f4e4dc56a2eb:c1976d3419a0be947e078284a4d9210e$</string>
+            <key>textureFileName</key>
+            <string>GravityBlocks.png</string>
+        </dict>
+    </dict>
+</plist>

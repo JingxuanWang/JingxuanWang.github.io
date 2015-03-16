@@ -1,0 +1,239 @@
+{
+  "beginner" : [
+    {
+      "numRounds" : 0,
+      "numPeople" : 1,
+      "numAnswers" : 1,
+      "isSameGender" : false,
+      "delayTime" : 3.5
+    },
+    {
+      "numRounds" : 0,
+      "numPeople" : 1,
+      "numAnswers" : 1,
+      "isSameGender" : false,
+      "delayTime" : 3.5
+    },
+    {
+      "numRounds" : 0,
+      "numPeople" : 2,
+      "numAnswers" : 1,
+      "isSameGender" : false,
+      "delayTime" : 3.5
+    },
+    {
+      "numRounds" : 0,
+      "numPeople" : 2,
+      "numAnswers" : 1,
+      "isSameGender" : false,
+      "delayTime" : 3.5
+    },
+    {
+      "numRounds" : 0,
+      "numPeople" : 2,
+      "numAnswers" : 1,
+      "isSameGender" : true,
+      "delayTime" : 3.5
+    },
+    {
+      "numRounds" : 0,
+      "numPeople" : 2,
+      "numAnswers" : 1,
+      "isSameGender" : false,
+      "delayTime" : 3.5
+    },
+    {
+      "numRounds" : 0,
+      "numPeople" : 2,
+      "numAnswers" : 1,
+      "isSameGender" : true,
+      "delayTime" : 3.5
+    },
+    {
+      "numRounds" : 0,
+      "numPeople" : 2,
+      "numAnswers" : 1,
+      "isSameGender" : false,
+      "delayTime" : 3.5
+    },
+    {
+      "numRounds" : 0,
+      "numPeople" : 2,
+      "numAnswers" : 1,
+      "isSameGender" : true,
+      "delayTime" : 3.5
+    },
+    {
+      "numRounds" : 0,
+      "numPeople" : 2,
+      "numAnswers" : 1,
+      "isSameGender" : false,
+      "delayTime" : 3.5
+    }
+  ],
+  "intermediate" : [
+    {
+      "numRounds" : 1,
+      "numPeople" : 2,
+      "numAnswers" : 1,
+      "isSameGender" : false,
+      "delayTime" : 3.5
+    },
+    {
+      "numRounds" : 1,
+      "numPeople" : 2,
+      "numAnswers" : 1,
+      "isSameGender" : true,
+      "delayTime" : 3.5
+    },
+    {
+      "numRounds" : 1,
+      "numPeople" : 2,
+      "numAnswers" : 1,
+      "isSameGender" : false,
+      "delayTime" : 3.5
+    },
+    {
+      "numRounds" : 1,
+      "numPeople" : 2,
+      "numAnswers" : 1,
+      "isSameGender" : true,
+      "delayTime" : 3.5
+    },
+    {
+      "numRounds" : 1,
+      "numPeople" : 2,
+      "numAnswers" : 1,
+      "isSameGender" : false,
+      "delayTime" : 3.5
+    },
+    {
+      "numRounds" : 1,
+      "numPeople" : 2,
+      "numAnswers" : 1,
+      "isSameGender" : true,
+      "delayTime" : 3.5
+    },
+    {
+      "numRounds" : 1,
+      "numPeople" : 2,
+      "numAnswers" : 1,
+      "isSameGender" : false,
+      "delayTime" : 3.5
+    },
+    {
+      "numRounds" : 1,
+      "numPeople" : 2,
+      "numAnswers" : 1,
+      "isSameGender" : true,
+      "delayTime" : 3.5
+    },
+    {
+      "numRounds" : 1,
+      "numPeople" : 2,
+      "numAnswers" : 1,
+      "isSameGender" : false,
+      "delayTime" : 3.5
+    },
+    {
+      "numRounds" : 1,
+      "numPeople" : 2,
+      "numAnswers" : 1,
+      "isSameGender" : true,
+      "delayTime" : 3.5
+    }
+  ],
+  "advanced" : [
+    {
+      "numRounds" : 0,
+      "numPeople" : 2,
+      "numAnswers" : 4,
+      "isSameGender" : true,
+      "delayTime" : 5.5
+    },
+    {
+      "numRounds" : 0,
+      "numPeople" : 2,
+      "numAnswers" : 4,
+      "isSameGender" : true,
+      "delayTime" : 5.5
+    },
+    {
+      "numRounds" : 0,
+      "numPeople" : 2,
+      "numAnswers" : 4,
+      "isSameGender" : true,
+      "delayTime" : 5.5
+    },
+    {
+      "numRounds" : 0,
+      "numPeople" : 2,
+      "numAnswers" : 2,
+      "isSameGender" : true,
+      "delayTime" : 5.5
+    },
+    {
+      "numRounds" : 0,
+      "numPeople" : 2,
+      "numAnswers" : 2,
+      "isSameGender" : true,
+      "delayTime" : 5.5
+    },
+    {
+      "numRounds" : 1,
+      "numPeople" : 3,
+      "numAnswers" : 2,
+      "isSameGender" : true,
+      "delayTime" : 5.5
+    },
+    {
+      "numRounds" : 1,
+      "numPeople" : 3,
+      "numAnswers" : 2,
+      "isSameGender" : true,
+      "delayTime" : 5.5
+    },
+    {
+      "numRounds" : 1,
+      "numPeople" : 3,
+      "numAnswers" : 2,
+      "isSameGender" : true,
+      "delayTime" : 5.5
+    },
+    {
+      "numRounds" : 1,
+      "numPeople" : 4,
+      "numAnswers" : 2,
+      "isSameGender" : true,
+      "delayTime" : 5.5
+    },
+    {
+      "numRounds" : 1,
+      "numPeople" : 4,
+      "numAnswers" : 2,
+      "isSameGender" : true,
+      "delayTime" : 5.5
+    },
+    {
+      "numRounds" : 1,
+      "numPeople" : 4,
+      "numAnswers" : 3,
+      "isSameGender" : true,
+      "delayTime" : 5.5
+    },
+    {
+      "numRounds" : 1,
+      "numPeople" : 4,
+      "numAnswers" : 3,
+      "isSameGender" : true,
+      "delayTime" : 5.5
+    },
+    {
+      "numRounds" : 1,
+      "numPeople" : 4,
+      "numAnswers" : 3,
+      "isSameGender" : true,
+      "delayTime" : 5.5
+    }
+  ]
+}

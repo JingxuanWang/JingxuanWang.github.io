@@ -1,0 +1,608 @@
+{
+  "beginner" : [
+    {
+      "symbolsInString" : "0",
+      "digitType" : 0,
+      "reverse" : true,
+      "numberOfDigits" : 3,
+      "delay" : 2,
+      "symbolsOnKeypad" : 0
+    },
+    {
+      "symbolsInString" : "0",
+      "digitType" : 0,
+      "reverse" : true,
+      "numberOfDigits" : 3,
+      "delay" : 2,
+      "symbolsOnKeypad" : 0
+    },
+    {
+      "symbolsInString" : "0",
+      "digitType" : 0,
+      "reverse" : true,
+      "numberOfDigits" : 3,
+      "delay" : 2,
+      "symbolsOnKeypad" : 0
+    },
+    {
+      "symbolsInString" : "0",
+      "digitType" : 0,
+      "reverse" : true,
+      "numberOfDigits" : 3,
+      "delay" : 2,
+      "symbolsOnKeypad" : 0
+    },
+    {
+      "symbolsInString" : "0",
+      "digitType" : 0,
+      "reverse" : true,
+      "numberOfDigits" : 3,
+      "delay" : 2.5,
+      "symbolsOnKeypad" : 0
+    },
+    {
+      "symbolsInString" : "0",
+      "digitType" : 0,
+      "reverse" : true,
+      "numberOfDigits" : 3,
+      "delay" : 2.5,
+      "symbolsOnKeypad" : 0
+    },
+    {
+      "symbolsInString" : "0",
+      "digitType" : 0,
+      "reverse" : true,
+      "numberOfDigits" : 4,
+      "delay" : 3,
+      "symbolsOnKeypad" : 0
+    },
+    {
+      "symbolsInString" : "0",
+      "digitType" : 0,
+      "reverse" : true,
+      "numberOfDigits" : 4,
+      "delay" : 2.5,
+      "symbolsOnKeypad" : 0
+    },
+    {
+      "symbolsInString" : "0",
+      "digitType" : 0,
+      "reverse" : true,
+      "numberOfDigits" : 4,
+      "delay" : 2.5,
+      "symbolsOnKeypad" : 0
+    },
+    {
+      "symbolsInString" : "0",
+      "digitType" : 0,
+      "reverse" : true,
+      "numberOfDigits" : 4,
+      "delay" : 2.5,
+      "symbolsOnKeypad" : 0
+    },
+    {
+      "symbolsInString" : "0",
+      "digitType" : 1,
+      "reverse" : true,
+      "numberOfDigits" : 4,
+      "delay" : 2.5,
+      "symbolsOnKeypad" : 0
+    },
+    {
+      "symbolsInString" : "0",
+      "digitType" : 1,
+      "reverse" : true,
+      "numberOfDigits" : 4,
+      "delay" : 2.5,
+      "symbolsOnKeypad" : 0
+    },
+    {
+      "symbolsInString" : "0",
+      "digitType" : 1,
+      "reverse" : true,
+      "numberOfDigits" : 4,
+      "delay" : 2.5,
+      "symbolsOnKeypad" : 0
+    },
+    {
+      "symbolsInString" : "0",
+      "digitType" : 1,
+      "reverse" : true,
+      "numberOfDigits" : 4,
+      "delay" : 2.5,
+      "symbolsOnKeypad" : 0
+    },
+    {
+      "symbolsInString" : "0",
+      "digitType" : 1,
+      "reverse" : true,
+      "numberOfDigits" : 4,
+      "delay" : 2.5,
+      "symbolsOnKeypad" : 0
+    },
+    {
+      "symbolsInString" : "0",
+      "digitType" : 1,
+      "reverse" : true,
+      "numberOfDigits" : 5,
+      "delay" : 2.5,
+      "symbolsOnKeypad" : 0
+    },
+    {
+      "symbolsInString" : "0",
+      "digitType" : 0,
+      "reverse" : true,
+      "numberOfDigits" : 5,
+      "delay" : 2.5,
+      "symbolsOnKeypad" : 0
+    },
+    {
+      "symbolsInString" : "0",
+      "digitType" : 0,
+      "reverse" : true,
+      "numberOfDigits" : 5,
+      "delay" : 2.5,
+      "symbolsOnKeypad" : 0
+    },
+    {
+      "symbolsInString" : "0",
+      "digitType" : 1,
+      "reverse" : true,
+      "numberOfDigits" : 5,
+      "delay" : 2.5,
+      "symbolsOnKeypad" : 0
+    },
+    {
+      "symbolsInString" : "0",
+      "digitType" : 1,
+      "reverse" : true,
+      "numberOfDigits" : 5,
+      "delay" : 2.5,
+      "symbolsOnKeypad" : 0
+    },
+    {
+      "symbolsInString" : "0",
+      "digitType" : 0,
+      "reverse" : true,
+      "numberOfDigits" : 5,
+      "delay" : 2.5,
+      "symbolsOnKeypad" : 0
+    },
+    {
+      "symbolsInString" : "0",
+      "digitType" : 0,
+      "reverse" : true,
+      "numberOfDigits" : 5,
+      "delay" : 2.5,
+      "symbolsOnKeypad" : 0
+    },
+    {
+      "symbolsInString" : "0",
+      "digitType" : 1,
+      "reverse" : true,
+      "numberOfDigits" : 5,
+      "delay" : 2.5,
+      "symbolsOnKeypad" : 0
+    },
+    {
+      "symbolsInString" : "0",
+      "digitType" : 1,
+      "reverse" : true,
+      "numberOfDigits" : 6,
+      "delay" : 2.5,
+      "symbolsOnKeypad" : 0
+    },
+    {
+      "symbolsInString" : "0",
+      "digitType" : 0,
+      "reverse" : true,
+      "numberOfDigits" : 6,
+      "delay" : 2.5,
+      "symbolsOnKeypad" : 0
+    }
+  ],
+  "intermediate" : [
+    {
+      "symbolsInString" : "0",
+      "digitType" : 0,
+      "reverse" : true,
+      "numberOfDigits" : 4,
+      "delay" : 2.5,
+      "symbolsOnKeypad" : 1
+    },
+    {
+      "symbolsInString" : "1",
+      "digitType" : 0,
+      "reverse" : true,
+      "numberOfDigits" : 4,
+      "delay" : 2.5,
+      "symbolsOnKeypad" : 1
+    },
+    {
+      "symbolsInString" : "1",
+      "digitType" : 0,
+      "reverse" : true,
+      "numberOfDigits" : 4,
+      "delay" : 2.5,
+      "symbolsOnKeypad" : 1
+    },
+    {
+      "symbolsInString" : "0",
+      "digitType" : 0,
+      "reverse" : true,
+      "numberOfDigits" : 4,
+      "delay" : 2.5,
+      "symbolsOnKeypad" : 1
+    },
+    {
+      "symbolsInString" : "0",
+      "digitType" : 0,
+      "reverse" : true,
+      "numberOfDigits" : 4,
+      "delay" : 2.5,
+      "symbolsOnKeypad" : 2
+    },
+    {
+      "symbolsInString" : "0",
+      "digitType" : 0,
+      "reverse" : true,
+      "numberOfDigits" : 4,
+      "delay" : 2.5,
+      "symbolsOnKeypad" : 2
+    },
+    {
+      "symbolsInString" : "1",
+      "digitType" : 0,
+      "reverse" : true,
+      "numberOfDigits" : 4,
+      "delay" : 2.5,
+      "symbolsOnKeypad" : 2
+    },
+    {
+      "symbolsInString" : "0",
+      "digitType" : 0,
+      "reverse" : true,
+      "numberOfDigits" : 4,
+      "delay" : 2.5,
+      "symbolsOnKeypad" : 2
+    },
+    {
+      "symbolsInString" : "2",
+      "digitType" : 0,
+      "reverse" : true,
+      "numberOfDigits" : 4,
+      "delay" : 2.5,
+      "symbolsOnKeypad" : 2
+    },
+    {
+      "symbolsInString" : "0",
+      "digitType" : 0,
+      "reverse" : true,
+      "numberOfDigits" : 4,
+      "delay" : 2.5,
+      "symbolsOnKeypad" : 3
+    },
+    {
+      "symbolsInString" : "0",
+      "digitType" : 0,
+      "reverse" : true,
+      "numberOfDigits" : 5,
+      "delay" : 2,
+      "symbolsOnKeypad" : 2
+    },
+    {
+      "symbolsInString" : "1",
+      "digitType" : 0,
+      "reverse" : true,
+      "numberOfDigits" : 5,
+      "delay" : 2,
+      "symbolsOnKeypad" : 2
+    },
+    {
+      "symbolsInString" : "0",
+      "digitType" : 0,
+      "reverse" : true,
+      "numberOfDigits" : 5,
+      "delay" : 2,
+      "symbolsOnKeypad" : 2
+    },
+    {
+      "symbolsInString" : "2",
+      "digitType" : 0,
+      "reverse" : true,
+      "numberOfDigits" : 5,
+      "delay" : 2,
+      "symbolsOnKeypad" : 2
+    },
+    {
+      "symbolsInString" : "1",
+      "digitType" : 0,
+      "reverse" : true,
+      "numberOfDigits" : 5,
+      "delay" : 2,
+      "symbolsOnKeypad" : 2
+    },
+    {
+      "symbolsInString" : "0",
+      "digitType" : 0,
+      "reverse" : true,
+      "numberOfDigits" : 5,
+      "delay" : 2,
+      "symbolsOnKeypad" : 2
+    },
+    {
+      "symbolsInString" : "0",
+      "digitType" : 0,
+      "reverse" : true,
+      "numberOfDigits" : 5,
+      "delay" : 2,
+      "symbolsOnKeypad" : 2
+    },
+    {
+      "symbolsInString" : "0",
+      "digitType" : 0,
+      "reverse" : true,
+      "numberOfDigits" : 5,
+      "delay" : 2,
+      "symbolsOnKeypad" : 2
+    },
+    {
+      "symbolsInString" : "0",
+      "digitType" : 0,
+      "reverse" : true,
+      "numberOfDigits" : 5,
+      "delay" : 2,
+      "symbolsOnKeypad" : 2
+    },
+    {
+      "symbolsInString" : "0",
+      "digitType" : 0,
+      "reverse" : true,
+      "numberOfDigits" : 5,
+      "delay" : 3,
+      "symbolsOnKeypad" : 2
+    },
+    {
+      "symbolsInString" : "1",
+      "digitType" : 0,
+      "reverse" : true,
+      "numberOfDigits" : 5,
+      "delay" : 3,
+      "symbolsOnKeypad" : 2
+    },
+    {
+      "symbolsInString" : "1",
+      "digitType" : 0,
+      "reverse" : true,
+      "numberOfDigits" : 6,
+      "delay" : 3,
+      "symbolsOnKeypad" : 2
+    },
+    {
+      "symbolsInString" : "1",
+      "digitType" : 0,
+      "reverse" : true,
+      "numberOfDigits" : 6,
+      "delay" : 3,
+      "symbolsOnKeypad" : 3
+    },
+    {
+      "symbolsInString" : "1",
+      "digitType" : 0,
+      "reverse" : true,
+      "numberOfDigits" : 6,
+      "delay" : 3,
+      "symbolsOnKeypad" : 3
+    },
+    {
+      "symbolsInString" : "1",
+      "digitType" : 0,
+      "reverse" : true,
+      "numberOfDigits" : 6,
+      "delay" : 3,
+      "symbolsOnKeypad" : 3
+    }
+  ],
+  "advanced" : [
+    {
+      "symbolsInString" : "0",
+      "digitType" : 0,
+      "reverse" : true,
+      "numberOfDigits" : 4,
+      "delay" : 3.5,
+      "symbolsOnKeypad" : 3
+    },
+    {
+      "symbolsInString" : "1",
+      "digitType" : 0,
+      "reverse" : true,
+      "numberOfDigits" : 4,
+      "delay" : 3.5,
+      "symbolsOnKeypad" : 2
+    },
+    {
+      "symbolsInString" : "1",
+      "digitType" : 0,
+      "reverse" : true,
+      "numberOfDigits" : 4,
+      "delay" : 3.5,
+      "symbolsOnKeypad" : 2
+    },
+    {
+      "symbolsInString" : "1",
+      "digitType" : 0,
+      "reverse" : true,
+      "numberOfDigits" : 4,
+      "delay" : 3.5,
+      "symbolsOnKeypad" : 2
+    },
+    {
+      "symbolsInString" : "1",
+      "digitType" : 1,
+      "reverse" : true,
+      "numberOfDigits" : 5,
+      "delay" : 3.5,
+      "symbolsOnKeypad" : 2
+    },
+    {
+      "symbolsInString" : "1",
+      "digitType" : 1,
+      "reverse" : true,
+      "numberOfDigits" : 5,
+      "delay" : 3.5,
+      "symbolsOnKeypad" : 3
+    },
+    {
+      "symbolsInString" : "1",
+      "digitType" : 1,
+      "reverse" : true,
+      "numberOfDigits" : 5,
+      "delay" : 3.5,
+      "symbolsOnKeypad" : 1
+    },
+    {
+      "symbolsInString" : "2",
+      "digitType" : 1,
+      "reverse" : true,
+      "numberOfDigits" : 5,
+      "delay" : 3.5,
+      "symbolsOnKeypad" : 2
+    },
+    {
+      "symbolsInString" : "2",
+      "digitType" : 0,
+      "reverse" : true,
+      "numberOfDigits" : 5,
+      "delay" : 3.5,
+      "symbolsOnKeypad" : 2
+    },
+    {
+      "symbolsInString" : "2",
+      "digitType" : 0,
+      "reverse" : true,
+      "numberOfDigits" : 5,
+      "delay" : 3.5,
+      "symbolsOnKeypad" : 2
+    },
+    {
+      "symbolsInString" : "3",
+      "digitType" : 0,
+      "reverse" : true,
+      "numberOfDigits" : 5,
+      "delay" : 3.5,
+      "symbolsOnKeypad" : 3
+    },
+    {
+      "symbolsInString" : "1",
+      "digitType" : 0,
+      "reverse" : true,
+      "numberOfDigits" : 5,
+      "delay" : 3.5,
+      "symbolsOnKeypad" : 1
+    },
+    {
+      "symbolsInString" : "1",
+      "digitType" : 1,
+      "reverse" : true,
+      "numberOfDigits" : 5,
+      "delay" : 3,
+      "symbolsOnKeypad" : 1
+    },
+    {
+      "symbolsInString" : "2",
+      "digitType" : 1,
+      "reverse" : true,
+      "numberOfDigits" : 5,
+      "delay" : 3,
+      "symbolsOnKeypad" : 2
+    },
+    {
+      "symbolsInString" : "3",
+      "digitType" : 1,
+      "reverse" : true,
+      "numberOfDigits" : 5,
+      "delay" : 3,
+      "symbolsOnKeypad" : 3
+    },
+    {
+      "symbolsInString" : "3",
+      "digitType" : 1,
+      "reverse" : true,
+      "numberOfDigits" : 5,
+      "delay" : 3,
+      "symbolsOnKeypad" : 3
+    },
+    {
+      "symbolsInString" : "3",
+      "digitType" : 0,
+      "reverse" : true,
+      "numberOfDigits" : 5,
+      "delay" : 3,
+      "symbolsOnKeypad" : 3
+    },
+    {
+      "symbolsInString" : "3",
+      "digitType" : 0,
+      "reverse" : true,
+      "numberOfDigits" : 5,
+      "delay" : 3,
+      "symbolsOnKeypad" : 3
+    },
+    {
+      "symbolsInString" : "3",
+      "digitType" : 0,
+      "reverse" : true,
+      "numberOfDigits" : 5,
+      "delay" : 3,
+      "symbolsOnKeypad" : 3
+    },
+    {
+      "symbolsInString" : "3",
+      "digitType" : 0,
+      "reverse" : true,
+      "numberOfDigits" : 6,
+      "delay" : 3,
+      "symbolsOnKeypad" : 3
+    },
+    {
+      "symbolsInString" : "1",
+      "digitType" : 0,
+      "reverse" : true,
+      "numberOfDigits" : 6,
+      "delay" : 4,
+      "symbolsOnKeypad" : 1
+    },
+    {
+      "symbolsInString" : "1",
+      "digitType" : 0,
+      "reverse" : true,
+      "numberOfDigits" : 6,
+      "delay" : 4,
+      "symbolsOnKeypad" : 1
+    },
+    {
+      "symbolsInString" : "1",
+      "digitType" : 0,
+      "reverse" : true,
+      "numberOfDigits" : 6,
+      "delay" : 4,
+      "symbolsOnKeypad" : 1
+    },
+    {
+      "symbolsInString" : "1",
+      "digitType" : 0,
+      "reverse" : true,
+      "numberOfDigits" : 6,
+      "delay" : 4,
+      "symbolsOnKeypad" : 1
+    },
+    {
+      "symbolsInString" : "1",
+      "digitType" : 0,
+      "reverse" : true,
+      "numberOfDigits" : 6,
+      "delay" : 4,
+      "symbolsOnKeypad" : 1
+    }
+  ]
+}

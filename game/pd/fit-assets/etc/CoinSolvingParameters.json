@@ -1,0 +1,728 @@
+{
+  "beginner" : [
+    {
+      "maxValue" : 100,
+      "maxCoins" : 2,
+      "minCoins" : 2,
+      "maxDiffCoins" : 2
+    },
+    {
+      "maxValue" : 100,
+      "maxCoins" : 3,
+      "minCoins" : 3,
+      "maxDiffCoins" : 2
+    },
+    {
+      "maxValue" : 100,
+      "maxCoins" : 4,
+      "minCoins" : 3,
+      "maxDiffCoins" : 2
+    },
+    {
+      "maxValue" : 100,
+      "maxCoins" : 5,
+      "minCoins" : 3,
+      "maxDiffCoins" : 3
+    },
+    {
+      "maxValue" : 100,
+      "maxCoins" : 5,
+      "minCoins" : 3,
+      "maxDiffCoins" : 3
+    },
+    {
+      "maxValue" : 100,
+      "maxCoins" : 6,
+      "minCoins" : 3,
+      "maxDiffCoins" : 4
+    },
+    {
+      "maxValue" : 100,
+      "maxCoins" : 6,
+      "minCoins" : 3,
+      "maxDiffCoins" : 3
+    },
+    {
+      "maxValue" : 100,
+      "maxCoins" : 6,
+      "minCoins" : 3,
+      "maxDiffCoins" : 4
+    },
+    {
+      "maxValue" : 100,
+      "maxCoins" : 6,
+      "minCoins" : 3,
+      "maxDiffCoins" : 4
+    },
+    {
+      "maxValue" : 100,
+      "maxCoins" : 6,
+      "minCoins" : 3,
+      "maxDiffCoins" : 4
+    },
+    {
+      "maxValue" : 100,
+      "maxCoins" : 6,
+      "minCoins" : 4,
+      "maxDiffCoins" : 4
+    },
+    {
+      "maxValue" : 100,
+      "maxCoins" : 6,
+      "minCoins" : 4,
+      "maxDiffCoins" : 4
+    },
+    {
+      "maxValue" : 100,
+      "maxCoins" : 6,
+      "minCoins" : 4,
+      "maxDiffCoins" : 4
+    },
+    {
+      "maxValue" : 100,
+      "maxCoins" : 6,
+      "minCoins" : 4,
+      "maxDiffCoins" : 4
+    },
+    {
+      "maxValue" : 100,
+      "maxCoins" : 6,
+      "minCoins" : 4,
+      "maxDiffCoins" : 4
+    },
+    {
+      "maxValue" : 150,
+      "maxCoins" : 7,
+      "minCoins" : 4,
+      "maxDiffCoins" : 5
+    },
+    {
+      "maxValue" : 150,
+      "maxCoins" : 7,
+      "minCoins" : 4,
+      "maxDiffCoins" : 5
+    },
+    {
+      "maxValue" : 150,
+      "maxCoins" : 7,
+      "minCoins" : 4,
+      "maxDiffCoins" : 5
+    },
+    {
+      "maxValue" : 150,
+      "maxCoins" : 7,
+      "minCoins" : 4,
+      "maxDiffCoins" : 5
+    },
+    {
+      "maxValue" : 150,
+      "maxCoins" : 7,
+      "minCoins" : 4,
+      "maxDiffCoins" : 5
+    },
+    {
+      "maxValue" : 125,
+      "maxCoins" : 7,
+      "minCoins" : 5,
+      "maxDiffCoins" : 5
+    },
+    {
+      "maxValue" : 125,
+      "maxCoins" : 7,
+      "minCoins" : 5,
+      "maxDiffCoins" : 5
+    },
+    {
+      "maxValue" : 125,
+      "maxCoins" : 7,
+      "minCoins" : 5,
+      "maxDiffCoins" : 5
+    },
+    {
+      "maxValue" : 125,
+      "maxCoins" : 7,
+      "minCoins" : 5,
+      "maxDiffCoins" : 5
+    },
+    {
+      "maxValue" : 125,
+      "maxCoins" : 7,
+      "minCoins" : 5,
+      "maxDiffCoins" : 5
+    },
+    {
+      "maxValue" : 150,
+      "maxCoins" : 8,
+      "minCoins" : 5,
+      "maxDiffCoins" : 3
+    },
+    {
+      "maxValue" : 150,
+      "maxCoins" : 7,
+      "minCoins" : 5,
+      "maxDiffCoins" : 3
+    },
+    {
+      "maxValue" : 150,
+      "maxCoins" : 7,
+      "minCoins" : 5,
+      "maxDiffCoins" : 3
+    },
+    {
+      "maxValue" : 150,
+      "maxCoins" : 7,
+      "minCoins" : 5,
+      "maxDiffCoins" : 3
+    },
+    {
+      "maxValue" : 150,
+      "maxCoins" : 7,
+      "minCoins" : 5,
+      "maxDiffCoins" : 3
+    },
+    {
+      "maxValue" : 150,
+      "maxCoins" : 7,
+      "minCoins" : 5,
+      "maxDiffCoins" : 3
+    },
+    {
+      "maxValue" : 150,
+      "maxCoins" : 7,
+      "minCoins" : 5,
+      "maxDiffCoins" : 3
+    },
+    {
+      "maxValue" : 150,
+      "maxCoins" : 7,
+      "minCoins" : 5,
+      "maxDiffCoins" : 3
+    },
+    {
+      "maxValue" : 150,
+      "maxCoins" : 7,
+      "minCoins" : 5,
+      "maxDiffCoins" : 3
+    },
+    {
+      "maxValue" : 150,
+      "maxCoins" : 7,
+      "minCoins" : 5,
+      "maxDiffCoins" : 3
+    },
+    {
+      "maxValue" : 150,
+      "maxCoins" : 8,
+      "minCoins" : 6,
+      "maxDiffCoins" : 3
+    },
+    {
+      "maxValue" : 150,
+      "maxCoins" : 8,
+      "minCoins" : 6,
+      "maxDiffCoins" : 3
+    },
+    {
+      "maxValue" : 150,
+      "maxCoins" : 8,
+      "minCoins" : 6,
+      "maxDiffCoins" : 3
+    },
+    {
+      "maxValue" : 150,
+      "maxCoins" : 8,
+      "minCoins" : 6,
+      "maxDiffCoins" : 3
+    },
+    {
+      "maxValue" : 150,
+      "maxCoins" : 8,
+      "minCoins" : 6,
+      "maxDiffCoins" : 3
+    }
+  ],
+  "intermediate" : [
+    {
+      "maxValue" : 50,
+      "maxCoins" : 4,
+      "minCoins" : 2,
+      "maxDiffCoins" : 3
+    },
+    {
+      "maxValue" : 50,
+      "maxCoins" : 4,
+      "minCoins" : 3,
+      "maxDiffCoins" : 3
+    },
+    {
+      "maxValue" : 50,
+      "maxCoins" : 4,
+      "minCoins" : 3,
+      "maxDiffCoins" : 3
+    },
+    {
+      "maxValue" : 50,
+      "maxCoins" : 4,
+      "minCoins" : 3,
+      "maxDiffCoins" : 3
+    },
+    {
+      "maxValue" : 50,
+      "maxCoins" : 5,
+      "minCoins" : 3,
+      "maxDiffCoins" : 3
+    },
+    {
+      "maxValue" : 80,
+      "maxCoins" : 5,
+      "minCoins" : 4,
+      "maxDiffCoins" : 2
+    },
+    {
+      "maxValue" : 80,
+      "maxCoins" : 5,
+      "minCoins" : 4,
+      "maxDiffCoins" : 2
+    },
+    {
+      "maxValue" : 80,
+      "maxCoins" : 5,
+      "minCoins" : 4,
+      "maxDiffCoins" : 2
+    },
+    {
+      "maxValue" : 80,
+      "maxCoins" : 5,
+      "minCoins" : 4,
+      "maxDiffCoins" : 2
+    },
+    {
+      "maxValue" : 80,
+      "maxCoins" : 5,
+      "minCoins" : 5,
+      "maxDiffCoins" : 2
+    },
+    {
+      "maxValue" : 100,
+      "maxCoins" : 7,
+      "minCoins" : 6,
+      "maxDiffCoins" : 2
+    },
+    {
+      "maxValue" : 100,
+      "maxCoins" : 7,
+      "minCoins" : 6,
+      "maxDiffCoins" : 2
+    },
+    {
+      "maxValue" : 100,
+      "maxCoins" : 7,
+      "minCoins" : 6,
+      "maxDiffCoins" : 2
+    },
+    {
+      "maxValue" : 100,
+      "maxCoins" : 8,
+      "minCoins" : 7,
+      "maxDiffCoins" : 2
+    },
+    {
+      "maxValue" : 100,
+      "maxCoins" : 8,
+      "minCoins" : 7,
+      "maxDiffCoins" : 2
+    },
+    {
+      "maxValue" : 100,
+      "maxCoins" : 9,
+      "minCoins" : 8,
+      "maxDiffCoins" : 2
+    },
+    {
+      "maxValue" : 100,
+      "maxCoins" : 9,
+      "minCoins" : 8,
+      "maxDiffCoins" : 2
+    },
+    {
+      "maxValue" : 100,
+      "maxCoins" : 9,
+      "minCoins" : 8,
+      "maxDiffCoins" : 2
+    },
+    {
+      "maxValue" : 100,
+      "maxCoins" : 9,
+      "minCoins" : 8,
+      "maxDiffCoins" : 2
+    },
+    {
+      "maxValue" : 100,
+      "maxCoins" : 9,
+      "minCoins" : 8,
+      "maxDiffCoins" : 2
+    },
+    {
+      "maxValue" : 100,
+      "maxCoins" : 10,
+      "minCoins" : 9,
+      "maxDiffCoins" : 2
+    },
+    {
+      "maxValue" : 100,
+      "maxCoins" : 10,
+      "minCoins" : 9,
+      "maxDiffCoins" : 2
+    },
+    {
+      "maxValue" : 100,
+      "maxCoins" : 10,
+      "minCoins" : 9,
+      "maxDiffCoins" : 2
+    },
+    {
+      "maxValue" : 100,
+      "maxCoins" : 10,
+      "minCoins" : 9,
+      "maxDiffCoins" : 2
+    },
+    {
+      "maxValue" : 100,
+      "maxCoins" : 10,
+      "minCoins" : 9,
+      "maxDiffCoins" : 2
+    },
+    {
+      "maxValue" : 120,
+      "maxCoins" : 12,
+      "minCoins" : 11,
+      "maxDiffCoins" : 2
+    },
+    {
+      "maxValue" : 120,
+      "maxCoins" : 12,
+      "minCoins" : 11,
+      "maxDiffCoins" : 2
+    },
+    {
+      "maxValue" : 120,
+      "maxCoins" : 12,
+      "minCoins" : 11,
+      "maxDiffCoins" : 2
+    },
+    {
+      "maxValue" : 120,
+      "maxCoins" : 12,
+      "minCoins" : 11,
+      "maxDiffCoins" : 2
+    },
+    {
+      "maxValue" : 120,
+      "maxCoins" : 12,
+      "minCoins" : 11,
+      "maxDiffCoins" : 2
+    },
+    {
+      "maxValue" : 140,
+      "maxCoins" : 14,
+      "minCoins" : 13,
+      "maxDiffCoins" : 2
+    },
+    {
+      "maxValue" : 140,
+      "maxCoins" : 14,
+      "minCoins" : 13,
+      "maxDiffCoins" : 2
+    },
+    {
+      "maxValue" : 140,
+      "maxCoins" : 14,
+      "minCoins" : 13,
+      "maxDiffCoins" : 2
+    },
+    {
+      "maxValue" : 140,
+      "maxCoins" : 14,
+      "minCoins" : 13,
+      "maxDiffCoins" : 2
+    },
+    {
+      "maxValue" : 140,
+      "maxCoins" : 14,
+      "minCoins" : 13,
+      "maxDiffCoins" : 2
+    },
+    {
+      "maxValue" : 140,
+      "maxCoins" : 14,
+      "minCoins" : 10,
+      "maxDiffCoins" : 2
+    },
+    {
+      "maxValue" : 140,
+      "maxCoins" : 14,
+      "minCoins" : 10,
+      "maxDiffCoins" : 2
+    },
+    {
+      "maxValue" : 140,
+      "maxCoins" : 14,
+      "minCoins" : 10,
+      "maxDiffCoins" : 2
+    },
+    {
+      "maxValue" : 140,
+      "maxCoins" : 14,
+      "minCoins" : 10,
+      "maxDiffCoins" : 2
+    },
+    {
+      "maxValue" : 140,
+      "maxCoins" : 14,
+      "minCoins" : 10,
+      "maxDiffCoins" : 2
+    }
+  ],
+  "advanced" : [
+    {
+      "maxValue" : 100,
+      "maxCoins" : 8,
+      "minCoins" : 8,
+      "maxDiffCoins" : 6
+    },
+    {
+      "maxValue" : 100,
+      "maxCoins" : 9,
+      "minCoins" : 8,
+      "maxDiffCoins" : 6
+    },
+    {
+      "maxValue" : 100,
+      "maxCoins" : 10,
+      "minCoins" : 8,
+      "maxDiffCoins" : 6
+    },
+    {
+      "maxValue" : 100,
+      "maxCoins" : 10,
+      "minCoins" : 8,
+      "maxDiffCoins" : 6
+    },
+    {
+      "maxValue" : 100,
+      "maxCoins" : 10,
+      "minCoins" : 8,
+      "maxDiffCoins" : 6
+    },
+    {
+      "maxValue" : 120,
+      "maxCoins" : 11,
+      "minCoins" : 9,
+      "maxDiffCoins" : 5
+    },
+    {
+      "maxValue" : 120,
+      "maxCoins" : 11,
+      "minCoins" : 9,
+      "maxDiffCoins" : 5
+    },
+    {
+      "maxValue" : 120,
+      "maxCoins" : 11,
+      "minCoins" : 9,
+      "maxDiffCoins" : 5
+    },
+    {
+      "maxValue" : 130,
+      "maxCoins" : 12,
+      "minCoins" : 10,
+      "maxDiffCoins" : 5
+    },
+    {
+      "maxValue" : 130,
+      "maxCoins" : 12,
+      "minCoins" : 10,
+      "maxDiffCoins" : 5
+    },
+    {
+      "maxValue" : 130,
+      "maxCoins" : 12,
+      "minCoins" : 10,
+      "maxDiffCoins" : 4
+    },
+    {
+      "maxValue" : 130,
+      "maxCoins" : 12,
+      "minCoins" : 10,
+      "maxDiffCoins" : 4
+    },
+    {
+      "maxValue" : 150,
+      "maxCoins" : 13,
+      "minCoins" : 11,
+      "maxDiffCoins" : 4
+    },
+    {
+      "maxValue" : 150,
+      "maxCoins" : 13,
+      "minCoins" : 11,
+      "maxDiffCoins" : 4
+    },
+    {
+      "maxValue" : 150,
+      "maxCoins" : 14,
+      "minCoins" : 12,
+      "maxDiffCoins" : 4
+    },
+    {
+      "maxValue" : 150,
+      "maxCoins" : 14,
+      "minCoins" : 12,
+      "maxDiffCoins" : 3
+    },
+    {
+      "maxValue" : 150,
+      "maxCoins" : 14,
+      "minCoins" : 12,
+      "maxDiffCoins" : 3
+    },
+    {
+      "maxValue" : 150,
+      "maxCoins" : 14,
+      "minCoins" : 12,
+      "maxDiffCoins" : 3
+    },
+    {
+      "maxValue" : 150,
+      "maxCoins" : 14,
+      "minCoins" : 12,
+      "maxDiffCoins" : 3
+    },
+    {
+      "maxValue" : 150,
+      "maxCoins" : 14,
+      "minCoins" : 12,
+      "maxDiffCoins" : 3
+    },
+    {
+      "maxValue" : 180,
+      "maxCoins" : 16,
+      "minCoins" : 14,
+      "maxDiffCoins" : 3
+    },
+    {
+      "maxValue" : 180,
+      "maxCoins" : 16,
+      "minCoins" : 14,
+      "maxDiffCoins" : 3
+    },
+    {
+      "maxValue" : 200,
+      "maxCoins" : 16,
+      "minCoins" : 14,
+      "maxDiffCoins" : 3
+    },
+    {
+      "maxValue" : 200,
+      "maxCoins" : 16,
+      "minCoins" : 14,
+      "maxDiffCoins" : 3
+    },
+    {
+      "maxValue" : 200,
+      "maxCoins" : 16,
+      "minCoins" : 14,
+      "maxDiffCoins" : 3
+    },
+    {
+      "maxValue" : 200,
+      "maxCoins" : 18,
+      "minCoins" : 16,
+      "maxDiffCoins" : 2
+    },
+    {
+      "maxValue" : 200,
+      "maxCoins" : 18,
+      "minCoins" : 16,
+      "maxDiffCoins" : 2
+    },
+    {
+      "maxValue" : 220,
+      "maxCoins" : 18,
+      "minCoins" : 16,
+      "maxDiffCoins" : 2
+    },
+    {
+      "maxValue" : 220,
+      "maxCoins" : 18,
+      "minCoins" : 16,
+      "maxDiffCoins" : 2
+    },
+    {
+      "maxValue" : 200,
+      "maxCoins" : 18,
+      "minCoins" : 16,
+      "maxDiffCoins" : 2
+    },
+    {
+      "maxValue" : 200,
+      "maxCoins" : 18,
+      "minCoins" : 16,
+      "maxDiffCoins" : 2
+    },
+    {
+      "maxValue" : 200,
+      "maxCoins" : 18,
+      "minCoins" : 16,
+      "maxDiffCoins" : 2
+    },
+    {
+      "maxValue" : 200,
+      "maxCoins" : 18,
+      "minCoins" : 16,
+      "maxDiffCoins" : 2
+    },
+    {
+      "maxValue" : 200,
+      "maxCoins" : 18,
+      "minCoins" : 16,
+      "maxDiffCoins" : 2
+    },
+    {
+      "maxValue" : 200,
+      "maxCoins" : 18,
+      "minCoins" : 16,
+      "maxDiffCoins" : 2
+    },
+    {
+      "maxValue" : 200,
+      "maxCoins" : 18,
+      "minCoins" : 16,
+      "maxDiffCoins" : 2
+    },
+    {
+      "maxValue" : 200,
+      "maxCoins" : 18,
+      "minCoins" : 16,
+      "maxDiffCoins" : 2
+    },
+    {
+      "maxValue" : 200,
+      "maxCoins" : 18,
+      "minCoins" : 16,
+      "maxDiffCoins" : 2
+    },
+    {
+      "maxValue" : 200,
+      "maxCoins" : 18,
+      "minCoins" : 16,
+      "maxDiffCoins" : 2
+    },
+    {
+      "maxValue" : 200,
+      "maxCoins" : 18,
+      "minCoins" : 16,
+      "maxDiffCoins" : 2
+    }
+  ]
+}

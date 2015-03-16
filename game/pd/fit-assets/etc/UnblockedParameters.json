@@ -1,0 +1,848 @@
+{
+  "beginner" : [
+    {
+      "blockType" : 0,
+      "numberOfBlocks" : 9,
+      "delay" : 2.5,
+      "numberOfHoles" : 1,
+      "numberOfColours" : 3
+    },
+    {
+      "blockType" : 0,
+      "numberOfBlocks" : 9,
+      "delay" : 2.5,
+      "numberOfHoles" : 2,
+      "numberOfColours" : 3
+    },
+    {
+      "blockType" : 0,
+      "numberOfBlocks" : 9,
+      "delay" : 2.5,
+      "numberOfHoles" : 2,
+      "numberOfColours" : 3
+    },
+    {
+      "blockType" : 0,
+      "numberOfBlocks" : 9,
+      "delay" : 2.5,
+      "numberOfHoles" : 2,
+      "numberOfColours" : 3
+    },
+    {
+      "blockType" : 0,
+      "numberOfBlocks" : 12,
+      "delay" : 2.5,
+      "numberOfHoles" : 3,
+      "numberOfColours" : 3
+    },
+    {
+      "blockType" : 0,
+      "numberOfBlocks" : 12,
+      "delay" : 2.5,
+      "numberOfHoles" : 3,
+      "numberOfColours" : 3
+    },
+    {
+      "blockType" : 0,
+      "numberOfBlocks" : 12,
+      "delay" : 2.5,
+      "numberOfHoles" : 3,
+      "numberOfColours" : 3
+    },
+    {
+      "blockType" : 0,
+      "numberOfBlocks" : 12,
+      "delay" : 2.5,
+      "numberOfHoles" : 3,
+      "numberOfColours" : 3
+    },
+    {
+      "blockType" : 0,
+      "numberOfBlocks" : 15,
+      "delay" : 2.5,
+      "numberOfHoles" : 3,
+      "numberOfColours" : 3
+    },
+    {
+      "blockType" : 0,
+      "numberOfBlocks" : 15,
+      "delay" : 2.5,
+      "numberOfHoles" : 3,
+      "numberOfColours" : 3
+    },
+    {
+      "blockType" : 0,
+      "numberOfBlocks" : 15,
+      "delay" : 2.5,
+      "numberOfHoles" : 4,
+      "numberOfColours" : 3
+    },
+    {
+      "blockType" : 0,
+      "numberOfBlocks" : 15,
+      "delay" : 2.5,
+      "numberOfHoles" : 4,
+      "numberOfColours" : 3
+    },
+    {
+      "blockType" : 0,
+      "numberOfBlocks" : 15,
+      "delay" : 2.5,
+      "numberOfHoles" : 4,
+      "numberOfColours" : 3
+    },
+    {
+      "blockType" : 0,
+      "numberOfBlocks" : 15,
+      "delay" : 2.5,
+      "numberOfHoles" : 4,
+      "numberOfColours" : 3
+    },
+    {
+      "blockType" : 0,
+      "numberOfBlocks" : 15,
+      "delay" : 2.5,
+      "numberOfHoles" : 4,
+      "numberOfColours" : 3
+    },
+    {
+      "blockType" : 0,
+      "numberOfBlocks" : 15,
+      "delay" : 2.5,
+      "numberOfHoles" : 4,
+      "numberOfColours" : 3
+    },
+    {
+      "blockType" : 0,
+      "numberOfBlocks" : 20,
+      "delay" : 2.5,
+      "numberOfHoles" : 5,
+      "numberOfColours" : 3
+    },
+    {
+      "blockType" : 0,
+      "numberOfBlocks" : 20,
+      "delay" : 2.5,
+      "numberOfHoles" : 5,
+      "numberOfColours" : 3
+    },
+    {
+      "blockType" : 0,
+      "numberOfBlocks" : 20,
+      "delay" : 2.5,
+      "numberOfHoles" : 5,
+      "numberOfColours" : 3
+    },
+    {
+      "blockType" : 0,
+      "numberOfBlocks" : 20,
+      "delay" : 2.5,
+      "numberOfHoles" : 5,
+      "numberOfColours" : 3
+    },
+    {
+      "blockType" : 0,
+      "numberOfBlocks" : 20,
+      "delay" : 2.5,
+      "numberOfHoles" : 5,
+      "numberOfColours" : 3
+    },
+    {
+      "blockType" : 0,
+      "numberOfBlocks" : 20,
+      "delay" : 2.5,
+      "numberOfHoles" : 5,
+      "numberOfColours" : 3
+    },
+    {
+      "blockType" : 0,
+      "numberOfBlocks" : 25,
+      "delay" : 2.5,
+      "numberOfHoles" : 5,
+      "numberOfColours" : 3
+    },
+    {
+      "blockType" : 0,
+      "numberOfBlocks" : 25,
+      "delay" : 2.5,
+      "numberOfHoles" : 5,
+      "numberOfColours" : 3
+    },
+    {
+      "blockType" : 0,
+      "numberOfBlocks" : 25,
+      "delay" : 2.5,
+      "numberOfHoles" : 6,
+      "numberOfColours" : 3
+    },
+    {
+      "blockType" : 0,
+      "numberOfBlocks" : 25,
+      "delay" : 2.5,
+      "numberOfHoles" : 6,
+      "numberOfColours" : 3
+    },
+    {
+      "blockType" : 0,
+      "numberOfBlocks" : 25,
+      "delay" : 2.5,
+      "numberOfHoles" : 6,
+      "numberOfColours" : 3
+    },
+    {
+      "blockType" : 0,
+      "numberOfBlocks" : 25,
+      "delay" : 2.5,
+      "numberOfHoles" : 6,
+      "numberOfColours" : 3
+    },
+    {
+      "blockType" : 0,
+      "numberOfBlocks" : 25,
+      "delay" : 2.5,
+      "numberOfHoles" : 6,
+      "numberOfColours" : 3
+    },
+    {
+      "blockType" : 0,
+      "numberOfBlocks" : 25,
+      "delay" : 2.5,
+      "numberOfHoles" : 6,
+      "numberOfColours" : 3
+    },
+    {
+      "blockType" : 0,
+      "numberOfBlocks" : 25,
+      "delay" : 2.5,
+      "numberOfHoles" : 7,
+      "numberOfColours" : 3
+    },
+    {
+      "blockType" : 0,
+      "numberOfBlocks" : 25,
+      "delay" : 2.5,
+      "numberOfHoles" : 7,
+      "numberOfColours" : 3
+    },
+    {
+      "blockType" : 0,
+      "numberOfBlocks" : 25,
+      "delay" : 2.5,
+      "numberOfHoles" : 7,
+      "numberOfColours" : 3
+    },
+    {
+      "blockType" : 0,
+      "numberOfBlocks" : 25,
+      "delay" : 2.5,
+      "numberOfHoles" : 7,
+      "numberOfColours" : 3
+    },
+    {
+      "blockType" : 0,
+      "numberOfBlocks" : 25,
+      "delay" : 2.5,
+      "numberOfHoles" : 7,
+      "numberOfColours" : 3
+    },
+    {
+      "blockType" : 0,
+      "numberOfBlocks" : 25,
+      "delay" : 2.5,
+      "numberOfHoles" : 7,
+      "numberOfColours" : 3
+    },
+    {
+      "blockType" : 0,
+      "numberOfBlocks" : 25,
+      "delay" : 2.5,
+      "numberOfHoles" : 7,
+      "numberOfColours" : 3
+    },
+    {
+      "blockType" : 0,
+      "numberOfBlocks" : 25,
+      "delay" : 2.5,
+      "numberOfHoles" : 7,
+      "numberOfColours" : 3
+    },
+    {
+      "blockType" : 0,
+      "numberOfBlocks" : 25,
+      "delay" : 2.5,
+      "numberOfHoles" : 7,
+      "numberOfColours" : 3
+    },
+    {
+      "blockType" : 0,
+      "numberOfBlocks" : 25,
+      "delay" : 2.5,
+      "numberOfHoles" : 7,
+      "numberOfColours" : 3
+    }
+  ],
+  "intermediate" : [
+    {
+      "blockType" : 1,
+      "numberOfBlocks" : 11,
+      "delay" : 2.5,
+      "numberOfHoles" : 3,
+      "numberOfColours" : 3
+    },
+    {
+      "blockType" : 1,
+      "numberOfBlocks" : 11,
+      "delay" : 2.5,
+      "numberOfHoles" : 4,
+      "numberOfColours" : 3
+    },
+    {
+      "blockType" : 1,
+      "numberOfBlocks" : 14,
+      "delay" : 2.5,
+      "numberOfHoles" : 4,
+      "numberOfColours" : 3
+    },
+    {
+      "blockType" : 1,
+      "numberOfBlocks" : 14,
+      "delay" : 2.5,
+      "numberOfHoles" : 4,
+      "numberOfColours" : 3
+    },
+    {
+      "blockType" : 1,
+      "numberOfBlocks" : 14,
+      "delay" : 2.5,
+      "numberOfHoles" : 4,
+      "numberOfColours" : 3
+    },
+    {
+      "blockType" : 1,
+      "numberOfBlocks" : 14,
+      "delay" : 2.5,
+      "numberOfHoles" : 4,
+      "numberOfColours" : 3
+    },
+    {
+      "blockType" : 1,
+      "numberOfBlocks" : 14,
+      "delay" : 2.5,
+      "numberOfHoles" : 4,
+      "numberOfColours" : 3
+    },
+    {
+      "blockType" : 1,
+      "numberOfBlocks" : 14,
+      "delay" : 2.5,
+      "numberOfHoles" : 4,
+      "numberOfColours" : 3
+    },
+    {
+      "blockType" : 1,
+      "numberOfBlocks" : 14,
+      "delay" : 2.5,
+      "numberOfHoles" : 4,
+      "numberOfColours" : 3
+    },
+    {
+      "blockType" : 1,
+      "numberOfBlocks" : 18,
+      "delay" : 2.5,
+      "numberOfHoles" : 4,
+      "numberOfColours" : 3
+    },
+    {
+      "blockType" : 1,
+      "numberOfBlocks" : 18,
+      "delay" : 2.5,
+      "numberOfHoles" : 5,
+      "numberOfColours" : 2
+    },
+    {
+      "blockType" : 1,
+      "numberOfBlocks" : 18,
+      "delay" : 2.5,
+      "numberOfHoles" : 5,
+      "numberOfColours" : 2
+    },
+    {
+      "blockType" : 1,
+      "numberOfBlocks" : 18,
+      "delay" : 2.5,
+      "numberOfHoles" : 5,
+      "numberOfColours" : 2
+    },
+    {
+      "blockType" : 1,
+      "numberOfBlocks" : 18,
+      "delay" : 2.5,
+      "numberOfHoles" : 5,
+      "numberOfColours" : 2
+    },
+    {
+      "blockType" : 1,
+      "numberOfBlocks" : 18,
+      "delay" : 2.5,
+      "numberOfHoles" : 5,
+      "numberOfColours" : 2
+    },
+    {
+      "blockType" : 1,
+      "numberOfBlocks" : 18,
+      "delay" : 2.5,
+      "numberOfHoles" : 6,
+      "numberOfColours" : 2
+    },
+    {
+      "blockType" : 1,
+      "numberOfBlocks" : 18,
+      "delay" : 2.5,
+      "numberOfHoles" : 6,
+      "numberOfColours" : 2
+    },
+    {
+      "blockType" : 1,
+      "numberOfBlocks" : 21,
+      "delay" : 2.5,
+      "numberOfHoles" : 6,
+      "numberOfColours" : 2
+    },
+    {
+      "blockType" : 1,
+      "numberOfBlocks" : 21,
+      "delay" : 2.5,
+      "numberOfHoles" : 6,
+      "numberOfColours" : 2
+    },
+    {
+      "blockType" : 1,
+      "numberOfBlocks" : 21,
+      "delay" : 2.5,
+      "numberOfHoles" : 6,
+      "numberOfColours" : 2
+    },
+    {
+      "blockType" : 1,
+      "numberOfBlocks" : 21,
+      "delay" : 2.5,
+      "numberOfHoles" : 6,
+      "numberOfColours" : 1
+    },
+    {
+      "blockType" : 1,
+      "numberOfBlocks" : 21,
+      "delay" : 2.5,
+      "numberOfHoles" : 6,
+      "numberOfColours" : 1
+    },
+    {
+      "blockType" : 1,
+      "numberOfBlocks" : 21,
+      "delay" : 2.5,
+      "numberOfHoles" : 6,
+      "numberOfColours" : 1
+    },
+    {
+      "blockType" : 1,
+      "numberOfBlocks" : 21,
+      "delay" : 2.5,
+      "numberOfHoles" : 6,
+      "numberOfColours" : 1
+    },
+    {
+      "blockType" : 1,
+      "numberOfBlocks" : 21,
+      "delay" : 2.5,
+      "numberOfHoles" : 6,
+      "numberOfColours" : 1
+    },
+    {
+      "blockType" : 1,
+      "numberOfBlocks" : 21,
+      "delay" : 2.5,
+      "numberOfHoles" : 7,
+      "numberOfColours" : 1
+    },
+    {
+      "blockType" : 1,
+      "numberOfBlocks" : 21,
+      "delay" : 2.5,
+      "numberOfHoles" : 7,
+      "numberOfColours" : 1
+    },
+    {
+      "blockType" : 1,
+      "numberOfBlocks" : 21,
+      "delay" : 2.5,
+      "numberOfHoles" : 7,
+      "numberOfColours" : 1
+    },
+    {
+      "blockType" : 1,
+      "numberOfBlocks" : 21,
+      "delay" : 2.5,
+      "numberOfHoles" : 7,
+      "numberOfColours" : 1
+    },
+    {
+      "blockType" : 1,
+      "numberOfBlocks" : 24,
+      "delay" : 2.5,
+      "numberOfHoles" : 7,
+      "numberOfColours" : 1
+    },
+    {
+      "blockType" : 1,
+      "numberOfBlocks" : 24,
+      "delay" : 2.5,
+      "numberOfHoles" : 7,
+      "numberOfColours" : 2
+    },
+    {
+      "blockType" : 1,
+      "numberOfBlocks" : 24,
+      "delay" : 2.5,
+      "numberOfHoles" : 7,
+      "numberOfColours" : 2
+    },
+    {
+      "blockType" : 1,
+      "numberOfBlocks" : 24,
+      "delay" : 2.5,
+      "numberOfHoles" : 7,
+      "numberOfColours" : 2
+    },
+    {
+      "blockType" : 1,
+      "numberOfBlocks" : 24,
+      "delay" : 2.5,
+      "numberOfHoles" : 7,
+      "numberOfColours" : 2
+    },
+    {
+      "blockType" : 1,
+      "numberOfBlocks" : 24,
+      "delay" : 2.5,
+      "numberOfHoles" : 7,
+      "numberOfColours" : 2
+    },
+    {
+      "blockType" : 1,
+      "numberOfBlocks" : 24,
+      "delay" : 2.5,
+      "numberOfHoles" : 8,
+      "numberOfColours" : 2
+    },
+    {
+      "blockType" : 1,
+      "numberOfBlocks" : 24,
+      "delay" : 2.5,
+      "numberOfHoles" : 8,
+      "numberOfColours" : 2
+    },
+    {
+      "blockType" : 1,
+      "numberOfBlocks" : 24,
+      "delay" : 2.5,
+      "numberOfHoles" : 8,
+      "numberOfColours" : 2
+    },
+    {
+      "blockType" : 1,
+      "numberOfBlocks" : 24,
+      "delay" : 2.5,
+      "numberOfHoles" : 8,
+      "numberOfColours" : 2
+    },
+    {
+      "blockType" : 1,
+      "numberOfBlocks" : 24,
+      "delay" : 2.5,
+      "numberOfHoles" : 8,
+      "numberOfColours" : 2
+    }
+  ],
+  "advanced" : [
+    {
+      "blockType" : 2,
+      "numberOfBlocks" : 10,
+      "delay" : 4.5,
+      "numberOfHoles" : 4,
+      "numberOfColours" : 3
+    },
+    {
+      "blockType" : 2,
+      "numberOfBlocks" : 10,
+      "delay" : 4.5,
+      "numberOfHoles" : 4,
+      "numberOfColours" : 3
+    },
+    {
+      "blockType" : 2,
+      "numberOfBlocks" : 15,
+      "delay" : 4.5,
+      "numberOfHoles" : 4,
+      "numberOfColours" : 3
+    },
+    {
+      "blockType" : 2,
+      "numberOfBlocks" : 15,
+      "delay" : 4.5,
+      "numberOfHoles" : 4,
+      "numberOfColours" : 3
+    },
+    {
+      "blockType" : 2,
+      "numberOfBlocks" : 15,
+      "delay" : 4.5,
+      "numberOfHoles" : 5,
+      "numberOfColours" : 3
+    },
+    {
+      "blockType" : 2,
+      "numberOfBlocks" : 15,
+      "delay" : 4.5,
+      "numberOfHoles" : 5,
+      "numberOfColours" : 3
+    },
+    {
+      "blockType" : 2,
+      "numberOfBlocks" : 20,
+      "delay" : 4.5,
+      "numberOfHoles" : 5,
+      "numberOfColours" : 3
+    },
+    {
+      "blockType" : 2,
+      "numberOfBlocks" : 20,
+      "delay" : 4.5,
+      "numberOfHoles" : 5,
+      "numberOfColours" : 3
+    },
+    {
+      "blockType" : 2,
+      "numberOfBlocks" : 20,
+      "delay" : 4.5,
+      "numberOfHoles" : 5,
+      "numberOfColours" : 3
+    },
+    {
+      "blockType" : 2,
+      "numberOfBlocks" : 20,
+      "delay" : 4.5,
+      "numberOfHoles" : 5,
+      "numberOfColours" : 2
+    },
+    {
+      "blockType" : 2,
+      "numberOfBlocks" : 20,
+      "delay" : 4.5,
+      "numberOfHoles" : 6,
+      "numberOfColours" : 3
+    },
+    {
+      "blockType" : 2,
+      "numberOfBlocks" : 20,
+      "delay" : 4.5,
+      "numberOfHoles" : 6,
+      "numberOfColours" : 2
+    },
+    {
+      "blockType" : 2,
+      "numberOfBlocks" : 20,
+      "delay" : 4.5,
+      "numberOfHoles" : 6,
+      "numberOfColours" : 2
+    },
+    {
+      "blockType" : 2,
+      "numberOfBlocks" : 20,
+      "delay" : 4.5,
+      "numberOfHoles" : 6,
+      "numberOfColours" : 2
+    },
+    {
+      "blockType" : 2,
+      "numberOfBlocks" : 20,
+      "delay" : 4.5,
+      "numberOfHoles" : 6,
+      "numberOfColours" : 2
+    },
+    {
+      "blockType" : 2,
+      "numberOfBlocks" : 20,
+      "delay" : 4.5,
+      "numberOfHoles" : 6,
+      "numberOfColours" : 2
+    },
+    {
+      "blockType" : 2,
+      "numberOfBlocks" : 25,
+      "delay" : 4.5,
+      "numberOfHoles" : 6,
+      "numberOfColours" : 2
+    },
+    {
+      "blockType" : 2,
+      "numberOfBlocks" : 25,
+      "delay" : 4.5,
+      "numberOfHoles" : 6,
+      "numberOfColours" : 2
+    },
+    {
+      "blockType" : 2,
+      "numberOfBlocks" : 25,
+      "delay" : 4.5,
+      "numberOfHoles" : 6,
+      "numberOfColours" : 2
+    },
+    {
+      "blockType" : 2,
+      "numberOfBlocks" : 25,
+      "delay" : 4.5,
+      "numberOfHoles" : 7,
+      "numberOfColours" : 2
+    },
+    {
+      "blockType" : 2,
+      "numberOfBlocks" : 25,
+      "delay" : 4.5,
+      "numberOfHoles" : 7,
+      "numberOfColours" : 1
+    },
+    {
+      "blockType" : 2,
+      "numberOfBlocks" : 25,
+      "delay" : 4.5,
+      "numberOfHoles" : 7,
+      "numberOfColours" : 1
+    },
+    {
+      "blockType" : 2,
+      "numberOfBlocks" : 25,
+      "delay" : 4.5,
+      "numberOfHoles" : 7,
+      "numberOfColours" : 1
+    },
+    {
+      "blockType" : 2,
+      "numberOfBlocks" : 25,
+      "delay" : 4.5,
+      "numberOfHoles" : 7,
+      "numberOfColours" : 1
+    },
+    {
+      "blockType" : 2,
+      "numberOfBlocks" : 25,
+      "delay" : 4.5,
+      "numberOfHoles" : 7,
+      "numberOfColours" : 1
+    },
+    {
+      "blockType" : 2,
+      "numberOfBlocks" : 25,
+      "delay" : 4.5,
+      "numberOfHoles" : 7,
+      "numberOfColours" : 1
+    },
+    {
+      "blockType" : 2,
+      "numberOfBlocks" : 25,
+      "delay" : 4.5,
+      "numberOfHoles" : 7,
+      "numberOfColours" : 1
+    },
+    {
+      "blockType" : 2,
+      "numberOfBlocks" : 25,
+      "delay" : 4.5,
+      "numberOfHoles" : 7,
+      "numberOfColours" : 1
+    },
+    {
+      "blockType" : 2,
+      "numberOfBlocks" : 25,
+      "delay" : 4.5,
+      "numberOfHoles" : 7,
+      "numberOfColours" : 1
+    },
+    {
+      "blockType" : 2,
+      "numberOfBlocks" : 25,
+      "delay" : 4.5,
+      "numberOfHoles" : 8,
+      "numberOfColours" : 1
+    },
+    {
+      "blockType" : 2,
+      "numberOfBlocks" : 25,
+      "delay" : 4.5,
+      "numberOfHoles" : 8,
+      "numberOfColours" : 1
+    },
+    {
+      "blockType" : 2,
+      "numberOfBlocks" : 25,
+      "delay" : 4.5,
+      "numberOfHoles" : 8,
+      "numberOfColours" : 1
+    },
+    {
+      "blockType" : 2,
+      "numberOfBlocks" : 25,
+      "delay" : 4.5,
+      "numberOfHoles" : 8,
+      "numberOfColours" : 1
+    },
+    {
+      "blockType" : 2,
+      "numberOfBlocks" : 25,
+      "delay" : 4.5,
+      "numberOfHoles" : 8,
+      "numberOfColours" : 1
+    },
+    {
+      "blockType" : 2,
+      "numberOfBlocks" : 25,
+      "delay" : 4.5,
+      "numberOfHoles" : 8,
+      "numberOfColours" : 1
+    },
+    {
+      "blockType" : 2,
+      "numberOfBlocks" : 25,
+      "delay" : 4.5,
+      "numberOfHoles" : 8,
+      "numberOfColours" : 1
+    },
+    {
+      "blockType" : 2,
+      "numberOfBlocks" : 25,
+      "delay" : 4.5,
+      "numberOfHoles" : 8,
+      "numberOfColours" : 1
+    },
+    {
+      "blockType" : 2,
+      "numberOfBlocks" : 25,
+      "delay" : 4.5,
+      "numberOfHoles" : 8,
+      "numberOfColours" : 1
+    },
+    {
+      "blockType" : 2,
+      "numberOfBlocks" : 25,
+      "delay" : 4.5,
+      "numberOfHoles" : 8,
+      "numberOfColours" : 1
+    },
+    {
+      "blockType" : 2,
+      "numberOfBlocks" : 25,
+      "delay" : 4.5,
+      "numberOfHoles" : 8,
+      "numberOfColours" : 1
+    }
+  ]
+}
