@@ -12,18 +12,24 @@ function _init() {
 
 	$.cookie("session_id", session_id);
 
-	_adjustHeader();		
+	// set default value if we did not get value from template variable
+	var title = $("#title").html();
+	if (title === undefined || title == "{$sessionInfo.title}") {
+		title = "金道经理人培训";
+		$("#title").html(title);
+	}
+
+	//var headerHeight = $(".header").height();
+	//$(".content").css("padding-top", headerHeight);
+
+
+	$.cookie("title", title);
 
 	$.removeCookie("score");
 	$.removeCookie("correct_rate");
 	$.removeCookie("avg_clear_time");
 	$.removeCookie("hi_score");
 	$.removeCookie("global_rank");
-}
-
-function _adjustHeader() {
-	var headerHeight = $(".header").height();
-	$(".content").css("padding-top", headerHeight);
 }
 
 function _loadAjaxValues() {
@@ -46,12 +52,7 @@ function _disableMultipleTap() {
 	if(!isWeixinBrowser()) {
 		return;
 	}
-
-	// do not disable default event on Android
-	if (isAndroid()) {
-		return;
-	}
-
+	
 	var catcher = function(evt) {
 		evt.preventDefault();
 	};
@@ -79,7 +80,7 @@ function setValues(games) {
 		var score = ~~(game.score);
 		total_score += ~~(score);
 
-		if (score !== undefined && ~~(score) >= 0) {
+		if (score !== undefined && ~~(score) > 0) {
 			// set score
 			//var title = $("#" + game_id + " #box #title").html();
 			//titles[game_id] = title;
@@ -121,6 +122,13 @@ function _addHiScore(game_id) {
 	}
 }
 
+function _updateTitle() {
+	if (document.title == "{$sessionInfo.title}") {
+		document.title = $.cookie("title");
+	}
+}
+
+
 function onClickGame(game_id) {
 	var url;
 	var games = deserializeGameInfo($.cookie("games"));
@@ -158,8 +166,9 @@ function onClickGame(game_id) {
 // called when onload
 function onLoadIndex() {
 	_init();
+	_updateTitle();
 	_loadAjaxValues();
-	//_disableMultipleTap();
+	_disableMultipleTap();
 }
 
 function onLoadNickname() {
@@ -173,23 +182,20 @@ function onLoadNickname() {
 			$("#title").html(title);
 		}
 	}
-
-	// set default value if we have already one in cookie
-	var UName = $.cookie("UName");
-	if (UName !== undefined) {
-		$("#user_name").val(UName);	
-	}
-
+	_updateTitle();
 	_disableMultipleTap();
-	_adjustHeader();		
+	//var headerHeight = $(".header").height();
+	//$(".content").css("padding-top", headerHeight);
 }
 
 function onLoadDocument() {
+	_updateTitle();
 	_disableMultipleTap();
 }
 
 function onLoadGuide(game_id) {
 	_addHiScore(game_id);
+	_updateTitle();
 	_disableMultipleTap();
 }
 
@@ -207,8 +213,11 @@ function onSubmit() {
 }
 
 function onLoadGameOver() {
+	_updateTitle();
 	_disableMultipleTap();
-	_adjustHeader();		
+
+	//var headerHeight = $(".header").height();
+	//$(".content").css("padding-top", headerHeight);
 
 	$("#score").html($.cookie("score"));
 	$("#correct_rate").html($.cookie("correct_rate"));
@@ -245,11 +254,6 @@ function getApiUrl() {
 	}
 }
 
-function stackTrace() {
-	var err = new Error();
-	return err.stack;
-}
-
 function getAspectRatio() {
     return window.screen.availWidth / window.screen.availHeight;
 }
@@ -257,11 +261,6 @@ function getAspectRatio() {
 function isWeixinBrowser() {
 	var ua = navigator.userAgent.toLowerCase();
 	return (/micromessenger/.test(ua)) ? true : false ;
-}
-
-function isAndroid() {
-	var ua = navigator.userAgent.toLowerCase();
-	return ua.indexOf("android") > -1;
 }
 
 function shuffle(o) {

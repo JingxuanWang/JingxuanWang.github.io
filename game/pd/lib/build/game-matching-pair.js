@@ -189,11 +189,6 @@ function getApiUrl() {
 	}
 }
 
-function stackTrace() {
-	var err = new Error();
-	return err.stack;
-}
-
 function getAspectRatio() {
     return window.screen.availWidth / window.screen.availHeight;
 }
@@ -201,11 +196,6 @@ function getAspectRatio() {
 function isWeixinBrowser() {
 	var ua = navigator.userAgent.toLowerCase();
 	return (/micromessenger/.test(ua)) ? true : false ;
-}
-
-function isAndroid() {
-	var ua = navigator.userAgent.toLowerCase();
-	return ua.indexOf("android") > -1;
 }
 
 function shuffle(o) {
@@ -609,9 +599,7 @@ var ReturnToIndex = UIButton.extend({
                 {
                     imageName: "quit",
                     onclick: function() {
-						setTimeout(function() {
-							window.location.href = "./index.html";    
-						}, 300);
+                    	window.location.href = "./index.html";    
                     }
                 }
             ]
@@ -963,17 +951,8 @@ game.hud.Time = UILabel.extend({
         }
         if (game.data.curTime == 0)
         {
-			try
-			{
-				console.log("GameOver");
-				me.state.change(me.state.GAMEOVER);
-			}
-			catch(err)
-			{
-				//alert(err);
-				console.log(err);
-			}
-			return;
+            console.log("GameOver");
+            me.state.change(me.state.GAMEOVER);
         }
         this.text = game.data.curTime + "″";
 
@@ -1419,15 +1398,11 @@ game.PlayScene = me.ScreenObject.extend({
         this.background = new me.ColorLayer("background", "#FFFFFF", 0);
         me.game.world.addChild(this.background, 0);
 
-        // reset the initial data
+        // reset the score
         game.data.score = 0;
         game.data.level = 1;
-		game.data.round = 1;
-		game.data.correct_count = 0;
-		game.data.combo = 0;
         game.data.curTime = game.data.totalTime;
         game.data.startTime = me.timer.getTime();
-		game.data.roundStartTime = 0;
 
         // add our hud to the game world
         this.hud = new game.hud.Container();
@@ -1453,26 +1428,25 @@ game.GameOverScene = me.ScreenObject.extend({
     },
 
     onResetEvent: function() {
+
         this.background = new me.ColorLayer("background", "#FFFFFF", 90);
         //this.background.alpha = 0.75;
         me.game.world.addChild(this.background, 0);
 
 		// loading label
 		this.loadingLabel = new UILabel(
-            game.data.screenWidth / 2,
+            game.data.screenWidth / 2- 100,
             game.data.screenHeight / 2 - 50,
             {
                 font: "Microsoft Yahei",
                 fillStyle: "#4d696d",
                 size: 28,
-                text: "全球排名计算中...",
-				textAlign: "center"
+                text: "全球排名计算中..."
             }
         );
 		me.game.world.addChild(this.loadingLabel, 11);
 
 		this.hiScore = 0;
-		this.retryCount = 1;
 
 		// Redirect to a common game-over.html
 		var gameOverPage;
@@ -1499,39 +1473,22 @@ game.GameOverScene = me.ScreenObject.extend({
 		var iuvU = $.cookie("iuvU") || "";
 		var key = md5(session_id + game.data.gameId + game.data.score + iuvU);
 
+		var self = this;
 		var targetUrl = getApiUrl() + "?m=post&game_id=" + game.data.gameId
 				+ "&session_id=" + session_id
 				+ "&user_name=" + user_name
 				+ "&score=" + game.data.score
 				+ "&key=" + key;
 
-		//this.loadingLabel.text += "\nPrepare Ajax";
-
-		this.finish = false;
-		this.postResult(targetUrl, gameOverPage);
-
-		//this.loadingLabel.text += "\nMain Func Ended";
-	},
-
-	postResult: function(targetUrl, gameOverPage) {
 		try {
-			if (this.finish) {
-				return;
-			}
-
-			var self = this;
-			//self.loadingLabel.text += "\n" + self.retryCount;
-			self.retryCount++;
 
 			$.ajax({
 				url: targetUrl,
-				timeout: 3000
+				timeout: 10000
 			})
 			.done(function( json ) {
 				//console.log(json);
 					try {
-						//self.loadingLabel.text += "\nAjax Done Called";
-						
 						var data = JSON.parse(json);
 						var games = data.data;
 
@@ -1561,95 +1518,85 @@ game.GameOverScene = me.ScreenObject.extend({
 					catch (err)
 					{
 						console.log(err);
-						//alert(err.message);
-						self.onError(err);
+						alert(err.message);
 						return;
 					}
-				
-					//self.loadingLabel.text += "\nPrepare go to GameOverPage";
-					try
-					{
-						if (!this.finish)
-						{
-							this.finish = true;
-							window.location.href = gameOverPage;
-						}
-					}
-					catch (err)
-					{
-						self.onError("GameOverPage Failed");
-						return;
-					}
+				window.location.href = gameOverPage;
 			})
 			.fail(function( jqXHR, textStatus, errorThrown ) {
-				//self.loadingLabel.text += "\nAjax Fail Called";
 				// show retry button
 				if (textStatus === "timeout") {
-					self.loadingLabel.text = "全球排名计算中... (" + self.retryCount + ")";
-					self.retryCount++;
-					
-					//$.ajax(self);
+					$.ajax(this);
 					return;
 				} else {
-					//console.log(jqXHR);
-					//console.log(textStatus);
-					//console.log(errorThrown);
-					//alert("Ajax Request Failed: " + textStatus);
-					self.onError(textStatus);
+					console.log(jqXHR);
+					console.log(textStatus);
+					console.log(errorThrown);
+					alert("Ajax Request Failed: " + textStatus);
 					return;
 				}
 			});
 		}
 		catch (err)
 		{
-			//self.loadingLabel.text += "\nAjax Catch Called";
-			self.onError(err);
-			return;
+			console.log(err);
+			alert(err.message);
 		}
-
-		setTimeout(function() {
-			self.postResult(targetUrl, gameOverPage)
-		}, 3000);
 	},
 
-	onError: function(err) {
-		// delay onError for 1 second
-		// On some devices there will be unknown error thrown even if it is executed correctly
-		var self = this;
-		setTimeout(function() {
-			self.onErrorInternal(err)
-		}, 1000);
-	},
-
-	onErrorInternal: function(err) {
-		if (this.finish) {
-			return;
-		}
-						 
-		this.finish = true;
-		//this.loadingLabel.font.textAlign = "center";
-		this.loadingLabel.text = "没有网络连接\n\n请返回或重新开始游戏";
-
-		var debugMsg = err.name + " : " + err.message + "\n";
-		debugMsg += err.stack;
-		this.stackTraceLabel = new UILabel(
-            0,
-			0,
+	showResult: function() {
+		// Messages
+		this.messages = [];
+		this.messages[0] = new UILabel(
+            game.data.screenWidth / 2,
+            game.data.screenHeight / 2 - 256 - 128,
 			{
-                font: "Microsoft Yahei",
-                fillStyle: "#4d696d",
-                size: 20,
-                text: debugMsg
-            }
-        );
-		//me.game.world.addChild(this.stackTraceLabel, 11);
+				textAlign: "center",
+				size: 48,
+				text: "本次得分"
+			}
+		);
+		this.messages[1] = new UILabel(
+            game.data.screenWidth / 2,
+            game.data.screenHeight / 2 - 256 - 128 + 48 + 16,
+			{
+				textAlign: "center",
+				size: 128,
+				text: game.data.score || "0"
+			}
+		);
+		this.messages[2] = new UILabel(
+            game.data.screenWidth / 2,
+            game.data.screenHeight / 2 - 256 - 128 + 48 + 128 + 32,
+			{
+				textAlign: "center",
+				size: 48,
+				text: "个人最佳：" + this.hiScore
+			}
+		);
 
-		this.retry = new Retry();
+
+		this.messages[3] = new UILabel(
+            game.data.screenWidth / 2,
+            game.data.screenHeight / 2 - 256 - 128 + 128 + 96 + 64,
+			{
+				textAlign: "center",
+				size: 48,
+				text: "总分排名：" + this.rank + "\n\n超越了全球" + this.rate + "%的用户"
+			}
+		);
+
+		// add all messages
+		this.messages.map(function(message) {
+			me.game.world.addChild(message, 101);
+		});
+
+
+        this.retry = new Retry();
         me.game.world.addChild(this.retry, 100);
       
 		this.returnToIndex = new ReturnToIndex();
         me.game.world.addChild(this.returnToIndex, 100);
-				 
 	},
 
 	calcRank: function() {
@@ -1676,15 +1623,14 @@ game.GameOverScene = me.ScreenObject.extend({
 	},
 
     onDestroyEvent: function() {
-		this.finish = true;
-		//this.loadingLabel.text += "\nOnDestroyEvent Called";
-        if (this.retry != null) {
-			me.game.world.removeChild(this.retry);
-        	this.retry = null;
-		}
-		if (this.returnToIndex != null) {
-        	me.game.world.removeChild(this.returnToIndex);
-			this.returnToIndex = null;
-		}
+		//this.messages.map(function(message) {
+        //	me.game.world.removeChild(message);
+		//});
+        //me.game.world.removeChild(this.retry);
+        //me.game.world.removeChild(this.returnToIndex);
+
+        this.retry = null;
+		this.returnToIndex = null;
+		this.message = [];
     }
 });

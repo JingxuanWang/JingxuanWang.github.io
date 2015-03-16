@@ -10,11 +10,6 @@ function getApiUrl() {
 	}
 }
 
-function stackTrace() {
-	var err = new Error();
-	return err.stack;
-}
-
 function getAspectRatio() {
     return window.screen.availWidth / window.screen.availHeight;
 }
@@ -22,11 +17,6 @@ function getAspectRatio() {
 function isWeixinBrowser() {
 	var ua = navigator.userAgent.toLowerCase();
 	return (/micromessenger/.test(ua)) ? true : false ;
-}
-
-function isAndroid() {
-	var ua = navigator.userAgent.toLowerCase();
-	return ua.indexOf("android") > -1;
 }
 
 function shuffle(o) {

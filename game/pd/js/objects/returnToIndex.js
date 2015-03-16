@@ -12,9 +12,7 @@ var ReturnToIndex = UIButton.extend({
                 {
                     imageName: "quit",
                     onclick: function() {
-						setTimeout(function() {
-							window.location.href = "./index.html";    
-						}, 300);
+                    	window.location.href = "./index.html";    
                     }
                 }
             ]

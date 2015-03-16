@@ -191,8 +191,8 @@ textarea {
 	border-bottom: 1px solid #dcddde;
 	/*-webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
 	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);*/
-	/*position: relative;*/
-	position: fixed;
+	position: relative;
+	/*position: fixed;*/
 	width: 100%;
 	left: 0;
 	top: 0;
@@ -1073,7 +1073,7 @@ textarea {
 	background-size: 65px auto;
 }
 .game .content {
-	padding: 45px 0 20px;
+	padding: 0px 0 20px;
 	overflow: hidden;
 }
 /*.game .header .btn_refresh {

@@ -188,17 +188,8 @@ game.hud.Time = UILabel.extend({
         }
         if (game.data.curTime == 0)
         {
-			try
-			{
-				console.log("GameOver");
-				me.state.change(me.state.GAMEOVER);
-			}
-			catch(err)
-			{
-				//alert(err);
-				console.log(err);
-			}
-			return;
+            console.log("GameOver");
+            me.state.change(me.state.GAMEOVER);
         }
         this.text = game.data.curTime + "″";
 
